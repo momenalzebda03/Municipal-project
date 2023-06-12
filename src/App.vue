@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex justify-content-between">
     <HeaderCpap class="w-100" />
-    <img src="../src/assets/image_logo/ImageSeparator.png" alt="error">
+    <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" class="image_hgiht">
     <HeaderRightCpap />
   </div>
   <router-view />

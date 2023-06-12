@@ -1,6 +1,31 @@
 <template>
-    <div>
-        <h1>hi</h1>
+    <div class="div_width position-relative">
+        <router-link to="" class="active py-5 d-flex justify-content-center div_border">
+            <i class="fas fa-home fs-4"></i>
+        </router-link>
+        <router-link to="" class="py-5 d-flex justify-content-center div_border">
+            <i class="fal fa-mobile fs-4"></i>
+        </router-link>
+        <router-link to="" class="py-5 d-flex justify-content-center div_border">
+            <i class="fas fa-tty fs-4"></i>
+        </router-link>
+        <router-link to="" class="py-5 d-flex justify-content-center div_border mb-5">
+            <i class="far fa-question-circle fs-4"></i>
+        </router-link>
+        <div class="div_bottom position-absolute mb-4 d-flex flex-column gap-2 font_text">
+            <p class="position-absolute fw-bold p_rights">جميع الحقوق محفوظة لدى <span class="span_red">بلدية غزة</span>
+                &copy; 2023
+            </p>
+            <a href="#">
+                <i class="fab fa-twitter-square fs-3 icon_color"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-instagram-square fs-3 icon_color"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-facebook-square fs-3 icon_color"></i>
+            </a>
+        </div>
     </div>
 </template>
 
