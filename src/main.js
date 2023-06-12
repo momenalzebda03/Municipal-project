@@ -6,5 +6,5 @@ import "../dist/css/index.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap";
 import "aos";
-
+import "@fortawesome/fontawesome-free/css/all.css";
 createApp(App).use(store).use(router).mount("#app");

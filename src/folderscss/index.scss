@@ -1,1 +1,49 @@
 @import "color";
+
+// start afretang
+.font_text {
+    font-family: 'Almarai', sans-serif;
+}
+
+// end afretang
+
+// start header
+nav {
+    padding-bottom: 50px !important;
+}
+
+.div_show {
+    background: -webkit-linear-gradient(180deg, rgb(239, 239, 239), rgb(250, 250, 250));
+    background: linear-gradient(180deg, rgb(239, 239, 239), rgb(250, 250, 250));
+    height: 180px;
+}
+
+.icon_click {
+    cursor: pointer;
+}
+
+// .div_center {
+//     transform: translate(0px, -7px);
+// }
+
+.dropdown-toggle::after {
+    transition: 0.3s;
+    transform: rotate(0deg);
+    position: relative;
+    left: -85px;
+    top: 3px;
+}
+
+.rotate_100::after {
+    transform: rotate(180deg);
+}
+
+.dropdown-menu {
+    transform: translate(-50px, 0px);
+}
+
+.icon_hover:hover {
+    color: $color_red !important;
+}
+
+// end header
