@@ -1,10 +1,14 @@
 <template>
   <div class="d-flex justify-content-between">
-    <HeaderCpap class="w-100" />
-    <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" class="image_hgiht">
+    <div class="w-100">
+      <HeaderCpap class="pb-2 pb-lg-5" />
+      <router-view />
+    </div>
+    <div>
+      <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" class="image_hgiht">
+    </div>
     <HeaderRightCpap />
   </div>
-  <router-view />
 </template>
 
 <script>

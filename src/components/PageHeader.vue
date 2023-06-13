@@ -17,7 +17,7 @@
           </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex justify-content-between w-100 flex-column flex-lg-row">
-              <div class="d-flex gap-4 text-center justify-content-center flex-column flex-md-row my-3 my-lg-0">
+              <div class="d-flex gap-0 gap-lg-4 text-center justify-content-center flex-column flex-md-row my-3 my-lg-0">
                 <div class="fw-bold d-flex gap-2 align-items-center justify-content-center icon_hover">
                   <span id="icon" class="fas fa-sun icon_click" @click="click_icon"></span>
                   <span>+42°C</span>
@@ -29,7 +29,7 @@
                 </div>
               </div>
               <div class="image_none">
-                <img src="../assets/image_logo/ImageLogo.png" alt="" class="position-absolute">
+                <img src="../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
               </div>
               <li class="nav-item dropdown nav-link text-center">
                 <a class="text-black icon_hover text-decoration-none dropdown-toggle w-50" href="#" id="navbarDropdown"

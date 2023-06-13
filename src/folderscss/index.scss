@@ -10,6 +10,10 @@
     color: $color_red !important;
 }
 
+.span_red {
+    color: $color_red;
+}
+
 // end afretang
 
 // start header
@@ -50,45 +54,49 @@ body div .div_show nav div .div_respons .div_bottom {
     transform: translate(0px, -15px);
 }
 
+body div .div_show nav div .collapse div .image_none .image_center {
+    left: 46.6%;
+}
+
 // end header
 
 // start header right
-.image_hgiht {
-    height: 944px;
+body div div .image_hgiht {
+    height: 1370px;
 }
 
-.div_width {
-    width: 110px;
+body .div_width {
+    width: 90px;
 }
 
-.div_bottom {
+body .div_width .div_bottom {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     font-size: 14px;
 }
 
-.active {
+body .div_width .active {
     background-color: $color_background;
     color: $color_red !important;
 }
 
-.div_border {
+body .div_width .div_border {
     cursor: pointer;
     color: $color_black;
     border-bottom: 2px dotted $color_background;
 }
 
-.div_border:hover {
+body .div_width .div_border:hover {
     background-color: $color_background;
     color: $color_red;
 }
 
-.icon_color {
+body .div_width .div_bottom a .icon_color {
     color: $color_green;
 }
 
-.p_rights {
+body .div_width .div_bottom .p_rights {
     font-size: 12px;
     width: 1100%;
     top: -150%;
@@ -96,15 +104,53 @@ body div .div_show nav div .div_respons .div_bottom {
     transform: rotate(-90deg);
 }
 
-.span_red {
-    color: $color_red;
+// end header right
+// start main
+.div_more {
+    width: 7px;
+    height: 7px;
+    margin-top: 10px;
+    background-color: $color_more;
 }
 
-// end header right
+.icon_margin1,
+.icon_margin {
+    margin-top: 5px;
+    transition: 0.3s;
+}
 
-@media (min-width: 1657px) {
-    .image_hgiht {
+.link_hover:hover .link {
+    color: $color_red !important;
+}
+
+.link_hover:hover .icon_margin1 {
+    transform: translate(-5px, 0px);
+}
+
+.image_apsleont {
+    padding-bottom: 39px;
+}
+
+.carousel-item {
+    height: 50vh;
+}
+
+// end main
+// start media
+
+@media (min-width: 1665px) {
+    body div div .image_hgiht {
         height: 100vh;
+    }
+
+    .link_hover {
+        height: 19.6vh;
+    }
+}
+
+@media (max-width: 1490px) {
+    .flex_row {
+        flex-direction: column;
     }
 }
 
@@ -126,6 +172,15 @@ body div .div_show nav div .div_respons .div_bottom {
     body div .div_show nav div .collapse div div .icon_hover .text_date {
         position: relative;
     }
+
+    body div .div_show nav {
+        z-index: 2;
+        background-color: white;
+    }
+
+    body .div_width {
+        width: 50px;
+    }
 }
 
 @media (max-width: 202px) {
@@ -134,3 +189,5 @@ body div .div_show nav div .div_respons .div_bottom {
         flex-direction: column;
     }
 }
+
+// start media

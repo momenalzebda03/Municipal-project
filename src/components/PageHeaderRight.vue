@@ -17,13 +17,13 @@
                 &copy; 2023
             </p>
             <a href="#">
-                <i class="fab fa-twitter-square fs-3 icon_color"></i>
+                <i class="fab fa-twitter-square fs-3 icon_color icon_hover"></i>
             </a>
             <a href="#">
-                <i class="fab fa-instagram-square fs-3 icon_color"></i>
+                <i class="fab fa-instagram-square fs-3 icon_color icon_hover"></i>
             </a>
             <a href="#">
-                <i class="fab fa-facebook-square fs-3 icon_color"></i>
+                <i class="fab fa-facebook-square fs-3 icon_color icon_hover"></i>
             </a>
         </div>
     </div>
