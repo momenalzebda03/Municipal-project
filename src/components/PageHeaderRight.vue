@@ -1,16 +1,16 @@
 <template>
     <div class="div_width position-relative">
         <router-link to="" class="active py-5 d-flex justify-content-center div_border">
-            <i class="fas fa-home fs-4"></i>
+            <i title="الرئيسية" class="fas fa-home fs-4"></i>
         </router-link>
         <router-link to="" class="py-5 d-flex justify-content-center div_border">
-            <i class="fal fa-mobile fs-4"></i>
+            <i title="تطبيق الموبايل" class="fal fa-mobile fs-4"></i>
         </router-link>
         <router-link to="" class="py-5 d-flex justify-content-center div_border">
-            <i class="fas fa-tty fs-4"></i>
+            <i title="تواصل معنا" class="fas fa-tty fs-4"></i>
         </router-link>
         <router-link to="" class="py-5 d-flex justify-content-center div_border mb-5">
-            <i class="far fa-question-circle fs-4"></i>
+            <i title="الأسئلة الشائعة" class="far fa-question-circle fs-4"></i>
         </router-link>
         <div class="div_bottom position-absolute mb-4 d-flex flex-column gap-2 font_text">
             <p class="position-absolute fw-bold p_rights">جميع الحقوق محفوظة لدى <span class="span_red">بلدية غزة</span>

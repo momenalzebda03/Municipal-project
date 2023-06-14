@@ -127,12 +127,15 @@ body .div_width .div_bottom .p_rights {
     transform: translate(-5px, 0px);
 }
 
-.image_apsleont {
-    padding-bottom: 39px;
+.div_more_carous {
+    width: 9px !important;
+    height: 9px !important;
+    top: 70px;
 }
 
-.carousel-item {
-    height: 50vh;
+.carousel-indicators .active {
+    background-color: white !important;
+    border: 2px solid black !important;
 }
 
 // end main
@@ -141,6 +144,10 @@ body .div_width .div_bottom .p_rights {
 @media (min-width: 1665px) {
     body div div .image_hgiht {
         height: 100vh;
+    }
+
+    .image_carous {
+        height: 40.5vh;
     }
 
     .link_hover {
