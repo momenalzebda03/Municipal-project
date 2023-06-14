@@ -62,6 +62,11 @@ body div .div_show nav div .collapse div .image_none .image_center {
 
 // start header right
 
+body div div .image_hgiht {
+    width: 10px;
+    height: 100%;
+}
+
 body .div_width {
     width: 95px;
 }
@@ -82,6 +87,7 @@ body .div_width .div_border {
     cursor: pointer;
     color: $color_black;
     border-bottom: 2px dotted $color_background;
+    border-top: 2px dotted $color_background;
 }
 
 body .div_width .div_border:hover {
@@ -158,10 +164,14 @@ body .section_maring .container .row div div div .icon_width:hover {
     background-color: $color_red;
 }
 
+body .section_maring .image_index,
+body .section_maring .container .row .div_index {
+    z-index: -1;
+}
+
 body .section_maring .image_index {
     width: 93%;
     margin-top: -50px;
-    z-index: -1;
 }
 
 body .section_maring .container .row div .div_visible {
@@ -172,23 +182,41 @@ body .section_maring .container .row div .div_visible {
 
 // end main account
 // start footer
-.footer_top {
-    margin-top: 170px;
+body div div .footer_top {
+    margin-top: 150px;
 }
 
-.div_border {
-    border: 2px solid #D6D6D6;
+body .div_footer,
+body .div_footer .row_width .p_border,
+body .div_footer .row_width .back_hover {
+    height: 80px;
+}
+
+body .div_footer {
+    border: 1px solid #D6D6D6;
     border-left: 0px;
     border-right: 0px;
+}
+
+body .div_footer .row_width .p_border {
+    transform: translate(13px, -65px);
+    border-right: 1px solid #ccc;
+}
+
+body .div_footer .row_width .back_hover:hover {
+    color: $color-white !important;
+    cursor: pointer;
+    background-color: $color_green;
+}
+
+body .div_footer .row_width {
+    width: 100.7%;
 }
 
 // end footer
 // start media
 
 @media (min-width: 1665px) {
-    body div div .image_hgiht {
-        height: 100vh;
-    }
 
     body section div .row div div div div .link_hover {
         height: 19.6vh;
@@ -199,6 +227,11 @@ body .section_maring .container .row div .div_visible {
     .flex_row {
         flex-direction: column;
     }
+
+    .row_width {
+        width: 100.9%;
+    }
+
 }
 
 @media (max-width: 990px) {
@@ -241,17 +274,25 @@ body .section_maring .container .row div .div_visible {
         width: 80px;
     }
 
-    body div div .image_hgiht {
-        width: 10px;
-        height: 100%;
-    }
-
     body .section_maring {
         margin-top: 100px;
     }
 
     .footer_top {
-        margin-top: 100px;
+        margin-top: 20px;
+    }
+
+    .row_width {
+        width: 102%;
+    }
+}
+
+@media (max-width: 475px) {
+
+    body .div_footer,
+    body .div_footer .row_width .p_border,
+    body .div_footer .row_width .back_hover {
+        height: auto;
     }
 }
 

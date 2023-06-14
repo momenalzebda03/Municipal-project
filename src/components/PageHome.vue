@@ -247,7 +247,7 @@
                 <div class="col-12 col-sm-6 col-lg-3 fw-bold" data-aos="fade-up">
                     <div class="d-flex flex-column flex-lg-row justify-content-center gap-2 text-decoration-none">
                         <p class="mt-2 text-black p_hover text-center text-lg-end">مشاريع<br>البلدية</p>
-                        <router-link to="" class="">
+                        <router-link to="" class="text-decoration-none">
                             <div class="d-flex text-center justify-content-center">
                                 <i class="fas fa-laptop icon_width p-4 fs-5 text-white rounded-circle"></i>
                             </div>
@@ -257,7 +257,7 @@
                 <div class="col-12 col-sm-6 col-lg-3 fw-bold" data-aos="fade-down">
                     <div class="d-flex flex-column flex-lg-row justify-content-center gap-2 text-decoration-none">
                         <p class="mt-2 text-black p_hover text-center text-lg-end">المعاملات<br>دليل</p>
-                        <router-link to="" class="">
+                        <router-link to="" class="text-decoration-none">
                             <div class="d-flex text-center justify-content-center">
                                 <i class="fas fa-book-open icon_width p-4 fs-5 text-white rounded-circle"></i>
                             </div>
@@ -273,7 +273,8 @@
                                 class="fas fa-handshake-alt icon_width p-4 fs-5 text-white rounded-circle"></i>
                         </div>
                     </div>
-                    <div v-if="divVisible" class="div_visible position-absolute d-flex justify-content-center mt-2 mt-lg-0">
+                    <div v-if="divVisible"
+                        class="div_visible bg-white position-absolute d-flex justify-content-center mt-2 mt-lg-0">
                         <div class="text-center icon_click" @click="click_flex">
                             <i class="fa-solid fa-palette"></i>
                             <p class="mt-2">بوابة<br>التوظيف</p>
@@ -288,10 +289,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-3 fw-bold mt-5 pt-5 mt-sm-0 pt-sm-0" data-aos="fade-down">
+                <div class="col-12 col-sm-6 col-lg-3 fw-bold div_index" data-aos="fade-down">
                     <div class="d-flex flex-column flex-lg-row justify-content-center gap-2 text-decoration-none">
                         <p class="mt-2 text-black p_hover text-center text-lg-end">الشكاوى<br>والاستفسارات</p>
-                        <router-link to="" class="">
+                        <router-link to="" class="text-decoration-none">
                             <div class="d-flex text-center justify-content-center">
                                 <i class="fas fa-users icon_width p-4 fs-5 text-white rounded-circle"></i>
                             </div>
