@@ -4,9 +4,9 @@
       <nav class="navbar navbar-expand-lg navbar-light border-2 border-bottom pt-4">
         <div class="container-fluid px-2 px-md-5">
           <div class="div_respons d-flex justify-content-between align-items-center">
-            <div class="div_bottom text-center w-100">
+            <router-link to="/" class="div_bottom text-center w-100">
               <img src="../assets/image_logo/ImageLogo.png" alt="">
-            </div>
+            </router-link>
             <div class="text-center div_mia">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -28,9 +28,9 @@
                     11:46 صباحا</span>
                 </div>
               </div>
-              <div class="image_none">
+              <router-link to="/" class="image_none">
                 <img src="../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
-              </div>
+              </router-link>
               <li class="nav-item dropdown nav-link text-center">
                 <a class="text-black icon_hover text-decoration-none dropdown-toggle w-50" href="#" id="navbarDropdown"
                   role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -78,10 +78,3 @@ export default {
   }
 }
 </script>
-
-<!-- created() {
-  this.changePageTitle('الألبومات');
-},
-changePageTitle(newTitle) {
-  document.title = newTitle;
-}, -->

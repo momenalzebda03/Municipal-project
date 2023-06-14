@@ -14,6 +14,10 @@
     color: $color_red;
 }
 
+.icon_click {
+    cursor: pointer;
+}
+
 // end afretang
 
 // start header
@@ -25,10 +29,6 @@ body div .div_show {
 
 body div .div_show nav {
     padding-bottom: 50px !important;
-}
-
-body div .div_show nav div .collapse div div div .icon_click {
-    cursor: pointer;
 }
 
 body div .div_show nav div .collapse div div .icon_hover .text_date {
@@ -61,12 +61,9 @@ body div .div_show nav div .collapse div .image_none .image_center {
 // end header
 
 // start header right
-body div div .image_hgiht {
-    height: 1370px;
-}
 
 body .div_width {
-    width: 90px;
+    width: 95px;
 }
 
 body .div_width .div_bottom {
@@ -106,31 +103,35 @@ body .div_width .div_bottom .p_rights {
 
 // end header right
 // start main
-.div_more {
+body div .row div div div .div_more {
     width: 7px;
     height: 7px;
     margin-top: 10px;
     background-color: $color_more;
 }
 
-.icon_margin1,
-.icon_margin {
+body section div .row div div div div .link_hover a div div .icon_margin1,
+body section div .row div div div div .link_hover a div div .icon_margin {
     margin-top: 5px;
     transition: 0.3s;
 }
 
-.link_hover:hover .link {
+body section div .row div div div div .link_hover:hover .link {
     color: $color_red !important;
 }
 
-.link_hover:hover .icon_margin1 {
+body section div .row div div div div .link_hover:hover .icon_margin1 {
     transform: translate(-5px, 0px);
 }
 
-.div_more_carous {
-    width: 9px !important;
-    height: 9px !important;
+body section div .row div div div .div_more_carous {
+    width: 7px !important;
+    height: 7px !important;
     top: 70px;
+}
+
+.carousel-indicators [data-bs-target] {
+    opacity: 1 !important;
 }
 
 .carousel-indicators .active {
@@ -138,7 +139,50 @@ body .div_width .div_bottom .p_rights {
     border: 2px solid black !important;
 }
 
+body section div .row div .div_top {
+    top: -45px;
+}
+
 // end main
+// start main account
+body .section_maring {
+    margin-top: 120px;
+}
+
+body .section_maring .container .row div div div .icon_width {
+    background-color: $color_green;
+    cursor: pointer;
+}
+
+body .section_maring .container .row div div div .icon_width:hover {
+    background-color: $color_red;
+}
+
+body .section_maring .image_index {
+    width: 93%;
+    margin-top: -50px;
+    z-index: -1;
+}
+
+body .section_maring .container .row div .div_visible {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+// end main account
+// start footer
+.footer_top {
+    margin-top: 170px;
+}
+
+.div_border {
+    border: 2px solid #D6D6D6;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+// end footer
 // start media
 
 @media (min-width: 1665px) {
@@ -146,11 +190,7 @@ body .div_width .div_bottom .p_rights {
         height: 100vh;
     }
 
-    .image_carous {
-        height: 40.5vh;
-    }
-
-    .link_hover {
+    body section div .row div div div div .link_hover {
         height: 19.6vh;
     }
 }
@@ -172,7 +212,7 @@ body .div_width .div_bottom .p_rights {
         display: block;
     }
 
-    .image_none {
+    body div .div_show nav div .collapse div .image_none {
         display: none;
     }
 
@@ -186,7 +226,32 @@ body .div_width .div_bottom .p_rights {
     }
 
     body .div_width {
-        width: 50px;
+        width: 70px;
+    }
+
+    body section div .row div .div_top {
+        top: -25px;
+    }
+
+    body section div .row div div div .div_more_carous {
+        top: 45px;
+    }
+
+    body .section_maring .container .row div div div .icon_width {
+        width: 80px;
+    }
+
+    body div div .image_hgiht {
+        width: 10px;
+        height: 100%;
+    }
+
+    body .section_maring {
+        margin-top: 100px;
+    }
+
+    .footer_top {
+        margin-top: 100px;
     }
 }
 
