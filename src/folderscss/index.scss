@@ -282,28 +282,28 @@ body .section_questions div .row div .div_width_50 {
     width: 50%;
 }
 
-.active_color,
+body section .active_color,
 body .section_questions div .row .my_active {
     background-color: $color_green !important;
     color: $color-white !important;
 }
 
-.icon_arraw:hover {
+body .section_questions div .row div div .icon_arraw:hover {
     color: $color_green;
     border: 2px solid $color_green !important;
 }
 
-.div_margin {
+body .section_questions div .row div div div div .div_margin {
     border: 2px solid $color_green;
     margin-top: 140px;
 }
 
-.p_center {
+body .section_questions div .row div div div div .div_margin div .p_center {
     width: 25px;
     height: 25px;
 }
 
-.number_width {
+body section .number_width {
     width: 35px;
     height: 35px;
 }
