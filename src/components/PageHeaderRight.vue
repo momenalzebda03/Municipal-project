@@ -12,7 +12,7 @@
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i title="تواصل معنا" class="fas fa-tty fs-4"></i>
         </router-link>
-        <router-link to="" :class="{ 'active': isActive('') }"
+        <router-link to="/questions" :class="{ 'active': isActive('/questions') }"
             class="py-5 d-flex justify-content-center div_border mb-5 text-decoration-none">
             <i title="الأسئلة الشائعة" class="far fa-question-circle fs-4"></i>
         </router-link>

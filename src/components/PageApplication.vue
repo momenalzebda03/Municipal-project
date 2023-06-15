@@ -1,7 +1,7 @@
 <template>
     <!-- start main -->
     <section>
-        <div class="container font_text overflow-hidden">
+        <div class="container-fluid px-5 font_text overflow-hidden">
             <div class="row">
                 <div class="col-12 col-lg-6 text-center" data-aos="fade-right">
                     <img src="../assets/image_page_home_1/ImageApplicachan.png" alt="" class="image_respons">
@@ -101,6 +101,9 @@
                 </div>
             </div>
         </div>
+        <div class="container-fluid ps-0 ps-sm-5 text-center text-md-start my-3 my-md-5">
+            <i class="fab fa-facebook-messenger p-3 fs-4 icon_width text-white rounded-circle"></i>
+        </div>
     </section>
     <!-- end main -->
 </template>
@@ -108,9 +111,16 @@
 <script>
 export default {
     name: "KpapApp",
+    created() {
+        this.changePageTitle('البلدية - التطبيق');
+    },
+    methods: {
+        changePageTitle(newTitle) {
+            document.title = newTitle;
+        },
+    },
     mounted() {
         const containers = document.querySelectorAll('#hover-container');
-
         containers.forEach(container => {
             const icon = container.querySelector('.icon_background');
             const text = container.querySelector('.p_hover');

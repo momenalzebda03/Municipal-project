@@ -18,6 +18,27 @@
     cursor: pointer;
 }
 
+.icon_width {
+    background-color: $color_green;
+    cursor: pointer;
+}
+
+.icon_width:hover {
+    background-color: $color_red;
+}
+
+.my_icon_width {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+body section .number_width:hover,
+.back_hover:hover {
+    color: $color-white !important;
+    cursor: pointer;
+    background-color: $color_green !important;
+}
+
 // end afretang
 
 // start header
@@ -149,16 +170,16 @@ body section div .row div .div_top {
     top: -45px;
 }
 
-body section .container .row div div div .icon_background {
+body section .container-fluid .row div div .icon_background {
     width: 65px;
     height: 65px;
 }
 
-body section .container .row div div div .hovered {
+body section .container-fluid .row div div .hovered {
     color: $color_red;
 }
 
-body section .container .row div div div .icon_background:hover {
+.icon_background:hover {
     background-color: $color_red;
     color: $color_white !important;
 }
@@ -171,7 +192,7 @@ body section .container .row div div a div .span_size {
     font-size: 13px;
 }
 
-body section .container .row div div a .div_button:hover {
+body section .container-fluid .row div div a .div_button:hover {
     background-color: $color_red !important;
 }
 
@@ -179,19 +200,119 @@ body section .container .row div div a .div_button:hover {
     width: 40%;
 }
 
+body div div .image_background {
+    transform: translate(0px, -280px);
+    z-index: -1;
+}
+
+body section .container .row div .div_size {
+    font-size: 13px;
+}
+
+body section .container-fluid .row div form div .select_backgound {
+    color: #828282;
+    appearance: none;
+    background-position: calc(20px - 12px) center !important;
+    background: url("data:image/svg+xml,<svg height='10px' width='10px' viewBox='0 0 16 16' fill='%23000000' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>") no-repeat;
+}
+
+::placeholder {
+    padding-bottom: 1px;
+}
+
+body section .container .row div div div textarea {
+    resize: none !important;
+}
+
+body section .container-fluid .row div form div div .icon_absoute {
+    border-radius: 0px 0px 0px 15px;
+    bottom: 8px;
+    left: 0px;
+}
+
+body section div .row div div div .icon_search {
+    transform: translateY(-50%);
+}
+
+body section div .row div div .form__field {
+    border: 0;
+    border-bottom: 2px solid $gray;
+    outline: 0;
+    transition: border-color 0.2s;
+
+    &::placeholder {
+        color: transparent;
+    }
+
+    &:placeholder-shown~.form__label {
+        font-size: 1rem;
+        cursor: text;
+        top: 5px;
+    }
+}
+
+body section div .row div div .form__label {
+    top: 9px;
+    transition: 0.2s;
+}
+
+body section div .row div div .form__field:focus {
+    ~.form__label {
+        top: 0;
+        display: block;
+        transition: 0.2s;
+        font-size: 0.7rem;
+    }
+
+    padding-bottom: 6px;
+    border-width: 3px;
+    border-image: linear-gradient(to right, $primary, $secondary);
+    border-image-slice: 1;
+}
+
+body section div .row div div .form__field {
+
+    &:required,
+    &:invalid {
+        box-shadow: none;
+    }
+}
+
+body .section_questions div .row div .div_width_50 {
+    width: 50%;
+}
+
+.active_color,
+body .section_questions div .row .my_active {
+    background-color: $color_green !important;
+    color: $color-white !important;
+}
+
+.icon_arraw:hover {
+    color: $color_green;
+    border: 2px solid $color_green !important;
+}
+
+.div_margin {
+    border: 2px solid $color_green;
+    margin-top: 140px;
+}
+
+.p_center {
+    width: 25px;
+    height: 25px;
+}
+
+.number_width {
+    width: 35px;
+    height: 35px;
+}
+
 // end main
 // start main account
 body .section_maring {
     margin-top: 120px;
-}
-
-body .section_maring .container .row div div div .icon_width {
-    background-color: $color_green;
-    cursor: pointer;
-}
-
-body .section_maring .container .row div div div .icon_width:hover {
-    background-color: $color_red;
+    padding-bottom: 120px;
 }
 
 body .section_maring .image_index,
@@ -212,9 +333,6 @@ body .section_maring .container .row div .div_visible {
 
 // end main account
 // start footer
-body div div .footer_top {
-    margin-top: 150px;
-}
 
 body .div_footer,
 body .div_footer .row_width .p_border,
@@ -233,12 +351,6 @@ body .div_footer .row_width .p_border {
     border-right: 1px solid #ccc;
 }
 
-body .div_footer .row_width .back_hover:hover {
-    color: $color-white !important;
-    cursor: pointer;
-    background-color: $color_green;
-}
-
 body .div_footer .row_width {
     width: 100.7%;
 }
@@ -246,7 +358,7 @@ body .div_footer .row_width {
 // end footer
 // start media
 
-@media (min-width: 1665px) {
+@media (min-width: 1900px) {
 
     body section div .row div div div div .link_hover {
         height: 19.6vh;
@@ -261,7 +373,6 @@ body .div_footer .row_width {
     .row_width {
         width: 100.9%;
     }
-
 }
 
 @media (max-width: 990px) {
@@ -270,7 +381,7 @@ body .div_footer .row_width {
     body section .container .row div div .div_flex_width,
     body div .div_show nav div .div_respons,
     .div_mia {
-        width: 100%;
+        width: 100% !important;
     }
 
     body div .div_show nav div .div_respons .div_bottom {
@@ -314,7 +425,7 @@ body .div_footer .row_width {
         width: 102%;
     }
 
-    body section .container .row div .image_respons {
+    body section .container-fluid .row div .image_respons {
         margin-top: 10px;
     }
 
@@ -322,8 +433,9 @@ body .div_footer .row_width {
         padding-bottom: 10px !important;
     }
 
-    body div div .footer_top {
-        margin-top: 10px;
+    .div_margin {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
 
@@ -335,7 +447,7 @@ body .div_footer .row_width {
         height: auto;
     }
 
-    body section .container .row div .image_respons {
+    body section .container-fluid .row div .image_respons {
         width: 100%;
     }
 }

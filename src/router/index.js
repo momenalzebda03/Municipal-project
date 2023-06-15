@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import CompHome from "../components/PageHome.vue";
 import ComApplication from "../components/PageApplication.vue";
 import ComPropsals from "../components/PageProposals.vue";
+import ComQuestions from "../components/PageQuestions.vue";
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: "/proposals",
     name: "proposals",
     component: ComPropsals,
+  },
+  {
+    path: "/questions",
+    name: "questions",
+    component: ComQuestions,
   },
 ];
 
