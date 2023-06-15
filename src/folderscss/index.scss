@@ -149,6 +149,36 @@ body section div .row div .div_top {
     top: -45px;
 }
 
+body section .container .row div div div .icon_background {
+    width: 65px;
+    height: 65px;
+}
+
+body section .container .row div div div .hovered {
+    color: $color_red;
+}
+
+body section .container .row div div div .icon_background:hover {
+    background-color: $color_red;
+    color: $color_white !important;
+}
+
+body section .container .row div div .div_flex_width {
+    width: 200px;
+}
+
+body section .container .row div div a div .span_size {
+    font-size: 13px;
+}
+
+body section .container .row div div a .div_button:hover {
+    background-color: $color_red !important;
+}
+
+.div_from {
+    width: 40%;
+}
+
 // end main
 // start main account
 body .section_maring {
@@ -236,6 +266,8 @@ body .div_footer .row_width {
 
 @media (max-width: 990px) {
 
+    .div_from,
+    body section .container .row div div .div_flex_width,
     body div .div_show nav div .div_respons,
     .div_mia {
         width: 100%;
@@ -278,12 +310,20 @@ body .div_footer .row_width {
         margin-top: 100px;
     }
 
-    .footer_top {
-        margin-top: 20px;
-    }
-
     .row_width {
         width: 102%;
+    }
+
+    body section .container .row div .image_respons {
+        margin-top: 10px;
+    }
+
+    body div .div_show nav {
+        padding-bottom: 10px !important;
+    }
+
+    body div div .footer_top {
+        margin-top: 10px;
     }
 }
 
@@ -293,6 +333,10 @@ body .div_footer .row_width {
     body .div_footer .row_width .p_border,
     body .div_footer .row_width .back_hover {
         height: auto;
+    }
+
+    body section .container .row div .image_respons {
+        width: 100%;
     }
 }
 
