@@ -1,6 +1,6 @@
 <template>
     <!-- start main -->
-    <section>
+    <section class="mt-0 mt-md-5">
         <div class="container-fluid px-md-5 font_text">
             <div class="row">
                 <div class="col-12 col-lg-4 mt-5" data-aos="fade-up">
@@ -200,18 +200,18 @@
                     <div id="carouselExampleIndicators1" class="carousel slide h-100 mt-5 pt-3 pt-lg-0 mt-lg-0"
                         data-bs-ride="carousel">
                         <div class="carousel-inner h-100">
-                            <div class="carousel-item active h-100">
+                            <router-link to="image" class="carousel-item active h-100">
                                 <img src="../assets/image_page_home/ImageNews.png" class="w-100 h-100 link_hover" alt="">
-                            </div>
-                            <div class="carousel-item h-100">
+                            </router-link>
+                            <router-link to="image" class="carousel-item h-100">
                                 <img src="../assets/image_page_home/ImageNews.png" class="w-100 h-100 link_hover" alt="">
-                            </div>
-                            <div class="carousel-item h-100">
+                            </router-link>
+                            <router-link to="image" class="carousel-item h-100">
                                 <img src="../assets/image_page_home/ImageNews.png" class="w-100 h-100 link_hover" alt="">
-                            </div>
-                            <div class="carousel-item h-100">
+                            </router-link>
+                            <router-link to="image" class="carousel-item h-100">
                                 <img src="../assets/image_page_home/ImageNews.png" class="w-100 h-100 link_hover" alt="">
-                            </div>
+                            </router-link>
                         </div>
                         <div class="carousel-indicators d-flex justify-content-center gap-1">
                             <div class="rounded-circle div_more_carous border border-2 border-dark bg-black active position-relative"

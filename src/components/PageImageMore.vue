@@ -1,0 +1,43 @@
+<template>
+    <!-- start main -->
+    <router-link to="/image" class="d-flex justify-content-end text-decoration-none mb-3">
+        <i class="fas fa-times p-4 fs-2 icon_click icon_bakcgorund"></i>
+    </router-link>
+    <section class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="div_image_center d-flex justify-content-between align-items-center position-relative">
+                <div data-bs-target="#carouselExampleControls" data-bs-slide="prev"
+                    class="bg-white text-black py-4 icon_click icon_arraow_hover_left back_hover d-flex align-items-center justify-content-center">
+                    <i class="fas fa-chevron-left fs-4"></i>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../assets/image_page_home_1/ImageMaskWidth.png" alt="" class="w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/image_page_home_1/ImageMaskWidth.png" alt="" class="w-100">
+                    </div>
+                </div>
+                <div data-bs-target="#carouselExampleControls" data-bs-slide="next"
+                    class="fs-4 bg-white text-black py-4 icon_click icon_arraow_hover_right back_hover d-flex align-items-center justify-content-center">
+                    <i class="fas fa-chevron-right fs-4"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end main -->
+</template>
+
+<script>
+export default {
+    name: "KpapMore",
+    beforeRouteLeave(to, from, next) {
+        document.body.classList.remove('bg-black');
+        next();
+    },
+    beforeRouteEnter(to, from, next) {
+        document.body.classList.add('bg-black');
+        next();
+    },
+}
+</script>

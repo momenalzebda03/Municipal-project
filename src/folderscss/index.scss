@@ -116,7 +116,7 @@ body .div_width .div_border:hover {
     color: $color_red;
 }
 
-body .div_width .div_bottom a .icon_color {
+.icon_color {
     color: $color_green;
 }
 
@@ -308,6 +308,43 @@ body section .number_width {
     height: 35px;
 }
 
+body .font_text .row div div div div .icon_black {
+    z-index: 1;
+    background-color: $color_icon;
+    height: 170px;
+    padding-top: 70px;
+}
+
+body .icon_bakcgorund {
+    color: $color_exit;
+    background-color: $color_exit;
+}
+
+body .icon_bakcgorund:hover {
+    color: $color_white;
+    background-color: $color_red;
+}
+
+body section .div_image_center {
+    background-color: #d6d6d65c;
+}
+
+.icon_arraow_hover_right,
+.icon_arraow_hover_left {
+    transition: 0.3s;
+    width: 50px;
+}
+
+.icon_arraow_hover_left:hover {
+    margin-left: -10px;
+    width: 60px;
+}
+
+.icon_arraow_hover_right:hover {
+    margin-right: -10px;
+    width: 60px;
+}
+
 // end main
 // start main account
 body .section_maring {
@@ -388,8 +425,8 @@ body .div_footer .row_width {
         display: block;
     }
 
-    body div .div_show nav div .collapse div .image_none {
-        display: none;
+    .image_none {
+        display: none !important;
     }
 
     body div .div_show nav div .collapse div div .icon_hover .text_date {
@@ -433,7 +470,7 @@ body .div_footer .row_width {
         padding-bottom: 10px !important;
     }
 
-    .div_margin {
+    body .section_questions div .row div div div div .div_margin {
         margin-top: 30px;
         margin-bottom: 30px;
     }

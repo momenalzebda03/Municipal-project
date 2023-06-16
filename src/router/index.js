@@ -3,6 +3,8 @@ import CompHome from "../components/PageHome.vue";
 import ComApplication from "../components/PageApplication.vue";
 import ComPropsals from "../components/PageProposals.vue";
 import ComQuestions from "../components/PageQuestions.vue";
+import KpapImage from "../components/PageImage.vue";
+import KpapMore from "../components/PageImageMore.vue";
 
 const routes = [
   {
@@ -24,6 +26,16 @@ const routes = [
     path: "/questions",
     name: "questions",
     component: ComQuestions,
+  },
+  {
+    path: "/image",
+    name: "image",
+    component: KpapImage,
+  },
+  {
+    path: "/more",
+    name: "more",
+    component: KpapMore,
   },
 ];
 

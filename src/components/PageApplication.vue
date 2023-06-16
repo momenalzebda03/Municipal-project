@@ -1,6 +1,6 @@
 <template>
     <!-- start main -->
-    <section>
+    <section class="mt-0 mt-md-5">
         <div class="container-fluid px-5 font_text overflow-hidden">
             <div class="row">
                 <div class="col-12 col-lg-6 text-center" data-aos="fade-right">

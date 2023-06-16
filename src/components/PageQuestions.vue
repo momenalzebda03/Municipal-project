@@ -1,6 +1,6 @@
 <template>
     <!-- start main -->
-    <section class="section_questions">
+    <section class="section_questions mt-0 mt-md-5">
         <div class="container-fluid px-4 font_text">
             <div class="row px-4 d-flex flex-column-reverse flex-lg-row">
                 <div class="col-12 col-lg-6 mt-5 mt-lg-0">
