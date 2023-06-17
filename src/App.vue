@@ -10,7 +10,8 @@
     <div>
       <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" v-if="image_none" class="image_hgiht">
     </div>
-    <HeaderRightCpap v-if="header_right_none" />
+    <HeaderRightCpap v-if="header_right_none && !isMuiciaplRoute" />
+    <HeaderRightCpap1 v-if="header_right2" />
   </div>
 </template>
 
@@ -20,23 +21,30 @@ import 'aos/dist/aos.css';
 import HeaderCpap from "../src/components/PageHeader.vue";
 import HeaderRightCpap from "../src/components/PageHeaderRight.vue";
 import FooterKpap from "../src/components/PageFooter.vue";
+import HeaderRightCpap1 from "../src/components/PageHeaderRgith2.vue";
 
 export default {
   components: {
     HeaderCpap,
     HeaderRightCpap,
-    FooterKpap
+    FooterKpap,
+    HeaderRightCpap1
   },
   computed: {
-
+    isMuiciaplRoute() {
+      return this.$route.path === "/muiciapl";
+    },
     image_none() {
       return this.$route.path !== "/more";
     },
     header_right_none() {
       return this.$route.path !== "/more";
     },
+    header_right2() {
+      return this.$route.path == '/muiciapl';
+    },
     header_none() {
-      return this.$route.path !== "/more";
+      return this.$route.path == "/muiciapl";
     },
     shouldShowBackground() {
       return this.$route.path !== '/' && this.$route.path !== "/image" && this.$route.path !== "/more";

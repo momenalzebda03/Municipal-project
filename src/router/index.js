@@ -5,6 +5,7 @@ import ComPropsals from "../components/PageProposals.vue";
 import ComQuestions from "../components/PageQuestions.vue";
 import KpapImage from "../components/PageImage.vue";
 import KpapMore from "../components/PageImageMore.vue";
+import KpapMuiciapl from "../components/MunicipalHome.vue";
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: "/more",
     name: "more",
     component: KpapMore,
+  },
+  {
+    path: "/muiciapl",
+    name: "muiciapl",
+    component: KpapMuiciapl,
   },
 ];
 

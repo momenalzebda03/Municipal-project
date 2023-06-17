@@ -17,7 +17,8 @@
                 <p>المدينة</p>
                 <div class="p_border"></div>
             </router-link>
-            <router-link to="" class="col pt-4 text-center back_hover text-black text-decoration-none">
+            <router-link to="/muiciapl" :class="{ 'div_active': isActive('/muiciapl') }"
+                class="col pt-4 text-center back_hover text-black text-decoration-none">
                 <p>البلدية</p>
             </router-link>
         </div>
@@ -26,6 +27,11 @@
 
 <script>
 export default {
-    name: "FooterKpap"
+    name: "FooterKpap",
+    methods: {
+        isActive(path) {
+            return this.$route.path === path;
+        }
+    }
 }
 </script>

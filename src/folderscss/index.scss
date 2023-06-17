@@ -99,6 +99,11 @@ body .div_width .div_bottom {
     font-size: 14px;
 }
 
+body .div_footer .row_width .div_active {
+    background-color: $color_green;
+    color: $white !important;
+}
+
 body .div_width .active {
     background-color: $color_background;
     color: $color_red !important;
