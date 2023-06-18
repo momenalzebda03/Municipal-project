@@ -17,7 +17,8 @@
                 <p>المدينة</p>
                 <div class="p_border"></div>
             </router-link>
-            <router-link to="/muiciapl" :class="{ 'div_active': isActive('/muiciapl') }"
+            <router-link to="/muiciapl"
+                :class="{ 'div_active': isActive('/muiciapl') || isActive('/objectives') || isActive('/policy') || isActive('/date') || isActive('/council')}"
                 class="col pt-4 text-center back_hover text-black text-decoration-none">
                 <p>البلدية</p>
             </router-link>

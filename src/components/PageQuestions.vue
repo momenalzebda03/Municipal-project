@@ -1,9 +1,9 @@
 <template>
     <!-- start main -->
-    <section class="section_questions mt-0 mt-md-5">
+    <section class="section_questions mt-0 mt-md-5 overflow-hidden">
         <div class="container-fluid px-4 font_text">
             <div class="row px-4 d-flex flex-column-reverse flex-lg-row">
-                <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+                <div class="col-12 col-lg-6 mt-5 mt-lg-0" data-aos="fade-right">
                     <div class="d-flex gap-2 justify-content-center justify-content-lg-start text-secondary">
                         <i data-bs-target="#carouselExampleControls" data-bs-slide="prev" aria-hidden="true"
                             class="fas fa-arrow-left p-3 border border-2 rounded-circle icon_arraw icon_click"></i>
@@ -101,7 +101,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 text-center text-sm-end mt-3 mt-lg-0">
+                <div class="col-12 col-lg-6 text-center text-sm-end mt-3 mt-lg-0" data-aos="fade-left">
                     <div class="text-center text-sm-end d-flex flex-column flex-sm-row gap-2 justify-content-end">
                         <h5 class="span_red fw-bold mt-2">الأسئلة الشائعة</h5>
                         <div class="d-flex justify-content-center">

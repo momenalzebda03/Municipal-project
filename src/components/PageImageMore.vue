@@ -3,7 +3,7 @@
     <router-link to="/image" class="d-flex justify-content-end text-decoration-none mb-3">
         <i class="fas fa-times p-4 fs-2 icon_click icon_bakcgorund"></i>
     </router-link>
-    <section class="container">
+    <section class="container" data-aos="flip-left">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="div_image_center d-flex justify-content-between align-items-center position-relative">
                 <div data-bs-target="#carouselExampleControls" data-bs-slide="prev"

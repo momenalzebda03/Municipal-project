@@ -39,6 +39,19 @@ body section .number_width:hover,
     background-color: $color_green !important;
 }
 
+.p_center {
+    width: 25px;
+    height: 25px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $color_green;
+}
+
 // end afretang
 
 // start header
@@ -303,11 +316,6 @@ body .section_questions div .row div div div div .div_margin {
     margin-top: 140px;
 }
 
-body .section_questions div .row div div div div .div_margin div .p_center {
-    width: 25px;
-    height: 25px;
-}
-
 body section .number_width {
     width: 35px;
     height: 35px;
@@ -348,6 +356,37 @@ body section .div_image_center {
 .icon_arraow_hover_right:hover {
     margin-right: -10px;
     width: 60px;
+}
+
+body section div div .border_bottom_hover {
+    transform: translate(0px, 3px);
+}
+
+.div_border_bottom,
+body section div div .border_bottom_hover:hover {
+    font-weight: bold;
+    border-bottom: 3px solid $color_red;
+}
+
+body section div .p_bottom {
+    margin-bottom: 200px;
+}
+
+body section div .row div div .p_border_bottom {
+    border-bottom: 2px solid $color_green;
+}
+
+body section div div .div_hr {
+    padding: 2px;
+    background-color: $color_exit;
+}
+
+.text_line {
+    line-height: 40px;
+}
+
+.div_heigt_bottom {
+    height: 60vh;
 }
 
 // end main
@@ -405,6 +444,36 @@ body .div_footer .row_width {
     body section div .row div div div div .link_hover {
         height: 19.6vh;
     }
+
+    body section div div .row .col_hover::before {
+        content: "";
+        position: absolute;
+        transform: translate(35px, 58px);
+        background-color: $color_red;
+        padding: 8px;
+        border-radius: 50%;
+        outline: 3px solid $color_white;
+    }
+
+    body section div div .row .col_hover::after {
+        content: "";
+        position: absolute;
+        transform: translate(39.8px, 22.5px);
+        width: 5px;
+        height: 5px;
+        background-color: $color_white;
+        padding: 3px;
+        border-radius: 50%;
+    }
+
+    body section div div .row .col_hover .div_line {
+        background-color: $color_green;
+        width: 2.5px;
+        transform: translate(42px, 25px);
+        height: 100px;
+        z-index: -1;
+        height: 78px;
+    }
 }
 
 @media (max-width: 1490px) {
@@ -430,6 +499,9 @@ body .div_footer .row_width {
         display: block;
     }
 
+    body section div div .row .col_hover .div_line,
+    body section div div .row .col_hover::after,
+    body section div div .row .col_hover::before,
     .image_none {
         display: none !important;
     }
@@ -489,8 +561,16 @@ body .div_footer .row_width {
         height: auto;
     }
 
-    body section .container-fluid .row div .image_respons {
+    .image_respons {
         width: 100%;
+    }
+
+    body section div .row div div .p_border_bottom {
+        border-bottom: 0px solid $color_green;
+    }
+
+    body section div .p_bottom {
+        margin-bottom: 20px;
     }
 }
 
@@ -499,6 +579,7 @@ body .div_footer .row_width {
     body div .div_show nav div .div_respons {
         flex-direction: column;
     }
+
 }
 
 // start media

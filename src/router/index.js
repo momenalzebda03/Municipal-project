@@ -6,6 +6,10 @@ import ComQuestions from "../components/PageQuestions.vue";
 import KpapImage from "../components/PageImage.vue";
 import KpapMore from "../components/PageImageMore.vue";
 import KpapMuiciapl from "../components/MunicipalHome.vue";
+import KpapObjectives from "../components/MuniciaplHomeObjectives.vue";
+import KpapPolicy from "../components/MuniciapHomePolicy.vue";
+import KpapDate from "../components/PageDate.vue";
+import KpapCouncil from "../components/MuniciapCouncil.vue";
 
 const routes = [
   {
@@ -42,6 +46,26 @@ const routes = [
     path: "/muiciapl",
     name: "muiciapl",
     component: KpapMuiciapl,
+  },
+  {
+    path: "/objectives",
+    name: "objectives",
+    component: KpapObjectives,
+  },
+  {
+    path: "/policy",
+    name: "policy",
+    component: KpapPolicy,
+  },
+  {
+    path: "/date",
+    name: "date",
+    component: KpapDate,
+  },
+  {
+    path: "/council",
+    name: "council",
+    component: KpapCouncil,
   },
 ];
 

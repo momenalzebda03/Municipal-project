@@ -32,7 +32,7 @@ export default {
   },
   computed: {
     isMuiciaplRoute() {
-      return this.$route.path === "/muiciapl";
+      return this.$route.path === "/muiciapl" || this.$route.path == '/objectives' || this.$route.path == '/muiciapl' || this.$route.path == '/policy' || this.$route.path == '/date' || this.$route.path == '/council';
     },
     image_none() {
       return this.$route.path !== "/more";
@@ -41,10 +41,10 @@ export default {
       return this.$route.path !== "/more";
     },
     header_right2() {
-      return this.$route.path == '/muiciapl';
+      return this.$route.path == '/muiciapl' || this.$route.path == '/objectives' || this.$route.path == '/muiciapl' || this.$route.path == '/policy' || this.$route.path == '/date' || this.$route.path == '/council';
     },
     header_none() {
-      return this.$route.path == "/muiciapl";
+      return this.$route.path !== "/more";
     },
     shouldShowBackground() {
       return this.$route.path !== '/' && this.$route.path !== "/image" && this.$route.path !== "/more";
