@@ -9,7 +9,7 @@
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-clock fs-4"></i>
         </router-link>
-        <router-link to="/council" :class="{ 'active': isActive('/council') }"
+        <router-link to="/council" :class="{ 'active': isActive('/council') || isActive('/members') }"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-users fs-4"></i>
         </router-link>

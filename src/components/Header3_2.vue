@@ -15,11 +15,11 @@
                     class="mx-3 px-lg-5 border_bottom_hover icon_click text-center text-black text-decoration-none">
                     <p>جلسات المجلس</p>
                 </router-link>
-                <router-link to="/objectives" :class="{ 'div_border_bottom': isActive('/objectives') }"
+                <router-link to="/members" :class="{ 'div_border_bottom': isActive('/members') }"
                     class="my-2 my-md-0 mx-3 px-lg-5 border_bottom_hover icon_click text-center text-black text-decoration-none">
                     <p>أعضاء المجلس البلدي</p>
                 </router-link>
-                <router-link to="/muiciapl" :class="{ 'div_border_bottom': isActive('/council') }"
+                <router-link to="/council" :class="{ 'div_border_bottom': isActive('/council') }"
                     class="mx-0 px-lg-5 icon_click text-center border_bottom_hover text-black text-decoration-none">
                     <p>كلمة رئيس البلدية</p>
                 </router-link>

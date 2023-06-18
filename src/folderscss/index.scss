@@ -381,12 +381,40 @@ body section div div .div_hr {
     background-color: $color_exit;
 }
 
-.text_line {
+body section div .row div .text_line {
     line-height: 40px;
 }
 
-.div_heigt_bottom {
-    height: 60vh;
+body section div .row div .div_heigt_bottom {
+    height: 400px;
+}
+
+body section div div .div_heigt_table {
+    height: 236px;
+}
+
+body section div .row div .row div .active_image {
+    border: 5px solid $color_green;
+}
+
+body section div .row div .row div .image_pisel {
+    width: 100px;
+}
+
+body section div .row div .div_left {
+    background-color: #F2F2F2;
+    height: 530px;
+}
+
+body section div .row div .div_left div div .p_hr {
+    background-color: #F2F2F2;
+    transform: translate(0px, -14px);
+}
+
+body section div .row div .div_left div .div_hr_center {
+    width: 300px;
+    height: 2px;
+    background-color: #ccc;
 }
 
 // end main
@@ -551,6 +579,10 @@ body .div_footer .row_width {
         margin-top: 30px;
         margin-bottom: 30px;
     }
+
+    body section div div .div_heigt_table {
+        height: 267px;
+    }
 }
 
 @media (max-width: 475px) {
@@ -572,6 +604,14 @@ body .div_footer .row_width {
     body section div .p_bottom {
         margin-bottom: 20px;
     }
+
+    body section div div .div_heigt_table {
+        height: 290px;
+    }
+
+    body section div .row div .div_left {
+        height: 350px;
+    }
 }
 
 @media (max-width: 202px) {
@@ -580,6 +620,9 @@ body .div_footer .row_width {
         flex-direction: column;
     }
 
+    body section div div .div_heigt_table {
+        height: 370px;
+    }
 }
 
 // start media

@@ -8,10 +8,10 @@
       <FooterKpap v-if="footer_none" />
     </div>
     <div>
-      <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" v-if="image_none" class="image_hgiht">
+      <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" v-if="header_none" class="image_hgiht">
     </div>
     <HeaderRightCpap v-if="header_right_none && !isMuiciaplRoute" />
-    <HeaderRightCpap1 v-if="header_right2" />
+    <HeaderRightCpap1 v-if="isMuiciaplRoute" />
   </div>
 </template>
 
@@ -32,16 +32,10 @@ export default {
   },
   computed: {
     isMuiciaplRoute() {
-      return this.$route.path === "/muiciapl" || this.$route.path == '/objectives' || this.$route.path == '/muiciapl' || this.$route.path == '/policy' || this.$route.path == '/date' || this.$route.path == '/council';
-    },
-    image_none() {
-      return this.$route.path !== "/more";
+      return this.$route.path === '/muiciapl' || this.$route.path == '/objectives' || this.$route.path == '/muiciapl' || this.$route.path == '/policy' || this.$route.path == '/date' || this.$route.path == '/council' || this.$route.path == '/members';
     },
     header_right_none() {
       return this.$route.path !== "/more";
-    },
-    header_right2() {
-      return this.$route.path == '/muiciapl' || this.$route.path == '/objectives' || this.$route.path == '/muiciapl' || this.$route.path == '/policy' || this.$route.path == '/date' || this.$route.path == '/council';
     },
     header_none() {
       return this.$route.path !== "/more";
