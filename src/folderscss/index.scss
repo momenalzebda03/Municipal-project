@@ -393,10 +393,6 @@ body section div div .div_heigt_table {
     height: 236px;
 }
 
-body section div .row div .row div .active_image {
-    border: 5px solid $color_green;
-}
-
 body section div .row div .row div .image_pisel {
     width: 100px;
 }
@@ -415,6 +411,10 @@ body section div .row div .div_left div .div_hr_center {
     width: 300px;
     height: 2px;
     background-color: #ccc;
+}
+
+.image_border_left {
+    border: 3px solid #392C23;
 }
 
 // end main
