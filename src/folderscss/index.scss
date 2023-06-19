@@ -52,6 +52,62 @@ body section .number_width:hover,
     background: $color_green;
 }
 
+.div_width_50 {
+    width: 50%;
+}
+
+.icon_search {
+    transform: translateY(-50%);
+}
+
+.form__field:focus {
+    ~.form__label {
+        top: 0;
+        display: block;
+        transition: 0.2s;
+        font-size: 0.7rem;
+    }
+
+    padding-bottom: 6px;
+    border-width: 3px;
+    border-image: linear-gradient(to right, $primary, $secondary);
+    border-image-slice: 1;
+}
+
+.form__field {
+
+    &:required,
+    &:invalid {
+        box-shadow: none;
+    }
+}
+
+.form__field {
+    border: 0;
+    border-bottom: 2px solid $gray;
+    outline: 0;
+    transition: border-color 0.2s;
+
+    &::placeholder {
+        color: transparent;
+    }
+
+    &:placeholder-shown~.form__label {
+        font-size: 1rem;
+        cursor: text;
+        top: 5px;
+    }
+}
+
+.form__label {
+    top: 9px;
+    transition: 0.2s;
+}
+
+.image_pisel {
+    width: 100px;
+}
+
 // end afretang
 
 // start header
@@ -112,6 +168,7 @@ body .div_width .div_bottom {
     font-size: 14px;
 }
 
+.div_active,
 body .div_footer .row_width .div_active {
     background-color: $color_green;
     color: $white !important;
@@ -248,58 +305,6 @@ body section .container-fluid .row div form div div .icon_absoute {
     left: 0px;
 }
 
-body section div .row div div div .icon_search {
-    transform: translateY(-50%);
-}
-
-body section div .row div div .form__field {
-    border: 0;
-    border-bottom: 2px solid $gray;
-    outline: 0;
-    transition: border-color 0.2s;
-
-    &::placeholder {
-        color: transparent;
-    }
-
-    &:placeholder-shown~.form__label {
-        font-size: 1rem;
-        cursor: text;
-        top: 5px;
-    }
-}
-
-body section div .row div div .form__label {
-    top: 9px;
-    transition: 0.2s;
-}
-
-body section div .row div div .form__field:focus {
-    ~.form__label {
-        top: 0;
-        display: block;
-        transition: 0.2s;
-        font-size: 0.7rem;
-    }
-
-    padding-bottom: 6px;
-    border-width: 3px;
-    border-image: linear-gradient(to right, $primary, $secondary);
-    border-image-slice: 1;
-}
-
-body section div .row div div .form__field {
-
-    &:required,
-    &:invalid {
-        box-shadow: none;
-    }
-}
-
-body .section_questions div .row div .div_width_50 {
-    width: 50%;
-}
-
 body section .active_color,
 body .section_questions div .row .my_active {
     background-color: $color_green !important;
@@ -393,10 +398,6 @@ body section div div .div_heigt_table {
     height: 236px;
 }
 
-body section div .row div .row div .image_pisel {
-    width: 100px;
-}
-
 body section div .row div .div_left {
     background-color: #F2F2F2;
     height: 530px;
@@ -413,11 +414,142 @@ body section div .row div .div_left div .div_hr_center {
     background-color: #ccc;
 }
 
-.image_border_left {
+body section div .row div .div_left div .image_border_left {
     border: 3px solid #392C23;
 }
 
+:root {
+    --bg: #1a1e24;
+    --color: #eee;
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
+
+body section .row div div div .button:before,
+body section .row div div div .button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background-color: $color_green;
+    border-radius: 50%;
+    transition: transform 0.4s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+body section .row div div div .button:before {
+    top: -25%;
+    left: 20%;
+}
+
+body section .row div div div .button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+body section .row div div div .button:hover:before,
+body section .row div div div .button:hover:after {
+    transform: none;
+}
+
+body section .row div div div .button_padding {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: 0.3s;
+}
+
+body section .row div div div .button_padding:hover {
+    background-color: $color_green;
+    color: $color_white;
+}
+
+body section .row div div div div .div_width_number {
+    width: 320px;
+    transition: 0.3s;
+}
+
+body section .row div div div div .div_width_number:hover {
+    transform: translate(-20px, 0px);
+}
+
+// .ui-datepicker-next,
+// .ui-datepicker-prev {
+//     display: none !important;
+// }
+
+body section .row div .datepicker {
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    overflow: hidden;
+
+    .ui-datepicker-inline {
+        padding: 30px;
+    }
+
+    .ui-datepicker-header {
+        text-align: center;
+        padding-bottom: 1em;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+
+        .ui-datepicker-prev,
+        .ui-datepicker-next {
+            display: inline;
+            float: left;
+            cursor: pointer;
+            font-size: 1.4em;
+            padding: 0 10px;
+            margin-top: -10px;
+            color: #CCC;
+        }
+
+        .ui-datepicker-next {
+            float: right;
+        }
+    }
+
+    .ui-datepicker-calendar {
+        width: 100%;
+        text-align: center;
+
+        thead {
+            color: #CCC;
+        }
+
+        tr {
+
+            th,
+            td {
+                padding-bottom: .5em;
+            }
+        }
+
+        a {
+            color: #444;
+            text-decoration: none;
+            display: block;
+            margin: 0 auto;
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            border-radius: 50%;
+            border: 1px solid transparent;
+            cursor: pointer;
+        }
+
+        .ui-state-highlight {
+            border-color: #D24D57;
+            color: #D24D57;
+        }
+    }
+}
+
 // end main
+
 // start main account
 body .section_maring {
     margin-top: 120px;
@@ -583,6 +715,19 @@ body .div_footer .row_width {
     body section div div .div_heigt_table {
         height: 267px;
     }
+
+    body section div .row div .div_left div .div_hr_center {
+        width: 100%;
+    }
+
+    body section .row div div div div .div_width_number {
+        width: 100%;
+    }
+
+    body section .row div div div div .div_width_number:hover {
+        transform: translate(0px, 0px);
+    }
+
 }
 
 @media (max-width: 475px) {

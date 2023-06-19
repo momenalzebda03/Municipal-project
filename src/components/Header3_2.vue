@@ -1,6 +1,6 @@
 <template>
-    <section class="text-end px-5">
-        <div class="container-fluid text-center text-md-end px-0 px-md-2 mt-0 mt-md-5 pt-4 font_text overflow-hidden">
+    <section class="text-end px-0 px-md-5">
+        <div class="container-fluid text-center text-md-end mt-0 mt-md-5 pt-4 font_text overflow-hidden">
             <h4 class="fw-bold span_red">المجلس البلدي</h4>
             <div class="d-flex flex-column flex-md-row justify-content-end my-3 my-md-5 border-3 border-bottom">
                 <router-link to="/policy" :class="{ 'div_border_bottom': isActive('/policy') }"
@@ -11,7 +11,7 @@
                     class="my-2 my-md-0 mx-3 px-lg-5 border_bottom_hover icon_click text-center text-black text-decoration-none">
                     <p>جلسات لجنة التنظيم</p>
                 </router-link>
-                <router-link to="/policy" :class="{ 'div_border_bottom': isActive('/policy') }"
+                <router-link to="/sessions" :class="{ 'div_border_bottom': isActive('/sessions') }"
                     class="mx-3 px-lg-5 border_bottom_hover icon_click text-center text-black text-decoration-none">
                     <p>جلسات المجلس</p>
                 </router-link>
@@ -31,7 +31,13 @@
 <script>
 export default {
     name: "KpapHeaderThreeTow",
+    created() {
+        this.changePageTitle('البلدية - المجلس');
+    },
     methods: {
+        changePageTitle(newTitle) {
+            document.title = newTitle;
+        },
         isActive(path) {
             return this.$route.path === path;
         }

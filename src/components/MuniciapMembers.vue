@@ -123,7 +123,7 @@
 </template>
 
 <script>
-import KpapHeaderThreeTow from "../components/Header3_2.vue"
+import KpapHeaderThreeTow from "../components/Header3_2.vue";
 export default {
     name: "KpapMembers",
     components: {

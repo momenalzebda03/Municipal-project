@@ -39,5 +39,13 @@ export default {
         document.body.classList.add('bg-black');
         next();
     },
+    created() {
+        this.changePageTitle('البلدية - الصور');
+    },
+    methods: {
+        changePageTitle(newTitle) {
+            document.title = newTitle;
+        },
+    },
 }
 </script>

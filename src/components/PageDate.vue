@@ -64,5 +64,13 @@
 <script>
 export default {
     name: "KpapDate",
+    created() {
+        this.changePageTitle('البلدية - التاريخ');
+    },
+    methods: {
+        changePageTitle(newTitle) {
+            document.title = newTitle;
+        },
+    },
 }
 </script>
