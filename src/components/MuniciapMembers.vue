@@ -117,7 +117,7 @@
         </div>
     </section>
     <!-- end main -->
-    <section class="container-fluid ms-0 ps-md-5 text-center text-md-start my-3 my-md-5">
+    <section class="container-fluid ms-0 ps-md-5 text-center text-md-start my-3">
         <i class="fab fa-facebook-messenger p-3 fs-4 icon_width text-white rounded-circle"></i>
     </section>
 </template>

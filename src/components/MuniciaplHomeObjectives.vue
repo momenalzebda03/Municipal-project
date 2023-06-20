@@ -47,7 +47,7 @@
             <p class="p_center mt-1 text-center border border-2 rounded-circle">8</p>
         </div>
     </div>
-    <div class="container-fluid ms-0 ps-md-5 text-center text-md-start my-3 my-md-5">
+    <div class="container-fluid ms-0 ps-md-5 text-center text-md-start my-3">
         <i class="fab fa-facebook-messenger p-3 fs-4 icon_width text-white rounded-circle"></i>
     </div>
 </template>

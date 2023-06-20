@@ -62,23 +62,8 @@ body section .number_width:hover,
 
 .form__field:focus {
     ~.form__label {
-        top: 0;
-        display: block;
         transition: 0.2s;
         font-size: 0.7rem;
-    }
-
-    padding-bottom: 6px;
-    border-width: 3px;
-    border-image: linear-gradient(to right, $primary, $secondary);
-    border-image-slice: 1;
-}
-
-.form__field {
-
-    &:required,
-    &:invalid {
-        box-shadow: none;
     }
 }
 
@@ -87,16 +72,6 @@ body section .number_width:hover,
     border-bottom: 2px solid $gray;
     outline: 0;
     transition: border-color 0.2s;
-
-    &::placeholder {
-        color: transparent;
-    }
-
-    &:placeholder-shown~.form__label {
-        font-size: 1rem;
-        cursor: text;
-        top: 5px;
-    }
 }
 
 .form__label {
@@ -473,38 +448,66 @@ body section .row div div div div .div_width_number:hover {
     transform: translate(-20px, 0px);
 }
 
-// .ui-datepicker-next,
-// .ui-datepicker-prev {
-//     display: none !important;
-// }
+.custom_class_red,
+.custom_class_green {
+    color: $color_white !important;
+}
+
+.custom_class_red {
+    background-color: $color_red;
+}
+
+.custom_class_green {
+    background-color: green;
+}
+
+.custom_class_ccc {
+    background-color: $color_background;
+}
 
 body section .row div .datepicker {
-    width: 400px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    width: 450px;
     margin: 50px auto;
-    overflow: hidden;
 
     .ui-datepicker-inline {
         padding: 30px;
     }
 
     .ui-datepicker-header {
-        text-align: center;
+        padding-left: 110px;
+        padding-right: 100px;
         padding-bottom: 1em;
         text-transform: uppercase;
         letter-spacing: .1em;
 
+        .ui-datepicker-next::before,
+        .ui-datepicker-prev::before {
+            font-family: "FontAwesome";
+            color: $color_green;
+        }
+
+        .ui-datepicker-next::before {
+            content: "\f054";
+            position: relative;
+            top: 2px;
+        }
+
+        .ui-datepicker-prev::before {
+            content: "\f053";
+            margin-right: 40px;
+        }
+
         .ui-datepicker-prev,
         .ui-datepicker-next {
-            display: inline;
             float: left;
             cursor: pointer;
-            font-size: 1.4em;
-            padding: 0 10px;
-            margin-top: -10px;
             color: #CCC;
+            text-decoration: none;
+        }
+
+        .ui-datepicker-prev span,
+        .ui-datepicker-next span {
+            display: none;
         }
 
         .ui-datepicker-next {
@@ -542,10 +545,23 @@ body section .row div .datepicker {
         }
 
         .ui-state-highlight {
-            border-color: #D24D57;
-            color: #D24D57;
+            background-color: $color_green;
+            color: $color_white;
         }
     }
+}
+
+body section .row div div div .div_circle {
+    width: 15px;
+    height: 15px;
+}
+
+body section .row div div div .circle_color_green {
+    background-color: green;
+}
+
+.circle_color_red {
+    background-color: $color_red;
 }
 
 // end main
@@ -756,6 +772,24 @@ body .div_footer .row_width {
 
     body section div .row div .div_left {
         height: 350px;
+    }
+
+
+    body section .row div .datepicker {
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        text-align: center;
+        width: auto !important;
+        display: flex;
+    }
+
+    .ui-datepicker-header {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .ui-datepicker-prev::before {
+        margin-right: 0px !important;
     }
 }
 

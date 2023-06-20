@@ -289,7 +289,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-3 fw-bold div_index" data-aos="fade-down">
+                <div class="col-12 col-sm-6 col-lg-3 fw-bold" data-aos="fade-down">
                     <div class="d-flex flex-column flex-lg-row justify-content-center gap-2 text-decoration-none">
                         <p class="mt-2 text-black p_hover text-center text-lg-end">الشكاوى<br>والاستفسارات</p>
                         <router-link to="" class="text-decoration-none">
@@ -310,7 +310,7 @@ export default {
     name: "HomeKpap",
     data() {
         return {
-            divVisible: false
+            divVisible: false,
         };
     },
     created() {
@@ -324,5 +324,5 @@ export default {
             document.title = newTitle;
         },
     },
-}
+};
 </script>

@@ -1,18 +1,33 @@
 <template>
     <!-- start main -->
     <KpapHeaderThreeTow />
-    <section class="container-fluid mb-5 font_text overflow-hidden">
+    <section class="container-fluid font_text overflow-hidden">
         <div class="row px-0 px-md-5">
             <div class="col" data-aos="fade-right">
-                <div class="datepicker div_mia">
-                    <!-- <div class="d-flex justify-content-between px-5 icon_top">
-                        <p>welcome</p>
-                        <p>welcome</p>
-                    </div> -->
+                <div class="datepicker shadow rounded-3">
+                </div>
+                <div class="d-flex justify-content-center gap-md-5 gap-2 flex-column flex-md-row ms-md-5 ps-md-5">
+                    <div class="d-flex gap-2 justify-content-center justify-content-md-end">
+                        <p>القادمة</p>
+                        <div class="div_circle rounded-circle circle_color_green mt-1"></div>
+                    </div>
+                    <div class="d-flex gap-2 justify-content-center justify-content-md-end">
+                        <p>السابقة</p>
+                        <div class="div_circle rounded-circle circle_color_red mt-1"></div>
+                    </div>
+                    <div class="d-flex gap-2 justify-content-center justify-content-md-end">
+                        <p>الحالية</p>
+                        <div class="div_circle rounded-circle icon_width mt-1"></div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center ms-md-5 ps-md-5 mt-3">
+                    <div class="ms-md-5 ps-md-5">
+                        <button class="ms-4 px-5 button_padding border border-0 rounded-4">عرض جميع الجلسات</button>
+                    </div>
                 </div>
             </div>
             <div class="col text-end" data-aos="fade-left">
-                <div class="d-flex justify-content-center justify-content-md-end">
+                <div class="d-flex justify-content-center justify-content-lg-end px-4 px-md-0">
                     <div class="d-flex justify-content-end div_mia div_width_50 position-relative pt-3">
                         <i class="fa fa-search icon_search position-absolute top-50 start-0 text-muted"></i>
                         <input type="input" class="form__field w-100" name="name" id='name' />
@@ -23,7 +38,8 @@
                 <div class="mb-4 mb-md-0 mt-4 fw-bold text-center text-md-end">
                     <span class="span_red">‏16 ديسمبر, 2021</span>
                     <br>
-                    <span>مجلس بلدية غزة يناقش مع نشطاء شباب جهود دعم المبادرات الشبابية (عنوان القرار الصادر يوضع
+                    <span>مجلس بلدية غزة يناقش مع نشطاء شباب جهود دعم المبادرات الشبابية (عنوان القرار الصادر
+                        يوضع
                         هنا)</span>
                 </div>
                 <div
@@ -137,7 +153,7 @@
         </div>
     </section>
     <!-- end main -->
-    <section class="container-fluid ms-0 ps-md-5 text-center text-md-start my-3 my-md-5">
+    <section class="container-fluid ms-0 ps-md-5 text-center text-md-start my-3 my-md-3">
         <i class="fab fa-facebook-messenger p-3 fs-4 icon_width text-white rounded-circle"></i>
     </section>
 </template>
@@ -154,7 +170,25 @@ export default {
     methods: {
         initializeDatepicker() {
             $(".datepicker").datepicker({
+                dayNamesMin: ["الخميس", "الإربعاء", "الثلاثاء", "الإثنين", "الأحد", "السبت", "الجمعة"],
+                monthNames: [
+                    "يناير",
+                    "فبراير",
+                    "مارس",
+                    "أبريل",
+                    "مايو",
+                    "يونيو",
+                    "يوليو",
+                    "أغسطس",
+                    "سبتمبر",
+                    "أكتوبر",
+                    "نوفمبر",
+                    "ديسمبر"
+                ],
             });
+            $('[data-date="6"], [data-date="10"]').addClass('custom_class_red');
+            $('[data-date="19"], [data-date="30"]').addClass('custom_class_green');
+            $('[data-date="16"]').addClass('custom_class_ccc');
         }
     },
     mounted() {
