@@ -598,6 +598,18 @@ body section .row div .background_row div div .active_background {
     background-color: $color_green !important;
 }
 
+body section .row div div .image_height {
+    height: 67vh;
+}
+
+body section .row div div div div .div_respone_width {
+    width: 100%;
+}
+
+body section .row div div div div .div_respone_width1 {
+    width: 120%;
+}
+
 // end main
 
 // start main account
@@ -778,6 +790,10 @@ body .div_footer .row_width {
         transform: translate(0px, 0px);
     }
 
+    body section .row div div div div .div_respone_width1,
+    body section .row div div div div .div_respone_width {
+        width: 50px !important;
+    }
 }
 
 @media (max-width: 475px) {
@@ -807,7 +823,6 @@ body .div_footer .row_width {
     body section div .row div .div_left {
         height: 350px;
     }
-
 
     body section .row div .datepicker {
         overflow-x: auto !important;
