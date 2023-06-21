@@ -13,6 +13,7 @@ import KpapCouncil from "../components/MuniciapCouncil.vue";
 import KpapMembers from "../components/MuniciapMembers.vue";
 import KpapSessions from "../components/MuniciapSessions.vue";
 import KpapCommittee from "../components/MuniciapCommittee.vue";
+import KpapBiology from "../components/MuniciapBiology.vue";
 
 const routes = [
   {
@@ -84,6 +85,11 @@ const routes = [
     path: "/committee",
     name: "committee",
     component: KpapCommittee,
+  },
+  {
+    path: "/biology",
+    name: "biology",
+    component: KpapBiology,
   },
 ];
 

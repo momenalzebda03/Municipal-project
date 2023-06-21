@@ -5,6 +5,9 @@
       <router-view />
       <img v-if="shouldShowBackground" src="../src/assets/image_page_home_1/ImageBackground.png" alt=""
         class="image_background position-absolute">
+      <section v-if="shouldShowBackground" class="container-fluid ms-0 ps-md-5 text-center text-md-start my-3 my-md-4">
+        <i class="fab fa-facebook-messenger p-3 fs-4 icon_width text-white rounded-circle"></i>
+      </section>
       <FooterKpap v-if="footer_none" />
     </div>
     <div>
@@ -32,7 +35,7 @@ export default {
   },
   computed: {
     isMuiciaplRoute() {
-      return this.$route.path === '/muiciapl' || this.$route.path == '/objectives' || this.$route.path == '/muiciapl' || this.$route.path == '/policy' || this.$route.path == '/date' || this.$route.path == '/council' || this.$route.path == '/members' || this.$route.path == '/sessions' || this.$route.path == '/committee';
+      return this.$route.path === '/muiciapl' || this.$route.path == '/objectives' || this.$route.path == '/muiciapl' || this.$route.path == '/policy' || this.$route.path == '/date' || this.$route.path == '/council' || this.$route.path == '/members' || this.$route.path == '/sessions' || this.$route.path == '/committee' || this.$route.path == "/biology";
     },
     header_right_none() {
       return this.$route.path !== "/more";

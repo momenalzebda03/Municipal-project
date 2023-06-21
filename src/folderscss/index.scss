@@ -560,8 +560,42 @@ body section .row div div div .circle_color_green {
     background-color: green;
 }
 
-.circle_color_red {
+body section .row div div div .circle_color_red {
     background-color: $color_red;
+}
+
+body section .row div .background_row {
+    background-color: $color_background;
+}
+
+body section .row div .background_row .div_hover_color div .p_backgrpund {
+    background-color: $color_red;
+}
+
+body section .row div .background_row .div_hover_color:hover .div_color_hover,
+body section .row div .background_row .div_hover_color:hover .div_color_hover1 {
+    color: $color_green !important;
+}
+
+body section .row div .background_row .div_hover_color:hover .p_backgrpund {
+    background-color: $color_green !important;
+}
+
+body section .row div .background_row .div_hover_color:hover {
+    background-color: $color_exit;
+}
+
+body section .row div .background_row .active_div_color {
+    background-color: $color_exit;
+}
+
+body section .row div .background_row div div .active_color_hover,
+body section .row div .background_row div div .active_color_hover1 {
+    color: $color_green !important;
+}
+
+body section .row div .background_row div div .active_background {
+    background-color: $color_green !important;
 }
 
 // end main

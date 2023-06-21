@@ -3,7 +3,7 @@
         <div class="container-fluid text-center text-md-end mt-0 mt-md-5 pt-4 font_text overflow-hidden">
             <h4 class="fw-bold span_red">المجلس البلدي</h4>
             <div class="d-flex flex-column flex-md-row justify-content-end my-3 my-md-5 border-3 border-bottom">
-                <router-link to="/policy" :class="{ 'div_border_bottom': isActive('/policy') }"
+                <router-link to="/biology" :class="{ 'div_border_bottom': isActive('/biology') }"
                     class="px-lg-5 border_bottom_hover icon_click text-center text-black text-decoration-none">
                     <p>لجان الأحياء</p>
                 </router-link>

@@ -142,9 +142,6 @@
             </div>
         </div>
     </section>
-    <div class="container-fluid ms-0 ps-md-5 text-center text-md-start my-3 my-md-5">
-        <i class="fab fa-facebook-messenger p-3 fs-4 icon_width text-white rounded-circle"></i>
-    </div>
     <!-- end main -->
     <section class="d-flex gap-2 justify-content-center mb-3">
         <span class="fas fa-chevron-left pt-2 text-center rounded-3 border border-1 active_click number_width"></span>
