@@ -143,7 +143,7 @@
         </div>
     </section>
     <!-- end main -->
-    <section class="d-flex gap-2 justify-content-center mb-3">
+    <section class="d-flex gap-2 justify-content-center my-5">
         <span class="fas fa-chevron-left pt-2 text-center rounded-3 border border-1 active_click number_width"></span>
         <p class="pt-1 rounded-3 border text-center border-1 active_click number_width">5</p>
         <p class="pt-1 rounded-3 border text-center border-1 active_click number_width">4</p>

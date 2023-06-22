@@ -3,7 +3,7 @@
     <!-- start main -->
     <section class="container-fluid px-2 px-md-5 font_text overflow-hidden mb-5 pb-2">
         <div class="row text-end">
-            <div class="col-12 col-md-8 mt-3 mb-5 pb-5 mb-md-0 pb-md-0">
+            <div class="col-12 col-md-8 mt-3 mb-5 pb-5 mb-md-0 pb-md-0" data-aos="fade-right">
                 <div class="position-relative">
                     <img src="../assets/image_municipal3/ImageMap.png" alt="" class="w-100 image_height"
                         @click="div_click_block">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mt-5 pt-5 mt-md-3 pt-md-0">
+            <div class="col-12 col-md-4 mt-5 pt-5 mt-md-3 pt-md-0" data-aos="fade-left">
                 <div class="background_row h-100">
                     <h5 class="px-3 pt-3 span_red fw-bold">لجان الأحياء</h5>
                     <div

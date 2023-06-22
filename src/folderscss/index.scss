@@ -251,7 +251,7 @@ body section .container-fluid .row div div a .div_button:hover {
 }
 
 body div div .image_background {
-    transform: translate(0px, -280px);
+    transform: translate(0px, -180px);
     z-index: -1;
 }
 
@@ -599,6 +599,7 @@ body section .row div .background_row div div .active_background {
 }
 
 body section .row div div .image_height {
+    cursor: pointer;
     height: 67vh;
 }
 
@@ -609,6 +610,124 @@ body section .row div div div div .div_respone_width {
 body section .row div div div div .div_respone_width1 {
     width: 120%;
 }
+
+body section .row div div li .dropdown-toggle::after {
+    transition: 0.3s;
+    transform: rotate(0deg);
+    position: relative;
+    left: -64px;
+    top: 3px;
+}
+
+body section .row div div li .rotate_100::after {
+    transform: rotate(180deg);
+}
+
+body section .row div div .border_dotted {
+    border: 3px dotted $color_background;
+}
+
+body section .row div .row div div div div .p_line::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    margin-top: 4px;
+    height: 20px;
+    margin-left: -8px;
+    background-color: $color_more;
+}
+
+.div_px {
+    height: 700px;
+}
+
+body section div .div_width_president {
+    width: 25%;
+    transition: 0.3s;
+}
+
+body section div .div_width_president:hover {
+    background-color: $color_green;
+}
+
+// body section .border_before2::before,
+body section div .div_width_president::after // body section div .div_width_president::before,
+
+// body section .div_line_before::before,
+// body section div .border_before::before,
+// body section div .border_before1::before,
+// body section div .span_betfore::before,
+// body section div .border_before1::after,
+// body section div div .icon_before::before 
+    {
+    content: "";
+    position: absolute;
+    background-color: #D6D6D6;
+}
+
+body section div .div_width_president::after {
+    transform: translate(-60px, 44px);
+    width: 2px;
+    height: 290px;
+}
+
+.div_color_center {
+    height: 2px;
+    background-color: #D6D6D6;
+}
+
+// body section .div_line_before {
+//     height: 2px;
+//     padding-top: 115px;
+// }
+
+// body section .div_line_before::before {
+//     margin-left: 165px;
+//     margin-bottom: 50px;
+//     width: 1040px;
+//     height: 2px;
+// }
+
+// body section div .border_before::before {
+//     transform: translate(68px, -36px);
+//     width: 2px;
+//     height: 20px;
+// }
+
+// body section div .border_before1::before {
+//     transform: translate(114px, -36px);
+//     width: 2px;
+//     height: 20px;
+// }
+
+// body section div .span_betfore::before {
+//     transform: translate(115px, 40px);
+//     width: 3px;
+//     height: 20px;
+// }
+
+// body section div .border_before1::after {
+//     transform: translate(-218px, 61px);
+//     width: 205px;
+//     height: 2px;
+// }
+
+// body section .div_margin_padding1 {
+//     padding-top: 40px;
+//     margin-right: -38px;
+// }
+
+// body section div div .icon_before::before {
+//     transform: translate(14px, -16px);
+//     width: 2px;
+//     height: 16px;
+// }
+
+// body section .border_before2::before {
+//     transform: translate(39px, 65px);
+//     width: 205px;
+//     height: 2px;
+// }
 
 // end main
 
@@ -721,6 +840,14 @@ body .div_footer .row_width {
         display: block;
     }
 
+    body section .border_before2::before,
+    body section div div .icon_before::before,
+    body section div .border_before1::after,
+    body section div .span_betfore::before,
+    body section div .border_before::before,
+    body section div .border_before1::before,
+    body section div .div_width_president::before,
+    body section .div_line_before::before,
     body section div div .row .col_hover .div_line,
     body section div div .row .col_hover::after,
     body section div div .row .col_hover::before,
@@ -793,6 +920,21 @@ body .div_footer .row_width {
     body section .row div div div div .div_respone_width1,
     body section .row div div div div .div_respone_width {
         width: 50px !important;
+    }
+
+    body section div .div_width_president::after,
+    .div_px {
+        height: 2200px;
+    }
+
+    body section div .div_width_president::after {
+        transform: translate(-55px, 44px);
+    }
+
+    body section .div_margin_padding {
+        padding-top: 155px;
+        margin-left: -40px;
+        margin-right: -40px;
     }
 }
 

@@ -14,11 +14,11 @@
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-users fs-4"></i>
         </router-link>
-        <router-link to="/" :class="{ 'active': isActive('/') }"
+        <router-link to="/plan" :class="{ 'active': isActive('/plan') }"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-chalkboard-teacher fs-4"></i>
         </router-link>
-        <router-link to="/" :class="{ 'active': isActive('/') }"
+        <router-link to="/structure" :class="{ 'active': isActive('/structure') }"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-cubes fs-4"></i>
         </router-link>
