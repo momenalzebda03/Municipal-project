@@ -700,6 +700,16 @@ body section .row div .row div .div_before_after3::before {
     height: 177px;
 }
 
+body section .row div .row div div div div .p_line::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    margin-top: 4px;
+    height: 20px;
+    margin-left: -8px;
+    background-color: $color_more;
+}
+
 // end main
 
 // start main account

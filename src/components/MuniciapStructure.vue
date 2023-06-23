@@ -162,6 +162,14 @@
 </template>
 <script>
 export default {
-    name: "KpapStructure"
+    name: "KpapStructure",
+    created() {
+        this.changePageTitle('البلدية - الهيكلية');
+    },
+    methods: {
+        changePageTitle(newTitle) {
+            document.title = newTitle;
+        },
+    }
 }
 </script>

@@ -100,6 +100,9 @@
 <script>
 export default {
     name: "KpapPlan",
+    created() {
+        this.changePageTitle('البلدية - الخطة');
+    },
     data() {
         return {
             items: [1, 2, 3, 4],
@@ -108,6 +111,9 @@ export default {
         };
     },
     methods: {
+        changePageTitle(newTitle) {
+            document.title = newTitle;
+        },
         click_rotate() {
             this.rotateClass = this.rotateClass === 'rotate_100' ? '' : 'rotate_100';
         },
