@@ -83,6 +83,14 @@ body section .number_width:hover,
     width: 100px;
 }
 
+.icon_left {
+    left: -15px;
+}
+
+.p_bottom {
+    margin-bottom: 200px;
+}
+
 // end afretang
 
 // start header
@@ -176,6 +184,12 @@ body .div_width .div_bottom .p_rights {
     top: -150%;
     left: -502%;
     transform: rotate(-90deg);
+}
+
+.div_color_center {
+    height: 2px;
+    display: flex;
+    background-color: #D6D6D6;
 }
 
 // end header right
@@ -346,10 +360,6 @@ body section div div .border_bottom_hover {
 body section div div .border_bottom_hover:hover {
     font-weight: bold;
     border-bottom: 3px solid $color_red;
-}
-
-body section div .p_bottom {
-    margin-bottom: 200px;
 }
 
 body section div .row div div .p_border_bottom {
@@ -627,18 +637,8 @@ body section .row div div .border_dotted {
     border: 3px dotted $color_background;
 }
 
-body section .row div .row div div div div .p_line::before {
-    content: "";
-    position: absolute;
-    width: 2px;
-    margin-top: 4px;
-    height: 20px;
-    margin-left: -8px;
-    background-color: $color_more;
-}
-
 .div_px {
-    height: 700px;
+    height: 900px;
 }
 
 body section div .div_width_president {
@@ -650,16 +650,13 @@ body section div .div_width_president:hover {
     background-color: $color_green;
 }
 
-// body section .border_before2::before,
-body section div .div_width_president::after // body section div .div_width_president::before,
-
-// body section .div_line_before::before,
-// body section div .border_before::before,
-// body section div .border_before1::before,
-// body section div .span_betfore::before,
-// body section div .border_before1::after,
-// body section div div .icon_before::before 
-    {
+body section .row div .row div .div_before_after2::before,
+body section .row div .row div .div_before_after1::before,
+body section .row div .row div .div_before_after3::before,
+body section .row .div_before_after::before,
+body section div .div_width_president::after,
+body section .row .div_start_before::before,
+body section .row .div_end_before::after {
     content: "";
     position: absolute;
     background-color: #D6D6D6;
@@ -668,66 +665,40 @@ body section div .div_width_president::after // body section div .div_width_pres
 body section div .div_width_president::after {
     transform: translate(-60px, 44px);
     width: 2px;
-    height: 290px;
+    height: 310px;
 }
 
-.div_color_center {
+body section .row .div_start_before::before {
+    transform: translate(-13px, 11px);
+    width: 15px;
     height: 2px;
-    background-color: #D6D6D6;
 }
 
-// body section .div_line_before {
-//     height: 2px;
-//     padding-top: 115px;
-// }
+body section .row .div_end_before::after {
+    transform: translate(0px, 11px);
+    width: 15px;
+    height: 2px;
+}
 
-// body section .div_line_before::before {
-//     margin-left: 165px;
-//     margin-bottom: 50px;
-//     width: 1040px;
-//     height: 2px;
-// }
+body section .row .div_before_after::before {
+    width: 2px;
+    height: 110px;
+}
 
-// body section div .border_before::before {
-//     transform: translate(68px, -36px);
-//     width: 2px;
-//     height: 20px;
-// }
+body section .row div .row div .div_before_after1::before {
+    width: 2px;
+    height: 144px;
+}
 
-// body section div .border_before1::before {
-//     transform: translate(114px, -36px);
-//     width: 2px;
-//     height: 20px;
-// }
+body section .row div .row div .div_before_after2::before {
+    width: 2px;
+    height: 175px;
+}
 
-// body section div .span_betfore::before {
-//     transform: translate(115px, 40px);
-//     width: 3px;
-//     height: 20px;
-// }
-
-// body section div .border_before1::after {
-//     transform: translate(-218px, 61px);
-//     width: 205px;
-//     height: 2px;
-// }
-
-// body section .div_margin_padding1 {
-//     padding-top: 40px;
-//     margin-right: -38px;
-// }
-
-// body section div div .icon_before::before {
-//     transform: translate(14px, -16px);
-//     width: 2px;
-//     height: 16px;
-// }
-
-// body section .border_before2::before {
-//     transform: translate(39px, 65px);
-//     width: 205px;
-//     height: 2px;
-// }
+body section .row div .row div .div_before_after3::before {
+    width: 2px;
+    height: 177px;
+}
 
 // end main
 
@@ -840,17 +811,12 @@ body .div_footer .row_width {
         display: block;
     }
 
-    body section .border_before2::before,
-    body section div div .icon_before::before,
-    body section div .border_before1::after,
-    body section div .span_betfore::before,
-    body section div .border_before::before,
-    body section div .border_before1::before,
-    body section div .div_width_president::before,
-    body section .div_line_before::before,
-    body section div div .row .col_hover .div_line,
-    body section div div .row .col_hover::after,
-    body section div div .row .col_hover::before,
+    body section .row div .row div .div_before_after3::before,
+    body section .row div .row div .div_before_after2::before,
+    body section .row div .row div .div_before_after1::before,
+    body section .row .div_before_after::before,
+    body section .row .div_start_before::before,
+    body section .row .div_end_before::after,
     .image_none {
         display: none !important;
     }
@@ -924,7 +890,7 @@ body .div_footer .row_width {
 
     body section div .div_width_president::after,
     .div_px {
-        height: 2200px;
+        height: 1730px;
     }
 
     body section div .div_width_president::after {
@@ -935,6 +901,10 @@ body .div_footer .row_width {
         padding-top: 155px;
         margin-left: -40px;
         margin-right: -40px;
+    }
+
+    .p_bottom {
+        margin-bottom: 20px;
     }
 }
 
@@ -952,10 +922,6 @@ body .div_footer .row_width {
 
     body section div .row div div .p_border_bottom {
         border-bottom: 0px solid $color_green;
-    }
-
-    body section div .p_bottom {
-        margin-bottom: 20px;
     }
 
     body section div div .div_heigt_table {
