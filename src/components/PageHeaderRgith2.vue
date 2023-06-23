@@ -22,7 +22,7 @@
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-cubes fs-4"></i>
         </router-link>
-        <router-link to="/" :class="{ 'active': isActive('/') }"
+        <router-link to="/money" :class="{ 'active': isActive('/money') }"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-money-bill-wave fs-4"></i>
         </router-link>
