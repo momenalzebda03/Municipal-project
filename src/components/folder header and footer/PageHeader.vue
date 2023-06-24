@@ -5,7 +5,7 @@
         <div class="container-fluid px-2 px-md-5">
           <div class="div_respons d-flex justify-content-between align-items-center">
             <router-link to="/" class="div_bottom text-center w-100">
-              <img src="../assets/image_logo/ImageLogo.png" alt="">
+              <img src="../../assets/image_logo/ImageLogo.png" alt="">
             </router-link>
             <div class="text-center div_mia">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,7 +29,7 @@
                 </div>
               </div>
               <router-link to="/" class="image_none">
-                <img src="../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
+                <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
               </router-link>
               <li class="nav-item dropdown nav-link text-center">
                 <a class="text-black icon_hover text-decoration-none dropdown-toggle w-50" href="#" id="navbarDropdown"

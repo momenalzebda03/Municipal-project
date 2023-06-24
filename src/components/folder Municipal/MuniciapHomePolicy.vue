@@ -2,12 +2,12 @@
     <div class="container-fluid text-center text-md-end px-0 px-md-5 mt-0 mt-md-5 pt-5 font_text overflow-hidden">
         <KpapHeaderThreeOne />
         <div data-aos="fade-left" class="d-flex gap-3 justify-content-center justify-content-md-end align-items-center">
-            <h5 class="span_red">أهدافنا</h5>
-            <i class="fas fa-bullseye fs-4 p-3 border border-2 rounded-circle"></i>
+            <h5 class="span_red">سياستنا</h5>
+            <i class="fas fa-shield-alt fs-4 p-3 border border-2 rounded-circle icon_color"></i>
         </div>
         <div data-aos="fade-left"
             class="px-2 px-md-0 fw-bold mt-3 d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
-            <p class="mt-1">.توفير خدمات حياتية أفضل للمواطنين</p>
+            <p class="mt-1">.العدالة والمساواة في توزيع الخدمات</p>
             <p class="p_center mt-1 text-center border border-2 rounded-circle">1</p>
         </div>
         <div data-aos="fade-left"
@@ -16,43 +16,41 @@
             <p class="p_center mt-1 text-center border border-2 rounded-circle">2</p>
         </div>
         <div data-aos="fade-left"
-            class="px-2 px-md-0 fw-bold mt-3 d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
-            <p class="mt-1">.خلق جو صحي للعمل والاستقرار الوظيفي</p>
+            class="px-2 px-md-0 fw-bold mt-3 d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center align-items-md-start">
+            <p class="mt-1"> إتباع سياسة محاسبة المسؤولين وتقييم الأداء للعاملين في أجهزة<br> .البلدية مع مكافأة المجتهد
+                ومحاسبة المخطئ</p>
             <p class="p_center mt-1 text-center border border-2 rounded-circle">3</p>
         </div>
         <div data-aos="fade-left"
-            class="px-2 px-md-0 fw-bold mt-3 d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
-            <p class="mt-1">.تشجيع المشروعات التنموية والتطويري</p>
+            class="px-2 px-md-0 fw-bold mt-3 d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center align-items-md-start">
+            <p class="mt-1"> تقديم خدمات للجمهور في كافة المجالات الثقافية والاجتماعية<br>
+                .والرياضية</p>
             <p class="p_center mt-1 text-center border border-2 rounded-circle">4</p>
         </div>
         <div data-aos="fade-left"
             class="px-2 px-md-0 fw-bold mt-3 d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
-            <p class="mt-1">.المساعدة في خلق فرص عمل</p>
+            <p class="mt-1">.تطوير المدينة القديمة والحفاظ على طابعها الحضاري والثقافي والتاريخي</p>
             <p class="p_center mt-1 text-center border border-2 rounded-circle">5</p>
         </div>
         <div data-aos="fade-left"
             class="px-2 px-md-0 fw-bold mt-3 d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
-            <p class="mt-1">.العمل على رفع قدرة الجهاز البلدي وكفاءته</p>
+            <p class="mt-1">.تكافؤ الفرص عند التعيين والترقية</p>
             <p class="p_center mt-1 text-center border border-2 rounded-circle">6</p>
         </div>
         <div data-aos="fade-left"
             class="px-2 px-md-0 fw-bold mt-3 d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center align-items-md-start">
-            <p class="mt-1"> العمل على خلق آلية تعاون وتكامل مع المؤسسات الحكومية<br> وتكثيف العلاقات مع الجهات الخارجية
-                لتوفير المساعدات الفنية<br>.والمالية لمشاريع المدينة</p>
+            <p class="mt-1"> استقلالية البلدية الإدارية والمالية مع الاحتفاظ بعلاقات تنظيمية<br>
+                وإدارية عملية ومنتجة مع الجهات الرسمية والشعبية وذلك ضمن<br>
+                .الهدف العام للسلطة الوطنية</p>
             <p class="p_center mt-1 text-center border border-2 rounded-circle">7</p>
-        </div>
-        <div data-aos="fade-left"
-            class="px-2 px-md-0 fw-bold mt-3 d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center align-items-md-start">
-            <p class="mt-1"> تنفيذ مشاريع تطويرية لمرافق المدينة وبنيتها التحتية، لتلبي حاجات<br>.المواطنين</p>
-            <p class="p_center mt-1 text-center border border-2 rounded-circle">8</p>
         </div>
     </div>    
 </template>
 
 <script>
-import KpapHeaderThreeOne from "../components/Header3_1.vue";
+import KpapHeaderThreeOne from "../folder header and footer/Header3_1.vue";
 export default {
-    name: "KpapObjectives",
+    name: "KpapPolicy",
     components: {
         KpapHeaderThreeOne
     }

@@ -36,10 +36,10 @@
                         </div>
                         <router-link to="/more">
                             <div class="carousel-item active">
-                                <img src="../assets/image_page_home_1/ImageMask.png" alt="" class="w-100">
+                                <img src="../../assets/image_page_home_1/ImageMask.png" alt="" class="w-100">
                             </div>
                             <div class="carousel-item">
-                                <img src="../assets/image_page_home_1/ImageMask.png" alt="" class="w-100">
+                                <img src="../../assets/image_page_home_1/ImageMask.png" alt="" class="w-100">
                             </div>
                         </router-link>
                         <div class="d-flex align-items-center justify-content-center position-absolute end-0 top-50">

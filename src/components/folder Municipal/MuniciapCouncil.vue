@@ -1,5 +1,5 @@
 <template>
-    <!-- start main -->
+    <!-- start main president -->
     <section>
         <KpapHeaderThreeTow />
         <div class="container-fluid px-2 px-md-5 font_text overflow-hidden mb-5 pb-2">
@@ -19,10 +19,10 @@
                         <div>
                             <h5 class="text_line"><span class="fw-bold">د.يحيى رشدي السراج</span><br>
                                 رئيس بلدية غزة</h5>
-                            <img src="../assets/image_municipal1/NoPath.png" class="mt-2 image_respons" alt="">
+                            <img src="../../assets/image_municipal1/NoPath.png" class="mt-2 image_respons" alt="">
                         </div>
                         <div>
-                            <img src="../assets/image_municipal1/ImageYahya.png" alt="" class="image_respons">
+                            <img src="../../assets/image_municipal1/ImageYahya.png" alt="" class="image_respons">
                         </div>
                     </div>
                 </div>
@@ -109,11 +109,11 @@
             </section>
         </div>
     </section>
-    <!-- end main -->
+    <!-- end main president -->
 </template>
 
 <script>
-import KpapHeaderThreeTow from "../components/Header3_2.vue"
+import KpapHeaderThreeTow from "../folder header and footer/Header3_2.vue"
 export default {
     name: "KpapCouncil",
     components: {

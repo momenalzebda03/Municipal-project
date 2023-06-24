@@ -1,22 +1,24 @@
 import { createRouter, createWebHistory } from "vue-router";
-import CompHome from "../components/PageHome.vue";
-import ComApplication from "../components/PageApplication.vue";
-import ComPropsals from "../components/PageProposals.vue";
-import ComQuestions from "../components/PageQuestions.vue";
-import KpapImage from "../components/PageImage.vue";
-import KpapMore from "../components/PageImageMore.vue";
-import KpapMuiciapl from "../components/MunicipalHome.vue";
-import KpapObjectives from "../components/MuniciaplHomeObjectives.vue";
-import KpapPolicy from "../components/MuniciapHomePolicy.vue";
-import KpapDate from "../components/PageDate.vue";
-import KpapCouncil from "../components/MuniciapCouncil.vue";
-import KpapMembers from "../components/MuniciapMembers.vue";
-import KpapSessions from "../components/MuniciapSessions.vue";
-import KpapCommittee from "../components/MuniciapCommittee.vue";
-import KpapBiology from "../components/MuniciapBiology.vue";
-import Kpapplan from "../components/MuniciapPlan.vue";
-import KpapStructure from "../components/MuniciapStructure.vue";
-import KpapMoney from "../components/MuniciapMoney.vue";
+import CompHome from "../components/folder Main/PageHome.vue";
+import ComApplication from "../components/folder Main/PageApplication.vue";
+import ComPropsals from "../components/folder Main/PageProposals.vue";
+import ComQuestions from "../components/folder Main/PageQuestions.vue";
+import KpapImage from "../components/folder Main/PageImage.vue";
+import KpapMore from "../components/folder Main/PageImageMore.vue";
+import KpapMuiciapl from "../components/folder Municipal/MunicipalHome.vue";
+import KpapObjectives from "../components/folder Municipal/MuniciaplHomeObjectives.vue";
+import KpapPolicy from "../components/folder Municipal/MuniciapHomePolicy.vue";
+import KpapDate from "../components/folder Municipal/PageDate.vue";
+import KpapCouncil from "../components/folder Municipal/MuniciapCouncil.vue";
+import KpapMembers from "../components/folder Municipal/MuniciapMembers.vue";
+import KpapSessions from "../components/folder Municipal/MuniciapSessions.vue";
+import KpapCommittee from "../components/folder Municipal/MuniciapCommittee.vue";
+import KpapBiology from "../components/folder Municipal/MuniciapBiology.vue";
+import Kpapplan from "../components/folder Municipal/MuniciapPlan.vue";
+import KpapStructure from "../components/folder Municipal/MuniciapStructure.vue";
+import KpapMoney from "../components/folder Municipal/MuniciapMoney.vue";
+import KpapMoney1 from "../components/folder Municipal/MuniciapMoney1.vue";
+import KpapAccompanying from "../components/folder Municipal/MuniciapAccompanying.vue";
 
 const routes = [
   {
@@ -108,6 +110,16 @@ const routes = [
     path: "/money",
     name: "money",
     component: KpapMoney,
+  },
+  {
+    path: "/money1",
+    name: "money1",
+    component: KpapMoney1,
+  },
+  {
+    path: "/accompanying",
+    name: "accompanying",
+    component: KpapAccompanying,
   },
 ];
 

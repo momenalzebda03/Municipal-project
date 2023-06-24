@@ -1,5 +1,5 @@
 <template>
-    <!-- start main -->
+    <!-- start main plan -->
     <section class="container-fluid text-center text-md-end mt-0 mt-md-5 pt-4 font_text overflow-hidden px-3 px-md-5">
         <div class="row">
             <div class="col-12 col-md-6" data-aos="fade-right">
@@ -94,7 +94,7 @@
             </div>
         </div>
     </section>
-    <!-- end main -->
+    <!-- end main plan-->
 </template>
 
 <script>

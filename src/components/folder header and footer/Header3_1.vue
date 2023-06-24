@@ -1,4 +1,5 @@
 <template>
+    <!-- start header council -->
     <section>
         <div>
             <h4 class="fw-bold span_red">بلدية غزة</h4>
@@ -18,6 +19,7 @@
             </div>
         </div>
     </section>
+    <!-- end header council -->
 </template>
 
 <script>

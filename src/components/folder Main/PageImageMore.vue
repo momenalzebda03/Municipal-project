@@ -1,5 +1,5 @@
 <template>
-    <!-- start main -->
+    <!-- start main image more-->
     <router-link to="/image" class="d-flex justify-content-end text-decoration-none mb-3">
         <i class="fas fa-times p-4 fs-2 icon_click icon_bakcgorund"></i>
     </router-link>
@@ -12,10 +12,10 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../assets/image_page_home_1/ImageMaskWidth.png" alt="" class="w-100">
+                        <img src="../../assets/image_page_home_1/ImageMaskWidth.png" alt="" class="w-100">
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/image_page_home_1/ImageMaskWidth.png" alt="" class="w-100">
+                        <img src="../../assets/image_page_home_1/ImageMaskWidth.png" alt="" class="w-100">
                     </div>
                 </div>
                 <div data-bs-target="#carouselExampleControls" data-bs-slide="next"
@@ -25,7 +25,7 @@
             </div>
         </div>
     </section>
-    <!-- end main -->
+     <!-- end main image more-->
 </template>
 
 <script>

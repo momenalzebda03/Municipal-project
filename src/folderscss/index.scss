@@ -1,7 +1,6 @@
 @import "color";
 
 // start afretang
-
 .font_text {
     font-family: 'Almarai', sans-serif;
 }
@@ -20,7 +19,7 @@
 }
 
 .icon_width {
-    background-color: $color_green;
+    background-color: $color_green !important;
     cursor: pointer;
 }
 
@@ -92,8 +91,39 @@ body section .number_width:hover,
     margin-bottom: 200px;
 }
 
-// end afretang
+.p_backgrpund {
+    background-color: $color_red;
+}
 
+.div_hover_color:hover .p_backgrpund {
+    background-color: $color_green !important;
+}
+
+.div_hover_color:hover {
+    background-color: $color_exit;
+}
+
+.active_div_color {
+    background-color: $color_exit;
+}
+
+.active_background {
+    background-color: $color_green !important;
+}
+
+.div_hover_color:hover .div_color_hover,
+.div_hover_color:hover .div_color_hover1,
+.div_hover_color:hover .div_color_hover2 {
+    color: $color_green !important;
+}
+
+.active_color_hover,
+.active_color_hover1,
+.active_color_hover2 {
+    color: $color_green !important;
+}
+
+// end afretang
 // start header
 body div .div_show {
     background: -webkit-linear-gradient(180deg, rgb(239, 239, 239), rgb(250, 250, 250));
@@ -130,12 +160,11 @@ body div .div_show nav div .div_respons .div_bottom {
 
 body div .div_show nav div .collapse div .image_none .image_center {
     left: 46.6%;
+    z-index: 1;
 }
 
 // end header
-
 // start header right
-
 body div div .image_hgiht {
     width: 10px;
     height: 100%;
@@ -194,7 +223,7 @@ body .div_width .div_bottom .p_rights {
 }
 
 // end header right
-// start main
+// start main home
 body div .row div div div .div_more {
     width: 7px;
     height: 7px;
@@ -235,6 +264,8 @@ body section div .row div .div_top {
     top: -45px;
 }
 
+// end main home
+// start main application
 body section .container-fluid .row div div .icon_background {
     width: 65px;
     height: 65px;
@@ -261,10 +292,13 @@ body section .container-fluid .row div div a .div_button:hover {
     background-color: $color_red !important;
 }
 
+// end main application
+// start main prposals
 .div_from {
     width: 40%;
 }
 
+// end main prposals
 body div div .image_background {
     transform: translate(0px, -180px);
     z-index: -1;
@@ -323,6 +357,7 @@ body .font_text .row div div div div .icon_black {
     padding-top: 70px;
 }
 
+// start main image more
 body .icon_bakcgorund {
     color: $color_exit;
     background-color: $color_exit;
@@ -353,6 +388,8 @@ body section .div_image_center {
     width: 60px;
 }
 
+// end main image more
+// start header council
 body section div div .border_bottom_hover {
     transform: translate(0px, 3px);
 }
@@ -363,6 +400,8 @@ body section div div .border_bottom_hover:hover {
     border-bottom: 3px solid $color_red;
 }
 
+// end header council
+// start main date
 body section div .row div div .p_border_bottom {
     border-bottom: 2px solid $color_green;
 }
@@ -372,6 +411,8 @@ body section div div .div_hr {
     background-color: $color_exit;
 }
 
+// end main date
+// end main start
 body section div .row div .text_line {
     line-height: 40px;
 }
@@ -384,6 +425,8 @@ body section div div .div_heigt_table {
     height: 236px;
 }
 
+// end main president
+// start main members
 body section div .row div .div_left {
     background-color: #F2F2F2;
     height: 530px;
@@ -404,6 +447,8 @@ body section div .row div .div_left div .image_border_left {
     border: 3px solid #392C23;
 }
 
+// end main members
+// start main sessions
 :root {
     --bg: #1a1e24;
     --color: #eee;
@@ -583,43 +628,16 @@ body section .row div div div .circle_color_red {
     background-color: $color_red;
 }
 
+// end main sessions
+// start main map 1
+body section .row div .background_row,
+body section .row div div .image_height {
+    height: 580px;
+}
+
 body section .row div .background_row {
     background-color: $color_background;
-}
-
-body section .row div .background_row .div_hover_color div .p_backgrpund {
-    background-color: $color_red;
-}
-
-body section .row div .background_row .div_hover_color:hover .div_color_hover,
-body section .row div .background_row .div_hover_color:hover .div_color_hover1 {
-    color: $color_green !important;
-}
-
-body section .row div .background_row .div_hover_color:hover .p_backgrpund {
-    background-color: $color_green !important;
-}
-
-body section .row div .background_row .div_hover_color:hover {
-    background-color: $color_exit;
-}
-
-body section .row div .background_row .active_div_color {
-    background-color: $color_exit;
-}
-
-body section .row div .background_row div div .active_color_hover,
-body section .row div .background_row div div .active_color_hover1 {
-    color: $color_green !important;
-}
-
-body section .row div .background_row div div .active_background {
-    background-color: $color_green !important;
-}
-
-body section .row div div .image_height {
-    cursor: pointer;
-    height: 67vh;
+    height: 580px;
 }
 
 body section .row div div div div .div_respone_width {
@@ -630,6 +648,8 @@ body section .row div div div div .div_respone_width1 {
     width: 120%;
 }
 
+// end main map 1
+// start main plan
 body section .row div div li .dropdown-toggle::after {
     transition: 0.3s;
     transform: rotate(0deg);
@@ -646,10 +666,8 @@ body section .row div div .border_dotted {
     border: 3px dotted $color_background;
 }
 
-.div_px {
-    height: 950px;
-}
-
+// end main plan
+// start main structure
 body section div .div_width_president {
     width: 25%;
     transition: 0.3s;
@@ -709,23 +727,12 @@ body section .row div .row div .div_before_after3::before {
     height: 177px;
 }
 
-body section .row div .row div div div div .p_line::before {
-    content: "";
-    position: absolute;
-    width: 2px;
-    margin-top: 4px;
-    height: 20px;
-    margin-left: -8px;
-    background-color: $color_more;
-}
-
 body div .div_center_none {
     z-index: 1;
     transform: translate(-50%, 70%);
 }
 
-// end main
-
+// end main structure
 // start main account
 body .section_maring {
     margin-top: 120px;
@@ -749,8 +756,39 @@ body .section_maring .container .row div .div_visible {
 }
 
 // end main account
-// start footer
+// start main map 2
+body .section_bottom {
+    margin-top: -72px;
+}
 
+body .section_bottom .row div div .message_top {
+    margin-top: -90px;
+    width: 53%;
+    display: flex;
+}
+
+body .section_bottom .row div div div li .my_rotate_100::after {
+    transform: rotate(180deg) !important;
+}
+
+body .section_bottom .row div div div li .my_circl::after {
+    transition: 0.3s;
+    transform: rotate(0deg);
+    position: relative;
+    left: -170px;
+    top: 3px;
+}
+
+body section .row .background_row_accompaying {
+    background-color: #E6E6E6;
+}
+
+body section .row div .div .div_color_hover2 {
+    color: #707070;
+}
+
+// end main map 2
+// start footer
 body .div_footer,
 body .div_footer .row_width .p_border,
 body .div_footer .row_width .back_hover {
@@ -774,7 +812,6 @@ body .div_footer .row_width {
 
 // end footer
 // start media
-
 @media (min-width: 1900px) {
 
     body section div .row div div div div .link_hover {
@@ -957,6 +994,10 @@ body .div_footer .row_width {
     .p_bottom {
         margin-bottom: 20px;
     }
+
+    body .section_bottom {
+        margin-top: 0px;
+    }
 }
 
 @media (max-width: 475px) {
@@ -964,7 +1005,7 @@ body .div_footer .row_width {
     body .div_footer,
     body .div_footer .row_width .p_border,
     body .div_footer .row_width .back_hover {
-        height: auto;
+        height: auto !important;
     }
 
     .image_respons {

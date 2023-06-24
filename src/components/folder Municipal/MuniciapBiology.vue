@@ -1,12 +1,12 @@
 <template>
     <KpapHeaderThreeTow />
-    <!-- start main -->
+    <!-- start main map 1-->
     <section class="container-fluid px-2 px-md-5 font_text overflow-hidden mb-5 pb-2">
         <div class="row text-end">
-            <div class="col-12 col-md-8 mt-3 mb-5 pb-5 mb-md-0 pb-md-0" data-aos="fade-right">
+            <div class="col-12 col-lg-8" data-aos="fade-right">
                 <div class="position-relative">
-                    <img src="../assets/image_municipal3/ImageMap.png" alt="" class="w-100 image_height"
-                        @click="div_click_block">
+                    <img src="../../assets/image_municipal3/ImageMap.png" alt=""
+                        class="w-100 icon_click image_height div_footer" @click="div_click_block">
                     <div class="bg-white div_mia position-absolute translate-middle start-50 top-50" v-show="div_none">
                         <div class="d-flex justify-content-end" @click="icon_exit">
                             <i class="fas fa-times fs-4 border-start border-bottom text-secondary p-3 back_hover"></i>
@@ -20,31 +20,31 @@
                             <p class="fw-bold mt-2">أعضاء لجنة الحي</p>
                             <div class="d-flex gap-4 text-center flex-column flex-sm-row pb-3">
                                 <div>
-                                    <img src="../assets/image_municipal2/Personal1.png" alt=""
+                                    <img src="../../assets/image_municipal2/Personal1.png" alt=""
                                         class="mb-3 rounded-circle div_respone_width">
                                     <br>
                                     <span class="span_red fw-bold">أ. مروان الغول</span>
                                 </div>
                                 <div>
-                                    <img src="../assets/image_municipal3/ImagePeroons2.png" alt=""
+                                    <img src="../../assets/image_municipal3/ImagePeroons2.png" alt=""
                                         class=" mb-3 rounded-circle div_respone_width">
                                     <br>
                                     <span class="span_red fw-bold">أ. مروان الغول</span>
                                 </div>
                                 <div>
-                                    <img src="../assets/image_municipal3/ImagePerons3.png" alt=""
+                                    <img src="../../assets/image_municipal3/ImagePerons3.png" alt=""
                                         class="mb-3 rounded-circle div_respone_width">
                                     <br>
                                     <span class="span_red fw-bold">د. جميل طرزي</span>
                                 </div>
                                 <div>
-                                    <img src="../assets/image_municipal3/ImagePerons4.png" alt=""
+                                    <img src="../../assets/image_municipal3/ImagePerons4.png" alt=""
                                         class="mb-3 rounded-circle div_respone_width1">
                                     <br>
                                     <span class="span_red fw-bold">أ. بدر صبرة</span>
                                 </div>
                                 <div>
-                                    <img src="../assets/image_municipal3/ImagePerons5.png" alt=""
+                                    <img src="../../assets/image_municipal3/ImagePerons5.png" alt=""
                                         class="mb-3 rounded-circle div_respone_width">
                                     <br>
                                     <span class="span_red fw-bold">أ. د. يحيى السراج</span>
@@ -54,10 +54,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mt-5 pt-5 mt-md-3 pt-md-0" data-aos="fade-left">
-                <div class="background_row h-100">
+            <div class="col-12 col-lg-4 mt-3 mt-lg-0" data-aos="fade-left">
+                <div class="background_row overflow-auto">
                     <h5 class="px-3 pt-3 span_red fw-bold">لجان الأحياء</h5>
-                    <div
+                    <div @click="div_click_block"
                         class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
                         <div class="text-center text-md-end">
                             <span class="div_color_hover mt-1">لجنة حي منطقة الشيخ رضوان</span>
@@ -67,7 +67,7 @@
                             <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">1</p>
                         </div>
                     </div>
-                    <div
+                    <div @click="div_click_block"
                         class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
                         <div class="text-center text-md-end">
                             <span class="div_color_hover mt-1">لجنة حي منطقة الزيتون</span>
@@ -77,7 +77,7 @@
                             <p class="p_center p_backgrpund text-white mt-1 text-center rounded-circle">2</p>
                         </div>
                     </div>
-                    <div
+                    <div @click="div_click_block"
                         class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
                         <div class="text-center text-md-end">
                             <span class="div_color_hover mt-1">لجنة حي منطقة الشاطي الجنوبي</span>
@@ -87,7 +87,7 @@
                             <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">3</p>
                         </div>
                     </div>
-                    <div
+                    <div @click="div_click_block"
                         class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
                         <div class="text-center text-md-end">
                             <span class="div_color_hover mt-1">لجنة حي منطقة الشاطي الشمالي وحي النصر</span>
@@ -97,7 +97,7 @@
                             <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">4</p>
                         </div>
                     </div>
-                    <div
+                    <div @click="div_click_block"
                         class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
                         <div class="text-center text-md-end">
                             <span class="div_color_hover mt-1">لجنة حي منطقة المحطة - التفاح الغربي</span>
@@ -107,7 +107,7 @@
                             <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">5</p>
                         </div>
                     </div>
-                    <div
+                    <div @click="div_click_block"
                         class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
                         <div class="text-center text-md-end">
                             <span class="div_color_hover mt-1">لجنة حي منطقة الدرج</span>
@@ -117,15 +117,35 @@
                             <p class="p_center p_backgrpund text-white mt-1 text-center rounded-circle">6</p>
                         </div>
                     </div>
+                    <div @click="div_click_block"
+                        class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
+                        <div class="text-center text-md-end">
+                            <span class="div_color_hover mt-1">لجنة حي منطقة المحطة - التفاح الغربي</span>
+                            <p class="div_color_hover1 text-secondary mt-2">0598881878 <i class="fas fa-tty"></i></p>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">7</p>
+                        </div>
+                    </div>
+                    <div @click="div_click_block"
+                        class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
+                        <div class="text-center text-md-end">
+                            <span class="div_color_hover mt-1">لجنة حي منطقة الدرج</span>
+                            <p class="div_color_hover1 text-secondary mt-2">0598881878 <i class="fas fa-tty"></i></p>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <p class="p_center p_backgrpund text-white mt-1 text-center rounded-circle">8</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- end main -->
+    <!-- end main map 1-->
 </template>
 
 <script>
-import KpapHeaderThreeTow from "../components/Header3_2.vue";
+import KpapHeaderThreeTow from "../folder header and footer/Header3_2.vue";
 
 export default {
     name: "KpapBiology",

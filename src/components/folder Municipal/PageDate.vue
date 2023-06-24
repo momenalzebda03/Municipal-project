@@ -1,11 +1,11 @@
 <template>
-    <!-- start main -->
+    <!-- start main date -->
     <section class="mt-5 py-5 container-fluid px-3 px-md-5 text-end">
         <h4 class="fw-bold span_red my-3 mx-3">الخلفية التاريخية</h4>
         <div class="container-fluid font_text">
             <div class="row mb-0 pb-0 mb-md-5 pb-md-5">
                 <div class="col-12 col-md-12 col-lg-4" data-aos="fade-up">
-                    <img src="../assets/image_municipal/ImageShow.png" alt="" class="w-100 h-100">
+                    <img src="../../assets/image_municipal/ImageShow.png" alt="" class="w-100 h-100">
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 text-center text-md-end d-flex justify-content-center align-items-center mt-3 mt-md-0"
                     data-aos="fade-down">
@@ -19,10 +19,9 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 mt-3 mt-lg-0" data-aos="fade-down">
-                    <img src="../assets/image_municipal/ImageDate.png" alt="" class="w-100 h-100">
+                    <img src="../../assets/image_municipal/ImageDate.png" alt="" class="w-100 h-100">
                 </div>
             </div>
-            <!-- end main -->
         </div>
     </section>
     <section>
@@ -59,6 +58,7 @@
             </div>
         </div>
     </section>
+    <!-- end main date -->
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <!-- start main -->
+    <!-- start main prposals-->
     <section class="mt-0 mt-md-5">
         <div class="container-fluid px-4 font_text overflow-hidden">
             <div class="row">
@@ -144,13 +144,13 @@
                         </div>
                     </div>
                     <a href="#">
-                        <img src="../assets/image_page_home/ImageMap1.png" alt="" class="mt-4 row_width div_mia">
+                        <img src="../../assets/image_page_home/ImageMap1.png" alt="" class="mt-4 row_width div_mia">
                     </a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- end main -->
+    <!-- end main prposals-->
 </template>
 
 <script>

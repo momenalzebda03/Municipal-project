@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import KpapHeaderThreeOne from "../components/Header3_1.vue";
+import KpapHeaderThreeOne from "../folder header and footer/Header3_1.vue";
 export default {
     name: "KpapMuiciapl",
     components: {

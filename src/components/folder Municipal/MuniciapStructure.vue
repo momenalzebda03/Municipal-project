@@ -1,5 +1,5 @@
 <template>
-    <!-- start main -->
+    <!-- start main structure-->
     <div class="position-relative" v-show="div_display">
         <div
             class="d-flex justify-content-center align-items-center position-absolute start-50 div_center_none pt-3 pb-4 shadow-lg bg-white">
@@ -211,7 +211,7 @@
             </div>
         </div>
     </section>
-    <!-- end main -->
+    <!-- end main structure-->
 </template>
 <script>
 export default {
