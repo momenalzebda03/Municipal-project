@@ -6,19 +6,19 @@
         </router-link>
         <router-link to="/" v-if="header_all" :class="{ 'active': isActive('/') }"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
-            <i title="الرجوع" class="fas fa-home fs-4"></i>
+            <i title="الرجوع" class="fas fa-home fs-5"></i>
         </router-link>
         <router-link v-if="header_all" :class="{ 'active': isActive('/application') }" to="/application"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
-            <i title="تطبيق الموبايل" class="fal fa-mobile fs-4"></i>
+            <i title="تطبيق الموبايل" class="fal fa-mobile fs-5"></i>
         </router-link>
         <router-link v-if="header_all" to="/proposals" :class="{ 'active': isActive('/proposals') }"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
-            <i title="تواصل معنا" class="fas fa-tty fs-4"></i>
+            <i title="تواصل معنا" class="fas fa-tty fs-5"></i>
         </router-link>
         <router-link v-if="header_all" to="/questions" :class="{ 'active': isActive('/questions') }"
             class="py-5 d-flex justify-content-center div_border mb-5 text-decoration-none">
-            <i title="الأسئلة الشائعة" class="far fa-question-circle fs-4"></i>
+            <i title="الأسئلة الشائعة" class="far fa-question-circle fs-5"></i>
         </router-link>
         <div v-if="header_all" class="div_bottom position-absolute mb-4 d-flex flex-column gap-2 font_text">
             <p class="position-absolute fw-bold p_rights">جميع الحقوق محفوظة لدى <span class="span_red">بلدية غزة</span>

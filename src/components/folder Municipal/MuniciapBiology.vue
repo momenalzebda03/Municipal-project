@@ -56,85 +56,87 @@
             </div>
             <div class="col-12 col-lg-4 mt-3 mt-lg-0" data-aos="fade-left">
                 <div class="background_row overflow-auto">
-                    <h5 class="px-3 pt-3 span_red fw-bold">لجان الأحياء</h5>
-                    <div @click="div_click_block"
-                        class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
-                        <div class="text-center text-md-end">
-                            <span class="div_color_hover mt-1">لجنة حي منطقة الشيخ رضوان</span>
-                            <p class="div_color_hover1 text-secondary mt-2">0599486227 <i class="fas fa-tty"></i></p>
+                    <div class="direction">
+                        <h5 class="px-3 pt-3 span_red fw-bold">لجان الأحياء</h5>
+                        <div @click="div_click_block"
+                            class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
+                            <div class="text-center text-md-end">
+                                <span class="div_color_hover mt-1">لجنة حي منطقة الشيخ رضوان</span>
+                                <p class="div_color_hover1 text-secondary mt-2">0599486227 <i class="fas fa-tty"></i></p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">1</p>
+                            </div>
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">1</p>
+                        <div @click="div_click_block"
+                            class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
+                            <div class="text-center text-md-end">
+                                <span class="div_color_hover mt-1">لجنة حي منطقة الزيتون</span>
+                                <p class="div_color_hover1 text-secondary mt-2">0599843331 <i class="fas fa-tty"></i></p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <p class="p_center p_backgrpund text-white mt-1 text-center rounded-circle">2</p>
+                            </div>
                         </div>
-                    </div>
-                    <div @click="div_click_block"
-                        class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
-                        <div class="text-center text-md-end">
-                            <span class="div_color_hover mt-1">لجنة حي منطقة الزيتون</span>
-                            <p class="div_color_hover1 text-secondary mt-2">0599843331 <i class="fas fa-tty"></i></p>
+                        <div @click="div_click_block"
+                            class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
+                            <div class="text-center text-md-end">
+                                <span class="div_color_hover mt-1">لجنة حي منطقة الشاطي الجنوبي</span>
+                                <p class="div_color_hover1 text-secondary mt-2">0592998935 <i class="fas fa-tty"></i></p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">3</p>
+                            </div>
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <p class="p_center p_backgrpund text-white mt-1 text-center rounded-circle">2</p>
+                        <div @click="div_click_block"
+                            class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
+                            <div class="text-center text-md-end">
+                                <span class="div_color_hover mt-1">لجنة حي منطقة الشاطي الشمالي وحي النصر</span>
+                                <p class="div_color_hover1 text-secondary mt-2">0599750375 <i class="fas fa-tty"></i></p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">4</p>
+                            </div>
                         </div>
-                    </div>
-                    <div @click="div_click_block"
-                        class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
-                        <div class="text-center text-md-end">
-                            <span class="div_color_hover mt-1">لجنة حي منطقة الشاطي الجنوبي</span>
-                            <p class="div_color_hover1 text-secondary mt-2">0592998935 <i class="fas fa-tty"></i></p>
+                        <div @click="div_click_block"
+                            class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
+                            <div class="text-center text-md-end">
+                                <span class="div_color_hover mt-1">لجنة حي منطقة المحطة - التفاح الغربي</span>
+                                <p class="div_color_hover1 text-secondary mt-2">0598881878 <i class="fas fa-tty"></i></p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">5</p>
+                            </div>
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">3</p>
+                        <div @click="div_click_block"
+                            class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
+                            <div class="text-center text-md-end">
+                                <span class="div_color_hover mt-1">لجنة حي منطقة الدرج</span>
+                                <p class="div_color_hover1 text-secondary mt-2">0598881878 <i class="fas fa-tty"></i></p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <p class="p_center p_backgrpund text-white mt-1 text-center rounded-circle">6</p>
+                            </div>
                         </div>
-                    </div>
-                    <div @click="div_click_block"
-                        class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
-                        <div class="text-center text-md-end">
-                            <span class="div_color_hover mt-1">لجنة حي منطقة الشاطي الشمالي وحي النصر</span>
-                            <p class="div_color_hover1 text-secondary mt-2">0599750375 <i class="fas fa-tty"></i></p>
+                        <div @click="div_click_block"
+                            class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
+                            <div class="text-center text-md-end">
+                                <span class="div_color_hover mt-1">لجنة حي منطقة المحطة - التفاح الغربي</span>
+                                <p class="div_color_hover1 text-secondary mt-2">0598881878 <i class="fas fa-tty"></i></p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">7</p>
+                            </div>
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">4</p>
-                        </div>
-                    </div>
-                    <div @click="div_click_block"
-                        class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
-                        <div class="text-center text-md-end">
-                            <span class="div_color_hover mt-1">لجنة حي منطقة المحطة - التفاح الغربي</span>
-                            <p class="div_color_hover1 text-secondary mt-2">0598881878 <i class="fas fa-tty"></i></p>
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">5</p>
-                        </div>
-                    </div>
-                    <div @click="div_click_block"
-                        class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
-                        <div class="text-center text-md-end">
-                            <span class="div_color_hover mt-1">لجنة حي منطقة الدرج</span>
-                            <p class="div_color_hover1 text-secondary mt-2">0598881878 <i class="fas fa-tty"></i></p>
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <p class="p_center p_backgrpund text-white mt-1 text-center rounded-circle">6</p>
-                        </div>
-                    </div>
-                    <div @click="div_click_block"
-                        class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
-                        <div class="text-center text-md-end">
-                            <span class="div_color_hover mt-1">لجنة حي منطقة المحطة - التفاح الغربي</span>
-                            <p class="div_color_hover1 text-secondary mt-2">0598881878 <i class="fas fa-tty"></i></p>
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">7</p>
-                        </div>
-                    </div>
-                    <div @click="div_click_block"
-                        class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
-                        <div class="text-center text-md-end">
-                            <span class="div_color_hover mt-1">لجنة حي منطقة الدرج</span>
-                            <p class="div_color_hover1 text-secondary mt-2">0598881878 <i class="fas fa-tty"></i></p>
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <p class="p_center p_backgrpund text-white mt-1 text-center rounded-circle">8</p>
+                        <div @click="div_click_block"
+                            class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
+                            <div class="text-center text-md-end">
+                                <span class="div_color_hover mt-1">لجنة حي منطقة الدرج</span>
+                                <p class="div_color_hover1 text-secondary mt-2">0598881878 <i class="fas fa-tty"></i></p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <p class="p_center p_backgrpund text-white mt-1 text-center rounded-circle">8</p>
+                            </div>
                         </div>
                     </div>
                 </div>

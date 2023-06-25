@@ -3,36 +3,36 @@
         <router-link to="/muiciapl" title="الأهداف"
             :class="{ 'active': isActive('/muiciapl') || isActive('/objectives') || isActive('/policy') }"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
-            <i class="fas fa-bullseye fs-4"></i>
+            <i class="fas fa-bullseye fs-5"></i>
         </router-link>
         <router-link to="/date" :class="{ 'active': isActive('/date') }" title="التاريخ"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
-            <i class="fas fa-clock fs-4"></i>
+            <i class="fas fa-clock fs-5"></i>
         </router-link>
         <router-link to="/council" title="المجلس"
             :class="{ 'active': isActive('/council') || isActive('/members') || isActive('/sessions') || isActive('/committee') || isActive('/biology') }"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
-            <i class="fas fa-users fs-4"></i>
+            <i class="fas fa-users fs-5"></i>
         </router-link>
         <router-link to="/plan" :class="{ 'active': isActive('/plan') }" title="الخطة"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
-            <i class="fas fa-chalkboard-teacher fs-4"></i>
+            <i class="fas fa-chalkboard-teacher fs-5"></i>
         </router-link>
         <router-link to="/structure" :class="{ 'active': isActive('/structure') }" title="الهيكلية"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
-            <i class="fas fa-cubes fs-4"></i>
+            <i class="fas fa-cubes fs-5"></i>
         </router-link>
         <router-link to="/money" :class="{ 'active': isActive('/money') || isActive('/money1') }" title="الميزانية"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
-            <i class="fas fa-money-bill-wave fs-4"></i>
+            <i class="fas fa-money-bill-wave fs-5"></i>
         </router-link>
         <router-link to="/accompanying" :class="{ 'active': isActive('/accompanying') }" title="المرافق"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
-            <i class="far fa-building fs-4"></i>
+            <i class="far fa-building fs-5"></i>
         </router-link>
-        <router-link to="/" :class="{ 'active': isActive('/') }" title="المراكز"
+        <router-link to="/centers" :class="{ 'active': isActive('/centers') }" title="المراكز"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
-            <i class="fa-solid fa-building-lock fs-4"></i>
+            <i class="fa-solid fa-building-lock fs-5"></i>
         </router-link>
     </div>
 </template>

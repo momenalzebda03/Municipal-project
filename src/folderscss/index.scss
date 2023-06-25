@@ -123,6 +123,10 @@ body section .number_width:hover,
     color: $color_green !important;
 }
 
+.direction {
+    direction: ltr;
+}
+
 // end afretang
 // start header
 body div .div_show {
@@ -638,6 +642,7 @@ body section .row div div .image_height {
 body section .row div .background_row {
     background-color: $color_background;
     height: 580px;
+    direction: rtl;
 }
 
 body section .row div div div div .div_respone_width {
@@ -664,6 +669,16 @@ body section .row div div li .rotate_100::after {
 
 body section .row div div .border_dotted {
     border: 3px dotted $color_background;
+}
+
+body section .row div .row div div div div .p_line::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    margin-top: 4px;
+    height: 20px;
+    margin-left: -8px;
+    background-color: $color_more;
 }
 
 // end main plan
@@ -732,6 +747,10 @@ body div .div_center_none {
     transform: translate(-50%, 70%);
 }
 
+body .div_px {
+    height: 900px;
+}
+
 // end main structure
 // start main account
 body .section_maring {
@@ -759,11 +778,12 @@ body .section_maring .container .row div .div_visible {
 // start main map 2
 body .section_bottom {
     margin-top: -72px;
+    padding-right: 13px !important;
 }
 
 body .section_bottom .row div div .message_top {
-    margin-top: -90px;
-    width: 53%;
+    margin-top: -100px;
+    width: 58%;
     display: flex;
 }
 
@@ -785,6 +805,17 @@ body section .row .background_row_accompaying {
 
 body section .row div .div .div_color_hover2 {
     color: #707070;
+}
+
+body section .row div .container_image_center {
+    width: 65% !important;
+    height: 67%;
+    margin-bottom: 9%;
+    direction: rtl;
+}
+
+body section .row div div .overflow_height {
+    height: 95%;
 }
 
 // end main map 2
@@ -981,7 +1012,7 @@ body .div_footer .row_width {
     }
 
     body section div .div_width_president::after,
-    .div_px {
+    body .div_px {
         height: 1870px;
     }
 

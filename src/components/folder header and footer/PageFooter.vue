@@ -18,7 +18,7 @@
                 <div class="p_border"></div>
             </router-link>
             <router-link to="/muiciapl"
-                :class="{ 'div_active': isActive('/muiciapl') || isActive('/objectives') || isActive('/policy') || isActive('/date') || isActive('/council') || isActive('/members') || isActive('/sessions') || isActive('/committee') || isActive('/biology') || isActive('/plan') || isActive('/structure') || isActive('/money') || isActive('/money1') || isActive('/accompanying') }"
+                :class="{ 'div_active': isActive('/muiciapl') || isActive('/objectives') || isActive('/policy') || isActive('/date') || isActive('/council') || isActive('/members') || isActive('/sessions') || isActive('/committee') || isActive('/biology') || isActive('/plan') || isActive('/structure') || isActive('/money') || isActive('/money1') || isActive('/accompanying') || isActive('/centers')}"
                 class="col pt-4 text-center back_hover text-black text-decoration-none">
                 <p>البلدية</p>
             </router-link>

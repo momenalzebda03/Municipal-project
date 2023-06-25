@@ -19,6 +19,7 @@ import KpapStructure from "../components/folder Municipal/MuniciapStructure.vue"
 import KpapMoney from "../components/folder Municipal/MuniciapMoney.vue";
 import KpapMoney1 from "../components/folder Municipal/MuniciapMoney1.vue";
 import KpapAccompanying from "../components/folder Municipal/MuniciapAccompanying.vue";
+import KpapCenters from "../components/folder Municipal/MunicipalCenters.vue";
 
 const routes = [
   {
@@ -120,6 +121,11 @@ const routes = [
     path: "/accompanying",
     name: "accompanying",
     component: KpapAccompanying,
+  },
+  {
+    path: "/centers",
+    name: "centers",
+    component: KpapCenters,
   },
 ];
 
