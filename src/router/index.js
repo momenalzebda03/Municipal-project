@@ -20,112 +20,120 @@ import KpapMoney from "../components/folder Municipal/MuniciapMoney.vue";
 import KpapMoney1 from "../components/folder Municipal/MuniciapMoney1.vue";
 import KpapAccompanying from "../components/folder Municipal/MuniciapAccompanying.vue";
 import KpapCenters from "../components/folder Municipal/MunicipalCenters.vue";
+import KpapCenters1 from "../components/folder Municipal/PageCenters.vue";
 
 const routes = [
   {
     path: "/",
-    name: "Home",
     component: CompHome,
   },
   {
     path: "/application",
-    name: "application",
     component: ComApplication,
   },
   {
     path: "/proposals",
-    name: "proposals",
     component: ComPropsals,
   },
   {
     path: "/questions",
-    name: "questions",
     component: ComQuestions,
   },
   {
     path: "/image",
-    name: "image",
     component: KpapImage,
   },
   {
     path: "/more",
-    name: "more",
     component: KpapMore,
   },
   {
     path: "/muiciapl",
-    name: "muiciapl",
     component: KpapMuiciapl,
   },
   {
     path: "/objectives",
-    name: "objectives",
     component: KpapObjectives,
   },
   {
     path: "/policy",
-    name: "policy",
     component: KpapPolicy,
   },
   {
     path: "/date",
-    name: "date",
     component: KpapDate,
   },
   {
     path: "/council",
-    name: "council",
     component: KpapCouncil,
   },
   {
     path: "/members",
-    name: "members",
     component: KpapMembers,
   },
   {
     path: "/sessions",
-    name: "sessions",
     component: KpapSessions,
   },
   {
     path: "/committee",
-    name: "committee",
     component: KpapCommittee,
   },
   {
     path: "/biology",
-    name: "biology",
     component: KpapBiology,
   },
   {
     path: "/plan",
-    name: "plan",
     component: Kpapplan,
   },
   {
     path: "/structure",
-    name: "structure",
     component: KpapStructure,
   },
   {
     path: "/money",
-    name: "money",
     component: KpapMoney,
   },
   {
     path: "/money1",
-    name: "money1",
     component: KpapMoney1,
   },
   {
     path: "/accompanying",
-    name: "accompanying",
     component: KpapAccompanying,
   },
   {
     path: "/centers",
-    name: "centers",
     component: KpapCenters,
+  },
+  {
+    path: "/centers1",
+    component: KpapCenters1,
+  },
+  {
+    path: "/centers2",
+    component: KpapCenters1,
+  },
+  {
+    path: "/centers3",
+    component: KpapCenters1,
+  },
+  {
+    path: "/centers4",
+    component: KpapCenters1,
+  },
+  {
+    path: "/centers5",
+    component: KpapCenters1,
+  },
+  {
+    path: "/centers6",
+    component: KpapCenters1,
+  },
+  {
+    path: "/centers7",
+    component: KpapCenters1,
   },
 ];
 

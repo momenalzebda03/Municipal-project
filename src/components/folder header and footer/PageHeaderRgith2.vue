@@ -30,8 +30,9 @@
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="far fa-building fs-5"></i>
         </router-link>
-        <router-link to="/centers" :class="{ 'active': isActive('/centers') }" title="المراكز"
-            class="py-5 d-flex justify-content-center div_border text-decoration-none">
+        <router-link to="/centers"
+            :class="{ 'active': isActive('/centers') || isActive('/centers1') || isActive('/centers2') || isActive('/centers3') || isActive('/centers4') || isActive('/centers5') || isActive('/centers6') || isActive('/centers7') }"
+            title="المراكز" class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fa-solid fa-building-lock fs-5"></i>
         </router-link>
     </div>

@@ -35,7 +35,7 @@ export default {
   },
   computed: {
     isMuiciaplRoute() {
-      return this.$route.path === '/muiciapl' || this.$route.path == '/objectives' || this.$route.path == '/muiciapl' || this.$route.path == '/policy' || this.$route.path == '/date' || this.$route.path == '/council' || this.$route.path == '/members' || this.$route.path == '/sessions' || this.$route.path == '/committee' || this.$route.path == "/biology" || this.$route.path == "/plan" || this.$route.path == "/structure" || this.$route.path == "/money" || this.$route.path == "/money1" || this.$route.path == "/accompanying" || this.$route.path == "/centers";
+      return this.$route.path === '/muiciapl' || this.$route.path == '/objectives' || this.$route.path == '/muiciapl' || this.$route.path == '/policy' || this.$route.path == '/date' || this.$route.path == '/council' || this.$route.path == '/members' || this.$route.path == '/sessions' || this.$route.path == '/committee' || this.$route.path == "/biology" || this.$route.path == "/plan" || this.$route.path == "/structure" || this.$route.path == "/money" || this.$route.path == "/money1" || this.$route.path == "/accompanying" || this.$route.path == "/centers" || this.$route.path == "/centers1" || this.$route.path == "/centers2" || this.$route.path == "/centers3" || this.$route.path == "/centers4" || this.$route.path == "/centers5" || this.$route.path == "/centers6" || this.$route.path == "/centers7";
     },
     header_right_none() {
       return this.$route.path !== "/more";
@@ -44,7 +44,7 @@ export default {
       return this.$route.path !== "/more";
     },
     shouldShowBackground() {
-      return this.$route.path !== '/' && this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/accompanying" && this.$route.path !== "/centers";
+      return this.$route.path !== '/' && this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/accompanying";
     },
 
     shouldShowBackground1() {

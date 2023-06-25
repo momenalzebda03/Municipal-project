@@ -24,7 +24,7 @@
 }
 
 .icon_width:hover {
-    background-color: $color_red;
+    background-color: $color_red !important;
 }
 
 .my_icon_width {
@@ -127,6 +127,34 @@ body section .number_width:hover,
     direction: ltr;
 }
 
+.icon_color {
+    color: $color_green;
+}
+
+.icon_black {
+    z-index: 1;
+    background-color: $color_icon;
+    height: 170px;
+    padding-top: 70px;
+}
+
+.border_dotted {
+    border: 3px dotted $color_background;
+}
+
+.div_left {
+    background-color: #F2F2F2;
+    height: 530px;
+}
+
+.div_heigt_bottom {
+    height: 400px;
+}
+
+.div_image_center {
+    background-color: #d6d6d65c;
+}
+
 // end afretang
 // start header
 body div .div_show {
@@ -206,10 +234,6 @@ body .div_width .div_border {
 body .div_width .div_border:hover {
     background-color: $color_background;
     color: $color_red;
-}
-
-.icon_color {
-    color: $color_green;
 }
 
 body .div_width .div_bottom .p_rights {
@@ -354,13 +378,6 @@ body section .number_width {
     height: 35px;
 }
 
-body .font_text .row div div div div .icon_black {
-    z-index: 1;
-    background-color: $color_icon;
-    height: 170px;
-    padding-top: 70px;
-}
-
 // start main image more
 body .icon_bakcgorund {
     color: $color_exit;
@@ -370,10 +387,6 @@ body .icon_bakcgorund {
 body .icon_bakcgorund:hover {
     color: $color_white;
     background-color: $color_red;
-}
-
-body section .div_image_center {
-    background-color: #d6d6d65c;
 }
 
 .icon_arraow_hover_right,
@@ -421,20 +434,12 @@ body section div .row div .text_line {
     line-height: 40px;
 }
 
-body section div .row div .div_heigt_bottom {
-    height: 400px;
-}
-
 body section div div .div_heigt_table {
     height: 236px;
 }
 
 // end main president
 // start main members
-body section div .row div .div_left {
-    background-color: #F2F2F2;
-    height: 530px;
-}
 
 body section div .row div .div_left div div .p_hr {
     background-color: #F2F2F2;
@@ -508,11 +513,11 @@ body section div div div div .div_width_number:hover {
     transform: translate(-20px, 0px);
 }
 
-body div div div div div .div_width_number1 {
+.div_width_number1 {
     transition: 0.3s;
 }
 
-body div div div div div .div_width_number1:hover {
+.div_width_number1:hover {
     transform: translate(-20px, 0px);
 }
 
@@ -667,10 +672,6 @@ body section .row div div li .rotate_100::after {
     transform: rotate(180deg);
 }
 
-body section .row div div .border_dotted {
-    border: 3px dotted $color_background;
-}
-
 body section .row div .row div div div div .p_line::before {
     content: "";
     position: absolute;
@@ -819,6 +820,151 @@ body section .row div div .overflow_height {
 }
 
 // end main map 2
+// start main centers
+
+body section .row .card .div_bottom_30 {
+    margin-bottom: -30px;
+}
+
+body section .row .card:hover .text_hover {
+    color: $color_green;
+}
+
+body section .row .card .div_bottom_30 div .icon_back .span_left {
+    transition: 0.3s;
+}
+
+body section .row .card:hover .span_left {
+    transform: translate(-3px, 0px);
+    animation: keymargin 0.5s infinite;
+
+}
+
+@keyframes keymargin {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+        transform: translate(-3px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+body section .row .card .div_translate {
+    transform: translate(0px, -50px);
+}
+
+body section .row .card div div .icon_back {
+    background-color: #F3F2F2;
+}
+
+// end main centers
+// start page centers
+body section .nav_top {
+    margin-top: -71px;
+}
+
+body section .navbar div div div ul .router_bottom4:hover,
+body section .navbar div div div ul .router_bottom3:hover,
+body section .navbar div div div ul .router_bottom2:hover,
+body section .navbar div div div ul .router_bottom:hover,
+body section .navbar div div div ul .router_bottom1:hover {
+    margin-bottom: -3px;
+    font-weight: bold;
+}
+
+body section .navbar div div div ul .router_bottom:hover {
+    border-bottom: 3px solid $color_header_hover;
+    color: $color_header_hover !important;
+}
+
+body section .navbar div div div ul .router_bottom1:hover {
+    color: gold !important;
+    border-bottom: 3px solid gold;
+}
+
+body section .navbar div div div ul .router_bottom2:hover {
+    color: $color_red !important;
+    border-bottom: 3px solid $color_red;
+}
+
+body section .navbar div div div ul .router_bottom3:hover {
+    color: #79C256 !important;
+    border-bottom: 3px solid #79C256;
+}
+
+body section .navbar div div div ul .router_bottom4:hover {
+    color: #FAA74A !important;
+    border-bottom: 3px solid #FAA74A;
+}
+
+body section .navbar div div div ul .active_router_bottom4,
+body section .navbar div div div ul .active_router_bottom3,
+body section .navbar div div div ul .active_router_bottom2,
+body section .navbar div div div ul .active_router_bottom1,
+body section .navbar div div div ul .active_router_bottom {
+    margin-bottom: -3px;
+    font-weight: bold;
+}
+
+body section .navbar div div div ul .active_router_bottom {
+    border-bottom: 3px solid $color_header_hover;
+    color: $color_header_hover !important;
+}
+
+body section .navbar div div div ul .active_router_bottom1 {
+    border-bottom: 3px solid gold;
+    color: gold !important;
+}
+
+body section .navbar div div div ul .active_router_bottom2 {
+    border-bottom: 3px solid $color_red;
+    color: $color_red !important;
+}
+
+body section .navbar div div div ul .active_router_bottom3 {
+    border-bottom: 3px solid #79C256;
+    color: #79C256 !important;
+}
+
+body section .navbar div div div ul .active_router_bottom4 {
+    border-bottom: 3px solid #FAA74A;
+    color: #FAA74A !important;
+}
+
+body section div .carousel_height {
+    height: 50vh;
+}
+
+body section div div div .icon_color_clirc {
+    color: $color_header_hover;
+}
+
+body section div div div .icon_color_clirc1 {
+    color: gold;
+}
+
+body section div div div .icon_color_clirc2 {
+    color: $color_red;
+}
+
+body section div div div .icon_color_clirc3 {
+    color: #79C256;
+}
+
+body section div div div .icon_color_clirc4 {
+    color: #FAA74A;
+}
+
+body section div .row div .div_color_col {
+    background-color: #F2F2F2;
+}
+
+// end page centers
 // start footer
 body .div_footer,
 body .div_footer .row_width .p_border,
@@ -1029,6 +1175,14 @@ body .div_footer .row_width {
     body .section_bottom {
         margin-top: 0px;
     }
+
+    body section .row .card .div_bottom_30 .div_translate .image_repons {
+        width: 50px;
+    }
+
+    body section .nav_top {
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 475px) {
@@ -1084,4 +1238,4 @@ body .div_footer .row_width {
     }
 }
 
-// start media
+// end media
