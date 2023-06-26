@@ -92,7 +92,7 @@
                                                 <p class="px-4">انشاء اعمال هنا بناء</p>
                                             </div>
                                         </div>
-                                        <div data-bs-target="#carouselExampleControls1" data-bs-slide="prev"
+                                        <div data-bs-target="#carouselExampleControls1" data-bs-slide="next"
                                             class="icon_color py-4 px-3 icon_click div_image_center back_hover d-flex align-items-center justify-content-center">
                                             <i class="fas fa-chevron-right fs-4"></i>
                                         </div>
@@ -245,7 +245,7 @@
                                                 <p class="px-4">انشاء اعمال هنا بناء</p>
                                             </div>
                                         </div>
-                                        <div data-bs-target="#carouselExampleControls1" data-bs-slide="prev"
+                                        <div data-bs-target="#carouselExampleControls1" data-bs-slide="next"
                                             class="icon_color_clirc1 py-4 px-3 icon_click div_image_center back_hover d-flex align-items-center justify-content-center">
                                             <i class="fas fa-chevron-right fs-4"></i>
                                         </div>
@@ -400,7 +400,7 @@
                                                 <p class="px-4">انشاء اعمال هنا بناء</p>
                                             </div>
                                         </div>
-                                        <div data-bs-target="#carouselExampleControls1" data-bs-slide="prev"
+                                        <div data-bs-target="#carouselExampleControls1" data-bs-slide="next"
                                             class="icon_color_clirc2 py-4 px-3 icon_click div_image_center back_hover d-flex align-items-center justify-content-center">
                                             <i class="fas fa-chevron-right fs-4"></i>
                                         </div>
@@ -556,7 +556,7 @@
                                                 <p class="px-4">انشاء اعمال هنا بناء</p>
                                             </div>
                                         </div>
-                                        <div data-bs-target="#carouselExampleControls1" data-bs-slide="prev"
+                                        <div data-bs-target="#carouselExampleControls1" data-bs-slide="next"
                                             class="icon_color_clirc2 py-4 px-3 icon_click div_image_center back_hover d-flex align-items-center justify-content-center">
                                             <i class="fas fa-chevron-right fs-4"></i>
                                         </div>
@@ -712,7 +712,7 @@
                                                 <p class="px-4">انشاء اعمال هنا بناء</p>
                                             </div>
                                         </div>
-                                        <div data-bs-target="#carouselExampleControls1" data-bs-slide="prev"
+                                        <div data-bs-target="#carouselExampleControls1" data-bs-slide="next"
                                             class="icon_color_clirc4 py-4 px-3 icon_click div_image_center back_hover d-flex align-items-center justify-content-center">
                                             <i class="fas fa-chevron-right fs-4"></i>
                                         </div>
@@ -868,7 +868,7 @@
                                                 <p class="px-4">انشاء اعمال هنا بناء</p>
                                             </div>
                                         </div>
-                                        <div data-bs-target="#carouselExampleControls1" data-bs-slide="prev"
+                                        <div data-bs-target="#carouselExampleControls1" data-bs-slide="next"
                                             class="icon_color_clirc3 py-4 px-3 icon_click div_image_center back_hover d-flex align-items-center justify-content-center">
                                             <i class="fas fa-chevron-right fs-4"></i>
                                         </div>
@@ -1024,7 +1024,7 @@
                                                 <p class="px-4">انشاء اعمال هنا بناء</p>
                                             </div>
                                         </div>
-                                        <div data-bs-target="#carouselExampleControls1" data-bs-slide="prev"
+                                        <div data-bs-target="#carouselExampleControls1" data-bs-slide="next"
                                             class="icon_color_clirc4 py-4 px-3 icon_click div_image_center back_hover d-flex align-items-center justify-content-center">
                                             <i class="fas fa-chevron-right fs-4"></i>
                                         </div>

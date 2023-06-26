@@ -13,8 +13,9 @@
     <div>
       <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" v-if="header_none" class="image_hgiht">
     </div>
-    <HeaderRightCpap v-if="header_right_none && !isMuiciaplRoute" />
+    <HeaderRightCpap v-if="header_right_none && !isMuiciaplRoute && !isMuiciaplRoute1" />
     <HeaderRightCpap1 v-if="isMuiciaplRoute" />
+    <HeaderRightCpap2 v-if="isMuiciaplRoute1" />
   </div>
 </template>
 
@@ -25,17 +26,22 @@ import HeaderCpap from "./components/folder header and footer/PageHeader.vue";
 import HeaderRightCpap from "./components/folder header and footer/PageHeaderRight.vue";
 import FooterKpap from "./components/folder header and footer/PageFooter.vue";
 import HeaderRightCpap1 from "./components/folder header and footer/PageHeaderRgith2.vue";
+import HeaderRightCpap2 from "./components/folder header and footer/PageHeaderRight3.vue";
 
 export default {
   components: {
     HeaderCpap,
     HeaderRightCpap,
     FooterKpap,
-    HeaderRightCpap1
+    HeaderRightCpap1,
+    HeaderRightCpap2
   },
   computed: {
     isMuiciaplRoute() {
       return this.$route.path === '/muiciapl' || this.$route.path == '/objectives' || this.$route.path == '/muiciapl' || this.$route.path == '/policy' || this.$route.path == '/date' || this.$route.path == '/council' || this.$route.path == '/members' || this.$route.path == '/sessions' || this.$route.path == '/committee' || this.$route.path == "/biology" || this.$route.path == "/plan" || this.$route.path == "/structure" || this.$route.path == "/money" || this.$route.path == "/money1" || this.$route.path == "/accompanying" || this.$route.path == "/centers" || this.$route.path == "/centers1" || this.$route.path == "/centers2" || this.$route.path == "/centers3" || this.$route.path == "/centers4" || this.$route.path == "/centers5" || this.$route.path == "/centers6" || this.$route.path == "/centers7";
+    },
+    isMuiciaplRoute1() {
+      return this.$route.path === '/place' || this.$route.path === '/civilization';
     },
     header_right_none() {
       return this.$route.path !== "/more";

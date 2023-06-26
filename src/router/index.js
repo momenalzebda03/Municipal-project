@@ -21,6 +21,8 @@ import KpapMoney1 from "../components/folder Municipal/MuniciapMoney1.vue";
 import KpapAccompanying from "../components/folder Municipal/MuniciapAccompanying.vue";
 import KpapCenters from "../components/folder Municipal/MunicipalCenters.vue";
 import KpapCenters1 from "../components/folder Municipal/PageCenters.vue";
+import KpapPlace from "../components/folder city/CityPlace.vue";
+import KpapCivilization from "../components/folder city/CityCivilization.vue";
 
 const routes = [
   {
@@ -134,6 +136,14 @@ const routes = [
   {
     path: "/centers7",
     component: KpapCenters1,
+  },
+  {
+    path: "/place",
+    component: KpapPlace,
+  },
+  {
+    path: "/civilization",
+    component: KpapCivilization,
   },
 ];
 
