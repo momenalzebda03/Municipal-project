@@ -14,7 +14,7 @@
                 <div class="p_border"></div>
             </router-link>
             <router-link to="/place"
-                :class="{ 'div_active': isActive('/place') || isActive('/civilization') || isActive('/biology1') }"
+                :class="{ 'div_active': isActive('/place') || isActive('/civilization') || isActive('/biology1') || isActive('/archaeology') }"
                 class="col pt-4 text-center back_hover text-black text-decoration-none">
                 <p>المدينة</p>
                 <div class="p_border"></div>

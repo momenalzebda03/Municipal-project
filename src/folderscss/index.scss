@@ -170,6 +170,15 @@ body section .number_width:hover,
     color: $color_white;
 }
 
+.span_background::selection {
+    background-color: transparent;
+}
+
+.div_vh {
+    cursor: grab;
+    height: 93vh;
+}
+
 // end afretang
 // start header
 body div .div_show {
@@ -1011,8 +1020,9 @@ body section div .row div .card:hover .card_title_hover {
 
 // end main civilization
 // start main bilogy
-body section .row .div_vh {
-    height: 93vh;
+body .image_background_biology {
+    transform: translate(0px, -280px);
+    z-index: -1;
 }
 
 // end main bilogy

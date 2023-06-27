@@ -24,6 +24,7 @@ import KpapCenters1 from "../components/folder Municipal/PageCenters.vue";
 import KpapPlace from "../components/folder city/CityPlace.vue";
 import KpapCivilization from "../components/folder city/CityCivilization.vue";
 import KpapBiology1 from "../components/folder city/CityBiology.vue";
+import KpapArchaeology from "../components/folder city/CityArchaeology.vue";
 
 const routes = [
   {
@@ -149,6 +150,10 @@ const routes = [
   {
     path: "/biology1",
     component: KpapBiology1,
+  },
+  {
+    path: "/archaeology",
+    component: KpapArchaeology,
   },
 ];
 

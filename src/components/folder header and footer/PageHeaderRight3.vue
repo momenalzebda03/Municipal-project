@@ -12,7 +12,7 @@
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-unlock fs-5"></i>
         </router-link>
-        <router-link to="/" title="التاريخ" :class="{ 'active': isActive('/') }"
+        <router-link to="/archaeology" title="التاريخ" :class="{ 'active': isActive('/archaeology') }"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-map-marked-alt fs-5"></i>
         </router-link>
