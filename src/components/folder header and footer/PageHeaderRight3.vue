@@ -8,7 +8,7 @@
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-hourglass-half fs-5"></i>
         </router-link>
-        <router-link to="/" title="السكن" :class="{ 'active': isActive('/') }"
+        <router-link to="/biology1" title="السكن" :class="{ 'active': isActive('/biology1') }"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-unlock fs-5"></i>
         </router-link>

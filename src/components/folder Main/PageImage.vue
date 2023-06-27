@@ -1,5 +1,5 @@
 <template>
-    <!-- start main -->
+    <!-- start main image -->
     <section class="font_text">
         <div class="row overflow-hidden">
             <div class="col-12 col-md-6 text-center text-md-end mt-5" data-aos="fade-right">
@@ -28,18 +28,20 @@
                 </p>
             </div>
             <div class="col-12 col-md-6 text-end position-relative" data-aos="fade-left">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
+                <div id="carouselExampleControls" class="carousel slide carousel_height" data-bs-ride="carousel">
+                    <div class="carousel-inner image_ehgith_100">
                         <div class="d-flex align-items-center justify-content-center position-absolute start-25 top-50">
                             <i data-bs-target="#carouselExampleControls" data-bs-slide="prev"
                                 class="fas fa-chevron-left fs-4 icon_black image_none back_hover text-white px-4"></i>
                         </div>
                         <router-link to="/more">
-                            <div class="carousel-item active">
-                                <img src="../../assets/image_page_home_1/ImageMask.png" alt="" class="w-100">
+                            <div class="carousel-item active image_ehgith_100">
+                                <img src="../../assets/image_page_home_1/ImageMask.png" alt=""
+                                    class="w-100 image_ehgith_100">
                             </div>
                             <div class="carousel-item">
-                                <img src="../../assets/image_page_home_1/ImageMask.png" alt="" class="w-100">
+                                <img src="../../assets/image_page_home_1/ImageMask.png" alt=""
+                                    class="w-100 image_ehgith_100">
                             </div>
                         </router-link>
                         <div class="d-flex align-items-center justify-content-center position-absolute end-0 top-50">
@@ -51,7 +53,7 @@
             </div>
         </div>
     </section>
-    <!-- end main -->
+    <!-- end main image -->
 </template>
 
 <script>

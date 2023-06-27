@@ -165,6 +165,11 @@ body section .number_width:hover,
     border-bottom: 3px solid $color_red;
 }
 
+.button_padding:hover {
+    background-color: $color_green;
+    color: $color_white;
+}
+
 // end afretang
 // start header
 body div .div_show {
@@ -303,6 +308,16 @@ body section div .row div .div_top {
 }
 
 // end main home
+// start main image
+body section .row div .carousel_height {
+    height: 100%;
+}
+
+body section .row div .carousel_height .image_ehgith_100 {
+    height: 100%;
+}
+
+// end main image
 // start main application
 body section .container-fluid .row div div .icon_background {
     width: 65px;
@@ -495,11 +510,6 @@ body section .row div div div .button_padding {
     padding-top: 12px;
     padding-bottom: 12px;
     transition: 0.3s;
-}
-
-body section .row div div div .button_padding:hover {
-    background-color: $color_green;
-    color: $color_white;
 }
 
 body section .row div div div div .div_width_number {
@@ -1000,6 +1010,12 @@ body section div .row div .card:hover .card_title_hover {
 }
 
 // end main civilization
+// start main bilogy
+body section .row .div_vh {
+    height: 93vh;
+}
+
+// end main bilogy
 // start footer
 body .div_footer,
 body .div_footer .row_width .p_border,
