@@ -16,11 +16,12 @@
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-map-marked-alt fs-5"></i>
         </router-link>
-        <router-link to="/" title="الخريطة" :class="{ 'active': isActive('/') }"
+        <router-link to="/citymap" title="الخريطة" :class="{ 'active': isActive('/citymap') }"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-map fs-5"></i>
         </router-link>
-        <router-link to="/" title="المتحف" :class="{ 'active': isActive('/') }"
+        <router-link to="/museum" title="المتحف"
+            :class="{ 'active': isActive('/museum') || isActive('/Archaeology1') || isActive('/photo') }"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fab fa-fort-awesome fs-5"></i>
         </router-link>

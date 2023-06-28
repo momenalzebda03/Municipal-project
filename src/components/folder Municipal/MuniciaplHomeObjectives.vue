@@ -46,13 +46,21 @@
             <p class="mt-1"> تنفيذ مشاريع تطويرية لمرافق المدينة وبنيتها التحتية، لتلبي حاجات<br>.المواطنين</p>
             <p class="p_center mt-1 text-center border border-2 rounded-circle">8</p>
         </div>
-    </div>    
+    </div>
 </template>
 
 <script>
 import KpapHeaderThreeOne from "../folder header and footer/Header3_1.vue";
 export default {
     name: "KpapObjectives",
+    created() {
+        this.changePageTitle('البلدية - أهدافنا');
+    },
+    methods: {
+        changePageTitle(newTitle) {
+            document.title = newTitle;
+        },
+    },
     components: {
         KpapHeaderThreeOne
     }

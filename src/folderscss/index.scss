@@ -179,6 +179,31 @@ body section .number_width:hover,
     height: 93vh;
 }
 
+.card_hover,
+.card-img-top {
+    transition: 0.3s;
+}
+
+.card_hover:hover {
+    position: relative;
+    box-shadow: 0 0 30px #ccc;
+}
+
+.card_hover:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card_hover:hover .card_title_hover {
+    color: $color_green;
+}
+
+.image_back_image {
+    top: 450px;
+    z-index: -1;
+    padding-right: 100px;
+}
+
+
 // end afretang
 // start header
 body div .div_show {
@@ -324,6 +349,10 @@ body section .row div .carousel_height {
 
 body section .row div .carousel_height .image_ehgith_100 {
     height: 100%;
+}
+
+body .translate_100 {
+    transform: translate(0px, -100px);
 }
 
 // end main image
@@ -993,32 +1022,6 @@ body section .row div .image_75 {
 }
 
 // end main place
-// start main civilization
-body section .image_back_image {
-    top: 450px;
-    z-index: -1;
-    padding-right: 100px;
-}
-
-body section div .row div .card,
-body section div .row div .card div .card-img-top {
-    transition: 0.3s;
-}
-
-body section div .row div .card:hover {
-    position: relative;
-    box-shadow: 0 0 30px #ccc;
-}
-
-body section div .row div .card:hover .card-img-top {
-    transform: scale(1.1);
-}
-
-body section div .row div .card:hover .card_title_hover {
-    color: $color_green;
-}
-
-// end main civilization
 // start main bilogy
 body .image_background_biology {
     transform: translate(0px, -280px);
@@ -1026,6 +1029,17 @@ body .image_background_biology {
 }
 
 // end main bilogy
+// start main museum
+body section .row .div_translate_170 {
+    margin-top: -150px;
+}
+
+body section .row div .card_hover div .image_text {
+    top: 84%;
+    left: 41%;
+}
+
+// end main museum
 // start footer
 body .div_footer,
 body .div_footer .row_width .p_border,
@@ -1243,6 +1257,14 @@ body .div_footer .row_width {
 
     body section .nav_top {
         margin-top: 10px;
+    }
+
+    body section .row .div_translate_170 {
+        transform: translate(0, 0px);
+    }
+
+    body section .row div .card_hover div .image_text {
+        left: 55%;
     }
 }
 

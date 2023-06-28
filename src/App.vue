@@ -20,8 +20,8 @@
 </template>
 
 <script>
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import HeaderCpap from "./components/folder header and footer/PageHeader.vue";
 import HeaderRightCpap from "./components/folder header and footer/PageHeaderRight.vue";
 import FooterKpap from "./components/folder header and footer/PageFooter.vue";
@@ -38,10 +38,10 @@ export default {
   },
   computed: {
     isMuiciaplRoute() {
-      return this.$route.path === '/muiciapl' || this.$route.path == '/objectives' || this.$route.path == '/muiciapl' || this.$route.path == '/policy' || this.$route.path == '/date' || this.$route.path == '/council' || this.$route.path == '/members' || this.$route.path == '/sessions' || this.$route.path == '/committee' || this.$route.path == "/biology" || this.$route.path == "/plan" || this.$route.path == "/structure" || this.$route.path == "/money" || this.$route.path == "/money1" || this.$route.path == "/accompanying" || this.$route.path == "/centers" || this.$route.path == "/centers1" || this.$route.path == "/centers2" || this.$route.path == "/centers3" || this.$route.path == "/centers4" || this.$route.path == "/centers5" || this.$route.path == "/centers6" || this.$route.path == "/centers7";
+      return this.$route.path === "/muiciapl" || this.$route.path == "/objectives" || this.$route.path == "/muiciapl" || this.$route.path == "/policy" || this.$route.path == "/date" || this.$route.path == "/council" || this.$route.path == "/members" || this.$route.path == "/sessions" || this.$route.path == "/committee" || this.$route.path == "/biology" || this.$route.path == "/plan" || this.$route.path == "/structure" || this.$route.path == "/money" || this.$route.path == "/money1" || this.$route.path == "/accompanying" || this.$route.path == "/centers" || this.$route.path == "/centers1" || this.$route.path == "/centers2" || this.$route.path == "/centers3" || this.$route.path == "/centers4" || this.$route.path == "/centers5" || this.$route.path == "/centers6" || this.$route.path == "/centers7";
     },
     isMuiciaplRoute1() {
-      return this.$route.path === '/place' || this.$route.path === '/civilization' || this.$route.path === "/biology1" || this.$route.path === "/archaeology";
+      return this.$route.path === "/place" || this.$route.path === "/civilization" || this.$route.path === "/biology1" || this.$route.path === "/archaeology" || this.$route.path === "/citymap" || this.$route.path === "/museum" || this.$route.path === "/Archaeology1" || this.$route.path === "/photo";
     },
     header_right_none() {
       return this.$route.path !== "/more";
@@ -50,11 +50,11 @@ export default {
       return this.$route.path !== "/more";
     },
     shouldShowBackground() {
-      return this.$route.path !== '/' && this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/accompanying" && this.$route.path !== "/biology1" && this.$route.path !== "/archaeology";
+      return this.$route.path !== "/" && this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/accompanying" && this.$route.path !== "/biology1" && this.$route.path !== "/archaeology" && this.$route.path !== "/citymap" && this.$route.path !== "/photo";
     },
 
     shouldShowBackground1() {
-      return this.$route.path !== '/' && this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/date" && this.$route.path !== "/accompanying" && this.$route.path !== "/biology1" && this.$route.path !== "/archaeology";
+      return this.$route.path !== "/" && this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/date" && this.$route.path !== "/accompanying" && this.$route.path !== "/biology1" && this.$route.path !== "/archaeology" && this.$route.path !== "/citymap" && this.$route.path !== "/photo";
     },
     footer_none() {
       return this.$route.path !== "/image" && this.$route.path !== "/more";
@@ -62,7 +62,7 @@ export default {
   },
   mounted() {
     AOS.init();
-    window.addEventListener('scroll', AOS.refresh);
+    window.addEventListener("scroll", AOS.refresh);
   }
 }
 </script>

@@ -152,6 +152,14 @@
 
 <script>
 export default {
-    name: "KpapMoney1"
+    name: "KpapMoney1",
+    created() {
+        this.changePageTitle('البلدية - الميزانية');
+    },
+    methods: {
+        changePageTitle(newTitle) {
+            document.title = newTitle;
+        },
+    },
 }
 </script>

@@ -25,6 +25,10 @@ import KpapPlace from "../components/folder city/CityPlace.vue";
 import KpapCivilization from "../components/folder city/CityCivilization.vue";
 import KpapBiology1 from "../components/folder city/CityBiology.vue";
 import KpapArchaeology from "../components/folder city/CityArchaeology.vue";
+import KpapMap from "../components/folder city/CityMap.vue";
+import KpapMuseum from "../components/folder city/CityMuseum.vue";
+import KpapArchaeology1 from "../components/folder city/CityArchaeology1.vue";
+import KpapPhoto from "../components/folder city/CityPhoto.vue";
 
 const routes = [
   {
@@ -154,6 +158,22 @@ const routes = [
   {
     path: "/archaeology",
     component: KpapArchaeology,
+  },
+  {
+    path: "/citymap",
+    component: KpapMap,
+  },
+  {
+    path: "/museum",
+    component: KpapMuseum,
+  },
+  {
+    path: "/Archaeology1",
+    component: KpapArchaeology1,
+  },
+  {
+    path: "/photo",
+    component: KpapPhoto,
   },
 ];
 

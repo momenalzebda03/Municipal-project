@@ -18,6 +18,14 @@
 import KpapHeaderThreeOne from "../folder header and footer/Header3_1.vue";
 export default {
     name: "KpapMuiciapl",
+    created() {
+        this.changePageTitle('البلدية - رؤيتنا');
+    },
+    methods: {
+        changePageTitle(newTitle) {
+            document.title = newTitle;
+        },
+    },
     components: {
         KpapHeaderThreeOne
     }

@@ -44,13 +44,21 @@
                 .الهدف العام للسلطة الوطنية</p>
             <p class="p_center mt-1 text-center border border-2 rounded-circle">7</p>
         </div>
-    </div>    
+    </div>
 </template>
 
 <script>
 import KpapHeaderThreeOne from "../folder header and footer/Header3_1.vue";
 export default {
     name: "KpapPolicy",
+    created() {
+        this.changePageTitle('البلدية - سياستنا');
+    },
+    methods: {
+        changePageTitle(newTitle) {
+            document.title = newTitle;
+        },
+    },
     components: {
         KpapHeaderThreeOne
     }

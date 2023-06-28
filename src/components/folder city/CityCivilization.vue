@@ -20,7 +20,7 @@
         <div class="container-fluid px-2 px-md-5 font_text overflow-hidden">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4 mt-3" data-aos="fade-right">
-                    <div class="card icon_click rounded-3">
+                    <div class="card card_hover icon_click rounded-3">
                         <div class="overflow-hidden">
                             <img src="../../assets/image_civil1/Gaza1.png" class="card-img-top w-100 p-3" alt="...">
                         </div>
@@ -31,7 +31,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 mt-3" data-aos="fade-right">
-                    <div class="card icon_click rounded-3">
+                    <div class="card card_hover icon_click rounded-3">
                         <div class="overflow-hidden">
                             <img src="../../assets/image_civil1/Gaza2.png" class="card-img-top w-100 p-3" alt="...">
                         </div>
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-4 mt-3" data-aos="fade-right">
-                    <div class="card icon_click rounded-3">
+                    <div class="card card_hover icon_click rounded-3">
                         <div class="overflow-hidden">
                             <img src="../../assets/image_civil1/Gaza3.png" class="card-img-top w-100 p-3" alt="...">
                         </div>

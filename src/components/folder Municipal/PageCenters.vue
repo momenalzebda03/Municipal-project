@@ -1094,6 +1094,14 @@
 <script>
 export default {
     name: "KpapCernterHeader",
+    created() {
+        this.changePageTitle('البلدية - المراكز');
+    },
+    methods: {
+        changePageTitle(newTitle) {
+            document.title = newTitle;
+        },
+    },
     computed: {
         section_garden() {
             return this.$route.path === '/centers1'
