@@ -166,8 +166,12 @@ body section .number_width:hover,
 }
 
 .button_padding:hover {
-    background-color: $color_green;
+    background-color: $color_green !important;
     color: $color_white;
+}
+
+.button_padding:hover .button_icon_hover {
+    color: $color_green;
 }
 
 .span_background::selection {
@@ -203,6 +207,9 @@ body section .number_width:hover,
     padding-right: 100px;
 }
 
+.icon_color_hover {
+    background-color: #e8e8e8;
+}
 
 // end afretang
 // start header
@@ -1040,6 +1047,23 @@ body section .row div .card_hover div .image_text {
 }
 
 // end main museum
+// start main public
+body section div .div_boostrap {
+    width: 25%;
+}
+
+// end main public
+// start main water
+body section .row div .row div .button_padding:hover .red_hover_white {
+    color: $color_white;
+}
+
+.button_padding_20 {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+// end main water
 // start footer
 body .div_footer,
 body .div_footer .row_width .p_border,

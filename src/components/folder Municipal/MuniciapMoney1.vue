@@ -1,7 +1,7 @@
 <template>
     <!-- start main money 2-->
-    <section class="text-end px-0 px-md-5">
-        <div class="container-fluid text-center text-md-end mt-0 mt-md-5 pt-4 font_text overflow-hidden">
+    <section class="text-end px-md-5">
+        <div class="container-fluid text-center text-md-end mt-md-5 pt-4 font_text overflow-hidden">
             <h4 class="fw-bold span_red">الميزانية والموازنة</h4>
             <div class="d-flex flex-column flex-md-row justify-content-end my-3 my-md-5 border-3 border-bottom">
                 <router-link to="/money1"
@@ -14,10 +14,10 @@
                 </router-link>
             </div>
             <div class="row">
-                <div class="col-12 col-md-5" data-aos="fade-right">
+                <div class="col-md-5" data-aos="fade-right">
                     <img src="../../assets/image_municipal5/ImageFacilities.png" alt="" class="w-100 h-100">
                 </div>
-                <div class="col-12 col-md-5" data-aos="fade-left">
+                <div class="col-md-5" data-aos="fade-left">
                     <div class="d-flex justify-content-center">
                         <div>
                             <div class="border border-1 pt-3 px-4 px-lg-5 rounded-3 shadow-sm bg-white mt-3">
@@ -124,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-2 my-3 my-md-5">
+                <div class="col-md-2 my-3 my-md-5">
                     <div class="border-2 border-end pe-4 row h-100 d-flex justify-content-end">
                         <div class="col col-md-12">
                             <p>1917 - 1906</p>

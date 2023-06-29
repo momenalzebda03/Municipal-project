@@ -1,11 +1,11 @@
 <template>
     <!-- start main plan -->
-    <section class="container-fluid text-center text-md-end mt-0 mt-md-5 pt-4 font_text overflow-hidden px-3 px-md-5">
+    <section class="container-fluid text-center text-md-end mt-md-5 pt-4 font_text overflow-hidden px-3 px-md-5">
         <div class="row">
-            <div class="col-12 col-md-6" data-aos="fade-right">
+            <div class="col-md-6" data-aos="fade-right">
                 <p class="fw-bold">..لعرض أو تحميل الخطة الاستراتيجية، يرجى اختيار الخطة أدناه</p>
                 <div class="row">
-                    <div class="col-12 col-sm-6 mt-4" v-for="item in items" :key="item">
+                    <div class="col-sm-6 mt-4" v-for="item in items" :key="item">
                         <div class="border border-1 py-3 px-4 rounded-3 shadow-sm bg-white">
                             <div
                                 class="d-flex gap-3 flex-column-reverse flex-sm-row justify-content-center justify-content-sm-end">
@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="col-1"></div>
-            <div class="col-12 col-md-5" data-aos="fade-left">
+            <div class="col-md-5" data-aos="fade-left">
                 <div class="d-flex gap-sm-4 flex-column-reverse gap-0 flex-sm-row justify-content-end">
                     <li class="nav-item dropdown nav-link">
                         <a class="text-black icon_hover text-decoration-none dropdown-toggle w-50" :class="rotateClass"

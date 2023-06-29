@@ -2,7 +2,7 @@
     <!-- start main image -->
     <section class="font_text">
         <div class="row overflow-hidden">
-            <div class="col-12 col-md-6 text-center text-md-end mt-5" data-aos="fade-right">
+            <div class="col-md-6 text-center text-md-end mt-5" data-aos="fade-right">
                 <router-link to="/Archaeology1"
                     class="fas fa-times fs-3 icon_click text-secondary text-decoration-none icon_hover"></router-link>
                 <h1 class="fw-bold mt-3">مقبرة دير البلح</h1>
@@ -31,7 +31,7 @@
                     .لمتحف إسرائيل
                 </p>
             </div>
-            <div class="col-12 col-md-6 text-end position-relative" data-aos="fade-left">
+            <div class="col-md-6 text-end position-relative" data-aos="fade-left">
                 <div id="carouselExampleControls" class="carousel slide carousel_height" data-bs-ride="carousel">
                     <div class="carousel-inner image_ehgith_100">
                         <div class="d-flex align-items-center justify-content-center position-absolute start-25 top-50">

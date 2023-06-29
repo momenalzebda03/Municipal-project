@@ -2,7 +2,7 @@
     <!-- start main map 2-->
     <section class="font_text section_bottom position-relative container-fluid p-0">
         <div class="row">
-            <div class="col-12 col-lg-8 px-0">
+            <div class="col-lg-8 px-0">
                 <img src="../../assets/image_municipal5/ImageMap.png" alt="" class="w-100 h-100 icon_click"
                     data-aos="fade-right" @click="div_click_block">
                 <div class="container-fluid px-5 image_none ms-4 container_image_center position-absolute bottom-0"
@@ -13,10 +13,10 @@
                                 <i class="fas fa-times fs-4 border-start border-bottom text-secondary p-3 back_hover"></i>
                             </div>
                             <div class="pt-2 px-5 row">
-                                <div class="col-12 col-lg-6 mb-4">
+                                <div class="col-lg-6 mb-4">
                                     <img src="../../assets/image_municipal6/ImageEngineering.png" alt="" class="w-100">
                                 </div>
-                                <div class="col-12 col-lg-6 text-center text-lg-end">
+                                <div class="col-lg-6 text-center text-lg-end">
                                     <p class="fw-bold">مركز رشاد الشوا الثقافي</p>
                                     <p>يعتبر مركز رشاد الشوا الثقافي في مدينة غزه أول مركز ثقافي يبني في فلسطين, و قد تم
                                         إتمام الـعمل في المبني عام 1988م, هذا وبعد مرور عشرة سـنوات مـنذ البدء في البــناء
@@ -67,7 +67,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4 border-5 border-start background_row_accompaying text-center text-lg-end pt-5 px-0"
+            <div class="col-lg-4 border-5 border-start background_row_accompaying text-center text-lg-end pt-5 px-0"
                 data-aos="fade-left">
                 <div class="px-2 px-lg-0 pe-lg-5">
                     <h5 class="span_red fw-bold mt-5">الخريطة التفاعلية</h5>

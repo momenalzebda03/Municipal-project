@@ -1,9 +1,9 @@
 <template>
     <!-- start main prposals-->
-    <section class="mt-0 mt-md-5">
+    <section class="mt-md-5">
         <div class="container-fluid px-4 font_text overflow-hidden">
             <div class="row">
-                <div class="col-12 col-lg-6 text-center text-lg-end mt-5 mb-2 mb-lg-0 my-lg-0" data-aos="fade-right">
+                <div class="col-lg-6 text-center text-lg-end mt-5 mb-2 mb-lg-0 my-lg-0" data-aos="fade-right">
                     <h5 class="span_red fw-bold">مقترحات</h5>
                     <p>.أهلا بك .. نحن على استعداد لخدمتك واستقبال كافة اقتراحاتك واستفساراتك</p>
                     <form method="" enctype="multipart/form-data" action="">
@@ -85,7 +85,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-12 pe-0 pe-lg-5 col-lg-6 text-center text-lg-end" data-aos="fade-left">
+                <div class="pe-lg-5 col-lg-6 text-center text-lg-end" data-aos="fade-left">
                     <h5 class="span_red fw-bold">جاهزون لنسمع مقترحاتك</h5>
                     <p>أهلا بك .. يمكنك التواصل معنا مباشرة على أرقامنا التالية</p>
                     <p class="fw-bold mt-4">تواصل معنا</p>

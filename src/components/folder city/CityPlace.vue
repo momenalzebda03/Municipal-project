@@ -2,13 +2,13 @@
     <!-- start main place -->
     <section class="container-fluid px-2 px-md-5 font_text overflow-hidden mt-5">
         <div class="row">
-            <div class="col-12 col-lg-8">
+            <div class="col-lg-8">
                 <img src="../../assets/image_civil/ImageMap.png" alt=""
                     class="position-absolute w-50 image_index image_map image_none">
                 <img src="../../assets/image_civil/ImageCity.png" alt="" class="div_mia image_75 mt-4"
                     data-aos="fade-right">
             </div>
-            <div class="col-12 col-lg-4 text-center text-lg-end mt-4" data-aos="fade-left">
+            <div class="col-lg-4 text-center text-lg-end mt-4" data-aos="fade-left">
                 <p class="span_red fw-bold">الموقع والمناخ</p>
                 <p> غزة مدينة ساحلية فلسطينية، وأكبر مدن قطاع غزة وتقع في شماله، في
                     الطرف الجنوبي للساحل الشرقي من البحر المتوسط. تبعد عن مدينة القدس

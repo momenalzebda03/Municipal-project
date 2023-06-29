@@ -4,7 +4,7 @@
         <h4 class="span_red text-center text-lg-end me-3 fw-bold">المراكز</h4>
         <div class="row">
             <router-link to="/centers1" data-aos="fade-right"
-                class="col-12 col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
+                class="col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
                 <div class="card shadow h-100">
                     <div class="div_bottom_30">
                         <img src="../../assets/image_municipal7/positions1.png" class="card-img-top p-2" alt="...">
@@ -28,8 +28,7 @@
                     </div>
                 </div>
             </router-link>
-            <router-link to="/centers2" data-aos="fade-down"
-                class="col-12 col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
+            <router-link to="/centers2" data-aos="fade-down" class="col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
                 <div class="card shadow h-100">
                     <div class="div_bottom_30">
                         <img src="../../assets/image_municipal7/positions2.png" class="card-img-top p-2" alt="...">
@@ -53,8 +52,7 @@
                     </div>
                 </div>
             </router-link>
-            <router-link to="/centers3" data-aos="fade-left"
-                class="col-12 col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
+            <router-link to="/centers3" data-aos="fade-left" class="col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
                 <div class="card shadow h-100">
                     <div class="div_bottom_30">
                         <img src="../../assets/image_municipal7/positions3.png" class="card-img-top p-2" alt="...">
@@ -79,7 +77,7 @@
                 </div>
             </router-link>
             <router-link to="/centers4" data-aos="fade-right"
-                class="col-12 col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
+                class="col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
                 <div class="card shadow h-100">
                     <div class="div_bottom_30">
                         <img src="../../assets/image_municipal7/positions4.png" class="card-img-top p-2" alt="...">
@@ -103,8 +101,7 @@
                     </div>
                 </div>
             </router-link>
-            <router-link to="/centers5" data-aos="fade-down"
-                class="col-12 col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
+            <router-link to="/centers5" data-aos="fade-down" class="col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
                 <div class="card shadow h-100">
                     <div class="div_bottom_30">
                         <img src="../../assets/image_municipal7/positions5.png" class="card-img-top p-2" alt="...">
@@ -128,8 +125,7 @@
                     </div>
                 </div>
             </router-link>
-            <router-link to="/centers6" data-aos="fade-left"
-                class="col-12 col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
+            <router-link to="/centers6" data-aos="fade-left" class="col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
                 <div class="card shadow h-100">
                     <div class="div_bottom_30">
                         <img src="../../assets/image_municipal7/positions6.png" class="card-img-top p-2" alt="...">
@@ -153,10 +149,10 @@
                     </div>
                 </div>
             </router-link>
-            <div class="col-12 col-md-12 col-lg-4"></div>
-            <div class="col-12 col-md-12 col-lg-4"></div>
+            <div class="col-md-12 col-lg-4"></div>
+            <div class="col-md-12 col-lg-4"></div>
             <router-link to="/centers7" data-aos="fade-left"
-                class="col-12 col-md-12 col-lg-4 icon_click text-decoration-none mt-5">
+                class="col-md-12 col-lg-4 icon_click text-decoration-none mt-5">
                 <div class="card shadow h-100">
                     <div class="div_bottom_30">
                         <img src="../../assets/image_municipal7/positions7.png" class="card-img-top p-2" alt="...">

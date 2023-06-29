@@ -1,11 +1,11 @@
 <template>
     <!-- start main museum -->
-    <section class="container-fluid text-center text-lg-end px-0 px-lg-5 mt-0 mt-lg-5 pt-5 font_text overflow-hidden">
+    <section class="container-fluid text-center text-lg-end px-lg-5 mt-lg-5 pt-5 font_text overflow-hidden">
         <div class="row">
-            <div class="col-12 col-lg-7 div_translate_170">
+            <div class="col-lg-7 div_translate_170">
                 <img src="../../assets/image_civiil3/ImageBackground.png" alt="" class="w-100">
             </div>
-            <div class="col-12 col-lg-5">
+            <div class="col-lg-5">
                 <h5 class="fw-bold span_red">المتحف الإلكتروني</h5>
                 <p> تزخر مدينة غزة الفلسطينية بتراث أثري وتاريخي يعود لآلاف السنين، ومنذ نشأتها في عام ثلاثة
                     آلاف قبل الميلاد، تعتبر من أقدم المدن الأثرية والتاريخية، المعبرة عن تجذر الحضارة الفلسطينية العربية منذ
@@ -13,7 +13,7 @@
                     وتعود تلك القطع إلى عدد من العصور، منها العصر اليوناني، الروماني، البيزنطي، والإسلامي بما يحتويه من
                     العصر .الأيوبي والأموي والمملوكي والعثماني</p>
             </div>
-            <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
+            <div class="col-md-6 col-lg-4" data-aos="fade-right">
                 <router-link to="/Archaeology1">
                     <div class="card card_hover icon_click rounded-3">
                         <div class="position-relative">
@@ -24,7 +24,7 @@
                     </div>
                 </router-link>
             </div>
-            <div class="col-12 col-md-6 col-lg-4" data-aos="fade-down">
+            <div class="col-md-6 col-lg-4" data-aos="fade-down">
                 <router-link to="/Archaeology1">
                     <div class="card card_hover icon_click rounded-3">
                         <div class="position-relative">
@@ -34,7 +34,7 @@
                     </div>
                 </router-link>
             </div>
-            <div class="col-12 col-md-12 col-lg-4 mt-3 mt-lg-0" data-aos="fade-left">
+            <div class="col-md-12 col-lg-4 mt-3 mt-lg-0" data-aos="fade-left">
                 <router-link to="/Archaeology1">
                     <div class="card card_hover icon_click rounded-3">
                         <div class="position-relative">

@@ -4,7 +4,7 @@
         <KpapHeaderThreeTow />
         <div class="container-fluid px-3 px-md-5 text-end">
             <div class="row">
-                <div class="col-12 col-md-6" data-aos="fade-right">
+                <div class="col-md-6" data-aos="fade-right">
                     <div
                         class="div_left px-0 p-md-5 mt-4 d-flex justify-content-center align-items-center rounded-3 border border-2">
                         <div class="text-center">
@@ -22,7 +22,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 text-center text-md-end mt-4 mt-md-0" data-aos="fade-left">
+                <div class="col-md-6 text-center text-md-end mt-4 mt-md-0" data-aos="fade-left">
                     <p class="fw-bold">أعضاء المجلس البلدي الحاليين</p>
                     <p>تسلم المجلس البلدي إدارة بلدية غزة مطلع آب/أغسطس 2016، في وقت تعاني فيه البلدية أزمة
                         مالية كبيرة وترهلا إداريا وقلة في الموارد والإمكانات. ويضم المجلس البلدي 11 عضوا نشيطا يحملون

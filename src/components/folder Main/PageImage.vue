@@ -2,7 +2,7 @@
     <!-- start main image -->
     <section class="font_text">
         <div class="row overflow-hidden">
-            <div class="col-12 col-md-6 text-center text-md-end mt-5" data-aos="fade-right">
+            <div class="col-md-6 text-center text-md-end mt-5" data-aos="fade-right">
                 <p class="text-secondary">الأحد 25 يوليو 2021 | 16:22:03</p>
                 <h1 class="fw-bold">بلدية غزة تفتتح بئر مياه في منطقة<br>
                     الشعف شرق حي التفاح</h1>
@@ -27,7 +27,7 @@
                         المرتفعة والبعيدة نسبياً عن مصادر المياه</span>
                 </p>
             </div>
-            <div class="col-12 col-md-6 text-end position-relative" data-aos="fade-left">
+            <div class="col-md-6 text-end position-relative" data-aos="fade-left">
                 <div id="carouselExampleControls" class="carousel slide carousel_height" data-bs-ride="carousel">
                     <div class="carousel-inner image_ehgith_100">
                         <div class="d-flex align-items-center justify-content-center position-absolute start-25 top-50">

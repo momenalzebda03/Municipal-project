@@ -53,7 +53,7 @@
             </div>
         </div>
     </div>
-    <section class="container-fluid text-center mt-0 mt-md-5 pt-4 font_text px-3 px-md-5 overflow-hidden div_px">
+    <section class="container-fluid text-center mt-md-5 pt-4 font_text px-3 px-md-5 overflow-hidden div_px">
         <h3 class="span_red fw-bold mb-5" data-aos="flip-left">الهيكلية الإدارية لبلدية غزة</h3>
         <div class="d-flex justify-content-center" data-aos="flip-left">
             <h4 class="custom_class_red div_width_president py-3 div_mia fw-bold rounded-3">رئاسة البلدية</h4>
@@ -102,12 +102,12 @@
                         </div>
                     </div>
                     <div class="row px-0 mt-3 justify-content-center">
-                        <div class="col-12 col-lg-6" data-aos="fade-right">
+                        <div class="col-lg-6" data-aos="fade-right">
                             <div class="py-3 bg-white border border-2 rounded-3 shadow-sm text-center">
                                 <span class="fw-bold">دائرة العلاقات<br>العامة والإعلام</span>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 mt-3 mt-lg-0" data-aos="fade-left">
+                        <div class="col-lg-6 mt-3 mt-lg-0" data-aos="fade-left">
                             <div class="py-3 bg-white border border-2 rounded-3 shadow-sm text-center">
                                 <span class="fw-bold">الإدارة العامة للمياه<br>والصرف الصحي</span>
                             </div>
@@ -115,7 +115,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4 mt-3 py-5 py-lg-0 mt-sm-0 p_bottom" data-aos="fade-donw">
+            <div class="col-lg-4 mt-3 py-5 py-lg-0 mt-sm-0 p_bottom" data-aos="fade-donw">
                 <div class="py-3 bg-white border border-2 rounded-3 shadow-sm px-4">
                     <span class="fw-bold">الإدارة العامة للشؤون المالية</span>
                 </div>
@@ -135,12 +135,12 @@
                         </div>
                     </div>
                     <div class="row px-0 mt-3 justify-content-center">
-                        <div class="col-12 col-lg-6" data-aos="fade-right">
+                        <div class="col-lg-6" data-aos="fade-right">
                             <div class="py-3 bg-white border border-2 rounded-3 shadow-sm text-center">
                                 <span class="fw-bold">الإدارة العامة<br>للتنظيم</span>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 mt-3 mt-lg-0" data-aos="fade-left">
+                        <div class="col-lg-6 mt-3 mt-lg-0" data-aos="fade-left">
                             <div class="py-3 bg-white border border-2 rounded-3 shadow-sm text-center">
                                 <span class="fw-bold">الإدارة العامة<br>للهندسة والتخطيط</span>
                             </div>
@@ -148,7 +148,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 mt-3" data-aos="fade-up">
+            <div class="col-lg-3 mt-3" data-aos="fade-up">
                 <div class="py-3 bg-white border border-2 rounded-3 shadow-sm px-4">
                     <span class="fw-bold">الإدارة العامة للشؤون الإدارية</span>
                 </div>
@@ -168,7 +168,7 @@
                         </div>
                     </div>
                     <div class="row px-0 mt-3 justify-content-center">
-                        <div class="col-12 col-lg-6 position-relative" data-aos="fade-right">
+                        <div class="col-lg-6 position-relative" data-aos="fade-right">
                             <div class="py-3 bg-white border border-2 rounded-3 shadow-sm text-center">
                                 <span class="fw-bold">الإدارة العامة<br>للمراكز الثقافية</span>
                             </div>
@@ -188,12 +188,12 @@
                                     </div>
                                 </div>
                                 <div class="row px-0 mt-1 justify-content-center">
-                                    <div class="col-12 col-lg-6" data-aos="fade-right">
+                                    <div class="col-lg-6" data-aos="fade-right">
                                         <div class="py-3 bg-white border border-2 rounded-3 shadow-sm text-center">
                                             <span class="fw-bold">الإدارة العامة<br>للمراكز الثقافية</span>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-lg-6 mt-3 mt-lg-0" data-aos="fade-left">
+                                    <div class="col-lg-6 mt-3 mt-lg-0" data-aos="fade-left">
                                         <div class="py-3 bg-white border border-2 rounded-3 shadow-sm text-center">
                                             <span class="fw-bold">الإدارة العامة<br>للصحة والبيئة</span>
                                         </div>
@@ -201,7 +201,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 mt-3 mt-lg-0" data-aos="fade-left">
+                        <div class="col-lg-6 mt-3 mt-lg-0" data-aos="fade-left">
                             <div class="py-3 bg-white border border-2 rounded-3 shadow-sm text-center">
                                 <span class="fw-bold">الإدارة العامة<br>للصحة والبيئة</span>
                             </div>

@@ -68,7 +68,7 @@
         </div>
         <div class="container-fluid px-md-5 mt-2">
             <div class="row overflow-hidden">
-                <div class="col col-md-6 col-lg-4 my-3 text-center" data-aos="fade-down">
+                <div class="col-md-6 col-lg-4 my-3 text-center" data-aos="fade-down">
                     <div class="py-4 rounded-4 mt-4 div_color_col overflow-auto div_heigt_bottom">
                         <p class="mt-4 fw-bold">أهم الخدمات الأساسية التي تقدمها البلدية</p>
                         <div class="mt-5 pt-1">
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white col col-md-6 col-lg-4 my-3 text-center text-lg-end" data-aos="fade-down">
+                <div class="bg-white col-md-6 col-lg-4 my-3 text-center text-lg-end" data-aos="fade-down">
                     <div class="p-4 rounded-4 mt-4 border_dotted overflow-auto div_heigt_bottom">
                         <div
                             class="d-flex gap-3 flex-lg-row flex-column-reverse justify-content-center justify-content-sm-end align-items-center">
@@ -135,7 +135,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white col-12 col-md-12 col-lg-4 my-3 text-center text-sm-end" data-aos="fade-left">
+                <div class="bg-white col-md-12 col-lg-4 my-3 text-center text-sm-end" data-aos="fade-left">
                     <div class="p-4 rounded-4 mt-4 border_dotted overflow-auto div_heigt_bottom">
                         <div
                             class="d-flex gap-3 flex-sm-row flex-column-reverse justify-content-center justify-content-sm-end align-items-center">
@@ -221,7 +221,7 @@
         </div>
         <div class="container-fluid px-md-5 mt-2">
             <div class="row overflow-hidden">
-                <div class="col col-md-6 col-lg-4 my-3 text-center" data-aos="fade-down">
+                <div class="col-md-6 col-lg-4 my-3 text-center" data-aos="fade-down">
                     <div class="py-4 rounded-4 mt-4 div_color_col overflow-auto div_heigt_bottom">
                         <p class="mt-4 fw-bold">أهم الخدمات الأساسية التي تقدمها البلدية</p>
                         <div class="mt-5 pt-1">
@@ -255,7 +255,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white col col-md-6 col-lg-4 my-3 text-center text-lg-end" data-aos="fade-down">
+                <div class="bg-white col-md-6 col-lg-4 my-3 text-center text-lg-end" data-aos="fade-down">
                     <div class="p-4 rounded-4 mt-4 border_dotted overflow-auto div_heigt_bottom">
                         <div
                             class="d-flex gap-3 flex-lg-row flex-column-reverse justify-content-center justify-content-sm-end align-items-center">
@@ -291,7 +291,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white col-12 col-md-12 col-lg-4 my-3 text-center text-sm-end" data-aos="fade-left">
+                <div class="bg-white col-md-12 col-lg-4 my-3 text-center text-sm-end" data-aos="fade-left">
                     <div class="p-4 rounded-4 mt-4 border_dotted overflow-auto div_heigt_bottom">
                         <div
                             class="d-flex gap-3 flex-sm-row flex-column-reverse justify-content-center justify-content-sm-end align-items-center">
@@ -376,7 +376,7 @@
         </div>
         <div class="container-fluid px-md-5 mt-2">
             <div class="row overflow-hidden">
-                <div class="col col-md-6 col-lg-4 my-3 text-center" data-aos="fade-down">
+                <div class="col-md-6 col-lg-4 my-3 text-center" data-aos="fade-down">
                     <div class="py-4 rounded-4 mt-4 div_color_col overflow-auto div_heigt_bottom">
                         <p class="mt-4 fw-bold">أهم الخدمات الأساسية التي تقدمها البلدية</p>
                         <div class="mt-5 pt-1">
@@ -410,7 +410,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white col col-md-6 col-lg-4 my-3 text-center text-lg-end" data-aos="fade-down">
+                <div class="bg-white col-md-6 col-lg-4 my-3 text-center text-lg-end" data-aos="fade-down">
                     <div class="p-4 rounded-4 mt-4 border_dotted overflow-auto div_heigt_bottom">
                         <div
                             class="d-flex gap-3 flex-lg-row flex-column-reverse justify-content-center justify-content-sm-end align-items-center">
@@ -446,7 +446,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white col-12 col-md-12 col-lg-4 my-3 text-center text-sm-end" data-aos="fade-left">
+                <div class="bg-white col-md-12 col-lg-4 my-3 text-center text-sm-end" data-aos="fade-left">
                     <div class="p-4 rounded-4 mt-4 border_dotted overflow-auto div_heigt_bottom">
                         <div
                             class="d-flex gap-3 flex-sm-row flex-column-reverse justify-content-center justify-content-sm-end align-items-center">
@@ -532,7 +532,7 @@
         </div>
         <div class="container-fluid px-md-5 mt-2">
             <div class="row overflow-hidden">
-                <div class="col col-md-6 col-lg-4 my-3 text-center" data-aos="fade-down">
+                <div class="col-md-6 col-lg-4 my-3 text-center" data-aos="fade-down">
                     <div class="py-4 rounded-4 mt-4 div_color_col overflow-auto div_heigt_bottom">
                         <p class="mt-4 fw-bold">أهم الخدمات الأساسية التي تقدمها البلدية</p>
                         <div class="mt-5 pt-1">
@@ -566,7 +566,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white col col-md-6 col-lg-4 my-3 text-center text-lg-end" data-aos="fade-down">
+                <div class="bg-white col-md-6 col-lg-4 my-3 text-center text-lg-end" data-aos="fade-down">
                     <div class="p-4 rounded-4 mt-4 border_dotted overflow-auto div_heigt_bottom">
                         <div
                             class="d-flex gap-3 flex-lg-row flex-column-reverse justify-content-center justify-content-sm-end align-items-center">
@@ -602,7 +602,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white col-12 col-md-12 col-lg-4 my-3 text-center text-sm-end" data-aos="fade-left">
+                <div class="bg-white col-md-12 col-lg-4 my-3 text-center text-sm-end" data-aos="fade-left">
                     <div class="p-4 rounded-4 mt-4 border_dotted overflow-auto div_heigt_bottom">
                         <div
                             class="d-flex gap-3 flex-sm-row flex-column-reverse justify-content-center justify-content-sm-end align-items-center">
@@ -688,7 +688,7 @@
         </div>
         <div class="container-fluid px-md-5 mt-2">
             <div class="row overflow-hidden">
-                <div class="col col-md-6 col-lg-4 my-3 text-center" data-aos="fade-down">
+                <div class="col-md-6 col-lg-4 my-3 text-center" data-aos="fade-down">
                     <div class="py-4 rounded-4 mt-4 div_color_col overflow-auto div_heigt_bottom">
                         <p class="mt-4 fw-bold">أهم الخدمات الأساسية التي تقدمها البلدية</p>
                         <div class="mt-5 pt-1">
@@ -722,7 +722,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white col col-md-6 col-lg-4 my-3 text-center text-lg-end" data-aos="fade-down">
+                <div class="bg-white col-md-6 col-lg-4 my-3 text-center text-lg-end" data-aos="fade-down">
                     <div class="p-4 rounded-4 mt-4 border_dotted overflow-auto div_heigt_bottom">
                         <div
                             class="d-flex gap-3 flex-lg-row flex-column-reverse justify-content-center justify-content-sm-end align-items-center">
@@ -758,7 +758,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white col-12 col-md-12 col-lg-4 my-3 text-center text-sm-end" data-aos="fade-left">
+                <div class="bg-white col-md-12 col-lg-4 my-3 text-center text-sm-end" data-aos="fade-left">
                     <div class="p-4 rounded-4 mt-4 border_dotted overflow-auto div_heigt_bottom">
                         <div
                             class="d-flex gap-3 flex-sm-row flex-column-reverse justify-content-center justify-content-sm-end align-items-center">
@@ -844,7 +844,7 @@
         </div>
         <div class="container-fluid px-md-5 mt-2">
             <div class="row overflow-hidden">
-                <div class="col col-md-6 col-lg-4 my-3 text-center" data-aos="fade-down">
+                <div class="col-md-6 col-lg-4 my-3 text-center" data-aos="fade-down">
                     <div class="py-4 rounded-4 mt-4 div_color_col overflow-auto div_heigt_bottom">
                         <p class="mt-4 fw-bold">أهم الخدمات الأساسية التي تقدمها البلدية</p>
                         <div class="mt-5 pt-1">
@@ -878,7 +878,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white col col-md-6 col-lg-4 my-3 text-center text-lg-end" data-aos="fade-down">
+                <div class="bg-white col-md-6 col-lg-4 my-3 text-center text-lg-end" data-aos="fade-down">
                     <div class="p-4 rounded-4 mt-4 border_dotted overflow-auto div_heigt_bottom">
                         <div
                             class="d-flex gap-3 flex-lg-row flex-column-reverse justify-content-center justify-content-sm-end align-items-center">
@@ -914,7 +914,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white col-12 col-md-12 col-lg-4 my-3 text-center text-sm-end" data-aos="fade-left">
+                <div class="bg-white col-md-12 col-lg-4 my-3 text-center text-sm-end" data-aos="fade-left">
                     <div class="p-4 rounded-4 mt-4 border_dotted overflow-auto div_heigt_bottom">
                         <div
                             class="d-flex gap-3 flex-sm-row flex-column-reverse justify-content-center justify-content-sm-end align-items-center">
@@ -1000,7 +1000,7 @@
         </div>
         <div class="container-fluid px-md-5 mt-2">
             <div class="row overflow-hidden">
-                <div class="col col-md-6 col-lg-4 my-3 text-center" data-aos="fade-down">
+                <div class="col-md-6 col-lg-4 my-3 text-center" data-aos="fade-down">
                     <div class="py-4 rounded-4 mt-4 div_color_col overflow-auto div_heigt_bottom">
                         <p class="mt-4 fw-bold">أهم الخدمات الأساسية التي تقدمها البلدية</p>
                         <div class="mt-5 pt-1">
@@ -1034,7 +1034,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white col col-md-6 col-lg-4 my-3 text-center text-lg-end" data-aos="fade-down">
+                <div class="bg-white col-md-6 col-lg-4 my-3 text-center text-lg-end" data-aos="fade-down">
                     <div class="p-4 rounded-4 mt-4 border_dotted overflow-auto div_heigt_bottom">
                         <div
                             class="d-flex gap-3 flex-lg-row flex-column-reverse justify-content-center justify-content-sm-end align-items-center">
@@ -1070,7 +1070,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white col-12 col-md-12 col-lg-4 my-3 text-center text-sm-end" data-aos="fade-left">
+                <div class="bg-white col-md-12 col-lg-4 my-3 text-center text-sm-end" data-aos="fade-left">
                     <div class="p-4 rounded-4 mt-4 border_dotted overflow-auto div_heigt_bottom">
                         <div
                             class="d-flex gap-3 flex-sm-row flex-column-reverse justify-content-center justify-content-sm-end align-items-center">

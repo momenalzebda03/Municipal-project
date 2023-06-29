@@ -4,7 +4,7 @@
         <KpapHeaderThreeTow />
         <div class="container-fluid px-2 px-md-5 font_text overflow-hidden mb-5 pb-2">
             <div class="row justify-content-end">
-                <div class="col-12 col-lg-6 text-center text-lg-end d-flex gap-1 gap-lg-4" data-aos="fade-right">
+                <div class="col-lg-6 text-center text-lg-end d-flex gap-1 gap-lg-4" data-aos="fade-right">
                     <div class="d-flex align-items-end mb-2">
                         <i class="fas fa-quote-left icon_color fs-2"></i>
                     </div>
@@ -13,7 +13,7 @@
                     </h5>
                     <i class="fas fa-quote-right icon_color fs-2"></i>
                 </div>
-                <div class="col-12 col-lg-6 text-end" data-aos="fade-left">
+                <div class="col-lg-6 text-end" data-aos="fade-left">
                     <div
                         class="d-flex justify-content-center justify-content-lg-end flex-column flex-lg-row gap-4 text-center text-lg-end">
                         <div>
@@ -27,8 +27,8 @@
                     </div>
                 </div>
             </div>
-            <section class="pt-0 mt-5 pt-md-5 row">
-                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
+            <section class="mt-5 pt-md-5 row">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
                     <div
                         class="text-center text-md-end border border-2 rounded-3 shadow-sm bg-white div_heigt_bottom overflow-auto">
                         <div class="p-4">
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 mt-4 mt-md-0" data-aos="fade-down">
+                <div class="col-md-6 col-lg-4 mt-4 mt-md-0" data-aos="fade-down">
                     <div
                         class="text-center text-md-end border border-2 text-end p-4 rounded-3 shadow-sm bg-white div_heigt_bottom overflow-auto">
                         <p class="fw-bold span_red">المناصب التي شغلها</p>
@@ -95,7 +95,7 @@
                         <span>بفلسطين -</span>
                     </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-4 mt-4 mt-lg-0" data-aos="fade-up">
+                <div class="col-md-12 col-lg-4 mt-4 mt-lg-0" data-aos="fade-up">
                     <div
                         class="text-center text-md-end border border-2 p-4 rounded-3 shadow-sm bg-white div_heigt_bottom overflow-auto">
                         <p class="fw-bold span_red">نبذة مختصرة</p>

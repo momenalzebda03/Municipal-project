@@ -13,9 +13,10 @@
     <div>
       <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" v-if="header_none" class="image_hgiht">
     </div>
-    <HeaderRightCpap v-if="header_right_none && !isMuiciaplRoute && !isMuiciaplRoute1" />
+    <HeaderRightCpap v-if="header_right_none && !isMuiciaplRoute && !isMuiciaplRoute1 && !isMuiciaplRoute2" />
     <HeaderRightCpap1 v-if="isMuiciaplRoute" />
     <HeaderRightCpap2 v-if="isMuiciaplRoute1" />
+    <HeaderRightCpap3 v-if="isMuiciaplRoute2" />
   </div>
 </template>
 
@@ -27,6 +28,7 @@ import HeaderRightCpap from "./components/folder header and footer/PageHeaderRig
 import FooterKpap from "./components/folder header and footer/PageFooter.vue";
 import HeaderRightCpap1 from "./components/folder header and footer/PageHeaderRgith2.vue";
 import HeaderRightCpap2 from "./components/folder header and footer/PageHeaderRight3.vue";
+import HeaderRightCpap3 from "./components/folder header and footer/PageHeaderRgith4.vue";
 
 export default {
   components: {
@@ -34,7 +36,8 @@ export default {
     HeaderRightCpap,
     FooterKpap,
     HeaderRightCpap1,
-    HeaderRightCpap2
+    HeaderRightCpap2,
+    HeaderRightCpap3
   },
   computed: {
     isMuiciaplRoute() {
@@ -42,6 +45,9 @@ export default {
     },
     isMuiciaplRoute1() {
       return this.$route.path === "/place" || this.$route.path === "/civilization" || this.$route.path === "/biology1" || this.$route.path === "/archaeology" || this.$route.path === "/citymap" || this.$route.path === "/museum" || this.$route.path === "/Archaeology1" || this.$route.path === "/photo";
+    },
+    isMuiciaplRoute2() {
+      return this.$route.path === "/public" || this.$route.path === "/water";
     },
     header_right_none() {
       return this.$route.path !== "/more";

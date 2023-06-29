@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid text-center text-md-end px-0 px-md-5 mt-0 mt-md-5 pt-5 font_text overflow-hidden">
+    <div class="container-fluid text-center text-md-end px-md-5 mt-md-5 pt-5 font_text overflow-hidden">
         <KpapHeaderThreeOne />
         <div data-aos="fade-left" class="d-flex gap-3 justify-content-center justify-content-md-end align-items-center">
             <h5 class="span_red">أهدافنا</h5>

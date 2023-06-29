@@ -1,11 +1,11 @@
 <template>
     <!-- start main Archaeology1 -->
-    <section class="container-fluid text-center text-lg-end px-0 px-lg-5 mt-0 mt-lg-5 pt-5 font_text overflow-hidden">
+    <section class="container-fluid text-center text-lg-end px-lg-5 mt-lg-5 pt-5 font_text overflow-hidden">
         <router-link to="/museum"
             class="fas fa-times fs-3 icon_click text-black text-decoration-none icon_hover"></router-link>
         <h5 class="fw-bold span_red mt-4">الأثار</h5>
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 mt-3" data-aos="fade-right">
+            <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-right">
                 <router-link to="/photo" class="card card_hover icon_click rounded-3 text-decoration-none shadow">
                     <div class="overflow-hidden">
                         <img src="../../assets/image_civiil4/ImageArchaeology.png" class="card-img-top w-100 p-3" alt="...">
@@ -22,7 +22,7 @@
                     </div>
                 </router-link>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-3" data-aos="fade-down">
+            <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-down">
                 <router-link to="/photo" class="card card_hover icon_click rounded-3 text-decoration-none shadow">
                     <div class="overflow-hidden">
                         <img src="../../assets/image_civiil4/ImageArchaeology1.png" class="card-img-top w-100 p-3"
@@ -40,7 +40,7 @@
                     </div>
                 </router-link>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-3" data-aos="fade-left">
+            <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-left">
                 <router-link to="/photo" class="card card_hover icon_click rounded-3 text-decoration-none shadow">
                     <div class="overflow-hidden">
                         <img src="../../assets/image_civiil4/ImageArchaeology2.png" class="card-img-top w-100 p-3"
@@ -58,7 +58,7 @@
                     </div>
                 </router-link>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-3" data-aos="fade-right">
+            <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-right">
                 <router-link to="/photo" class="card card_hover icon_click rounded-3 text-decoration-none shadow">
                     <div class="overflow-hidden">
                         <img src="../../assets/image_civiil4/ImageArchaeology3.png" class="card-img-top w-100 p-3"
@@ -76,7 +76,7 @@
                     </div>
                 </router-link>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-3" data-aos="fade-down">
+            <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-down">
                 <router-link to="/photo" class="card card_hover icon_click rounded-3 text-decoration-none shadow">
                     <div class="overflow-hidden">
                         <img src="../../assets/image_civiil4/ImageArchaeology4.png" class="card-img-top w-100 p-3"
@@ -94,7 +94,7 @@
                     </div>
                 </router-link>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-3" data-aos="fade-left">
+            <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-left">
                 <router-link to="/photo" class="card card_hover icon_click rounded-3 text-decoration-none shadow">
                     <div class="overflow-hidden">
                         <img src="../../assets/image_civiil4/ImageArchaeology5.png" class="card-img-top w-100 p-3"

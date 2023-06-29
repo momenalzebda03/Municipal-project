@@ -2,7 +2,7 @@
     <!-- start main sessions -->
     <KpapHeaderThreeTow />
     <section class="container-fluid font_text overflow-hidden">
-        <div class="row px-0 px-md-5">
+        <div class="row px-md-5">
             <div class="col" data-aos="fade-right">
                 <div class="datepicker shadow rounded-3">
                 </div>

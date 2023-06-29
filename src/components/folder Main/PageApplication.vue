@@ -1,12 +1,12 @@
 <template>
     <!-- start main application-->
-    <section class="mt-0 mt-md-5">
+    <section class="mt-md-5">
         <div class="container-fluid px-5 font_text overflow-hidden">
             <div class="row">
-                <div class="col-12 col-lg-6 text-center" data-aos="fade-right">
+                <div class="col-lg-6 text-center" data-aos="fade-right">
                     <img src="../../assets/image_page_home_1/ImageApplicachan.png" alt="" class="image_respons">
                 </div>
-                <div class="col-12 col-lg-6 mt-4 fw-bold" data-aos="fade-left">
+                <div class="col-lg-6 mt-4 fw-bold" data-aos="fade-left">
                     <h4 class="span_red fw-bold text-center text-lg-end">تطبيق مصمم خصيصأ لك</h4>
                     <P class="mt-3 text-center text-lg-end"> من خلال التطبيق الخاص بنا, يمكنك اجراء العديد من الخدمات التي
                         تساعد<br>.وتسهل عليك الكثير من الوقت والجهد</P>
