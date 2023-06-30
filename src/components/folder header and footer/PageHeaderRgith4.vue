@@ -4,7 +4,7 @@
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-taxi fs-5"></i>
         </router-link>
-        <router-link to="/" title="دليل المعاملات" :class="{ 'active': isActive('/') }"
+        <router-link to="/system" title="دليل المعاملات" :class="{ 'active': isActive('/system') }"
             class="py-5 d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-book fs-5"></i>
         </router-link>

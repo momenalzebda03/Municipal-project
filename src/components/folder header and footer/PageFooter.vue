@@ -9,7 +9,8 @@
                 <p>المشاريع</p>
                 <div class="p_border"></div>
             </router-link>
-            <router-link to="/public" :class="{ 'div_active': isActive('/public') || isActive('/water') }"
+            <router-link to="/public"
+                :class="{ 'div_active': isActive('/public') || isActive('/water') || isActive('/system') }"
                 class="col pt-4 text-center back_hover text-black text-decoration-none">
                 <p>الخدمات</p>
                 <div class="p_border"></div>

@@ -128,7 +128,7 @@ body section .number_width:hover,
 }
 
 .icon_color {
-    color: $color_green;
+    color: $color_green !important;
 }
 
 .icon_black {
@@ -209,6 +209,14 @@ body section .number_width:hover,
 
 .icon_color_hover {
     background-color: #e8e8e8;
+}
+
+.div_from {
+    width: 40%;
+}
+
+.span_hover {
+    color: #989898;
 }
 
 // end afretang
@@ -391,12 +399,6 @@ body section .container-fluid .row div div a .div_button:hover {
 }
 
 // end main application
-// start main prposals
-.div_from {
-    width: 40%;
-}
-
-// end main prposals
 body div div .image_background {
     transform: translate(0px, -180px);
     z-index: -1;
@@ -911,7 +913,7 @@ body section .row .card .div_translate {
     transform: translate(0px, -50px);
 }
 
-body section .row .card div div .icon_back {
+.icon_back {
     background-color: #F3F2F2;
 }
 
@@ -1064,6 +1066,54 @@ body section .row div .row div .button_padding:hover .red_hover_white {
 }
 
 // end main water
+// start main system
+.div_active_icon {
+    background-color: $color_green !important;
+    color: $color_white !important;
+}
+
+body section .row .row div .active_span_hover {
+    font-weight: bold;
+    color: $color_green !important;
+}
+
+body section div div .div_padding_scroll {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: $color_white;
+}
+
+body section div .cursor_grap {
+    cursor: grab;
+}
+
+body section div div .active_before::before,
+body section div div .div_padding_scroll:hover::before {
+    bottom: -14px !important;
+}
+
+body section div div .active_before::before,
+body section div div .div_padding_scroll::before,
+body section div div .div_padding_scroll:hover::before {
+    content: "";
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid $color_green;
+}
+
+body section div div .div_padding_scroll::before {
+    bottom: 0px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid $color_green;
+    transition: 0.3s;
+    z-index: -1;
+}
+
+// end main system
 // start footer
 body .div_footer,
 body .div_footer .row_width .p_border,
@@ -1196,10 +1246,6 @@ body .div_footer .row_width {
     body div .div_show nav {
         z-index: 2;
         background-color: white;
-    }
-
-    body .div_width {
-        width: 70px;
     }
 
     body section div .row div .div_top {

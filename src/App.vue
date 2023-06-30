@@ -47,7 +47,7 @@ export default {
       return this.$route.path === "/place" || this.$route.path === "/civilization" || this.$route.path === "/biology1" || this.$route.path === "/archaeology" || this.$route.path === "/citymap" || this.$route.path === "/museum" || this.$route.path === "/Archaeology1" || this.$route.path === "/photo";
     },
     isMuiciaplRoute2() {
-      return this.$route.path === "/public" || this.$route.path === "/water";
+      return this.$route.path === "/public" || this.$route.path === "/water" || this.$route.path === "/system";
     },
     header_right_none() {
       return this.$route.path !== "/more";

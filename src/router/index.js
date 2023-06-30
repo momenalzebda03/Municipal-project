@@ -31,6 +31,7 @@ import KpapArchaeology1 from "../components/folder city/CityArchaeology1.vue";
 import KpapPhoto from "../components/folder city/CityPhoto.vue";
 import KpapPublic from "../components/folder services/Services Public.vue";
 import KpapWater from "../components/folder services/Services Water delivery.vue";
+import KpapSystem from "../components/folder services/Serivces System.vue";
 
 const routes = [
   {
@@ -184,6 +185,10 @@ const routes = [
   {
     path: "/water",
     component: KpapWater,
+  },
+  {
+    path: "/system",
+    component: KpapSystem,
   },
 ];
 
