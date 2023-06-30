@@ -15,47 +15,47 @@
             <div class="col-md-6 mt-3">
                 <h5 class="fw-bold span_red">أنظمة وأدلة</h5>
             </div>
-            <div class="row my-5 mx-0">
+            <div class="row my-5 mx-0" data-aos="fade-down">
                 <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech" data-aos="fade-right">
-                    <span class="span_hover">خدمات<br>اخرى</span>
+                    id="div_forech">
+                    <span class=" span_hover">خدمات<br>اخرى</span>
                     <i class="fa-solid fa-taxi icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
                 </div>
                 <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech" data-aos="fade-left">
+                    id="div_forech">
                     <span class="span_hover">خدمات<br>الحرف</span>
                     <i
                         class="fa-solid fa-palette icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
                 </div>
                 <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech" data-aos="fade-up">
+                    id="div_forech">
                     <span class="span_hover">التخطيط<br>الحصري</span>
                     <i
                         class="fa-sharp fa-solid fa-building-user icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
                 </div>
                 <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech" data-aos="fade-down">
+                    id="div_forech">
                     <span class="span_hover">الخدمات<br>الصرف الصحي</span>
                     <i
                         class="fas fa-hand-holding-water icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
                 </div>
                 <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech" data-aos="fade-right">
-                    <span class="span_hover">خدمات<br>الكهرباء</span>
+                    id="div_forech">
+                    <span class=" span_hover">خدمات<br>الكهرباء</span>
                     <i class="fa-solid fa-bolt icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
                 </div>
                 <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech" data-aos="fade-left">
+                    id="div_forech">
                     <span class="span_hover">خدمات<br>المياة</span>
                     <i class="fas fa-tint icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
                 </div>
                 <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech" data-aos="fade-up">
+                    id="div_forech">
                     <span class="span_hover">خدمات<br>البناء</span>
                     <i class="fas fa-building icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
                 </div>
                 <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech" data-aos="fade-down">
+                    id="div_forech">
                     <span class="span_hover active_span_hover">جميع<br>الخدمات</span>
                     <i
                         class="fa-sharp fa-solid fa-desktop icon_click p-4 rounded-circle icon_back button_padding div_active_icon icon_col_hover"></i>
@@ -63,17 +63,86 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid px-lg-5 mt-lg-3 font_text overflow-hidden icon_back py-5">
-        <div class="overflow-x-auto">
-            <div class="overflow-hidden pb-3 cursor_grap d-flex justify-content-between gap-1" @click="click_scroll"
-                ref="scrollContainer" @mousedown="mouseDownHandler" @mousemove="mouseMoveHandler">
+    <section class="container-fluid px-lg-5 mt-lg-3 font_text icon_back py-5">
+        <div class="overflow-x">
+            <div data-aos="fade-down" class="overflow-hidden pb-3 cursor_grap d-flex justify-content-between gap-1"
+                @click="click_scroll" ref="scrollContainer" @mousedown="mouseDownHandler" @mousemove="mouseMoveHandler">
                 <div id="div_active_scroll"
-                    class="text-center py-2 icon_col_hover active_before div_active_icon border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click">
-                    <span class="span_background">فحص عداد مياه</span>
+                    class="text-center py-3 active_before div_active_icon border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                    <span class="span_background text-nowrap">فحص عداد مياه</span>
                 </div>
                 <div id="div_active_scroll"
-                    class="text-center py-2 icon_col_hover border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click">
-                    <span class="span_background">فحص عداد مياه</span>
+                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                    <span class="span_background text-nowrap">زيادة قطر خط مياه</span>
+                </div>
+                <div id="div_active_scroll"
+                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                    <span class="span_background text-nowrap">تغيير خط مياه تالف</span>
+                </div>
+                <div id="div_active_scroll"
+                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                    <span class="span_background text-nowrap">تغيير اسم منتفع</span>
+                </div>
+                <div id="div_active_scroll"
+                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                    <span class="span_background text-nowrap">تنازل عن اشتراك مياه<br>(تغيير اسم مشترك)</span>
+                </div>
+                <div id="div_active_scroll"
+                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                    <span class="span_background text-nowrap">اشتراك مياه فرعي</span>
+                </div>
+                <div id="div_active_scroll"
+                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                    <span class="span_background text-nowrap">اشتراك مياه جديد</span>
+                </div>
+                <div id="div_active_scroll"
+                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                    <span class="span_background text-nowrap">فحص عداد مياه</span>
+                </div>
+                <div id="div_active_scroll"
+                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                    <span class="span_background text-nowrap">فحص عداد مياه</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid px-lg-5 font_text py-5 overflow-hidden">
+        <div class="d-flex justify-content-center justify-content-sm-end mb-5" data-aos="fade-left">
+            <div class="row text-center text-sm-end">
+                <div class="col col-lg-3 border-2 border-end pe-sm-5 mt-3">
+                    <p class="fw-bold text-nowrap">الرسوم المطلوبة بالشيكل</p>
+                    <p>115</p>
+                </div>
+                <div class="col col-lg-3 border-2 border-end pe-sm-5 mt-3">
+                    <p class="fw-bold">جهة التنفيذ</p>
+                    <p>حسابات المشتركين</p>
+                </div>
+                <div class="col col-lg-3 border-2 border-end pe-sm-5 mt-3">
+                    <p class="fw-bold">مدة التنفيذ / يوم</p>
+                    <p>فورا</p>
+                </div>
+                <div class="col col-lg-3 mt-3">
+                    <p class="fw-bold">الوثائق المطلوبة</p>
+                    <p class="text-nowrap div_right_px">صورة الهوية<span class="p_line px-2"></span>سند
+                        ملكية<span class="p_line px-2"></span>الفاتورة</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-md-end" data-aos="fade-left">
+            <p class="fw-bold">تسلسل إجراءات التقديم</p>
+            <p>يرجى تتبع التسلسل التالي لتقديم طلب الحصول على الخدمة المطلوبة</p>
+            <div class="d-flex gap-4 flex-column flex-md-row justify-content-md-end">
+                <div class="fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse">
+                    <p class="mt-1 span_red">قسم التخطيط الحضري</p>
+                    <div class="d-flex justify-content-center">
+                        <p class="p_center mt-1 text-center border border-2 rounded-circle">2</p>
+                    </div>
+                </div>
+                <div class="px-2 px-md-0 fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center">
+                    <p class="mt-1 span_red">دائرة خدمات الجمهور</p>
+                    <div class="d-flex justify-content-center">
+                        <p class="p_center mt-1 text-center border border-2 rounded-circle">1</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -150,16 +219,18 @@ export default {
                 text.classList.add('active_span_hover');
             });
         });
-        const div_active_scroll = document.querySelectorAll('#div_active_scroll');
-        div_active_scroll.forEach(container => {
-            const icon = container.querySelector('.icon_col_hover');
-            icon.addEventListener('click', function () {
-                for (let i = 0; i < containers.length; i++) {
-                    containers[i].querySelector('.button_padding').classList.remove('div_active_icon');
+        var tag_header = document.querySelectorAll("#div_active_scroll");
+        for (let i = 0; i < tag_header.length; i++) {
+            var chekd = tag_header[i];
+            chekd.addEventListener("click", function () {
+                for (let i = 0; i < tag_header.length; i++) {
+                    tag_header[i].classList.remove("div_active_icon");
+                    tag_header[i].classList.remove("active_before");
                 }
-                this.classList.add('div_active_icon');
+                this.classList.add("div_active_icon");
+                this.classList.add("active_before");
             });
-        });
+        }
     }
 }
 </script>

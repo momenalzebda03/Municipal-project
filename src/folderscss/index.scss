@@ -219,6 +219,11 @@ body section .number_width:hover,
     color: #989898;
 }
 
+.div_active_icon {
+    background-color: $color_green !important;
+    color: $color_white !important;
+}
+
 // end afretang
 // start header
 body div .div_show {
@@ -727,7 +732,7 @@ body section .row div div li .rotate_100::after {
     transform: rotate(180deg);
 }
 
-body section .row div .row div div div div .p_line::before {
+.p_line::before {
     content: "";
     position: absolute;
     width: 2px;
@@ -1067,11 +1072,6 @@ body section .row div .row div .button_padding:hover .red_hover_white {
 
 // end main water
 // start main system
-.div_active_icon {
-    background-color: $color_green !important;
-    color: $color_white !important;
-}
-
 body section .row .row div .active_span_hover {
     font-weight: bold;
     color: $color_green !important;
@@ -1087,30 +1087,36 @@ body section div .cursor_grap {
     cursor: grab;
 }
 
+body section div div .div_padding_scroll::before,
 body section div div .active_before::before,
 body section div div .div_padding_scroll:hover::before {
     bottom: -14px !important;
 }
 
 body section div div .active_before::before,
-body section div div .div_padding_scroll::before,
 body section div div .div_padding_scroll:hover::before {
     content: "";
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 15px solid $color_green;
+    border-left: 15px solid transparent !important;
+    border-right: 15px solid transparent !important;
+    border-top: 15px solid $color_green !important;
 }
 
 body section div div .div_padding_scroll::before {
-    bottom: 0px;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 15px solid $color_green;
+    content: "";
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 0px solid $color_green;
     transition: 0.3s;
-    z-index: -1;
+}
+
+body section .row div .div_right_px {
+    margin-right: 180px;
 }
 
 // end main system
@@ -1335,6 +1341,10 @@ body .div_footer .row_width {
 
     body section .row div .card_hover div .image_text {
         left: 55%;
+    }
+
+    body section .row div .div_right_px {
+        margin-right: 0px;
     }
 }
 
