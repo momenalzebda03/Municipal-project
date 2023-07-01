@@ -266,19 +266,11 @@ body div .div_show nav div .collapse div .image_none .image_center {
 
 // end header
 // start header right
-body div div .image_hgiht {
-    width: 10px;
-    height: 100%;
-}
-
 body .div_width {
     width: 95px;
 }
 
 body .div_width .div_bottom {
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
     font-size: 14px;
 }
 
@@ -295,6 +287,8 @@ body .div_width .active {
 
 body .div_width .div_border {
     cursor: pointer;
+    padding-top: 35%;
+    padding-bottom: 35%;
     color: $color_black;
     border-bottom: 2px dotted $color_background;
     border-top: 2px dotted $color_background;
@@ -305,11 +299,9 @@ body .div_width .div_border:hover {
     color: $color_red;
 }
 
-body .div_width .div_bottom .p_rights {
-    font-size: 12px;
-    width: 1100%;
-    top: -150%;
-    left: -502%;
+body .div_width div .p_rights {
+    margin-bottom: 140%;
+    font-size: 13px;
     transform: rotate(-90deg);
 }
 
@@ -363,7 +355,7 @@ body section div .row div .div_top {
 
 // end main home
 // start main image
-body section .row div .carousel_height {
+.carousel_height {
     height: 100%;
 }
 
@@ -1121,6 +1113,10 @@ body section .row div .div_right_px {
 
 // end main system
 // start footer
+body div div div div .footer_top {
+    // transform: translate(0, 620%);
+}
+
 body .div_footer,
 body .div_footer .row_width .p_border,
 body .div_footer .row_width .back_hover {
@@ -1213,6 +1209,10 @@ body .div_footer .row_width {
 }
 
 @media (max-width: 1490px) {
+    body .div_width div .p_rights {
+        display: none;
+    }
+
     .flex_row {
         flex-direction: column;
     }

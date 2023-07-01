@@ -1,13 +1,41 @@
 <template>
-  <div class="d-flex justify-content-between">
+  <div class="d-flex">
     <div class="w-100">
-      <HeaderCpap v-if="header_none" />
-      <router-view />
+      <div class="d-flex position-fixed w-100 h-100" style="z-index: 4;">
+        <div class="w-100 d-flex justify-content-between flex-column">
+          <HeaderCpap v-if="header_none" />
+          <FooterKpap v-if="footer_none" class="footer_top" />
+        </div>
+        <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" v-if="header_none" class="h-100">
+        <HeaderRightCpap class="bg-white"
+          v-if="header_right_none && !isMuiciaplRoute && !isMuiciaplRoute1 && !isMuiciaplRoute2" />
+        <HeaderRightCpap1 v-if="isMuiciaplRoute" class="bg-white" />
+        <HeaderRightCpap2 v-if="isMuiciaplRoute1" class="bg-white" />
+        <HeaderRightCpap3 v-if="isMuiciaplRoute2" class="bg-white" />
+      </div>
+      <div class="div_show"></div>
       <img v-if="shouldShowBackground" src="../src/assets/image_page_home_1/ImageBackground.png" alt=""
         class="image_background position-absolute">
       <section v-if="shouldShowBackground1" class="container-fluid ms-0 ps-md-5 text-center text-md-start my-3 my-md-4">
         <i class="fab fa-facebook-messenger p-3 fs-4 icon_width text-white rounded-circle"></i>
       </section>
+      <router-view />
+      <div class="mt-5 pt-5"></div>
+    </div>
+    <div class="div_width"></div>
+  </div>
+</template>
+
+<!-- <template>
+  <div class="d-flex">
+    <div class="w-100">
+      <HeaderCpap v-if="header_none" />
+      <img v-if="shouldShowBackground" src="../src/assets/image_page_home_1/ImageBackground.png" alt=""
+      class="image_background position-absolute">
+      <section v-if="shouldShowBackground1" class="container-fluid ms-0 ps-md-5 text-center text-md-start my-3 my-md-4">
+        <i class="fab fa-facebook-messenger p-3 fs-4 icon_width text-white rounded-circle"></i>
+      </section>
+      <router-view />
       <FooterKpap v-if="footer_none" />
     </div>
     <div>
@@ -18,7 +46,7 @@
     <HeaderRightCpap2 v-if="isMuiciaplRoute1" />
     <HeaderRightCpap3 v-if="isMuiciaplRoute2" />
   </div>
-</template>
+</template> -->
 
 <script>
 import AOS from "aos";
