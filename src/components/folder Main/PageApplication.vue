@@ -1,7 +1,7 @@
 <template>
     <!-- start main application-->
     <section class="mt-md-5">
-        <div class="container-fluid px-5 font_text overflow-hidden">
+        <div class="container-fluid px-3 px-md-5 font_text overflow-hidden">
             <div class="row">
                 <div class="col-lg-6 text-center" data-aos="fade-right">
                     <img src="../../assets/image_page_home_1/ImageApplicachan.png" alt="" class="image_respons">

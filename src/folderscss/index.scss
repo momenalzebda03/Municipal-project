@@ -83,7 +83,7 @@ body section .number_width:hover,
     width: 100px;
 }
 
-.div_height_vh {
+.height_100 {
     height: 100vh;
 }
 
@@ -230,6 +230,10 @@ body section .number_width:hover,
 
 // end afretang
 // start header
+body section div .div_index_4 {
+    z-index: 4;
+}
+
 body div .div_show {
     background: -webkit-linear-gradient(180deg, rgb(239, 239, 239), rgb(250, 250, 250));
     background: linear-gradient(180deg, rgb(239, 239, 239), rgb(250, 250, 250));
@@ -1113,10 +1117,6 @@ body section .row div .div_right_px {
 
 // end main system
 // start footer
-body div div div div .footer_top {
-    // transform: translate(0, 620%);
-}
-
 body .div_footer,
 body .div_footer .row_width .p_border,
 body .div_footer .row_width .back_hover {
@@ -1136,6 +1136,20 @@ body .div_footer .row_width .p_border {
 
 body .div_footer .row_width {
     width: 100.7%;
+}
+
+body section div .div_height_none {
+    bottom: 0;
+    height: 0%;
+}
+
+body section div .div_bottom_10 {
+    bottom: 10%;
+    z-index: -1;
+}
+
+body section div .message_bottom {
+    bottom: 15%;
 }
 
 // end footer
@@ -1349,6 +1363,9 @@ body .div_footer .row_width {
 }
 
 @media (max-width: 475px) {
+    body section div .message_bottom {
+        bottom: 30%;
+    }
 
     body .div_footer,
     body .div_footer .row_width .p_border,
