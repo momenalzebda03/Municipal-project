@@ -27,21 +27,19 @@
                         المرتفعة والبعيدة نسبياً عن مصادر المياه</span>
                 </p>
             </div>
-            <div class="col-md-6 text-end position-relative" data-aos="fade-left">
+            <div class="col-md-6 position-relative" data-aos="fade-left">
                 <div id="carouselExampleControls" class="carousel slide carousel_height" data-bs-ride="carousel">
-                    <div class="carousel-inner image_ehgith_100">
+                    <div class="carousel-inner carousel_height d-flex justify-content-start">
                         <div class="d-flex align-items-center justify-content-center position-absolute start-25 top-50">
                             <i data-bs-target="#carouselExampleControls" data-bs-slide="prev"
                                 class="fas fa-chevron-left fs-4 icon_black image_none back_hover text-white px-4"></i>
                         </div>
                         <router-link to="/more">
-                            <div class="carousel-item active image_ehgith_100">
-                                <img src="../../assets/image_page_home_1/ImageMask.png" alt=""
-                                    class="w-100 image_ehgith_100">
+                            <div class="carousel-item active carousel_height">
+                                <img src="../../assets/image_page_home_1/ImageMask.png" alt="" class="carousel_height">
                             </div>
                             <div class="carousel-item">
-                                <img src="../../assets/image_page_home_1/ImageMask.png" alt=""
-                                    class="w-100 image_ehgith_100">
+                                <img src="../../assets/image_page_home_1/ImageMask.png" alt="" class="carousel_height">
                             </div>
                         </router-link>
                         <div class="d-flex align-items-center justify-content-center position-absolute end-0 top-50">

@@ -1,5 +1,5 @@
 <template>
-  <div class="div_show">
+  <div class="div_show position-relative">
     <nav class="navbar navbar-expand-lg navbar-light border-2 border-bottom pt-4">
       <div class="container-fluid px-2 px-md-5">
         <div class="div_respons d-flex justify-content-between align-items-center">
@@ -23,8 +23,7 @@
               </div>
               <div class="icon_hover">
                 <i class="fas fa-clock me-2"></i>
-                <span class="text_date">الإثنين 1 محرم 1443 - 09 أغسطس 2021 |
-                  11:46 صباحا</span>
+                <span class="text_date">الإثنين 1 محرم 1443 - 09 أغسطس 2021 | 11:46 صباحا</span>
               </div>
             </div>
             <router-link to="/" class="image_none">

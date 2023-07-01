@@ -83,6 +83,10 @@ body section .number_width:hover,
     width: 100px;
 }
 
+.div_height_vh {
+    height: 100vh;
+}
+
 .icon_left {
     left: -15px;
 }
@@ -355,11 +359,7 @@ body section div .row div .div_top {
 
 // end main home
 // start main image
-.carousel_height {
-    height: 100%;
-}
-
-body section .row div .carousel_height .image_ehgith_100 {
+body section .row div .carousel_height {
     height: 100%;
 }
 

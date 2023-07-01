@@ -35,7 +35,7 @@
                 <i class="fab fa-facebook-square fs-3 icon_color icon_hover"></i>
             </a>
         </div>
-        <div v-if="shouldShowBackground" class="div_bottom position-absolute mb-4 d-flex flex-column gap-4">
+        <div v-if="shouldShowBackground" class="d-flex flex-column align-items-center mb-3 gap-5">
             <a href="#">
                 <i class="fa-solid fa-font fs-5 text-black icon_hover"></i>
             </a>
