@@ -2,7 +2,7 @@
     <!-- start page centers -->
     <section v-if="section_garden" class="header_width">
         <div class="text-center">
-            <router-link to="/" class="position-absolute image_none router_position">
+            <router-link to="/" class="position-fixed image_none router_position">
                 <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
             </router-link>
         </div>
@@ -178,7 +178,7 @@
     </section>
     <section v-if="section_stadium">
         <div class="text-center">
-            <router-link to="/" class="position-absolute image_none router_position">
+            <router-link to="/" class="position-fixed image_none router_position">
                 <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
             </router-link>
         </div>
@@ -356,7 +356,7 @@
     </section>
     <section v-if="section_parties">
         <div class="text-center">
-            <router-link to="/" class="position-absolute image_none router_position">
+            <router-link to="/" class="position-fixed image_none router_position">
                 <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
             </router-link>
         </div>
@@ -533,7 +533,7 @@
     </section>
     <section v-if="section_rashad">
         <div class="text-center">
-            <router-link to="/" class="position-absolute image_none router_position">
+            <router-link to="/" class="position-fixed image_none router_position">
                 <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
             </router-link>
         </div>
@@ -711,7 +711,7 @@
     </section>
     <section v-if="section_arts">
         <div class="text-center">
-            <router-link to="/" class="position-absolute image_none router_position">
+            <router-link to="/" class="position-fixed image_none router_position">
                 <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
             </router-link>
         </div>
@@ -889,7 +889,7 @@
     </section>
     <section v-if="section_library">
         <div class="text-center">
-            <router-link to="/" class="position-absolute image_none router_position">
+            <router-link to="/" class="position-fixed image_none router_position">
                 <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
             </router-link>
         </div>
@@ -1067,7 +1067,7 @@
     </section>
     <section v-if="section_culture">
         <div class="text-center">
-            <router-link to="/" class="position-absolute image_none router_position">
+            <router-link to="/" class="position-fixed image_none router_position">
                 <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
             </router-link>
         </div>

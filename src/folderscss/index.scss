@@ -231,6 +231,11 @@ body section .number_width:hover,
     width: 25%;
 }
 
+.icon_arraw:hover {
+    color: $color_green;
+    border: 2px solid $color_green !important;
+}
+
 // end afretang
 // start header
 body section div .div_index_4 {
@@ -439,11 +444,6 @@ body .section_questions div .row .my_active {
     color: $color-white !important;
 }
 
-body .section_questions div .row div div .icon_arraw:hover {
-    color: $color_green;
-    border: 2px solid $color_green !important;
-}
-
 body .section_questions div .row div div div div .div_margin {
     border: 2px solid $color_green;
     margin-top: 140px;
@@ -602,6 +602,7 @@ body section .row div .datepicker {
     margin: 50px auto;
 
     &.datepicker_1 {
+        transform: translate(0, 22px) !important;
         margin: 0%;
     }
 
@@ -909,7 +910,6 @@ body section .row .card .div_bottom_30 div .icon_back .span_left {
 body section .row .card:hover .span_left {
     transform: translate(-3px, 0px);
     animation: keymargin 0.5s infinite;
-
 }
 
 @keyframes keymargin {
@@ -1124,15 +1124,63 @@ body section .row div .div_right_px {
 
 // end main system
 // start main list
-body section .row .col_height {
-    height: 77vh;
-}
-
 body section .row div div li .dropdown_left::after {
     left: -45px !important;
 }
 
+body section .row .image-container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    transition: 1s;
+}
+
+body section .row .image-container:hover::after {
+    background: linear-gradient(to top, rgba(126, 126, 126, 0.519), rgba(126, 126, 126, 0));
+}
+
+body section .row .div_my_index {
+    z-index: 4;
+}
+
 // end main list
+// start main development
+body section section .col .div_project_hover div .hr_overlay {
+    transform: translate(0, -115%);
+    z-index: 0;
+}
+
+body section section .col .div_project_hover .div_about {
+    background-color: #F2F2F2;
+    height: 18px;
+}
+
+body section section .col .div_project_hover .div_about .div_hr_about {
+    background-color: $color_green;
+    height: 18px;
+}
+
+body section section .col .div_project_hover {
+    transition: 0.3s;
+}
+
+body section section .col .div_project_hover:hover {
+    box-shadow: 0 0 0 #F2F2F2 !important;
+}
+
+body section section .col .div_project_hover:hover .text_hover {
+    color: $color_green !important;
+}
+
+body section section .col .div_project_hover:hover .span_left {
+    transform: translate(-3px, 0px);
+    animation: keymargin 0.5s infinite;
+}
+// end main development
 // start footer
 body .div_footer,
 body .div_footer .row_width .p_border,
@@ -1257,6 +1305,11 @@ body section div .div_top_respons {
 }
 
 @media (max-width: 990px) {
+    body section .row div .datepicker {
+        &.datepicker_1 {
+            width: 400px;
+        }
+    }
 
     .div_from,
     body section .container .row div div .div_flex_width,
@@ -1396,7 +1449,7 @@ body section div .div_top_respons {
         overflow-x: auto;
 
         &.datepicker_1 {
-            width: 200px;            
+            width: 100%;
         }
 
         .ui-datepicker-inline {

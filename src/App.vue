@@ -74,7 +74,7 @@ export default {
       return this.$route.path === "/public" || this.$route.path === "/water" || this.$route.path === "/system";
     },
     isMuiciaplRoute3() {
-      return this.$route.path === "/list";
+      return this.$route.path === "/list" || this.$route.path === "/development";
     },
     header_right_none() {
       return this.$route.path !== "/more";

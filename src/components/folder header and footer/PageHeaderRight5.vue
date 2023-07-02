@@ -4,7 +4,7 @@
             class="div_border d-flex justify-content-center div_border text-decoration-none px-4">
             <i class="fab fa-r-project fs-5"></i>
         </router-link>
-        <router-link to="" title="المشاريع التطويرية" :class="{ 'active': isActive('') }"
+        <router-link to="/development" title="المشاريع التطويرية" :class="{ 'active': isActive('/development') }"
             class="div_border d-flex justify-content-center div_border text-decoration-none px-4">
             <i class="fas fa-lightbulb fs-5"></i>
         </router-link>

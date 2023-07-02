@@ -33,6 +33,7 @@ import KpapPublic from "../components/folder services/Services Public.vue";
 import KpapWater from "../components/folder services/Services Water delivery.vue";
 import KpapSystem from "../components/folder services/Serivces System.vue";
 import KpapList from "../components/folder projects/Page List.vue";
+import KpapDevelopment from "../components/folder projects/Page Development.vue";
 
 const routes = [
   {
@@ -194,6 +195,10 @@ const routes = [
   {
     path: "/list",
     component: KpapList,
+  },
+  {
+    path: "/development",
+    component: KpapDevelopment,
   },
 ];
 
