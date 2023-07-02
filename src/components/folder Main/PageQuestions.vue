@@ -1,8 +1,8 @@
 <template>
     <!-- start main -->
-    <section class="section_questions mt-md-5 overflow-hidden">
+    <section class="mt-md-5 section_questions">
         <div class="container-fluid px-4 font_text">
-            <div class="row px-4 d-flex flex-column-reverse flex-lg-row">
+            <div class="row px-md-4 d-flex flex-column-reverse flex-lg-row">
                 <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-right">
                     <div class="d-flex gap-2 justify-content-center justify-content-lg-start text-secondary">
                         <i data-bs-target="#carouselExampleControls" data-bs-slide="prev" aria-hidden="true"
@@ -143,15 +143,33 @@
         </div>
     </section>
     <!-- end main -->
-    <section class="d-flex gap-2 justify-content-center my-5">
-        <span class="fas fa-chevron-left pt-2 text-center rounded-3 border border-1 active_click number_width"></span>
-        <p class="pt-1 rounded-3 border text-center border-1 active_click number_width">5</p>
-        <p class="pt-1 rounded-3 border text-center border-1 active_click number_width">4</p>
-        <p class="pt-1 rounded-3 text-center border border-1 active_click number_width">3</p>
-        <p class="pt-1 rounded-3 border border-1 text-center active_click number_width">2</p>
-        <p class="pt-1 rounded-3 border border-1 text-center active_click active_color number_width">1</p>
-        <span class="fas fa-chevron-right pt-2 text-center rounded-3 border border-1 active_click number_width"></span>
-    </section>
+    <div class="d-flex justify-content-center">
+        <div class="row mt-5 div_mia div_boostrap">
+            <div class="col-6 text-center col-sm">
+                <span
+                    class="fas fa-chevron-left pt-2 text-center rounded-3 border border-1 active_click number_width"></span>
+            </div>
+            <div class="col-6 text-center col-sm">
+                <p class="pt-1 rounded-3 border text-center border-1 active_click number_width">5</p>
+            </div>
+            <div class="col-6 d-flex justify-content-center justify-content-sm-start col-sm">
+                <p class="pt-1 rounded-3 border text-center border-1 active_click number_width">4</p>
+            </div>
+            <div class="col-6 text-center col-sm">
+                <p class="pt-1 rounded-3 border text-center border-1 active_click number_width">3</p>
+            </div>
+            <div class="col-6 d-flex justify-content-center justify-content-sm-start col-sm">
+                <p class="pt-1 rounded-3 border text-center border-1 active_click number_width">2</p>
+            </div>
+            <div class="col-6 text-center col-sm">
+                <p class="pt-1 rounded-3 border text-center border-1 active_click number_width">1</p>
+            </div>
+            <div class="col-6 text-center col-sm">
+                <span
+                    class="fas fa-chevron-right pt-2 text-center rounded-3 border border-1 active_click number_width"></span>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>

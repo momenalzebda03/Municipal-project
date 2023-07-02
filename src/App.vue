@@ -1,20 +1,21 @@
 <template>
-  <section class="d-flex">
+  <section class="d-flex height_100">
     <div class="w-100">
       <!-- start app header -->
-      <div class="d-flex position-fixed w-100 h-25 div_index_4">
+      <div class="d-flex position-fixed w-100 div_index_4" v-if="header_none">
         <HeaderCpap v-if="header_none" class="w-100" />
         <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" class="height_100" v-if="header_none">
-        <HeaderRightCpap class="bg-white overflow-auto height_100"
-          v-if="header_right_none && !isMuiciaplRoute && !isMuiciaplRoute1 && !isMuiciaplRoute2" />
-        <HeaderRightCpap1 v-if="isMuiciaplRoute" class="bg-white overflow-auto height_100" />
-        <HeaderRightCpap2 v-if="isMuiciaplRoute1" class="bg-white overflow-auto height_100" />
-        <HeaderRightCpap3 v-if="isMuiciaplRoute2" class="bg-white overflow-auto height_100" />
+        <HeaderRightCpap class="bg-white overflow-y-auto overflow-x-hidden height_100"
+          v-if="header_right_none && !isMuiciaplRoute && !isMuiciaplRoute1 && !isMuiciaplRoute2 && !isMuiciaplRoute3" />
+        <HeaderRightCpap1 v-if="isMuiciaplRoute" class="bg-white overflow-y-auto overflow-x-hidden height_100" />
+        <HeaderRightCpap2 v-if="isMuiciaplRoute1" class="bg-white overflow-y-auto overflow-x-hidden height_100" />
+        <HeaderRightCpap3 v-if="isMuiciaplRoute2" class="bg-white overflow-y-auto overflow-x-hidden height_100" />
+        <HeaderRightCpap4 v-if="isMuiciaplRoute3" class="bg-white overflow-y-auto overflow-x-hidden height_100" />
       </div>
       <!-- end app header -->
       <div class="div_show" v-if="header_none"></div>
       <router-view />
-      <div class="mt-5 pt-5" v-if="div_margin_none"></div>
+      <div class="div_top_respons" v-if="div_margin_none"></div>
       <!-- start icon message -->
       <div class="d-flex align-items-end position-fixed div_bottom_10">
         <img v-if="shouldShowBackground" src="../src/assets/image_page_home_1/ImageBackground.png" alt="">
@@ -47,6 +48,7 @@ import FooterKpap from "./components/folder header and footer/PageFooter.vue";
 import HeaderRightCpap1 from "./components/folder header and footer/PageHeaderRgith2.vue";
 import HeaderRightCpap2 from "./components/folder header and footer/PageHeaderRight3.vue";
 import HeaderRightCpap3 from "./components/folder header and footer/PageHeaderRgith4.vue";
+import HeaderRightCpap4 from "./components/folder header and footer/PageHeaderRight5.vue";
 
 export default {
   components: {
@@ -55,7 +57,8 @@ export default {
     FooterKpap,
     HeaderRightCpap1,
     HeaderRightCpap2,
-    HeaderRightCpap3
+    HeaderRightCpap3,
+    HeaderRightCpap4
   },
   computed: {
     div_margin_none() {
@@ -69,6 +72,9 @@ export default {
     },
     isMuiciaplRoute2() {
       return this.$route.path === "/public" || this.$route.path === "/water" || this.$route.path === "/system";
+    },
+    isMuiciaplRoute3() {
+      return this.$route.path === "/list";
     },
     header_right_none() {
       return this.$route.path !== "/more";

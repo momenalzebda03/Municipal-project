@@ -2,7 +2,7 @@
     <!-- start main president -->
     <section>
         <KpapHeaderThreeTow />
-        <div class="container-fluid px-2 px-md-5 font_text overflow-hidden mb-5 pb-2">
+        <div class="container-fluid px-3 px-md-5 font_text overflow-hidden mb-5 pb-2">
             <div class="row justify-content-end">
                 <div class="col-lg-6 text-center text-lg-end d-flex gap-1 gap-lg-4" data-aos="fade-right">
                     <div class="d-flex align-items-end mb-2">

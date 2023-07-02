@@ -1,6 +1,6 @@
 <template>
     <!-- start main water -->
-    <section class="container-fluid text-center text-lg-end px-lg-5 mt-lg-3 font_text overflow-hidden">
+    <section class="container-fluid text-center text-lg-end px-4 px-lg-5 mt-lg-3 font_text overflow-hidden">
         <router-link to="/public"
             class="fas fa-times fs-3 icon_click text-black text-decoration-none icon_hover mt-5 mt-lg-0"></router-link>
         <h5 class="fw-bold span_red mt-4">خدمة توصيل المياه</h5>

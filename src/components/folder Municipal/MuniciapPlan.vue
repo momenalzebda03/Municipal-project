@@ -1,24 +1,25 @@
 <template>
     <!-- start main plan -->
-    <section class="container-fluid text-center text-md-end mt-md-5 pt-4 font_text overflow-hidden px-3 px-md-5">
+    <section class="container-fluid text-center text-md-end mt-md-5 pt-4 font_text overflow-hidden px-4 px-md-5">
         <div class="row">
-            <div class="col-md-6" data-aos="fade-right">
+            <div class="col" data-aos="fade-right">
                 <p class="fw-bold">..لعرض أو تحميل الخطة الاستراتيجية، يرجى اختيار الخطة أدناه</p>
                 <div class="row">
                     <div class="col-sm-6 mt-4" v-for="item in items" :key="item">
-                        <div class="border border-1 py-3 px-4 rounded-3 shadow-sm bg-white">
+                        <div class="border border-1 p-3 rounded-3 shadow-sm bg-white">
                             <div
-                                class="d-flex gap-3 flex-column-reverse flex-sm-row justify-content-center justify-content-sm-end">
+                                class="d-flex gap-3 flex-column-reverse flex-lg-row justify-content-center justify-content-lg-end text-lg-end text-center">
                                 <p>الخطة الاستراتيجية لبلدية غزة<br>(2018-2021)</p>
                                 <i class="fas fa-file fs-2 icon_color"></i>
                             </div>
                             <hr>
-                            <div class="d-flex gap-3 justify-content-center justify-content-sm-start">
-                                <div class="d-flex icon_color gap-2 pt-1 align-items-center icon_click icon_hover">
+                            <div class="d-flex gap-0 gap-lg-3 flex-column-reverse flex-lg-row">
+                                <div
+                                    class="d-flex justify-content-center justify-content-lg-end icon_color gap-2 pt-1 align-items-center icon_click icon_hover">
                                     <i class="fas fa-download"></i>
                                     <span>تحميل</span>
                                 </div>
-                                <div class="d-flex gap-2 mt-3">
+                                <div class="d-flex gap-2 mt-3 justify-content-center justify-content-lg-end">
                                     <p class="p_line">ك. ب</p>
                                     <p>650</p>
                                 </div>
@@ -27,9 +28,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-1"></div>
-            <div class="col-md-5" data-aos="fade-left">
-                <div class="d-flex gap-sm-4 flex-column-reverse gap-0 flex-sm-row justify-content-end">
+            <div class="col-0 col-md-1"></div>
+            <div class="col" data-aos="fade-left">
+                <div class="d-flex mt-4 mt-md-0 gap-sm-4 flex-column-reverse gap-0 flex-sm-row justify-content-end">
                     <li class="nav-item dropdown nav-link">
                         <a class="text-black icon_hover text-decoration-none dropdown-toggle w-50" :class="rotateClass"
                             href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -50,9 +51,7 @@
                             <li><a class="dropdown-item" href="#">0.2</a></li>
                         </ul>
                     </li>
-                    <div class="mb-3 mb-sm-0 mt-4 mt-sm-0">
-                        <h4 class="fw-bold span_red">الخطة الاستراتيجية لبلدية غزة</h4>
-                    </div>
+                    <h4 class="fw-bold span_red">الخطة الاستراتيجية لبلدية غزة</h4>
                 </div>
                 <div class="mt-4 text-center text-sm-end">
                     <p class="fw-bold">نحرص في بلدية غزة على وضع خطط استراتيجية تستجيب لرؤيتنا وقيمنا، ونسعى في كل خطة إلى

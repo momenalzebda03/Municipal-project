@@ -1,6 +1,6 @@
 <template>
     <!-- start header civilization -->
-    <section class="container-fluid text-center text-md-end px-md-5 mt-md-5 pt-5 font_text">
+    <section class="container-fluid text-center text-md-end px-4 px-md-5 mt-md-5 pt-5 font_text">
         <div>
             <h4 class="fw-bold span_red">غزة تاريخ وحضارة</h4>
             <div class="d-flex flex-column flex-md-row justify-content-end my-3 my-md-5 border-3 border-bottom">
@@ -17,7 +17,7 @@
     <!-- end header civilization -->
     <!-- start main civilization -->
     <section>
-        <div class="container-fluid px-2 px-md-5 font_text overflow-hidden">
+        <div class="container-fluid px-4 px-md-5 font_text overflow-hidden">
             <div class="row">
                 <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-right">
                     <div class="card card_hover icon_click rounded-3">

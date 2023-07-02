@@ -1,6 +1,6 @@
 <template>
     <!-- start main map 2-->
-    <section class="font_text section_bottom position-relative container-fluid p-0">
+    <section class="font_text section_bottom position-relative overflow-hidden container-fluid p-0">
         <div class="row">
             <div class="col-lg-8 px-0">
                 <img src="../../assets/image_municipal5/ImageMap.png" alt="" class="w-100 h-100 icon_click"
@@ -67,8 +67,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 border-5 border-start background_row_accompaying text-center text-lg-end pt-5 px-0"
-                data-aos="fade-left">
+            <div data-aos="fade-left"
+                class="col-lg-4 border-5 border-start overflow-auto background_row_accompaying background_height_100 text-center text-lg-end pt-5 px-0 overflow-auto">
                 <div class="px-2 px-lg-0 pe-lg-5">
                     <h5 class="span_red fw-bold mt-5">الخريطة التفاعلية</h5>
                     <span class="div_color_hover">اكتشف غزة وأحياءها ومعالمها</span>

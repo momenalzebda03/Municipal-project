@@ -1,6 +1,6 @@
 <template>
     <!-- start main money 2-->
-    <section class="text-end px-md-5">
+    <section class="text-end px-3 px-md-5">
         <div class="container-fluid text-center text-md-end mt-md-5 pt-4 font_text overflow-hidden">
             <h4 class="fw-bold span_red">الميزانية والموازنة</h4>
             <div class="d-flex flex-column flex-md-row justify-content-end my-3 my-md-5 border-3 border-bottom">
@@ -19,7 +19,7 @@
                 </div>
                 <div class="col-md-5" data-aos="fade-left">
                     <div class="d-flex justify-content-center">
-                        <div>
+                        <div class="div_mia">
                             <div class="border border-1 pt-3 px-4 px-lg-5 rounded-3 shadow-sm bg-white mt-3">
                                 <div
                                     class="d-flex gap-3 flex-column-reverse flex-sm-row justify-content-center justify-content-sm-end">
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-center">
-                        <div>
+                        <div class="div_mia">
                             <div class="border border-1 pt-3 px-4 px-lg-5 rounded-3 shadow-sm bg-white mt-3">
                                 <div
                                     class="d-flex gap-3 flex-column-reverse flex-sm-row justify-content-center justify-content-sm-end">
@@ -89,7 +89,7 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-center">
-                        <div>
+                        <div class="div_mia">
                             <div class="border border-1 pt-3 px-4 px-lg-5 rounded-3 shadow-sm bg-white mt-3">
                                 <div
                                     class="d-flex gap-3 flex-column-reverse flex-sm-row justify-content-center justify-content-sm-end">

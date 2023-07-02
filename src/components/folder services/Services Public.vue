@@ -1,6 +1,6 @@
 <template>
     <!-- start main public -->
-    <section class="container-fluid text-center text-lg-end px-lg-5 mt-lg-5 font_text overflow-hidden">
+    <section class="container-fluid text-center text-lg-end px-4 px-lg-5 mt-lg-5 font_text overflow-hidden">
         <h5 class="fw-bold span_red mt-4">الخدمات العامة</h5>
         <div class="d-flex justify-content-end">
             <p class="div_mia div_boostrap"> تقدم بلدية غزة نحو 30 خدمة أساسية لسكان مدينة غزة البالغ تعدادهم قرابة

@@ -1,21 +1,21 @@
 <template>
     <!-- start main system -->
-    <section class="container-fluid text-center text-lg-end px-lg-5 mt-lg-3 font_text overflow-hidden">
+    <section class="container-fluid text-center pe-5 px-md-5 text-lg-end mt-lg-3 font_text overflow-hidden">
         <div class="row mt-2">
             <div class="col-md-6 text-start mt-3">
                 <div class="px-4 px-md-0">
                     <div class="d-flex justify-content-end div_mia position-relative pt-3 div_from">
                         <i class="fa fa-search icon_search position-absolute top-50 start-0 text-muted"></i>
                         <input type="input" class="form__field w-100" name="name" id='name' />
-                        <label for="name" class="form__label text-secondary position-absolute d-block">ابحث في
+                        <label for="name" class="form__label text-secondary position-absolute d-block text-nowrap">ابحث في
                             الرسائل</label>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-3">
+            <div class="col-md-6 text-md-end mt-4">
                 <h5 class="fw-bold span_red">أنظمة وأدلة</h5>
             </div>
-            <div class="row my-5 mx-0" data-aos="fade-down">
+            <div class="row my-5" data-aos="fade-down">
                 <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
                     id="div_forech">
                     <span class=" span_hover">خدمات<br>اخرى</span>
@@ -64,49 +64,39 @@
         </div>
     </section>
     <section class="container-fluid px-lg-5 mt-lg-3 font_text icon_back py-5">
-        <div class="overflow-x">
-            <div data-aos="fade-down" class="overflow-hidden pb-3 cursor_grap d-flex justify-content-between gap-1"
-                @click="click_scroll" ref="scrollContainer" @mousedown="mouseDownHandler" @mousemove="mouseMoveHandler">
-                <div id="div_active_scroll"
-                    class="text-center py-3 active_before div_active_icon border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                    <span class="span_background text-nowrap">فحص عداد مياه</span>
-                </div>
-                <div id="div_active_scroll"
-                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                    <span class="span_background text-nowrap">زيادة قطر خط مياه</span>
-                </div>
-                <div id="div_active_scroll"
-                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                    <span class="span_background text-nowrap">تغيير خط مياه تالف</span>
-                </div>
-                <div id="div_active_scroll"
-                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                    <span class="span_background text-nowrap">تغيير اسم منتفع</span>
-                </div>
-                <div id="div_active_scroll"
-                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                    <span class="span_background text-nowrap">تنازل عن اشتراك مياه<br>(تغيير اسم مشترك)</span>
-                </div>
-                <div id="div_active_scroll"
-                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                    <span class="span_background text-nowrap">اشتراك مياه فرعي</span>
-                </div>
-                <div id="div_active_scroll"
-                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                    <span class="span_background text-nowrap">اشتراك مياه جديد</span>
-                </div>
-                <div id="div_active_scroll"
-                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                    <span class="span_background text-nowrap">فحص عداد مياه</span>
-                </div>
-                <div id="div_active_scroll"
-                    class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                    <span class="span_background text-nowrap">فحص عداد مياه</span>
-                </div>
+        <div data-aos="fade-down" class="overflow-hidden pb-3 cursor_grap d-flex justify-content-between gap-1"
+            @click="click_scroll" ref="scrollContainer" @mousedown="mouseDownHandler" @mousemove="mouseMoveHandler">
+            <div id="div_active_scroll"
+                class="text-center py-3 active_before div_active_icon border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                <span class="span_background text-nowrap">فحص عداد مياه</span>
+            </div>
+            <div id="div_active_scroll"
+                class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                <span class="span_background text-nowrap">زيادة قطر خط مياه</span>
+            </div>
+            <div id="div_active_scroll"
+                class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                <span class="span_background text-nowrap">تغيير خط مياه تالف</span>
+            </div>
+            <div id="div_active_scroll"
+                class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                <span class="span_background text-nowrap">تغيير اسم منتفع</span>
+            </div>
+            <div id="div_active_scroll"
+                class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                <span class="span_background text-nowrap">تنازل عن اشتراك مياه<br>(تغيير اسم مشترك)</span>
+            </div>
+            <div id="div_active_scroll"
+                class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                <span class="span_background text-nowrap">اشتراك مياه فرعي</span>
+            </div>
+            <div id="div_active_scroll"
+                class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
+                <span class="span_background text-nowrap">اشتراك مياه جديد</span>
             </div>
         </div>
     </section>
-    <section class="container-fluid px-lg-5 font_text py-5 overflow-hidden">
+    <section class="container-fluid font_text pe-5 px-md-5 py-5 overflow-hidden">
         <div class="d-flex justify-content-center justify-content-sm-end mb-5" data-aos="fade-left">
             <div class="row text-center text-sm-end">
                 <div class="col col-lg-3 border-2 border-end pe-sm-5 mt-3">

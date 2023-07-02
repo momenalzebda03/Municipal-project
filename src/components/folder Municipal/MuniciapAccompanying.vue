@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 border-5 border-start background_row_accompaying text-center text-lg-end pt-5 px-0"
+            <div class="col-lg-4 border-5 border-start overflow-auto background_row_accompaying background_height_100 text-center text-lg-end pt-5 px-0 overflow-auto"
                 data-aos="fade-left">
                 <div class="px-2 px-lg-0 pe-lg-5">
                     <h5 class="span_red fw-bold mt-5">مقار ومرافق البلدية</h5>
@@ -71,8 +71,8 @@
                             <i class="fa fa-search icon_search position-absolute top-50 start-0 text-muted"></i>
                             <input type="input" class="form__field background_row_accompaying w-100" name="name"
                                 id='name' />
-                            <label for="name" class="form__label text-secondary position-absolute d-block">ابحث في المقار
-                                والمرافق</label>
+                            <label for="name" class="form__label text-secondary position-absolute d-block text-nowrap">ابحث
+                                في المقار والمرافق</label>
                         </div>
                     </div>
                 </div>

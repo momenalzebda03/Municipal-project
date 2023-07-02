@@ -5,7 +5,8 @@
                 <p>المركزالإعلامي</p>
                 <div class="p_border"></div>
             </router-link>
-            <router-link to="" class="col pt-4 text-center back_hover text-black text-decoration-none">
+            <router-link to="/list" :class="{ 'div_active': isActive('/list') }"
+                class="col pt-4 text-center back_hover text-black text-decoration-none">
                 <p>المشاريع</p>
                 <div class="p_border"></div>
             </router-link>

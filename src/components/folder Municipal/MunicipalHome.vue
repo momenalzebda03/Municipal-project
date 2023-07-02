@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="container-fluid text-center text-md-end px-2 px-md-5 mt-md-5 pt-5 font_text overflow-hidden">
+        <div class="container-fluid text-center text-md-end px-4 px-md-5 mt-md-5 pt-5 font_text overflow-hidden">
             <KpapHeaderThreeOne />
             <div data-aos="fade-left"
                 class="d-flex gap-3 flex-md-row flex-column justify-content-center justify-content-md-end align-items-center">

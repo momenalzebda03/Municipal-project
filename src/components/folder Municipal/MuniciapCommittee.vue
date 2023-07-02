@@ -1,7 +1,7 @@
 <template>
     <KpapHeaderThreeTow />
     <!-- start main -->
-    <section class="container-fluid font_text overflow-hidden px-2 px-md-5">
+    <section class="container-fluid font_text overflow-hidden px-3 px-md-5">
         <div class="row justify-content-center justify-content-md-end pe-2">
             <div class="d-flex justify-content-center justify-content-md-end col-md-6" data-aos="fade-left">
                 <div class="d-flex justify-content-end div_mia div_width_50 position-relative pt-3 px-4 px-md-0">

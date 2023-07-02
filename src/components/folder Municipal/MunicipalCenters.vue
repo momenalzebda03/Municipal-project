@@ -22,7 +22,7 @@
                                 <div class="icon_back rounded-circle p-1">
                                     <span class="fas fa-arrow-left p_center icon_color text-center pt-1 span_left"></span>
                                 </div>
-                                <span class="text_hover mt-1">عرض التفاصيل</span>
+                                <span class="text_hover mt-1 text-nowrap">عرض التفاصيل</span>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                                 <div class="icon_back rounded-circle p-1">
                                     <span class="fas fa-arrow-left p_center icon_color text-center pt-1 span_left"></span>
                                 </div>
-                                <span class="text_hover mt-1">عرض التفاصيل</span>
+                                <span class="text_hover mt-1 text-nowrap">عرض التفاصيل</span>
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                                 <div class="icon_back rounded-circle p-1">
                                     <span class="fas fa-arrow-left p_center icon_color text-center pt-1 span_left"></span>
                                 </div>
-                                <span class="text_hover mt-1">عرض التفاصيل</span>
+                                <span class="text_hover mt-1 text-nowrap">عرض التفاصيل</span>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                                 <div class="icon_back rounded-circle p-1">
                                     <span class="fas fa-arrow-left p_center icon_color text-center pt-1 span_left"></span>
                                 </div>
-                                <span class="text_hover mt-1">عرض التفاصيل</span>
+                                <span class="text_hover mt-1 text-nowrap">عرض التفاصيل</span>
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                                 <div class="icon_back rounded-circle p-1">
                                     <span class="fas fa-arrow-left p_center icon_color text-center pt-1 span_left"></span>
                                 </div>
-                                <span class="text_hover mt-1">عرض التفاصيل</span>
+                                <span class="text_hover mt-1 text-nowrap">عرض التفاصيل</span>
                             </div>
                         </div>
                     </div>
@@ -143,7 +143,7 @@
                                 <div class="icon_back rounded-circle p-1">
                                     <span class="fas fa-arrow-left p_center icon_color text-center pt-1 span_left"></span>
                                 </div>
-                                <span class="text_hover mt-1">عرض التفاصيل</span>
+                                <span class="text_hover mt-1 text-nowrap">عرض التفاصيل</span>
                             </div>
                         </div>
                     </div>
@@ -170,7 +170,7 @@
                                 <div class="icon_back rounded-circle p-1">
                                     <span class="fas fa-arrow-left p_center icon_color text-center pt-1 span_left"></span>
                                 </div>
-                                <span class="text_hover mt-1">عرض التفاصيل</span>
+                                <span class="text_hover mt-1 text-nowrap">عرض التفاصيل</span>
                             </div>
                         </div>
                     </div>

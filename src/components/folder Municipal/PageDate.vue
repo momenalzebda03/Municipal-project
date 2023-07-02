@@ -1,6 +1,6 @@
 <template>
     <!-- start main date -->
-    <section class="mt-5 py-5 container-fluid px-3 px-md-5 text-end">
+    <section class="mt-md-5 py-5 container-fluid px-3 px-md-5 text-end">
         <h4 class="fw-bold span_red my-3 mx-3">الخلفية التاريخية</h4>
         <div class="container-fluid font_text">
             <div class="row mb-0 pb-0 mb-md-5 pb-md-5">
@@ -26,7 +26,7 @@
     </section>
     <section>
         <div
-            class="container-fluid ps-md-5 px-2 px-md-5 text-center text-md-start my-3 my-md-5 d-flex flex-column flex-md-row align-items-center gap-3 gap-md-5">
+            class="container-fluid ps-md-5 px-4 px-md-5 text-center text-md-start my-3 my-md-5 d-flex flex-column flex-md-row align-items-center gap-3 gap-md-5">
             <i class="fab fa-facebook-messenger p-3 fs-4 icon_width text-white rounded-circle"></i>
             <div class="w-100">
                 <div class="row justify-content-start">

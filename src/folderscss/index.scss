@@ -14,7 +14,6 @@
 }
 
 .icon_click {
-    z-index: 2;
     cursor: pointer;
 }
 
@@ -228,10 +227,15 @@ body section .number_width:hover,
     color: $color_white !important;
 }
 
+.div_boostrap {
+    width: 25%;
+}
+
 // end afretang
 // start header
 body section div .div_index_4 {
     z-index: 4;
+    height: 20%;
 }
 
 body div .div_show {
@@ -259,7 +263,7 @@ body div .div_show nav div .collapse div li .dropdown-toggle::after {
 }
 
 body div .div_show nav div .collapse div li .rotate_100::after {
-    transform: rotate(180deg);
+    transform: rotate(-180deg);
 }
 
 body div .div_show nav div .div_respons .div_bottom {
@@ -269,13 +273,12 @@ body div .div_show nav div .div_respons .div_bottom {
 
 body div .div_show nav div .collapse div .image_none .image_center {
     left: 46.6%;
-    z-index: 1;
 }
 
 // end header
 // start header right
 body .div_width {
-    width: 95px;
+    width: 6%;
 }
 
 body .div_width .div_bottom {
@@ -598,6 +601,10 @@ body section .row div .datepicker {
     width: 450px;
     margin: 50px auto;
 
+    &.datepicker_1 {
+        margin: 0%;
+    }
+
     .ui-datepicker-inline {
         padding: 30px;
     }
@@ -725,7 +732,7 @@ body section .row div div li .dropdown-toggle::after {
 }
 
 body section .row div div li .rotate_100::after {
-    transform: rotate(180deg);
+    transform: rotate(-180deg);
 }
 
 .p_line::before {
@@ -839,13 +846,13 @@ body .section_bottom {
 }
 
 body .section_bottom .row div div .message_top {
-    margin-top: -100px;
+    margin-top: -170px;
     width: 58%;
     display: flex;
 }
 
 body .section_bottom .row div div div li .my_rotate_100::after {
-    transform: rotate(180deg) !important;
+    transform: rotate(-180deg) !important;
 }
 
 body .section_bottom .row div div div li .my_circl::after {
@@ -858,6 +865,10 @@ body .section_bottom .row div div div li .my_circl::after {
 
 body section .row .background_row_accompaying {
     background-color: #E6E6E6;
+}
+
+body section .row .background_height_100 {
+    height: 900px;
 }
 
 body section .row div .div .div_color_hover2 {
@@ -877,6 +888,11 @@ body section .row div div .overflow_height {
 
 // end main map 2
 // start main centers
+.router_position {
+    z-index: 6;
+    left: 43.5%;
+    top: 3%;
+}
 
 body section .row .card .div_bottom_30 {
     margin-bottom: -30px;
@@ -921,79 +937,76 @@ body section .row .card .div_translate {
 // end main centers
 // start page centers
 body section .nav_top {
+    z-index: 5;
     margin-top: -71px;
 }
 
-body section .navbar div div div ul .router_bottom4:hover,
-body section .navbar div div div ul .router_bottom3:hover,
-body section .navbar div div div ul .router_bottom2:hover,
-body section .navbar div div div ul .router_bottom:hover,
-body section .navbar div div div ul .router_bottom1:hover {
+body section .navbar div div div .row .router_bottom4:hover,
+body section .navbar div div div .row .router_bottom3:hover,
+body section .navbar div div div .row .router_bottom2:hover,
+body section .navbar div div div .row .router_bottom:hover,
+body section .navbar div div div .row .router_bottom1:hover {
     margin-bottom: -3px;
     font-weight: bold;
 }
 
-body section .navbar div div div ul .router_bottom:hover {
+body section .navbar div div div .row .router_bottom:hover {
     border-bottom: 3px solid $color_header_hover;
     color: $color_header_hover !important;
 }
 
-body section .navbar div div div ul .router_bottom1:hover {
+body section .navbar div div div .row .router_bottom1:hover {
     color: gold !important;
     border-bottom: 3px solid gold;
 }
 
-body section .navbar div div div ul .router_bottom2:hover {
+body section .navbar div div div .row .router_bottom2:hover {
     color: $color_red !important;
     border-bottom: 3px solid $color_red;
 }
 
-body section .navbar div div div ul .router_bottom3:hover {
+body section .navbar div div div .row .router_bottom3:hover {
     color: #79C256 !important;
     border-bottom: 3px solid #79C256;
 }
 
-body section .navbar div div div ul .router_bottom4:hover {
+body section .navbar div div div .row .router_bottom4:hover {
     color: #FAA74A !important;
     border-bottom: 3px solid #FAA74A;
 }
 
-body section .navbar div div div ul .active_router_bottom4,
-body section .navbar div div div ul .active_router_bottom3,
-body section .navbar div div div ul .active_router_bottom2,
-body section .navbar div div div ul .active_router_bottom1,
-body section .navbar div div div ul .active_router_bottom {
+body section .navbar div div div .row .active_router_bottom4,
+body section .navbar div div div .row .active_router_bottom3,
+body section .navbar div div div .row .active_router_bottom2,
+body section .navbar div div div .row .active_router_bottom1,
+body section .navbar div div div .row .active_router_bottom {
     margin-bottom: -3px;
     font-weight: bold;
 }
 
-body section .navbar div div div ul .active_router_bottom {
+body section .navbar div div div .row .active_router_bottom {
     border-bottom: 3px solid $color_header_hover;
     color: $color_header_hover !important;
 }
 
-body section .navbar div div div ul .active_router_bottom1 {
+body section .navbar div div div .row .active_router_bottom1 {
     border-bottom: 3px solid gold;
     color: gold !important;
 }
 
-body section .navbar div div div ul .active_router_bottom2 {
+body section .navbar div div div .row .active_router_bottom2 {
     border-bottom: 3px solid $color_red;
     color: $color_red !important;
 }
 
-body section .navbar div div div ul .active_router_bottom3 {
+body section .navbar div div div .row .active_router_bottom3 {
     border-bottom: 3px solid #79C256;
     color: #79C256 !important;
 }
 
-body section .navbar div div div ul .active_router_bottom4 {
+body section .navbar div div div .row .active_router_bottom4 {
     border-bottom: 3px solid #FAA74A;
     color: #FAA74A !important;
-}
-
-body section div .carousel_height {
-    height: 50vh;
 }
 
 body section div div div .icon_color_clirc {
@@ -1050,12 +1063,6 @@ body section .row div .card_hover div .image_text {
 }
 
 // end main museum
-// start main public
-body section div .div_boostrap {
-    width: 25%;
-}
-
-// end main public
 // start main water
 body section .row div .row div .button_padding:hover .red_hover_white {
     color: $color_white;
@@ -1116,6 +1123,16 @@ body section .row div .div_right_px {
 }
 
 // end main system
+// start main list
+body section .row .col_height {
+    height: 77vh;
+}
+
+body section .row div div li .dropdown_left::after {
+    left: -45px !important;
+}
+
+// end main list
 // start footer
 body .div_footer,
 body .div_footer .row_width .p_border,
@@ -1144,7 +1161,7 @@ body section div .div_height_none {
 }
 
 body section div .div_bottom_10 {
-    bottom: 10%;
+    bottom: 7%;
     z-index: -1;
 }
 
@@ -1152,10 +1169,13 @@ body section div .message_bottom {
     bottom: 15%;
 }
 
+body section div .div_top_respons {
+    height: 15%;
+}
+
 // end footer
 // start media
 @media (min-width: 1900px) {
-
     body section div .row div div div div .link_hover {
         height: 19.6vh;
     }
@@ -1360,11 +1380,45 @@ body section div .message_bottom {
     body section .row div .div_right_px {
         margin-right: 0px;
     }
+
+    body section .row .background_height_100 {
+        height: 1500px;
+    }
 }
 
 @media (max-width: 475px) {
+    body .div_width {
+        width: 12%;
+    }
+
+    body section .row div .datepicker {
+        width: 185px;
+        overflow-x: auto;
+
+        &.datepicker_1 {
+            width: 200px;            
+        }
+
+        .ui-datepicker-inline {
+            padding: 20px;
+        }
+
+        .ui-datepicker-header {
+            padding-left: 0px;
+            padding-right: 0px;
+
+            .ui-datepicker-prev::before {
+                margin-right: 0px;
+            }
+        }
+    }
+
     body section div .message_bottom {
-        bottom: 30%;
+        bottom: 140px;
+    }
+
+    body section div .div_top_respons {
+        height: 200px;
     }
 
     body .div_footer,
@@ -1387,34 +1441,6 @@ body section div .message_bottom {
 
     body section div .row div .div_left {
         height: 350px;
-    }
-
-    body section .row div .datepicker {
-        overflow-x: auto !important;
-        white-space: nowrap !important;
-        text-align: center;
-        width: auto !important;
-        display: flex;
-    }
-
-    .ui-datepicker-header {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-
-    .ui-datepicker-prev::before {
-        margin-right: 0px !important;
-    }
-}
-
-@media (max-width: 202px) {
-
-    body div .div_show nav div .div_respons {
-        flex-direction: column;
-    }
-
-    body section div div .div_heigt_table {
-        height: 370px;
     }
 }
 

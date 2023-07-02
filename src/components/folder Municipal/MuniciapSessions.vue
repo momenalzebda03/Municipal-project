@@ -1,8 +1,8 @@
 <template>
     <!-- start main sessions -->
     <KpapHeaderThreeTow />
-    <section class="container-fluid font_text overflow-hidden">
-        <div class="row px-md-5">
+    <section class="container-fluid font_text">
+        <div class="row px-md-5 overflow-hidden">
             <div class="col" data-aos="fade-right">
                 <div class="datepicker shadow rounded-3">
                 </div>
@@ -22,7 +22,7 @@
                 </div>
                 <div class="d-flex justify-content-center ms-md-5 ps-md-5 mt-3">
                     <div class="ms-md-5 ps-md-5">
-                        <button class="ms-4 px-5 button_padding border border-0 rounded-4">عرض جميع الجلسات</button>
+                        <button class="ms-md-4 px-5 button_padding border border-0 rounded-4">عرض جميع الجلسات</button>
                     </div>
                 </div>
             </div>
@@ -38,8 +38,7 @@
                 <div class="mb-4 mb-md-0 mt-4 fw-bold text-center text-md-end">
                     <span class="span_red">‏16 ديسمبر, 2021</span>
                     <br>
-                    <span>مجلس بلدية غزة يناقش مع نشطاء شباب جهود دعم المبادرات الشبابية (عنوان القرار الصادر
-                        يوضع
+                    <span>مجلس بلدية غزة يناقش مع نشطاء شباب جهود دعم المبادرات الشبابية (عنوان القرار الصادر يوضع
                         هنا)</span>
                 </div>
                 <div
@@ -117,31 +116,31 @@
                     </div>
                     <p class="fw-bold span_red my-2">الأعضاء الحاضرين</p>
                     <div class="row text-center">
-                        <div class="col-6 col-xl my-4">
+                        <div class="col my-4">
                             <img src="../../assets/image_municipal2/Personal1.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red fw-bold">م. هاشم سكيك</span>
                         </div>
-                        <div class="col-6 col-lg my-4">
+                        <div class="col my-4">
                             <img src="../../assets/image_municipal2/Personal2.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red fw-bold">أ. مروان الغول</span>
                         </div>
-                        <div class="col-6 col-lg my-4">
+                        <div class="col my-4">
                             <img src="../../assets/image_municipal2/Personal3.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red fw-bold">د. جميل طرزي</span>
                         </div>
-                        <div class="col-6 col-lg my-4">
+                        <div class="col my-4">
                             <img src="../../assets/image_municipal2/Personal4.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red fw-bold">أ. بدر صبرة</span>
                         </div>
-                        <div class="col-6 col-lg my-4">
+                        <div class="col my-4">
                             <img src="../../assets/image_municipal2/Personal5.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>

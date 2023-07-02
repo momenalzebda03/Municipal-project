@@ -1,56 +1,79 @@
 <template>
     <!-- start page centers -->
-    <section v-if="section_garden">
+    <section v-if="section_garden" class="header_width">
+        <div class="text-center">
+            <router-link to="/" class="position-absolute image_none router_position">
+                <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
+            </router-link>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-lg-1 nav_top border border-1">
             <div
                 class="container-fluid px-3 px-md-5 d-flex justify-content-center flex-lg-row flex-column-reverse align-items-lg-end">
                 <div class="container-fluid text-center text-lg-start">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                        <ul class="navbar-nav ms-auto d-flex gap-4 gap-lg-0">
-                            <router-link to="/"
-                                class="px-sm-5 mt-3 mt-lg-0 router_bottom text-center text-black text-decoration-none">
-                                <p>بيانات الاتصال</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom text-center text-black text-decoration-none">
-                                <p>مواعيد العمل</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom text-center text-black text-decoration-none">
-                                <p>ألبومات الصور والفيديو</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom text-center text-black text-decoration-none">
-                                <p>أخبار واعلانات</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom text-center text-black text-decoration-none">
-                                <p>خدمات المركز</p>
-                            </router-link>
-                            <router-link to="/"
-                                class="px-sm-5 router_bottom active_router_bottom active_router_bottom_1 text-center text-black text-decoration-none">
-                                <p>الرؤية والأهداف</p>
-                            </router-link>
-                        </ul>
+                        <div class="row w-100 d-flex align-items-end">
+                            <div class="col d-flex align-items-end justify-content-center router_bottom">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom text-center text-black text-decoration-none">
+                                    <p>بيانات الاتصال</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom text-center text-black text-decoration-none">
+                                    <p>مواعيد العمل</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom text-center text-black text-decoration-none">
+                                    <p>ألبومات الصور والفيديو</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom text-center text-black text-decoration-none">
+                                    <p>أخبار واعلانات</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom text-center text-black text-decoration-none">
+                                    <p>خدمات المركز</p>
+                                </router-link>
+                            </div>
+                            <div
+                                class="col d-flex align-items-end justify-content-center active_router_bottom router_bottom">
+                                <router-link to="/"
+                                    class="mt-lg-0 text-center text-black active_router_bottom text-decoration-none">
+                                    <p>الرؤية والأهداف</p>
+                                </router-link>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
+                <div
+                    class="d-flex text-end flex-column flex-sm-row align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
                     <p class="fw-bold">مركز حديقةإسعاد الطفولة</p>
-                    <img src="../../assets/image_municipal8/MyLogo1.png" alt="" class="w-25 border border-2 rounded-circle">
+                    <img src="../../assets/image_municipal8/MyLogo1.png" alt="" class="border border-2 rounded-circle">
                 </div>
             </div>
         </nav>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner carousel_height">
+            <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="../../assets/image_municipal8/positions3.png" class="d-block w-100 carousel_height" alt="...">
+                    <img src="../../assets/image_municipal8/positions3.png" class="d-block w-100 " alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions2.png" class="d-block w-100 carousel_height" alt="...">
+                    <img src="../../assets/image_municipal8/positions2.png" class="d-block w-100 " alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions5.png" class="d-block w-100 carousel_height" alt="...">
+                    <img src="../../assets/image_municipal8/positions5.png" class="d-block w-100 " alt="...">
                 </div>
             </div>
             <div class="carousel-control-prev" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -154,6 +177,11 @@
         </div>
     </section>
     <section v-if="section_stadium">
+        <div class="text-center">
+            <router-link to="/" class="position-absolute image_none router_position">
+                <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
+            </router-link>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-lg-1 nav_top border border-1">
             <div
                 class="container-fluid px-3 px-md-5 d-flex justify-content-center flex-lg-row flex-column-reverse align-items-lg-end">
@@ -164,28 +192,45 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                        <ul class="navbar-nav ms-auto d-flex gap-4 gap-lg-0">
-                            <router-link to="/"
-                                class="px-sm-5 mt-3 mt-lg-0 router_bottom1 text-center text-black text-decoration-none">
-                                <p>بيانات الاتصال</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom1 text-center text-black text-decoration-none">
-                                <p>مواعيد العمل</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom1 text-center text-black text-decoration-none">
-                                <p>ألبومات الصور والفيديو</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom1 text-center text-black text-decoration-none">
-                                <p>أخبار واعلانات</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom1 text-center text-black text-decoration-none">
-                                <p>خدمات المركز</p>
-                            </router-link>
-                            <router-link to="/"
-                                class="px-sm-5 router_bottom1 active_router_bottom1 text-center text-black text-decoration-none">
-                                <p>الرؤية والأهداف</p>
-                            </router-link>
-                        </ul>
+                        <div class="row w-100 d-flex align-items-end">
+                            <div class="col d-flex align-items-end justify-content-center router_bottom1">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom1 text-center text-black text-decoration-none">
+                                    <p>بيانات الاتصال</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom1">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom1 text-center text-black text-decoration-none">
+                                    <p>مواعيد العمل</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom1">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom1 text-center text-black text-decoration-none">
+                                    <p>ألبومات الصور والفيديو</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom1">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom1 text-center text-black text-decoration-none">
+                                    <p>أخبار واعلانات</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom1">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom1 text-center text-black text-decoration-none">
+                                    <p>خدمات المركز</p>
+                                </router-link>
+                            </div>
+                            <div
+                                class="col d-flex align-items-end justify-content-center active_router_bottom1 router_bottom1">
+                                <router-link to="/"
+                                    class="mt-lg-0 text-center text-black active_router_bottom1 text-decoration-none">
+                                    <p>الرؤية والأهداف</p>
+                                </router-link>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
@@ -310,6 +355,11 @@
         </div>
     </section>
     <section v-if="section_parties">
+        <div class="text-center">
+            <router-link to="/" class="position-absolute image_none router_position">
+                <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
+            </router-link>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-lg-1 nav_top border border-1">
             <div
                 class="container-fluid px-3 px-md-5 d-flex justify-content-center flex-lg-row flex-column-reverse align-items-lg-end">
@@ -320,28 +370,45 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                        <ul class="navbar-nav ms-auto d-flex gap-4 gap-lg-0">
-                            <router-link to="/"
-                                class="px-sm-5 mt-3 mt-lg-0 router_bottom2 text-center text-black text-decoration-none">
-                                <p>بيانات الاتصال</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom2 text-center text-black text-decoration-none">
-                                <p>مواعيد العمل</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom2 text-center text-black text-decoration-none">
-                                <p>ألبومات الصور والفيديو</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom2 text-center text-black text-decoration-none">
-                                <p>أخبار واعلانات</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom2 text-center text-black text-decoration-none">
-                                <p>خدمات المركز</p>
-                            </router-link>
-                            <router-link to="/"
-                                class="px-sm-5 router_bottom2 active_router_bottom2 text-center text-black text-decoration-none">
-                                <p>الرؤية والأهداف</p>
-                            </router-link>
-                        </ul>
+                        <div class="row w-100 d-flex align-items-end">
+                            <div class="col d-flex align-items-end justify-content-center router_bottom2">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom2 text-center text-black text-decoration-none">
+                                    <p>بيانات الاتصال</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom2">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom2 text-center text-black text-decoration-none">
+                                    <p>مواعيد العمل</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom2">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom2 text-center text-black text-decoration-none">
+                                    <p>ألبومات الصور والفيديو</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom2">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom2 text-center text-black text-decoration-none">
+                                    <p>أخبار واعلانات</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom2">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom2 text-center text-black text-decoration-none">
+                                    <p>خدمات المركز</p>
+                                </router-link>
+                            </div>
+                            <div
+                                class="col d-flex align-items-end justify-content-center active_router_bottom2 router_bottom2">
+                                <router-link to="/"
+                                    class="mt-lg-0 text-center text-black active_router_bottom2 text-decoration-none">
+                                    <p>الرؤية والأهداف</p>
+                                </router-link>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
@@ -465,6 +532,11 @@
         </div>
     </section>
     <section v-if="section_rashad">
+        <div class="text-center">
+            <router-link to="/" class="position-absolute image_none router_position">
+                <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
+            </router-link>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-lg-1 nav_top border border-1">
             <div
                 class="container-fluid px-3 px-md-5 d-flex justify-content-center flex-lg-row flex-column-reverse align-items-lg-end">
@@ -475,28 +547,45 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                        <ul class="navbar-nav ms-auto d-flex gap-4 gap-lg-0">
-                            <router-link to="/"
-                                class="px-sm-5 mt-3 mt-lg-0 router_bottom2 text-center text-black text-decoration-none">
-                                <p>بيانات الاتصال</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom2 text-center text-black text-decoration-none">
-                                <p>مواعيد العمل</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom2 text-center text-black text-decoration-none">
-                                <p>ألبومات الصور والفيديو</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom2 text-center text-black text-decoration-none">
-                                <p>أخبار واعلانات</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom2 text-center text-black text-decoration-none">
-                                <p>خدمات المركز</p>
-                            </router-link>
-                            <router-link to="/"
-                                class="px-sm-5 router_bottom2 active_router_bottom2 text-center text-black text-decoration-none">
-                                <p>الرؤية والأهداف</p>
-                            </router-link>
-                        </ul>
+                        <div class="row w-100 d-flex align-items-end">
+                            <div class="col d-flex align-items-end justify-content-center router_bottom2">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom2 text-center text-black text-decoration-none">
+                                    <p>بيانات الاتصال</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom2">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom2 text-center text-black text-decoration-none">
+                                    <p>مواعيد العمل</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom2">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom2 text-center text-black text-decoration-none">
+                                    <p>ألبومات الصور والفيديو</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom2">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom2 text-center text-black text-decoration-none">
+                                    <p>أخبار واعلانات</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom2">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom2 text-center text-black text-decoration-none">
+                                    <p>خدمات المركز</p>
+                                </router-link>
+                            </div>
+                            <div
+                                class="col d-flex align-items-end justify-content-center active_router_bottom2 router_bottom2">
+                                <router-link to="/"
+                                    class="mt-lg-0 text-center text-black active_router_bottom2 text-decoration-none">
+                                    <p>الرؤية والأهداف</p>
+                                </router-link>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
@@ -621,6 +710,11 @@
         </div>
     </section>
     <section v-if="section_arts">
+        <div class="text-center">
+            <router-link to="/" class="position-absolute image_none router_position">
+                <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
+            </router-link>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-lg-1 nav_top border border-1">
             <div
                 class="container-fluid px-3 px-md-5 d-flex justify-content-center flex-lg-row flex-column-reverse align-items-lg-end">
@@ -631,28 +725,45 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                        <ul class="navbar-nav ms-auto d-flex gap-4 gap-lg-0">
-                            <router-link to="/"
-                                class="px-sm-5 mt-3 mt-lg-0 router_bottom4 text-center text-black text-decoration-none">
-                                <p>بيانات الاتصال</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom4 text-center text-black text-decoration-none">
-                                <p>مواعيد العمل</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom4 text-center text-black text-decoration-none">
-                                <p>ألبومات الصور والفيديو</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom4 text-center text-black text-decoration-none">
-                                <p>أخبار واعلانات</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom4 text-center text-black text-decoration-none">
-                                <p>خدمات المركز</p>
-                            </router-link>
-                            <router-link to="/"
-                                class="px-sm-5 router_bottom4 active_router_bottom4 text-center text-black text-decoration-none">
-                                <p>الرؤية والأهداف</p>
-                            </router-link>
-                        </ul>
+                        <div class="row w-100 d-flex align-items-end">
+                            <div class="col d-flex align-items-end justify-content-center router_bottom4">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom4 text-center text-black text-decoration-none">
+                                    <p>بيانات الاتصال</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom4">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom4 text-center text-black text-decoration-none">
+                                    <p>مواعيد العمل</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom4">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom4 text-center text-black text-decoration-none">
+                                    <p>ألبومات الصور والفيديو</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom4">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom4 text-center text-black text-decoration-none">
+                                    <p>أخبار واعلانات</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom4">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom4 text-center text-black text-decoration-none">
+                                    <p>خدمات المركز</p>
+                                </router-link>
+                            </div>
+                            <div
+                                class="col d-flex align-items-end justify-content-center active_router_bottom4 router_bottom4">
+                                <router-link to="/"
+                                    class="mt-lg-0 text-center text-black active_router_bottom4 text-decoration-none">
+                                    <p>الرؤية والأهداف</p>
+                                </router-link>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
@@ -777,6 +888,11 @@
         </div>
     </section>
     <section v-if="section_library">
+        <div class="text-center">
+            <router-link to="/" class="position-absolute image_none router_position">
+                <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
+            </router-link>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-lg-1 nav_top border border-1">
             <div
                 class="container-fluid px-3 px-md-5 d-flex justify-content-center flex-lg-row flex-column-reverse align-items-lg-end">
@@ -787,28 +903,45 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                        <ul class="navbar-nav ms-auto d-flex gap-4 gap-lg-0">
-                            <router-link to="/"
-                                class="px-sm-5 mt-3 mt-lg-0 router_bottom3 text-center text-black text-decoration-none">
-                                <p>بيانات الاتصال</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom3 text-center text-black text-decoration-none">
-                                <p>مواعيد العمل</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom3 text-center text-black text-decoration-none">
-                                <p>ألبومات الصور والفيديو</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom3 text-center text-black text-decoration-none">
-                                <p>أخبار واعلانات</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom3 text-center text-black text-decoration-none">
-                                <p>خدمات المركز</p>
-                            </router-link>
-                            <router-link to="/"
-                                class="px-sm-5 router_bottom3 active_router_bottom3 text-center text-black text-decoration-none">
-                                <p>الرؤية والأهداف</p>
-                            </router-link>
-                        </ul>
+                        <div class="row w-100 d-flex align-items-end">
+                            <div class="col d-flex align-items-end justify-content-center router_bottom3">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom3 text-center text-black text-decoration-none">
+                                    <p>بيانات الاتصال</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom3">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom3 text-center text-black text-decoration-none">
+                                    <p>مواعيد العمل</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom3">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom3 text-center text-black text-decoration-none">
+                                    <p>ألبومات الصور والفيديو</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom3">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom3 text-center text-black text-decoration-none">
+                                    <p>أخبار واعلانات</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom3">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom3 text-center text-black text-decoration-none">
+                                    <p>خدمات المركز</p>
+                                </router-link>
+                            </div>
+                            <div
+                                class="col d-flex align-items-end justify-content-center active_router_bottom3 router_bottom3">
+                                <router-link to="/"
+                                    class="mt-lg-0 text-center text-black active_router_bottom3 text-decoration-none">
+                                    <p>الرؤية والأهداف</p>
+                                </router-link>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
@@ -933,6 +1066,11 @@
         </div>
     </section>
     <section v-if="section_culture">
+        <div class="text-center">
+            <router-link to="/" class="position-absolute image_none router_position">
+                <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
+            </router-link>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-lg-1 nav_top border border-1">
             <div
                 class="container-fluid px-3 px-md-5 d-flex justify-content-center flex-lg-row flex-column-reverse align-items-lg-end">
@@ -943,28 +1081,45 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                        <ul class="navbar-nav ms-auto d-flex gap-4 gap-lg-0">
-                            <router-link to="/"
-                                class="px-sm-5 mt-3 mt-lg-0 router_bottom4 text-center text-black text-decoration-none">
-                                <p>بيانات الاتصال</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom4 text-center text-black text-decoration-none">
-                                <p>مواعيد العمل</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom4 text-center text-black text-decoration-none">
-                                <p>ألبومات الصور والفيديو</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom4 text-center text-black text-decoration-none">
-                                <p>أخبار واعلانات</p>
-                            </router-link>
-                            <router-link to="/" class="px-sm-5 router_bottom4 text-center text-black text-decoration-none">
-                                <p>خدمات المركز</p>
-                            </router-link>
-                            <router-link to="/"
-                                class="px-sm-5 router_bottom4 active_router_bottom4 text-center text-black text-decoration-none">
-                                <p>الرؤية والأهداف</p>
-                            </router-link>
-                        </ul>
+                        <div class="row w-100 d-flex align-items-end">
+                            <div class="col d-flex align-items-end justify-content-center router_bottom4">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom4 text-center text-black text-decoration-none">
+                                    <p>بيانات الاتصال</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom4">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom4 text-center text-black text-decoration-none">
+                                    <p>مواعيد العمل</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom4">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom4 text-center text-black text-decoration-none">
+                                    <p>ألبومات الصور والفيديو</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom4">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom4 text-center text-black text-decoration-none">
+                                    <p>أخبار واعلانات</p>
+                                </router-link>
+                            </div>
+                            <div class="col d-flex align-items-end justify-content-center router_bottom4">
+                                <router-link to="/"
+                                    class="px-sm-5 mt-3 mt-lg-0 router_bottom4 text-center text-black text-decoration-none">
+                                    <p>خدمات المركز</p>
+                                </router-link>
+                            </div>
+                            <div
+                                class="col d-flex align-items-end justify-content-center active_router_bottom4 router_bottom4">
+                                <router-link to="/"
+                                    class="mt-lg-0 text-center text-black active_router_bottom4 text-decoration-none">
+                                    <p>الرؤية والأهداف</p>
+                                </router-link>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">

@@ -2,7 +2,7 @@
     <!-- start main members -->
     <section class="font_text overflow-hidden">
         <KpapHeaderThreeTow />
-        <div class="container-fluid px-3 px-md-5 text-end">
+        <div class="container-fluid px-4 px-md-5 text-end">
             <div class="row">
                 <div class="col-md-6" data-aos="fade-right">
                     <div
@@ -31,7 +31,7 @@
                         السياسات التي تحكم عمل البلدية، ويوفر الإشراف والمساءلة من خلال لجان متخصصة للمجلس إلى جانب
                         الإجتماعات الدورية مع كوادر البلدية</p>
                     <div class="row text-center">
-                        <div class="col-6 col-xl my-4">
+                        <div class="col my-4">
                             <img src="../../assets/image_municipal2/Personal1.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
@@ -39,7 +39,7 @@
                             <br>
                             <span>عضو مجلس بلدي</span>
                         </div>
-                        <div class="col-6 col-lg my-4">
+                        <div class="col my-4">
                             <img src="../../assets/image_municipal2/Personal2.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
@@ -47,7 +47,7 @@
                             <br>
                             <span>عضو مجلس بلدي</span>
                         </div>
-                        <div class="col-6 col-lg my-4">
+                        <div class="col my-4">
                             <img src="../../assets/image_municipal2/Personal3.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
@@ -55,7 +55,7 @@
                             <br>
                             <span>عضو مجلس بلدي</span>
                         </div>
-                        <div class="col-6 col-lg my-4">
+                        <div class="col my-4">
                             <img src="../../assets/image_municipal2/Personal4.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
@@ -63,7 +63,7 @@
                             <br>
                             <span>عضو مجلس بلدي</span>
                         </div>
-                        <div class="col-6 col-lg my-4">
+                        <div class="col my-4">
                             <img src="../../assets/image_municipal2/Personal5.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
@@ -71,7 +71,7 @@
                             <br>
                             <span>رئيس بلدية غزة</span>
                         </div>
-                        <div class="col-6 col-lg my-4">
+                        <div class="col my-4">
                             <img src="../../assets/image_municipal2/Personal6.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
@@ -79,7 +79,7 @@
                             <br>
                             <span>عضو مجلس بلدي</span>
                         </div>
-                        <div class="col-6 col-lg my-4">
+                        <div class="col my-4">
                             <img src="../../assets/image_municipal2/Personal7.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
@@ -87,7 +87,7 @@
                             <br>
                             <span>عضو مجلس بلدي</span>
                         </div>
-                        <div class="col-6 col-lg my-4">
+                        <div class="col my-4">
                             <img src="../../assets/image_municipal2/Personal8.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
@@ -95,7 +95,7 @@
                             <br>
                             <span>عضو مجلس بلدي</span>
                         </div>
-                        <div class="col-6 col-lg my-4">
+                        <div class="col my-4">
                             <img src="../../assets/image_municipal2/Personal9.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
@@ -103,7 +103,7 @@
                             <br>
                             <span>عضو مجلس بلدي</span>
                         </div>
-                        <div class="col-6 col-lg my-4">
+                        <div class="col my-4">
                             <img src="../../assets/image_municipal2/Personal10.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>

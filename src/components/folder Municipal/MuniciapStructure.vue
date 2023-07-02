@@ -91,13 +91,13 @@
                         <div class="div_before_after1 image_none">
                             <div class="mt-5 pt-4 position-relative">
                                 <i @click="div_center"
-                                    class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_background icon_click"></i>
+                                    class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_click"></i>
                             </div>
                         </div>
                         <div class="div_before_after1 image_none">
                             <div class="mt-5 pt-4 position-relative">
                                 <i @click="div_center"
-                                    class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_background icon_click"></i>
+                                    class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_click"></i>
                             </div>
                         </div>
                     </div>
@@ -124,13 +124,13 @@
                         <div class="div_before_after1 image_none">
                             <div class="mt-5 pt-4 position-relative">
                                 <i @click="div_center"
-                                    class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_background icon_click"></i>
+                                    class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_click"></i>
                             </div>
                         </div>
                         <div class="div_before_after1 image_none">
                             <div class="mt-5 pt-4 position-relative">
                                 <i @click="div_center"
-                                    class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_background icon_click"></i>
+                                    class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_click"></i>
                             </div>
                         </div>
                     </div>
@@ -157,13 +157,13 @@
                         <div class="div_before_after2 image_none">
                             <div class="mt-5 pt-4 position-relative">
                                 <i @click="div_center"
-                                    class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_background icon_click"></i>
+                                    class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_click"></i>
                             </div>
                         </div>
                         <div class="div_before_after1 image_none">
                             <div class="mt-5 pt-4 position-relative">
                                 <i @click="div_center"
-                                    class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_background icon_click"></i>
+                                    class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_click"></i>
                             </div>
                         </div>
                     </div>
@@ -177,13 +177,13 @@
                                     <div class="div_before_after3 image_none">
                                         <div class="mt-5 pt-5 position-relative">
                                             <i @click="div_center"
-                                                class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_background icon_click"></i>
+                                                class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_click"></i>
                                         </div>
                                     </div>
                                     <div class="div_before_after3 image_none">
                                         <div class="mt-5 pt-5 position-relative">
                                             <i @click="div_center"
-                                                class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_background icon_click"></i>
+                                                class="fas fa-plus icon_left p-2 position-absolute mt-5 image_none rounded-circle div_active icon_click"></i>
                                         </div>
                                     </div>
                                 </div>
