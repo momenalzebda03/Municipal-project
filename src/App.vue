@@ -80,26 +80,26 @@ export default {
       return this.$route.path === "/list" || this.$route.path === "/development";
     },
     isMuiciaplRoute4() {
-      return this.$route.path === "/news";
+      return this.$route.path === "/news" || this.$route.path === "/albums" || this.$route.path === "/albumsviedo";
     },
     header_right_none() {
-      return this.$route.path !== "/more";
+      return this.$route.path !== "/more" && this.$route.path !== "/viedo";
     },
     header_none() {
-      return this.$route.path !== "/more";
+      return this.$route.path !== "/more" && this.$route.path !== "/viedo";
     },
     header_none1() {
       return this.$route.path === "/image" || this.$route.path === "/accompanying" || this.$route.path === "/centers7" || this.$route.path === "/centers1" || this.$route.path === "/centers2" || this.$route.path === "/centers3" || this.$route.path === "/centers4" || this.$route.path === "/centers5" || this.$route.path === "/centers6" || this.$route.path === "/biology1" || this.$route.path === "/archaeology" || this.$route.path === "/citymap" || this.$route.path === "/photo";
     },
     shouldShowBackground() {
-      return this.$route.path !== "/" && this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/accompanying" && this.$route.path !== "/biology1" && this.$route.path !== "/archaeology" && this.$route.path !== "/citymap" && this.$route.path !== "/photo";
+      return this.$route.path !== "/" && this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/viedo" && this.$route.path !== "/accompanying" && this.$route.path !== "/biology1" && this.$route.path !== "/archaeology" && this.$route.path !== "/citymap" && this.$route.path !== "/photo";
     },
 
     shouldShowBackground1() {
-      return this.$route.path !== "/" && this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/date" && this.$route.path !== "/accompanying" && this.$route.path !== "/biology1" && this.$route.path !== "/archaeology" && this.$route.path !== "/citymap" && this.$route.path !== "/photo";
+      return this.$route.path !== "/" && this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/viedo" && this.$route.path !== "/date" && this.$route.path !== "/accompanying" && this.$route.path !== "/biology1" && this.$route.path !== "/archaeology" && this.$route.path !== "/citymap" && this.$route.path !== "/photo";
     },
     footer_none() {
-      return this.$route.path !== "/image" && this.$route.path !== "/more";
+      return this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/viedo";
     }
   },
   mounted() {

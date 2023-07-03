@@ -10,7 +10,7 @@
                         class="fas fa-arrow-right p-3 border border-2 rounded-circle icon_arraw icon_click"></i>
                 </div>
             </div>
-            <div class="col-12 col-md" data-aos="fade-left">
+            <div class="col-12 col-md col_index_2" data-aos="fade-left">
                 <div
                     class="d-flex mt-4 mt-md-0 gap-sm-4 flex-column-reverse gap-0 flex-sm-row justify-content-center justify-content-md-end">
                     <li class="nav-item dropdown nav-link">
@@ -298,13 +298,13 @@
             </div>
         </section>
     </section>
-    <!-- end main development -->    
+    <!-- end main development -->
 </template>
   
 <script>
 import $ from 'jquery';
 import 'jquery-ui-dist/jquery-ui';
-export default {    
+export default {
     name: "KpapDevelopment",
     created() {
         this.changePageTitle('المشاريع - التطويرية');

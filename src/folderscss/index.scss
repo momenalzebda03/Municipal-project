@@ -236,6 +236,10 @@ body section .number_width:hover,
     border: 2px solid $color_green !important;
 }
 
+.col_index_2 {
+    z-index: 2;
+}
+
 // end afretang
 // start header
 body section div .div_index_4 {
@@ -602,7 +606,6 @@ body section .row div .datepicker {
     margin: 50px auto;
 
     &.datepicker_1 {
-        transform: translate(-150px, 22px) !important;
         margin: 0%;
     }
 
@@ -1179,36 +1182,46 @@ body section section .col .div_project_hover:hover .span_left {
 
 // end main development
 // start main news
-body section section .col .div_border_green {
+body section section div div div div .div_border_green {
     border-left: 6px solid #498973;
     transition: 0.5s;
 }
 
-body section section .col .div_border_green:hover .span_red {
+body section section div div div div .div_border_green:hover .span_red {
     color: $color_white !important;
 }
 
-body section section .col .div_border_green:hover {
+body section section div div div div .div_border_green:hover {
     background-color: #498973 !important;
 }
 
-body section .row .image_container_1::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 8%;
-    width: 92%;
-    z-index: 0;
-    height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
-    transition: 1s;
-}
-
-body section .row .image_container_1:hover::after {
-    display: none;
-}
-
 // end main news
+// start main albmus
+body section div .div_width_92 {
+    width: 90%;
+}
+
+body section section .col .card div div .arraw_image {
+    z-index: 1;
+    background-color: $color_black;
+    height: 140px;
+    padding-top: 55px;
+}
+
+body section section .col:hover .div_card_bottom {
+    background-color: $color_green;
+    color: $color_white;
+}
+
+body section section .col:hover .div_hover_block {
+    display: block !important;
+}
+
+body section section .col .div_card_bottom {
+    background-color: #F1F1F1;
+}
+
+// end main albmus
 // start footer
 body .div_footer,
 body .div_footer .row_width .p_border,
@@ -1336,7 +1349,7 @@ body section div .div_top_respons {
     body section .row div .datepicker {
         &.datepicker_1 {
             width: 400px;
-            transform: translate(0, 22px) !important;
+            transform: translate(0px, 22px) !important;
         }
     }
 

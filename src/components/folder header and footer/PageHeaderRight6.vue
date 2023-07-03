@@ -4,7 +4,7 @@
             class="div_border d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-newspaper fs-5"></i>
         </router-link>
-        <router-link to="/" title="الألبومات" :class="{ 'active': isActive('/') }"
+        <router-link to="/albums" title="الألبومات" :class="{ 'active': isActive('/albums') || isActive('/albumsviedo') }"
             class="div_border d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-photo-video fs-5"></i>
         </router-link>

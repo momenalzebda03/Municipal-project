@@ -97,7 +97,7 @@
                             <i data-bs-target="#carouselExampleControls" data-bs-slide="prev"
                                 class="fas fa-chevron-left fs-4 icon_black image_none back_hover text-white px-4"></i>
                         </div>
-                        <router-link to="/more">
+                        <router-link to="/viedo">
                             <div class="carousel-item active height_100">
                                 <img src="../../assets/image_civil2/ImageViedo.png" alt="" class="w-100 height_100">
                             </div>

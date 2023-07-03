@@ -1,7 +1,8 @@
 <template>
     <section class="div_footer font_text bg-white">
         <div class="row row_width">
-            <router-link to="/news" :class="{ 'div_active': isActive('/news') }"
+            <router-link to="/news"
+                :class="{ 'div_active': isActive('/news') || isActive('/albums') || isActive('/albumsviedo') }"
                 class="col pt-4 text-center back_hover text-black text-decoration-none">
                 <p>المركزالإعلامي</p>
                 <div class="p_border"></div>

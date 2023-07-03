@@ -10,7 +10,7 @@
                         class="fas fa-arrow-right p-3 border border-2 rounded-circle icon_arraw icon_click"></i>
                 </div>
             </div>
-            <div class="col-12 col-md" data-aos="fade-left">
+            <div class="col-12 col-md col_index_2" data-aos="fade-left">
                 <div
                     class="d-flex mt-4 mt-md-0 gap-sm-4 flex-column-reverse gap-0 flex-sm-row justify-content-center justify-content-md-end">
                     <li class="nav-item dropdown nav-link">
@@ -18,7 +18,7 @@
                             id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <span @click="click_rotate" class="dropdown-text">التقويم</span>
                         </a>
-                        <div style="z-index: 2;" class="dropdown-menu datepicker datepicker_1 shadow rounded-3"></div>
+                        <div class="dropdown-menu datepicker datepicker_1 shadow rounded-3"></div>
                     </li>
                     <li class="nav-item dropdown nav-link">
                         <a class="text-black icon_hover text-decoration-none dropdown-toggle dropdown_left w-50"
@@ -37,7 +37,7 @@
         </div>
         <section class="carousel slide" id="carouselExampleControls" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active" style="z-index: 1;">
+                <div class="carousel-item active">
                     <div class="row mt-5">
                         <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-right">
                             <div class="image-container position-relative">
@@ -114,9 +114,6 @@ export default {
                     "ديسمبر"
                 ],
             });
-            $('[data-date="6"], [data-date="10"]').addClass('custom_class_red');
-            $('[data-date="19"], [data-date="30"]').addClass('custom_class_green');
-            $('[data-date="16"]').addClass('custom_class_ccc');
         },
         changePageTitle(newTitle) {
             document.title = newTitle;
