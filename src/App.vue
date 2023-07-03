@@ -6,11 +6,12 @@
         <HeaderCpap v-if="header_none" class="w-100" />
         <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" class="height_100" v-if="header_none">
         <HeaderRightCpap class="bg-white overflow-y-auto overflow-x-hidden height_100"
-          v-if="header_right_none && !isMuiciaplRoute && !isMuiciaplRoute1 && !isMuiciaplRoute2 && !isMuiciaplRoute3" />
+          v-if="header_right_none && !isMuiciaplRoute && !isMuiciaplRoute1 && !isMuiciaplRoute2 && !isMuiciaplRoute3 && !isMuiciaplRoute4" />
         <HeaderRightCpap1 v-if="isMuiciaplRoute" class="bg-white overflow-y-auto overflow-x-hidden height_100" />
         <HeaderRightCpap2 v-if="isMuiciaplRoute1" class="bg-white overflow-y-auto overflow-x-hidden height_100" />
         <HeaderRightCpap3 v-if="isMuiciaplRoute2" class="bg-white overflow-y-auto overflow-x-hidden height_100" />
         <HeaderRightCpap4 v-if="isMuiciaplRoute3" class="bg-white overflow-y-auto overflow-x-hidden height_100" />
+        <HeaderRightCpap5 v-if="isMuiciaplRoute4" class="bg-white overflow-y-auto overflow-x-hidden height_100" />
       </div>
       <!-- end app header -->
       <div class="div_show" v-if="header_none"></div>
@@ -49,6 +50,7 @@ import HeaderRightCpap1 from "./components/folder header and footer/PageHeaderRg
 import HeaderRightCpap2 from "./components/folder header and footer/PageHeaderRight3.vue";
 import HeaderRightCpap3 from "./components/folder header and footer/PageHeaderRgith4.vue";
 import HeaderRightCpap4 from "./components/folder header and footer/PageHeaderRight5.vue";
+import HeaderRightCpap5 from "./components/folder header and footer/PageHeaderRight6.vue";
 
 export default {
   components: {
@@ -58,7 +60,8 @@ export default {
     HeaderRightCpap1,
     HeaderRightCpap2,
     HeaderRightCpap3,
-    HeaderRightCpap4
+    HeaderRightCpap4,
+    HeaderRightCpap5
   },
   computed: {
     div_margin_none() {
@@ -75,6 +78,9 @@ export default {
     },
     isMuiciaplRoute3() {
       return this.$route.path === "/list" || this.$route.path === "/development";
+    },
+    isMuiciaplRoute4() {
+      return this.$route.path === "/news";
     },
     header_right_none() {
       return this.$route.path !== "/more";

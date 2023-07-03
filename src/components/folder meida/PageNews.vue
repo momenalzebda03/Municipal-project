@@ -1,5 +1,5 @@
 <template>
-    <!-- start main list -->
+    <!-- start main news -->
     <section class="container-fluid text-center text-md-end mt-md-5 pt-4 font_text overflow-hidden px-4 px-md-5">
         <div class="row">
             <div class="col-12 col-md text-center text-md-start" data-aos="fade-right">
@@ -10,7 +10,7 @@
                         class="fas fa-arrow-right p-3 border border-2 rounded-circle icon_arraw icon_click"></i>
                 </div>
             </div>
-            <div class="col-12 col-md" data-aos="fade-left">
+            <div class="col-12 col-md div_my_index" data-aos="fade-left">
                 <div
                     class="d-flex mt-4 mt-md-0 gap-sm-4 flex-column-reverse gap-0 flex-sm-row justify-content-center justify-content-md-end">
                     <li class="nav-item dropdown nav-link">
@@ -18,7 +18,7 @@
                             id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <span @click="click_rotate" class="dropdown-text">التقويم</span>
                         </a>
-                        <div style="z-index: 2;" class="dropdown-menu datepicker datepicker_1 shadow rounded-3"></div>
+                        <div class="dropdown-menu datepicker datepicker_1 shadow rounded-3"></div>
                     </li>
                     <li class="nav-item dropdown nav-link">
                         <a class="text-black icon_hover text-decoration-none dropdown-toggle dropdown_left w-50"
@@ -31,64 +31,55 @@
                             <li><a class="dropdown-item" href="#">الأقدم أولا</a></li>
                         </ul>
                     </li>
-                    <h4 class="fw-bold span_red">المشاريع القائمة</h4>
+                    <h4 class="fw-bold span_red">أخبار واعلانات</h4>
                 </div>
             </div>
         </div>
-        <section class="carousel slide" id="carouselExampleControls" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" style="z-index: 1;">
-                    <div class="row mt-5">
-                        <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-right">
-                            <div class="image-container position-relative">
-                                <img src="../../assets/image_projects/ImageProject1.png" alt="" class="w-100 icon_click">
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-down">
-                            <div class="image-container position-relative">
-                                <img src="../../assets/image_projects/ImageProject2.png" alt="" class="w-100 icon_click">
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-lg-4 mt-3" data-aos="fade-left">
-                            <div class="image-container position-relative">
-                                <img src="../../assets/image_projects/ImageProject3.png" alt="" class="w-100 icon_click">
-                            </div>
-                        </div>
-                    </div>
+        <section class="row mt-2">
+            <div class="col text-start">
+                <div class="p-4 icon_click div_border_green mt-3 rounded-2 icon_back text-end">
+                    <span class="span_red fw-bold">بيع مضخة قضبان (لبئر زراعي قديم)</span>
                 </div>
-                <div class="carousel-item">
-                    <div class="row mt-5">
-                        <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-right">
-                            <div class="image-container position-relative">
-                                <img src="../../assets/image_projects/ImageProject1.png" alt="" class="w-100 icon_click">
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-down">
-                            <div class="image-container position-relative">
-                                <img src="../../assets/image_projects/ImageProject2.png" alt="" class="w-100 icon_click">
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-lg-4 mt-3" data-aos="fade-left">
-                            <div class="image-container position-relative">
-                                <img src="../../assets/image_projects/ImageProject3.png" alt="" class="w-100 icon_click">
-                            </div>
-                        </div>
-                    </div>
+                <div class="p-4 icon_click div_border_green mt-3 rounded-2 icon_back text-end">
+                    <span class="span_red fw-bold">عطـاء توريد أليات ضاغطة لجمع وترحيل النفايات الصلبة</span>
+                </div>
+                <div class="p-4 icon_click div_border_green mt-3 rounded-2 icon_back text-end">
+                    <span class="span_red fw-bold">شغل وظيفة "رئيس قسم المنشآت والمباني" بدائرة نظم المعلومات
+                        الجغرافية</span>
+                </div>
+                <div class="p-4 icon_click div_border_green mt-3 rounded-2 icon_back text-end">
+                    <span class="span_red fw-bold">إيداع طلب رخصة حرفة (مولدات كهربائية تجارية) للمواطن/ محمد ايهاب محمد
+                        رمضان العشي</span>
+                </div>
+                <div class="p-4 icon_click div_border_green mt-3 rounded-2 icon_back text-end">
+                    <span class="span_red fw-bold">إيداع طلب رخصة حرفة (مولدات كهربائية تجارية) للمواطن/ محمد ايهاب محمد
+                        رمضان العشي</span>
                 </div>
             </div>
+            <!-- <div class="col mt-3">
+                <div class="image_container_1 position-relative">
+                    <img src="../../assets/image_news/ImageNews1.png" alt="">
+                </div>
+            </div>
+            <div class="col mt-3">
+                <div class="image_container_1 position-relative">
+                    <img src="../../assets/image_news/ImageNews2.png" alt="">
+                </div>
+            </div>
+            <div class="col mt-3">
+                <div class="image_container_1 position-relative">
+                    <img src="../../assets/image_news/ImageNews3.png" alt="">
+                </div>
+            </div> -->
         </section>
     </section>
-    <!-- end main list -->
+    <!-- end main news -->
 </template>
-  
 <script>
 import $ from 'jquery';
 import 'jquery-ui-dist/jquery-ui';
 export default {
-    name: "KpapList",
-    created() {
-        this.changePageTitle('المشاريع - القائمة');
-    },
+    name: "KpapNews",
     data() {
         return {
             rotateClass: '',
@@ -128,8 +119,8 @@ export default {
             this.rotateClass1 = this.rotateClass1 === 'rotate_100' ? '' : 'rotate_100';
         },
     },
-    mounted() {
-        this.initializeDatepicker();
-    }
+    created() {
+        this.changePageTitle('المركز الأعلامي - الأخبار');
+    },
 }
 </script>

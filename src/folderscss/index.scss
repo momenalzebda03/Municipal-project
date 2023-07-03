@@ -602,7 +602,7 @@ body section .row div .datepicker {
     margin: 50px auto;
 
     &.datepicker_1 {
-        transform: translate(0, 22px) !important;
+        transform: translate(-150px, 22px) !important;
         margin: 0%;
     }
 
@@ -1143,10 +1143,6 @@ body section .row .image-container:hover::after {
     background: linear-gradient(to top, rgba(126, 126, 126, 0.519), rgba(126, 126, 126, 0));
 }
 
-body section .row .div_my_index {
-    z-index: 4;
-}
-
 // end main list
 // start main development
 body section section .col .div_project_hover div .hr_overlay {
@@ -1180,7 +1176,39 @@ body section section .col .div_project_hover:hover .span_left {
     transform: translate(-3px, 0px);
     animation: keymargin 0.5s infinite;
 }
+
 // end main development
+// start main news
+body section section .col .div_border_green {
+    border-left: 6px solid #498973;
+    transition: 0.5s;
+}
+
+body section section .col .div_border_green:hover .span_red {
+    color: $color_white !important;
+}
+
+body section section .col .div_border_green:hover {
+    background-color: #498973 !important;
+}
+
+body section .row .image_container_1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 8%;
+    width: 92%;
+    z-index: 0;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    transition: 1s;
+}
+
+body section .row .image_container_1:hover::after {
+    display: none;
+}
+
+// end main news
 // start footer
 body .div_footer,
 body .div_footer .row_width .p_border,
@@ -1308,6 +1336,7 @@ body section div .div_top_respons {
     body section .row div .datepicker {
         &.datepicker_1 {
             width: 400px;
+            transform: translate(0, 22px) !important;
         }
     }
 
