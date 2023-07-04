@@ -1,5 +1,5 @@
 <template>
-    <div class="div_width position-relative">
+    <div class="div_width flex-column">
         <router-link to="/muiciapl" title="الأهداف"
             :class="{ 'active': isActive('/muiciapl') || isActive('/objectives') || isActive('/policy') }"
             class="d-flex justify-content-center div_border text-decoration-none">

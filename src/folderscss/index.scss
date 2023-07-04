@@ -284,10 +284,124 @@ body div .div_show nav div .collapse div .image_none .image_center {
     left: 46.6%;
 }
 
+body section div div .div_menu_block .wrapper {
+    right: -100%;
+    z-index: 2;
+    transition: all 0.6s ease-in-out;
+}
+
+#active:checked~.wrapper {
+    right: 0;
+}
+
+body section div div .div_menu_block .menu-btn {
+    height: 50px;
+    z-index: 3;
+    width: 50px;
+    top: 180px;
+    right: 5%;
+    transition: all 0.3s ease-in-out;
+}
+
+body section div div .div_menu_block .menu-btn span,
+body section div div .div_menu_block .menu-btn:before,
+body section div div .div_menu_block .menu-btn:after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 30%;
+    width: 40%;
+    border-bottom: 2px solid #000;
+    transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+body section div div .div_menu_block .menu-btn:before {
+    transform: translateY(-8px);
+}
+
+body section div div .div_menu_block .menu-btn:after {
+    transform: translateY(8px);
+}
+
+#active:checked+.menu-btn span {
+    transform: scaleX(0);
+}
+
+#active:checked+.menu-btn:before {
+    transform: rotate(45deg);
+}
+
+#active:checked+.menu-btn:after {
+    transform: rotate(-45deg);
+}
+
+body section div div .div_menu_block .wrapper ul {
+    top: 35%;
+    height: 90%;
+    list-style: none;
+}
+
+body section div div .div_menu_block .wrapper ul li {
+    height: 10%;
+    margin: 15px 0;
+}
+
+body section div div .div_menu_block .wrapper ul li .router_link {
+    text-decoration: none;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+body section div div .div_menu_block .wrapper ul li .router_link:after {
+    position: absolute;
+    content: "";
+    background-color: $color_black;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 50px;
+    transform: scaleY(0);
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+body section div div .div_menu_block .wrapper ul li .router_link:hover .icon_hover_white {
+    color: $color_white !important;
+}
+
+body section div div .div_menu_block .wrapper ul li .router_link:hover:after {
+    transform: scaleY(1);
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+#active:checked~.wrapper ul li a {
+    opacity: 1;
+}
+
+body section div div div .wrapper ul li a {
+    transition: opacity 1.2s, transform 1.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translateX(20px);
+}
+
+#active:checked~.wrapper ul li a {
+    transform: none;
+    transition-timing-function: ease, cubic-bezier(.1, 1.3, .3, 1);
+    transition-delay: .6s;
+    transform: translateX(-20px);
+}
+
 // end header
 // start header right
 body .div_width {
     width: 6%;
+    display: flex;
 }
 
 body .div_width .div_bottom {
@@ -823,7 +937,7 @@ body .div_px {
 // start main account
 body .section_maring {
     margin-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 70px;
 }
 
 .image_index,
@@ -1420,8 +1534,9 @@ body section div .div_top_respons {
         width: 100% !important;
     }
 
+    body section div div .div_menu_block,
     body div .div_show nav div .div_respons .div_bottom {
-        display: block;
+        display: block !important;
     }
 
     body section .row div .row div .div_before_after3::before,
@@ -1453,10 +1568,6 @@ body section div .div_top_respons {
 
     body .section_maring .container .row div div div .icon_width {
         width: 80px;
-    }
-
-    body .section_maring {
-        margin-top: 100px;
     }
 
     .row_width {

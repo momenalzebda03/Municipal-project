@@ -1,5 +1,5 @@
 <template>
-    <div class="div_width position-relative">
+    <div class="div_width flex-column">
         <router-link to="/news" title="الأخبار" :class="{ 'active': isActive('/news') }"
             class="div_border d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-newspaper fs-5"></i>

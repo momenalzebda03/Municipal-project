@@ -1,5 +1,5 @@
 <template>
-    <div class="div_width d-flex justify-content-between flex-column">
+    <div class="div_width justify-content-between flex-column">
         <div>
             <router-link to="/" v-if="shouldShowBackground"
                 class="d-flex active justify-content-center div_border text-decoration-none">

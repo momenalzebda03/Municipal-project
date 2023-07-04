@@ -1,6 +1,6 @@
 <template>
     <!-- start main home -->
-    <section class="mt-md-5">
+    <section class="mt-md-5 overflow-hidden">
         <div class="container-fluid px-md-5 font_text">
             <div class="row">
                 <div class="col-md-6 col-lg-4 mt-5" data-aos="fade-up">
@@ -243,7 +243,7 @@
         </div>
         <div class="container mt-lg-5 pt-2">
             <div class="row">
-                <div class="col-sm-6 col-lg-3 fw-bold" data-aos="fade-up">
+                <div class="col fw-bold" data-aos="fade-up">
                     <div class="d-flex flex-column flex-lg-row justify-content-center gap-2 text-decoration-none">
                         <p class="mt-2 text-black p_hover text-center text-lg-end">مشاريع<br>البلدية</p>
                         <router-link to="" class="text-decoration-none">
@@ -253,7 +253,7 @@
                         </router-link>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 fw-bold" data-aos="fade-down">
+                <div class="col fw-bold" data-aos="fade-down">
                     <div class="d-flex flex-column flex-lg-row justify-content-center gap-2 text-decoration-none">
                         <p class="mt-2 text-black p_hover text-center text-lg-end">المعاملات<br>دليل</p>
                         <router-link to="" class="text-decoration-none">
@@ -263,7 +263,7 @@
                         </router-link>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3" data-aos="fade-up">
+                <div class="col" data-aos="fade-up">
                     <div
                         class="d-flex fw-bold flex-column flex-lg-row justify-content-center gap-2 text-decoration-none me-lg-5 pe-lg-4">
                         <p class="mt-2 text-black p_hover text-center text-lg-end">الألكترونية<br>الخدمات</p>
@@ -288,7 +288,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 fw-bold" data-aos="fade-down">
+                <div class="col fw-bold" data-aos="fade-down">
                     <div class="d-flex flex-column flex-lg-row justify-content-center gap-2 text-decoration-none">
                         <p class="mt-2 text-black p_hover text-center text-lg-end">الشكاوى<br>والاستفسارات</p>
                         <router-link to="" class="text-decoration-none">

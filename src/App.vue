@@ -4,14 +4,42 @@
       <!-- start app header -->
       <div class="d-flex position-fixed w-100 div_index_4" v-if="header_none">
         <HeaderCpap v-if="header_none" class="w-100" />
-        <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" class="height_100" v-if="header_none">
-        <HeaderRightCpap class="bg-white overflow-y-auto overflow-x-hidden height_100"
+        <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" class="image_none height_100"
+          v-if="header_none">
+        <!-- start header right main -->
+        <div
+          v-if="header_right_none && !isMuiciaplRoute && !isMuiciaplRoute1 && !isMuiciaplRoute2 && !isMuiciaplRoute3 && !isMuiciaplRoute4"
+          class="div_menu_block d-none">
+          <input type="checkbox" id="active">
+          <label for="active"
+            class="menu-btn bg-white border border-2 rounded-3 icon_click position-absolute col_index_2"><span></span></label>
+          <label for="active" class="h-100 w-100"></label>
+          <div class="wrapper top-0 h-100 position-fixed div_active w-100 container-fluid d-flex justify-content-center">
+            <ul class="position-absolute w-75">
+              <li><router-link to="/" class="router_link text-center py-3 position-absolute bg-white"><i title="الرئيسية"
+                    class="fas fa-home fs-2 text-black icon_hover_white"></i></router-link>
+              </li>
+              <li><router-link to="/application" class="router_link text-center py-3 position-absolute bg-white"><i
+                    title="تطبيق الموبايل" class="fal fa-mobile fs-2 text-black icon_hover_white"></i></router-link>
+              </li>
+              <li><router-link to="/proposals" class="router_link text-center py-3 position-absolute bg-white"><i
+                    title="تواصل معنا" class="fas fa-tty fs-2 text-black icon_hover_white"></i></router-link>
+              </li>
+              <li><router-link to="/questions" class="router_link text-center py-3 position-absolute bg-white"><i
+                    title="الأسئلة الشائعة"
+                    class="far fa-question-circle fs-2 text-black icon_hover_white"></i></router-link>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <HeaderRightCpap class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none"
           v-if="header_right_none && !isMuiciaplRoute && !isMuiciaplRoute1 && !isMuiciaplRoute2 && !isMuiciaplRoute3 && !isMuiciaplRoute4" />
-        <HeaderRightCpap1 v-if="isMuiciaplRoute" class="bg-white overflow-y-auto overflow-x-hidden height_100" />
-        <HeaderRightCpap2 v-if="isMuiciaplRoute1" class="bg-white overflow-y-auto overflow-x-hidden height_100" />
-        <HeaderRightCpap3 v-if="isMuiciaplRoute2" class="bg-white overflow-y-auto overflow-x-hidden height_100" />
-        <HeaderRightCpap4 v-if="isMuiciaplRoute3" class="bg-white overflow-y-auto overflow-x-hidden height_100" />
-        <HeaderRightCpap5 v-if="isMuiciaplRoute4" class="bg-white overflow-y-auto overflow-x-hidden height_100" />
+        <!-- end header right main -->
+        <HeaderRightCpap1 v-if="isMuiciaplRoute" class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
+        <HeaderRightCpap2 v-if="isMuiciaplRoute1" class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
+        <HeaderRightCpap3 v-if="isMuiciaplRoute2" class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
+        <HeaderRightCpap4 v-if="isMuiciaplRoute3" class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
+        <HeaderRightCpap5 v-if="isMuiciaplRoute4" class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
       </div>
       <!-- end app header -->
       <div class="div_show" v-if="header_none"></div>
@@ -30,13 +58,14 @@
       <!-- start app footer -->
       <div class="d-flex align-items-end position-fixed w-100 div_height_none">
         <FooterKpap v-if="footer_none" class="w-100" />
-        <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" class="height_100" v-if="header_none">
-        <div class="div_width" v-if="header_none"></div>
+        <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" class="image_none height_100"
+          v-if="header_none">
+        <div class="div_width image_none" v-if="header_none"></div>
       </div>
       <!-- end app footer -->
     </div>
-    <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" v-if="header_none1">
-    <div class="div_width" v-if="header_none"></div>
+    <img src="../src/assets/image_logo/ImageSeparator.png" alt="error" class="image_none" v-if="header_none1">
+    <div class="div_width image_none" v-if="header_none"></div>
   </section>
 </template>
 

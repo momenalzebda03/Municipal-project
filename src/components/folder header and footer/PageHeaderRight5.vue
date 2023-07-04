@@ -1,5 +1,5 @@
 <template>
-    <div class="div_width position-relative">
+      <div class="div_width flex-column">
         <router-link to="/list" title="المشاريع القائمة" :class="{ 'active': isActive('/list') }"
             class="div_border d-flex justify-content-center div_border text-decoration-none px-4">
             <i class="fab fa-r-project fs-5"></i>
