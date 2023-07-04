@@ -2,7 +2,7 @@
     <section class="div_footer font_text bg-white">
         <div class="row row_width">
             <router-link to="/news"
-                :class="{ 'div_active': isActive('/news') || isActive('/albums') || isActive('/albumsviedo') }"
+                :class="{ 'div_active': isActive('/news') || isActive('/albums') || isActive('/albumsviedo') || isActive('/reports') || isActive('/numbers') }"
                 class="col pt-4 text-center back_hover text-black text-decoration-none">
                 <p>المركزالإعلامي</p>
                 <div class="p_border"></div>

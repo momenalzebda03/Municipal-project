@@ -80,7 +80,7 @@ export default {
       return this.$route.path === "/list" || this.$route.path === "/development";
     },
     isMuiciaplRoute4() {
-      return this.$route.path === "/news" || this.$route.path === "/albums" || this.$route.path === "/albumsviedo";
+      return this.$route.path === "/news" || this.$route.path === "/albums" || this.$route.path === "/albumsviedo" || this.$route.path === "/reports" || this.$route.path === "/numbers";
     },
     header_right_none() {
       return this.$route.path !== "/more" && this.$route.path !== "/viedo";

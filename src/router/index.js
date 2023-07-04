@@ -38,6 +38,8 @@ import KpapNews from "../components/folder media/PageNews.vue";
 import KpapViedo from "../components/folder city/CityViedo.vue";
 import KpapAlbums from "../components/folder media/PageAlbums.vue";
 import KpapAlbumsVedio from "../components/folder media/PageVeido.vue";
+import KpapReports from "../components/folder media/PageReports.vue";
+import KpapNumbers from "../components/folder media/PageNumbers.vue";
 
 const routes = [
   {
@@ -219,7 +221,15 @@ const routes = [
   {
     path: "/albumsviedo",
     component: KpapAlbumsVedio,
-  },  
+  },
+  {
+    path: "/reports",
+    component: KpapReports,
+  },
+  {
+    path: "/numbers",
+    component: KpapNumbers,
+  },
 ];
 
 const router = createRouter({

@@ -8,11 +8,11 @@
             class="div_border d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-photo-video fs-5"></i>
         </router-link>
-        <router-link to="/" title="تقارير وإصدارات" :class="{ 'active': isActive('/') }"
+        <router-link to="/reports" title="تقارير وإصدارات" :class="{ 'active': isActive('/reports') }"
             class="div_border d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-folder-open fs-5"></i>
         </router-link>
-        <router-link to="/" title="أرقام وأحصائيات" :class="{ 'active': isActive('/') }"
+        <router-link to="/numbers" title="أرقام وأحصائيات" :class="{ 'active': isActive('/numbers') }"
             class="div_border d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-globe fs-5"></i>
         </router-link>

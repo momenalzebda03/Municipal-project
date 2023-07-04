@@ -1222,6 +1222,62 @@ body section section .col .div_card_bottom {
 }
 
 // end main albmus
+// start main reports
+body section .row_left_screen {
+    width: 118%;
+    transform: translate(-15%, 0);
+}
+
+body section div div div .row div .image_text_right {
+    line-height: 26px;
+    top: 25%;
+    left: 5%;
+    color: white;
+    width: 37%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+body section div div div .row div .image_text_right .button_hover_border:hover {
+    border: 2px solid $color_white !important;
+}
+
+// end main reports
+// start main numbers
+body section div .row div .div_width_hover,
+body section div .row .flex_hover .span_black {
+    color: #848484;
+    transition: 0.2s;
+}
+
+body section div .row div .div_width_hover {
+    width: 20px;
+    margin-top: 3px;
+    height: 3px;
+    background-color: #848484;
+}
+
+body section div .row .flex_hover:hover .div_width_hover {
+    width: 30px;
+    background-color: $color_green;
+}
+
+
+body section div .row .flex_hover:hover .span_black {
+    color: $color_black !important;
+}
+
+body section div .row .flex_hover .active_span_black {
+    color: $color_black !important;
+}
+
+body section div .row div .active_div_width_hover {
+    width: 30px;
+    background-color: $color_green;
+}
+
+// end main numbers
 // start footer
 body .div_footer,
 body .div_footer .row_width .p_border,
@@ -1332,6 +1388,10 @@ body section div .div_top_respons {
 }
 
 @media (max-width: 1490px) {
+    body section div div div .row div .image_text_right .text_size {
+        font-size: 10px;
+    }
+
     body .div_width div .p_rights {
         display: none;
     }
@@ -1464,8 +1524,9 @@ body section div .div_top_respons {
         margin-top: 10px;
     }
 
-    body section .row .div_translate_170 {
-        transform: translate(0, 0px);
+    body section .row_left_screen,
+    .div_translate_170 {
+        transform: translate(0, 0);
     }
 
     body section .row div .card_hover div .image_text {
@@ -1478,6 +1539,10 @@ body section div .div_top_respons {
 
     body section .row .background_height_100 {
         height: 1500px;
+    }
+
+    body .margin_left_reports {
+        margin-left: -0%;
     }
 }
 
