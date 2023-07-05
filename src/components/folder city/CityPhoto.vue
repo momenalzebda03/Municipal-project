@@ -1,10 +1,10 @@
 <template>
     <!-- start main image -->
-    <section class="font_text">
+    <section class="font_text overflow-hidden">
         <div class="row overflow-hidden">
             <div class="col-md-6 text-center text-md-end mt-5" data-aos="fade-right">
                 <router-link to="/Archaeology1"
-                    class="fas fa-times fs-3 icon_click text-secondary text-decoration-none icon_hover"></router-link>
+                    class="fas fa-times fs-3 icon_click text-black text-decoration-none icon_hover"></router-link>
                 <h1 class="fw-bold mt-3">مقبرة دير البلح</h1>
                 <span>فلسطين - غزة - دير البلح</span>
                 <div class="d-flex justify-content-center justify-content-md-end mt-2">
@@ -43,8 +43,7 @@
                                 <img src="../../assets/image_civiil4/ImagePhoto.png" alt="" class="w-100 height_100">
                             </div>
                             <div class="carousel-item">
-                                <img src="../../assets/image_page_home_1/ImageMask.png" alt=""
-                                    class="w-100 height_100">
+                                <img src="../../assets/image_page_home_1/ImageMask.png" alt="" class="w-100 height_100">
                             </div>
                         </router-link>
                         <div class="d-flex align-items-center justify-content-center position-absolute end-0 top-50">

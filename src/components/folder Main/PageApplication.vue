@@ -30,13 +30,13 @@
                         <div class="d-flex gap-3 flex-column-reverse flex-md-row justify-content-end mt-4"
                             id="hover-container">
                             <div class="mt-2">
-                                <span class="p_hover">تقديم شكوى</span>
+                                <span class="actvie_hovered p_hover">تقديم شكوى</span>
                                 <br>
                                 <p class="mt-1 text-secondary">.بإمكانك تقديم شكوى ومتابعة الرد عليها ومعرفة حالة الشكوى</p>
                             </div>
                             <div class="d-flex justify-content-center">
                                 <i
-                                    class="fas fa-exclamation-triangle fs-3 rounded-circle icon_background border border-2 d-flex pt-3 justify-content-center"></i>
+                                    class="fas fa-exclamation-triangle fs-3 rounded-circle active_icon_background icon_background border border-2 d-flex pt-3 justify-content-center"></i>
                             </div>
                         </div>
                     </router-link>
@@ -119,13 +119,26 @@ export default {
     mounted() {
         const containers = document.querySelectorAll('#hover-container');
         containers.forEach(container => {
+            container.addEventListener("click", function () {
+                const active_span = document.querySelector('.actvie_hovered');
+                if (active_span) {
+                    active_span.classList.remove('actvie_hovered');
+                }
+                const actvie_hovered = container.querySelector('.p_hover');
+                actvie_hovered.classList.add('actvie_hovered');
+                const active_icon_background = document.querySelector('.active_icon_background');
+                if (active_icon_background) {
+                    active_icon_background.classList.remove('active_icon_background');
+                }
+                const icon_background = container.querySelector('.icon_background');
+                icon_background.classList.add('active_icon_background');
+            });
+
             const icon = container.querySelector('.icon_background');
             const text = container.querySelector('.p_hover');
-
             icon.addEventListener('mouseover', () => {
                 text.classList.add('hovered');
             });
-
             icon.addEventListener('mouseout', () => {
                 text.classList.remove('hovered');
             });

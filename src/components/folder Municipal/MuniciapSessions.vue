@@ -49,7 +49,7 @@
                     </div>
                     <div class="mt-4 pt-1" data-aos="fade-down">
                         <div class="py-3">
-                            <a class="button px-5 py-3 rounded-4 text-decoration-none position-relative div_active"
+                            <a class="button px-4 py-3 rounded-4 text-decoration-none position-relative div_active"
                                 href="#">عرض الجلسة</a>
                         </div>
                         <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">

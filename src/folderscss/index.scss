@@ -170,7 +170,7 @@ body section .number_width:hover,
 
 .button_padding:hover {
     background-color: $color_green !important;
-    color: $color_white;
+    color: $color_white !important;
 }
 
 .button_padding:hover .button_icon_hover {
@@ -351,6 +351,7 @@ body section div div .div_menu_block .wrapper ul li .router_link {
     font-weight: 500;
     width: 100%;
     border-radius: 50px;
+    background-color: $color_white;
     transition: all 0.3s ease;
     transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
@@ -371,6 +372,14 @@ body section div div .div_menu_block .wrapper ul li .router_link:after {
 
 body section div div .div_menu_block .wrapper ul li .router_link:hover .icon_hover_white {
     color: $color_white !important;
+}
+
+body section div div .div_menu_block .wrapper ul li .router_link .active_icon_hover_white {
+    color: $color_white !important;
+}
+
+body section div div .div_menu_block .wrapper ul li .active_router_link::after {
+    transform: scaleY(1);
 }
 
 body section div div .div_menu_block .wrapper ul li .router_link:hover:after {
@@ -506,6 +515,15 @@ body section .container-fluid .row div div .icon_background {
 
 body section .container-fluid .row div div .hovered {
     color: $color_red;
+}
+
+body section .container-fluid .row div div .actvie_hovered {
+    color: $color_red;
+}
+
+body section div .row div div div .active_icon_background {
+    background-color: $color_red;
+    color: $color_white !important;
 }
 
 .icon_background:hover {
@@ -986,7 +1004,7 @@ body section .row .background_row_accompaying {
 }
 
 body section .row .background_height_100 {
-    height: 900px;
+    height: 120vh;
 }
 
 body section .row div .div .div_color_hover2 {
@@ -996,7 +1014,7 @@ body section .row div .div .div_color_hover2 {
 body section .row div .container_image_center {
     width: 65% !important;
     height: 67%;
-    margin-bottom: 9%;
+    margin-bottom: 11%;
     direction: rtl;
 }
 
@@ -1392,6 +1410,13 @@ body section div .row div .active_div_width_hover {
 }
 
 // end main numbers
+// start main Archaeology1
+body div .router_close {
+    z-index: 9999999;
+    transform: translate(-350%, -150%);
+}
+
+// end main Archaeology1
 // start footer
 body .div_footer,
 body .div_footer .row_width .p_border,
@@ -1632,6 +1657,7 @@ body section div .div_top_respons {
     }
 
     body section .nav_top {
+        z-index: -1;
         margin-top: 10px;
     }
 
@@ -1654,6 +1680,10 @@ body section div .div_top_respons {
 
     body .margin_left_reports {
         margin-left: -0%;
+    }
+
+    body div .router_close {        
+        transform: translate(0%, -150%);
     }
 }
 

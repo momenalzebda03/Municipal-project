@@ -1,6 +1,6 @@
 <template>
     <!-- start main money 2-->
-    <section class="text-end px-3 px-md-5">
+    <section class="text-end px-5">
         <div class="container-fluid text-center text-md-end mt-md-5 pt-4 font_text overflow-hidden">
             <h4 class="fw-bold span_red">الميزانية والموازنة</h4>
             <div class="d-flex flex-column flex-md-row justify-content-end my-3 my-md-5 border-3 border-bottom">
@@ -26,15 +26,14 @@
                                     <p>الموازنة<br>(2018-2021)</p>
                                     <i class="fas fa-file fs-2 icon_color"></i>
                                 </div>
-                                <div class="d-flex gap-3 justify-content-center">
+                                <div class="d-flex gap-3 justify-content-center flex-column flex-md-row">
                                     <div data-aos="fade-up" class="mt-1">
-                                        <button
-                                            class="px-1 px-lg-5 button_padding icon_color border border-0 rounded-4">تحميل
+                                        <button class="px-4 button_padding icon_color border border-0 rounded-4">تحميل
                                             <i class="fas fa-download ms-2"></i></button>
                                     </div>
                                     <div data-aos="fade-down">
                                         <div class="py-3">
-                                            <a class="button px-1 px-lg-5 py-3 rounded-4 text-decoration-none position-relative div_active"
+                                            <a class="button px-4 py-3 rounded-4 text-decoration-none position-relative div_active"
                                                 href="#">عرض</a>
                                         </div>
                                         <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -61,15 +60,14 @@
                                     <p>الميزانية<br>(2018-2021)</p>
                                     <i class="fas fa-file fs-2 icon_color"></i>
                                 </div>
-                                <div class="d-flex gap-3 justify-content-center">
+                                <div class="d-flex gap-3 justify-content-center flex-column flex-md-row">
                                     <div data-aos="fade-up" class="mt-1">
-                                        <button
-                                            class="px-1 px-lg-5 button_padding icon_color border border-0 rounded-4">تحميل
+                                        <button class="px-4 button_padding icon_color border border-0 rounded-4">تحميل
                                             <i class="fas fa-download ms-2"></i></button>
                                     </div>
                                     <div data-aos="fade-down">
                                         <div class="py-3">
-                                            <a class="button px-1 px-lg-5 py-3 rounded-4 text-decoration-none position-relative div_active"
+                                            <a class="button px-4 py-3 rounded-4 text-decoration-none position-relative div_active"
                                                 href="#">عرض</a>
                                         </div>
                                         <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -96,15 +94,14 @@
                                     <p>تقرير مدقق مستقل<br>(2018-2021)</p>
                                     <i class="fas fa-file fs-2 icon_color"></i>
                                 </div>
-                                <div class="d-flex gap-3 justify-content-center">
+                                <div class="d-flex gap-3 justify-content-center flex-column flex-md-row">
                                     <div data-aos="fade-up" class="mt-1">
-                                        <button
-                                            class="px-1 px-lg-5 button_padding icon_color border border-0 rounded-4">تحميل
+                                        <button class="px-4 button_padding icon_color border border-0 rounded-4">تحميل
                                             <i class="fas fa-download ms-2"></i></button>
                                     </div>
                                     <div data-aos="fade-down">
                                         <div class="py-3">
-                                            <a class="button px-1 px-lg-5 py-3 rounded-4 text-decoration-none position-relative div_active"
+                                            <a class="button px-4 py-3 rounded-4 text-decoration-none position-relative div_active"
                                                 href="#">عرض</a>
                                         </div>
                                         <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">

@@ -1,7 +1,7 @@
 <template>
     <KpapHeaderThreeTow />
     <!-- start main map 1-->
-    <section class="container-fluid px-2 px-md-5 font_text overflow-hidden mb-5 pb-2">
+    <section class="container-fluid px-2 px-md-5 font_text overflow-hidden">
         <div class="row text-end">
             <div class="col-lg-8" data-aos="fade-right">
                 <div class="position-relative">

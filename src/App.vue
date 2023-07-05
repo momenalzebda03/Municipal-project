@@ -16,18 +16,25 @@
           <label for="active" class="h-100 w-100"></label>
           <div class="wrapper top-0 h-100 position-fixed div_active w-100 container-fluid d-flex justify-content-center">
             <ul class="position-absolute w-75">
-              <li><router-link to="/" class="router_link text-center py-3 position-absolute bg-white"><i title="الرئيسية"
-                    class="fas fa-home fs-2 text-black icon_hover_white"></i></router-link>
+              <li><router-link :class="{ 'active_router_link': isActive('/') }" to="/"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="الرئيسية"
+                    :class="{ 'active_icon_hover_white': isActive('/') }"
+                    class="fas fa-home fs-2 icon_hover_white text-black"></i></router-link>
               </li>
-              <li><router-link to="/application" class="router_link text-center py-3 position-absolute bg-white"><i
-                    title="تطبيق الموبايل" class="fal fa-mobile fs-2 text-black icon_hover_white"></i></router-link>
+              <li><router-link :class="{ 'active_router_link': isActive('/application') }" to="/application"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="تطبيق الموبايل"
+                    :class="{ 'active_icon_hover_white': isActive('/application') }"
+                    class="fal fa-mobile fs-2 icon_hover_white text-black"></i></router-link>
               </li>
-              <li><router-link to="/proposals" class="router_link text-center py-3 position-absolute bg-white"><i
-                    title="تواصل معنا" class="fas fa-tty fs-2 text-black icon_hover_white"></i></router-link>
+              <li><router-link :class="{ 'active_router_link': isActive('/proposals') }" to="/proposals"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="تواصل معنا"
+                    :class="{ 'active_icon_hover_white': isActive('/proposals') }"
+                    class="fas fa-tty fs-2 icon_hover_white text-black"></i></router-link>
               </li>
-              <li><router-link to="/questions" class="router_link text-center py-3 position-absolute bg-white"><i
-                    title="الأسئلة الشائعة"
-                    class="far fa-question-circle fs-2 text-black icon_hover_white"></i></router-link>
+              <li><router-link :class="{ 'active_router_link': isActive('/questions') }" to="/questions"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="الأسئلة الشائعة"
+                    :class="{ 'active_icon_hover_white': isActive('/questions') }"
+                    class="far fa-question-circle fs-2 icon_hover_white text-black"></i></router-link>
               </li>
             </ul>
           </div>
@@ -35,11 +42,114 @@
         <HeaderRightCpap class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none"
           v-if="header_right_none && !isMuiciaplRoute && !isMuiciaplRoute1 && !isMuiciaplRoute2 && !isMuiciaplRoute3 && !isMuiciaplRoute4" />
         <!-- end header right main -->
-        <HeaderRightCpap1 v-if="isMuiciaplRoute" class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
-        <HeaderRightCpap2 v-if="isMuiciaplRoute1" class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
-        <HeaderRightCpap3 v-if="isMuiciaplRoute2" class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
-        <HeaderRightCpap4 v-if="isMuiciaplRoute3" class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
-        <HeaderRightCpap5 v-if="isMuiciaplRoute4" class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
+        <!-- start header right municipal -->
+        <div v-if="isMuiciaplRoute" class="div_menu_block d-none">
+          <input type="checkbox" id="active">
+          <label for="active"
+            class="menu-btn bg-white border border-2 rounded-3 icon_click position-absolute col_index_2"><span></span></label>
+          <label for="active" class="h-100 w-100"></label>
+          <div class="wrapper top-0 h-100 position-fixed div_active w-100 container-fluid d-flex justify-content-center">
+            <ul class="position-absolute w-75 top-0 mt-5">
+              <li><router-link
+                  :class="{ 'active_router_link': isActive('/muiciapl') || isActive('/objectives') || isActive('/policy') }"
+                  to="/muiciapl" class="router_link text-center py-3 position-absolute bg-white"><i title="الأهداف"
+                    :class="{ 'active_icon_hover_white': isActive('/muiciapl') || isActive('/objectives') || isActive('/policy') }"
+                    class="fas fa-bullseye fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link :class="{ 'active_router_link': isActive('/date') }" to="/date"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="التاريخ"
+                    :class="{ 'active_icon_hover_white': isActive('/date') }"
+                    class="fas fa-clock fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link
+                  :class="{ 'active_router_link': isActive('/council') || isActive('/members') || isActive('/sessions') || isActive('/committee') || isActive('/biology') }"
+                  to="/council" class="router_link text-center py-3 position-absolute bg-white"><i title="المجلس"
+                    :class="{ 'active_icon_hover_white': isActive('/council') || isActive('/members') || isActive('/sessions') || isActive('/committee') || isActive('/biology') }"
+                    class="fas fa-users fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link :class="{ 'active_router_link': isActive('/plan') }" to="/plan"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="الخطة"
+                    :class="{ 'active_icon_hover_white': isActive('/plan') }"
+                    class="fas fa-chalkboard-teacher fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link :class="{ 'active_router_link': isActive('/structure') }" to="/structure"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="الهيكلية"
+                    :class="{ 'active_icon_hover_white': isActive('/structure') }"
+                    class="fas fa-cubes fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link :class="{ 'active_router_link': isActive('/money') || isActive('/money1') }" to="/money"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="الميزانية"
+                    :class="{ 'active_icon_hover_white': isActive('/money') || isActive('/money1') }"
+                    class="fas fa-money-bill-wave fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link :class="{ 'active_router_link': isActive('/accompanying') }" to="/accompanying"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="المرافق"
+                    :class="{ 'active_icon_hover_white': isActive('/accompanying') }"
+                    class="far fa-building fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link
+                  :class="{ 'active_router_link': isActive('/centers') || isActive('/centers1') || isActive('/centers2') || isActive('/centers3') || isActive('/centers4') || isActive('/centers5') || isActive('/centers6') || isActive('/centers7') }"
+                  to="/centers" class="router_link text-center py-3 position-absolute bg-white"><i title="المراكز"
+                    :class="{ 'active_icon_hover_white': isActive('/centers') || isActive('/centers1') || isActive('/centers2') || isActive('/centers3') || isActive('/centers4') || isActive('/centers5') || isActive('/centers6') || isActive('/centers7') }"
+                    class="fa-solid fa-building-lock fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <HeaderRightCpap1 v-if="isMuiciaplRoute"
+          class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
+        <!-- end header right municipal -->
+        <!-- start header right city -->
+        <div v-if="isMuiciaplRoute1" class="div_menu_block d-none">
+          <input type="checkbox" id="active">
+          <label for="active"
+            class="menu-btn bg-white border border-2 rounded-3 icon_click position-absolute col_index_2"><span></span></label>
+          <label for="active" class="h-100 w-100"></label>
+          <div class="wrapper top-0 h-100 position-fixed div_active w-100 container-fluid d-flex justify-content-center">
+            <ul class="position-absolute w-75 top-0 mt-5">
+              <li><router-link :class="{ 'active_router_link': isActive('/place') }" to="/place"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="الموقع"
+                    :class="{ 'active_icon_hover_white': isActive('/place') }"
+                    class="fas fa-map-marker fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link :class="{ 'active_router_link': isActive('/civilization') }" to="/civilization"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="الحضارة"
+                    :class="{ 'active_icon_hover_white': isActive('/civilization') }"
+                    class="fas fa-hourglass-half fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link :class="{ 'active_router_link': isActive('/biology1') }" to="/biology1"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="السكن"
+                    :class="{ 'active_icon_hover_white': isActive('/biology1') }"
+                    class="fas fa-unlock fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link :class="{ 'active_router_link': isActive('/archaeology') }" to="/archaeology"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="التاريخ"
+                    :class="{ 'active_icon_hover_white': isActive('/archaeology') }"
+                    class="fas fa-map-marked-alt fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link :class="{ 'active_router_link': isActive('/citymap') }" to="/citymap"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="الخريطة"
+                    :class="{ 'active_icon_hover_white': isActive('/citymap') }"
+                    class="fas fa-map fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link
+                  :class="{ 'active_router_link': isActive('/museum') || isActive('/Archaeology1') || isActive('/photo') }"
+                  to="/museum" class="router_link text-center py-3 position-absolute bg-white"><i title="المتحف"
+                    :class="{ 'active_icon_hover_white': isActive('/museum') || isActive('/Archaeology1') || isActive('/photo') }"
+                    class="fab fa-fort-awesome fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <HeaderRightCpap2 v-if="isMuiciaplRoute1"
+          class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
+        <!-- end header right city -->
+        <HeaderRightCpap3 v-if="isMuiciaplRoute2"
+          class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
+        <HeaderRightCpap4 v-if="isMuiciaplRoute3"
+          class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
+        <HeaderRightCpap5 v-if="isMuiciaplRoute4"
+          class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
       </div>
       <!-- end app header -->
       <div class="div_show" v-if="header_none"></div>
@@ -134,6 +244,11 @@ export default {
   mounted() {
     AOS.init();
     window.addEventListener("scroll", AOS.refresh);
+  },
+  methods: {
+    isActive(path) {
+      return this.$route.path === path;
+    }
   }
 }
 </script>

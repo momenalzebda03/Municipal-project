@@ -10,9 +10,10 @@
                     <div class="overflow-y-auto overflow_height overflow-x-hidden">
                         <div class="bg-white direction">
                             <div class="d-flex justify-content-end" @click="icon_bay">
-                                <i class="fas fa-times fs-4 border-start border-bottom text-secondary p-3 back_hover"></i>
+                                <i
+                                    class="fas fa-times position-fixed top-25 fs-4 border-start border-bottom text-secondary p-3 back_hover"></i>
                             </div>
-                            <div class="pt-2 px-5 row">
+                            <div class="pt-5 me-1 px-5 row">
                                 <div class="col-lg-6 mb-4">
                                     <img src="../../assets/image_municipal6/ImageEngineering.png" alt="" class="w-100">
                                 </div>

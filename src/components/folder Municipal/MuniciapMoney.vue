@@ -1,6 +1,6 @@
 <template>
     <!-- start main money 1-->
-    <section class="text-end px-md-5">
+    <section class="text-end px-5">
         <div class="container-fluid text-center text-md-end mt-md-5 pt-4 font_text overflow-hidden">
             <h4 class="fw-bold span_red">الميزانية والموازنة</h4>
             <div class="d-flex flex-column flex-md-row justify-content-end my-3 my-md-5 border-3 border-bottom">

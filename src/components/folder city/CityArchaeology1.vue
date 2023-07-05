@@ -1,8 +1,10 @@
 <template>
     <!-- start main Archaeology1 -->
-    <section class="container-fluid text-center text-lg-end px-lg-5 mt-lg-5 pt-5 font_text overflow-hidden">
+    <div class="text-center text-md-end">
         <router-link to="/museum"
-            class="fas fa-times fs-3 icon_click text-black text-decoration-none icon_hover"></router-link>
+            class="fas fa-times fs-3 icon_click position-fixed text-black router_close text-decoration-none icon_hover"></router-link>
+    </div>
+    <section class="container-fluid text-center text-lg-end px-lg-5 mt-lg-5 pt-5 font_text overflow-hidden">
         <h5 class="fw-bold span_red mt-4">الأثار</h5>
         <div class="row">
             <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-right">
