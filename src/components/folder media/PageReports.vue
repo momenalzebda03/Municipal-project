@@ -1,6 +1,6 @@
 <template>
     <!-- start main reporst -->
-    <section class="container-fluid text-center text-md-end mt-md-5 pt-4 font_text overflow-hidden px-5">
+    <section class="container-fluid text-center text-md-end mt-md-5 pt-4 font_text overflow-hidden px-md-5">
         <div class="row">
             <div class="col-12 col-md text-center text-md-start" data-aos="fade-right">
                 <div class="d-flex gap-2 justify-content-center justify-content-lg-start text-secondary">

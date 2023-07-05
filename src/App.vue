@@ -144,12 +144,88 @@
         <HeaderRightCpap2 v-if="isMuiciaplRoute1"
           class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
         <!-- end header right city -->
+        <!-- start header right services -->
+        <div v-if="isMuiciaplRoute2" class="div_menu_block d-none">
+          <input type="checkbox" id="active">
+          <label for="active"
+            class="menu-btn bg-white border border-2 rounded-3 icon_click position-absolute col_index_2"><span></span></label>
+          <label for="active" class="h-100 w-100"></label>
+          <div class="wrapper top-0 h-100 position-fixed div_active w-100 container-fluid d-flex justify-content-center">
+            <ul class="position-absolute w-75">
+              <li><router-link :class="{ 'active_router_link': isActive('/public') || isActive('/water') }" to="/public"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="الخدمات العامة"
+                    :class="{ 'active_icon_hover_white': isActive('/public') || isActive('/water') }"
+                    class="fas fa-taxi fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link :class="{ 'active_router_link': isActive('/system') }" to="/system"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="دليل المعاملات"
+                    :class="{ 'active_icon_hover_white': isActive('/system') }"
+                    class="fas fa-book fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+            </ul>
+          </div>
+        </div>
         <HeaderRightCpap3 v-if="isMuiciaplRoute2"
           class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
+        <!-- end header right services -->
+        <!-- start header right proejcts -->
+        <div v-if="isMuiciaplRoute3" class="div_menu_block d-none">
+          <input type="checkbox" id="active">
+          <label for="active"
+            class="menu-btn bg-white border border-2 rounded-3 icon_click position-absolute col_index_2"><span></span></label>
+          <label for="active" class="h-100 w-100"></label>
+          <div class="wrapper top-0 h-100 position-fixed div_active w-100 container-fluid d-flex justify-content-center">
+            <ul class="position-absolute w-75">
+              <li><router-link :class="{ 'active_router_link': isActive('/list') }" to="/list"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="المشاريع القائمة"
+                    :class="{ 'active_icon_hover_white': isActive('/list') }"
+                    class="fab fa-r-project fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link :class="{ 'active_router_link': isActive('/development') }" to="/development"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="المشاريع التطويرية"
+                    :class="{ 'active_icon_hover_white': isActive('/development') }"
+                    class="fas fa-lightbulb fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+            </ul>
+          </div>
+        </div>
         <HeaderRightCpap4 v-if="isMuiciaplRoute3"
           class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
+        <!-- end header right proejcts -->
+        <!-- start header right media  -->
+        <div v-if="isMuiciaplRoute4" class="div_menu_block d-none">
+          <input type="checkbox" id="active">
+          <label for="active"
+            class="menu-btn bg-white border border-2 rounded-3 icon_click position-absolute col_index_2"><span></span></label>
+          <label for="active" class="h-100 w-100"></label>
+          <div class="wrapper top-0 h-100 position-fixed div_active w-100 container-fluid d-flex justify-content-center">
+            <ul class="position-absolute w-75">
+              <li><router-link :class="{ 'active_router_link': isActive('/news') }" to="/news"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="الأخبار"
+                    :class="{ 'active_icon_hover_white': isActive('/news') }"
+                    class="fas fa-newspaper fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link :class="{ 'active_router_link': isActive('/albums') || isActive('/albumsviedo') }"
+                  to="/albums" class="router_link text-center py-3 position-absolute bg-white"><i title="الألبومات"
+                    :class="{ 'active_icon_hover_white': isActive('/albums') || isActive('/albumsviedo') }"
+                    class="fas fa-photo-video fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link :class="{ 'active_router_link': isActive('/reports') }" to="/reports"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="تقارير وإصدارات"
+                    :class="{ 'active_icon_hover_white': isActive('/reports') }"
+                    class="fas fa-folder-open fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+              <li><router-link :class="{ 'active_router_link': isActive('/numbers') }" to="/numbers"
+                  class="router_link text-center py-3 position-absolute bg-white"><i title="أرقام وأحصائيات"
+                    :class="{ 'active_icon_hover_white': isActive('/numbers') }"
+                    class="fas fa-globe fs-2 icon_hover_white text-black"></i></router-link>
+              </li>
+            </ul>
+          </div>
+        </div>
         <HeaderRightCpap5 v-if="isMuiciaplRoute4"
           class="bg-white overflow-y-auto overflow-x-hidden height_100 image_none" />
+        <!-- end header right media -->
       </div>
       <!-- end app header -->
       <div class="div_show" v-if="header_none"></div>

@@ -1,65 +1,62 @@
 <template>
     <!-- start main system -->
-    <section class="container-fluid text-center pe-5 px-md-5 text-lg-end mt-lg-3 font_text overflow-hidden">
-        <div class="row mt-2">
-            <div class="col-md-6 text-start mt-3">
-                <div class="px-4 px-md-0">
-                    <div class="d-flex justify-content-end div_mia position-relative pt-3 div_from">
-                        <i class="fa fa-search icon_search position-absolute top-50 start-0 text-muted"></i>
-                        <input type="input" class="form__field w-100" name="name" id='name' />
-                        <label for="name" class="form__label text-secondary position-absolute d-block text-nowrap">ابحث في
-                            الرسائل</label>
-                    </div>
+    <section class="container-fluid text-center px-md-5 text-lg-end mt-lg-3 font_text overflow-hidden">
+        <div class="col-md-6 text-start mt-3">
+            <div class="px-4 px-md-0">
+                <div class="d-flex justify-content-end div_mia position-relative pt-3 div_from">
+                    <i class="fa fa-search icon_search position-absolute top-50 start-0 text-muted"></i>
+                    <input type="input" class="form__field w-100" name="name" id='name' />
+                    <label for="name" class="form__label text-secondary position-absolute d-block text-nowrap">ابحث في
+                        الرسائل</label>
                 </div>
             </div>
-            <div class="col-md-6 text-md-end mt-4">
-                <h5 class="fw-bold span_red">أنظمة وأدلة</h5>
+        </div>
+        <div class="col-md-6 text-md-end mt-4">
+            <h5 class="fw-bold span_red">أنظمة وأدلة</h5>
+        </div>
+        <div class="row my-5" data-aos="fade-down">
+            <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
+                id="div_forech">
+                <span class=" span_hover">خدمات<br>اخرى</span>
+                <i class="fa-solid fa-taxi icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
             </div>
-            <div class="row my-5" data-aos="fade-down">
-                <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech">
-                    <span class=" span_hover">خدمات<br>اخرى</span>
-                    <i class="fa-solid fa-taxi icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
-                </div>
-                <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech">
-                    <span class="span_hover">خدمات<br>الحرف</span>
-                    <i
-                        class="fa-solid fa-palette icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
-                </div>
-                <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech">
-                    <span class="span_hover">التخطيط<br>الحصري</span>
-                    <i
-                        class="fa-sharp fa-solid fa-building-user icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
-                </div>
-                <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech">
-                    <span class="span_hover">الخدمات<br>الصرف الصحي</span>
-                    <i
-                        class="fas fa-hand-holding-water icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
-                </div>
-                <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech">
-                    <span class=" span_hover">خدمات<br>الكهرباء</span>
-                    <i class="fa-solid fa-bolt icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
-                </div>
-                <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech">
-                    <span class="span_hover">خدمات<br>المياة</span>
-                    <i class="fas fa-tint icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
-                </div>
-                <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech">
-                    <span class="span_hover">خدمات<br>البناء</span>
-                    <i class="fas fa-building icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
-                </div>
-                <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
-                    id="div_forech">
-                    <span class="span_hover active_span_hover">جميع<br>الخدمات</span>
-                    <i
-                        class="fa-sharp fa-solid fa-desktop icon_click p-4 rounded-circle icon_back button_padding div_active_icon icon_col_hover"></i>
-                </div>
+            <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
+                id="div_forech">
+                <span class="span_hover">خدمات<br>الحرف</span>
+                <i class="fa-solid fa-palette icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
+            </div>
+            <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
+                id="div_forech">
+                <span class="span_hover">التخطيط<br>الحصري</span>
+                <i
+                    class="fa-sharp fa-solid fa-building-user icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
+            </div>
+            <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
+                id="div_forech">
+                <span class="span_hover">الخدمات<br>الصرف الصحي</span>
+                <i
+                    class="fas fa-hand-holding-water icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
+            </div>
+            <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
+                id="div_forech">
+                <span class=" span_hover">خدمات<br>الكهرباء</span>
+                <i class="fa-solid fa-bolt icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
+            </div>
+            <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
+                id="div_forech">
+                <span class="span_hover">خدمات<br>المياة</span>
+                <i class="fas fa-tint icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
+            </div>
+            <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
+                id="div_forech">
+                <span class="span_hover">خدمات<br>البناء</span>
+                <i class="fas fa-building icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
+            </div>
+            <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
+                id="div_forech">
+                <span class="span_hover active_span_hover">جميع<br>الخدمات</span>
+                <i
+                    class="fa-sharp fa-solid fa-desktop icon_click p-4 rounded-circle icon_back button_padding div_active_icon icon_col_hover"></i>
             </div>
         </div>
     </section>
@@ -96,7 +93,7 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid font_text pe-5 px-md-5 py-5 overflow-hidden">
+    <section class="container-fluid font_text px-md-5 py-5 overflow-hidden">
         <div class="d-flex justify-content-center justify-content-sm-end mb-5" data-aos="fade-left">
             <div class="row text-center text-sm-end">
                 <div class="col col-lg-3 border-2 border-end pe-sm-5 mt-3">

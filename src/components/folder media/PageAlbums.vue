@@ -1,6 +1,6 @@
 <template>
     <!-- start main albmus -->
-    <section class="container-fluid text-center text-md-end mt-md-5 pt-4 font_text overflow-hidden px-4 px-md-5">
+    <section class="container-fluid text-center text-md-end mt-md-5 pt-4 font_text overflow-hidden px-md-5">
         <div class="row">
             <div class="col-12 col-md col_index_2" data-aos="fade-left">
                 <div
@@ -36,7 +36,7 @@
                         class="fas fa-arrow-right p-3 border border-2 rounded-circle icon_arraw icon_click"></i>
                 </div>
             </div>
-            <div class="image_respons div_width_92" data-aos="fade-left">
+            <div class="div_mia div_width_92" data-aos="fade-left">
                 <div class="d-flex flex-column flex-sm-row justify-content-end border-3 border-bottom">
                     <router-link to="/albumsviedo"
                         class="my-2 my-md-0 px-sm-5 border_bottom_hover icon_click text-center text-black text-decoration-none d-flex gap-3 justify-content-center align-items-center pb-2">
