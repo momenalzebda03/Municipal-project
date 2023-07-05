@@ -25,7 +25,7 @@
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner shadow rounded-4">
                             <div class="carousel-item active">
-                                <div class="shadow px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
+                                <div class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
                                         <p>طرح مزاودة بالظرف المختـوم لبيع عدد 5 آليات بأنواع مختلف من دائرة النقل والإمداد
                                             التابعة لبلدية غزة</p>
@@ -42,7 +42,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="shadow px-4 pt-4 rounded-4 text-center text-lg-end link_hover mt-3">
+                                <div class="shadow bg-white px-4 pt-4 rounded-4 text-center text-lg-end link_hover mt-3">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
                                         <p>انشاء شبكات صرف صحي في أحياء الزيتون والتفاح<br>في مدينة غزة</p>
                                         <div class="d-flex flex_row justify-content-between pt-lg-4">
@@ -60,7 +60,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="shadow px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
+                                <div class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
                                         <p>طرح مزاودة بالظرف المختـوم لبيع عدد 5 آليات بأنواع مختلف من دائرة النقل والإمداد
                                             التابعة لبلدية غزة</p>
@@ -77,7 +77,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="shadow px-4 pt-4 rounded-4 text-center text-lg-end link_hover mt-3">
+                                <div class="shadow bg-white px-4 pt-4 rounded-4 text-center text-lg-end link_hover mt-3">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
                                         <p>انشاء شبكات صرف صحي في أحياء الزيتون والتفاح<br>في مدينة غزة</p>
                                         <div class="d-flex flex_row justify-content-between pt-lg-4">
@@ -95,7 +95,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="shadow px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
+                                <div class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
                                         <p>طرح مزاودة بالظرف المختـوم لبيع عدد 5 آليات بأنواع مختلف من دائرة النقل والإمداد
                                             التابعة لبلدية غزة</p>
@@ -112,7 +112,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="shadow px-4 pt-4 rounded-4 text-center text-lg-end link_hover mt-3">
+                                <div class="shadow bg-white px-4 pt-4 rounded-4 text-center text-lg-end link_hover mt-3">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
                                         <p>انشاء شبكات صرف صحي في أحياء الزيتون والتفاح<br>في مدينة غزة</p>
                                         <div class="d-flex flex_row justify-content-between pt-lg-4">
@@ -130,7 +130,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="shadow px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
+                                <div class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
                                         <p>طرح مزاودة بالظرف المختـوم لبيع عدد 5 آليات بأنواع مختلف من دائرة النقل والإمداد
                                             التابعة لبلدية غزة</p>
@@ -147,7 +147,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="shadow px-4 pt-4 rounded-4 text-center text-lg-end link_hover mt-3">
+                                <div class="shadow bg-white px-4 pt-4 rounded-4 text-center text-lg-end link_hover mt-3">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
                                         <p>انشاء شبكات صرف صحي في أحياء الزيتون والتفاح<br>في مدينة غزة</p>
                                         <div class="d-flex flex_row justify-content-between pt-lg-4">
@@ -237,6 +237,14 @@
         <div class="text-center span_red">
             <h4 class="fw-bold" data-aos="flip-left">الوصول السريع</h4>
         </div>
+        <!-- <div class="d-none d-lg-flex image_index justify-content-between position-absolute">
+            <div class="d-flex align-items-end position-fixed div_bottom_10">
+                <img src="../../assets/image_page_home_1/ImageBackground.png" alt="">
+            </div>
+            <div class="d-flex align-items-end position-fixed div_bottom_10 end-0 me-5 pe-5">
+                <img src="../../assets/image_page_home/ImageBackgroundTree.png" alt="">
+            </div>
+        </div> -->
         <div class="d-none d-lg-flex image_index justify-content-between position-absolute">
             <img src="../../assets/image_page_home/ImageBackground.png" alt="">
             <img src="../../assets/image_page_home/ImageBackground.png" alt="">
