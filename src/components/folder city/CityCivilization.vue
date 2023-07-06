@@ -22,7 +22,8 @@
                 <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-right">
                     <div class="card card_hover icon_click rounded-3">
                         <div class="overflow-hidden">
-                            <img src="../../assets/image_civil1/Gaza1.png" class="card-img-top w-100 p-3" alt="...">
+                            <img loading="lazy" src="../../assets/image_civil1/Gaza1.png" class="card-img-top w-100 p-3"
+                                alt="...">
                         </div>
                         <div class="card-body text-center text-lg-end">
                             <h5 class="card_title_hover fw-bold">غزة في العصر الإسلامي</h5>
@@ -33,7 +34,8 @@
                 <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-right">
                     <div class="card card_hover icon_click rounded-3">
                         <div class="overflow-hidden">
-                            <img src="../../assets/image_civil1/Gaza2.png" class="card-img-top w-100 p-3" alt="...">
+                            <img loading="lazy" src="../../assets/image_civil1/Gaza2.png" class="card-img-top w-100 p-3"
+                                alt="...">
                         </div>
                         <div class="card-body text-center text-lg-end">
                             <h5 class="card_title_hover fw-bold">غزة في العصور الوسطى</h5>
@@ -44,7 +46,8 @@
                 <div class="col-md-12 col-lg-4 mt-3" data-aos="fade-right">
                     <div class="card card_hover icon_click rounded-3">
                         <div class="overflow-hidden">
-                            <img src="../../assets/image_civil1/Gaza3.png" class="card-img-top w-100 p-3" alt="...">
+                            <img loading="lazy" src="../../assets/image_civil1/Gaza3.png" class="card-img-top w-100 p-3"
+                                alt="...">
                         </div>
                         <div class="card-body text-center text-lg-end">
                             <h5 class="card_title_hover fw-bold">غزة الحاضر والمستقبل</h5>
@@ -54,7 +57,8 @@
                 </div>
             </div>
         </div>
-        <img src="../../assets/image_civil1/ImageBackground.png" alt="" class="position-absolute w-100 image_back_image">
+        <img loading="lazy" src="../../assets/image_civil1/ImageBackground.png" alt=""
+            class="position-absolute w-100 image_back_image">
     </section>
     <!-- end main civilization -->
 </template>

@@ -40,10 +40,12 @@
                         </div>
                         <router-link to="/more">
                             <div class="carousel-item active height_100">
-                                <img src="../../assets/image_civiil4/ImagePhoto.png" alt="" class="w-100 height_100">
+                                <img loading="lazy" src="../../assets/image_civiil4/ImagePhoto.png" alt=""
+                                    class="w-100 height_100">
                             </div>
                             <div class="carousel-item">
-                                <img src="../../assets/image_page_home_1/ImageMask.png" alt="" class="w-100 height_100">
+                                <img loading="lazy" src="../../assets/image_page_home_1/ImageMask.png" alt=""
+                                    class="w-100 height_100">
                             </div>
                         </router-link>
                         <div class="d-flex align-items-center justify-content-center position-absolute end-0 top-50">
@@ -56,7 +58,8 @@
         </div>
     </section>
     <!-- end main image -->
-    <img src="../../assets/image_page_home_1/ImageBackground.png" alt="" class="image_background_biology position-absolute">
+    <img loading="lazy" src="../../assets/image_page_home_1/ImageBackground.png" alt=""
+        class="image_background_biology position-absolute">
     <section class="container-fluid ms-0 ps-md-5 text-center text-md-start position-absolute translate_100 image_none">
         <i class="fab fa-facebook-messenger p-3 fs-4 icon_width text-white rounded-circle"></i>
     </section>

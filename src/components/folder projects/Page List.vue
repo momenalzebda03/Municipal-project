@@ -41,17 +41,20 @@
                     <div class="row mt-5">
                         <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-right">
                             <div class="image-container position-relative">
-                                <img src="../../assets/image_projects/ImageProject1.png" alt="" class="w-100 icon_click">
+                                <img loading="lazy" src="../../assets/image_projects/ImageProject1.png" alt=""
+                                    class="w-100 icon_click">
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-down">
                             <div class="image-container position-relative">
-                                <img src="../../assets/image_projects/ImageProject2.png" alt="" class="w-100 icon_click">
+                                <img loading="lazy" src="../../assets/image_projects/ImageProject2.png" alt=""
+                                    class="w-100 icon_click">
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-4 mt-3" data-aos="fade-left">
                             <div class="image-container position-relative">
-                                <img src="../../assets/image_projects/ImageProject3.png" alt="" class="w-100 icon_click">
+                                <img loading="lazy" src="../../assets/image_projects/ImageProject3.png" alt=""
+                                    class="w-100 icon_click">
                             </div>
                         </div>
                     </div>
@@ -60,17 +63,20 @@
                     <div class="row mt-5">
                         <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-right">
                             <div class="image-container position-relative">
-                                <img src="../../assets/image_projects/ImageProject1.png" alt="" class="w-100 icon_click">
+                                <img loading="lazy" src="../../assets/image_projects/ImageProject1.png" alt=""
+                                    class="w-100 icon_click">
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-down">
                             <div class="image-container position-relative">
-                                <img src="../../assets/image_projects/ImageProject2.png" alt="" class="w-100 icon_click">
+                                <img loading="lazy" src="../../assets/image_projects/ImageProject2.png" alt=""
+                                    class="w-100 icon_click">
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-4 mt-3" data-aos="fade-left">
                             <div class="image-container position-relative">
-                                <img src="../../assets/image_projects/ImageProject3.png" alt="" class="w-100 icon_click">
+                                <img loading="lazy" src="../../assets/image_projects/ImageProject3.png" alt=""
+                                    class="w-100 icon_click">
                             </div>
                         </div>
                     </div>

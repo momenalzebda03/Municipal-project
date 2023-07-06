@@ -12,10 +12,10 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../../assets/image_page_home_1/ImageMaskWidth.png" alt="" class="w-100">
+                        <img loading="lazy" src="../../assets/image_page_home_1/ImageMaskWidth.png" alt="" class="w-100">
                     </div>
                     <div class="carousel-item">
-                        <img src="../../assets/image_page_home_1/ImageMaskWidth.png" alt="" class="w-100">
+                        <img loading="lazy" src="../../assets/image_page_home_1/ImageMaskWidth.png" alt="" class="w-100">
                     </div>
                 </div>
                 <div data-bs-target="#carouselExampleControls" data-bs-slide="next"

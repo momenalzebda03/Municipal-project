@@ -15,10 +15,10 @@
             </div>
             <div class="row">
                 <div class="col-md-5 text-center" data-aos="fade-right">
-                    <img src="../../assets/image_municipal4/ImageCirc2.png" alt="" class="w-100">
+                    <img loading="lazy" src="../../assets/image_municipal4/ImageCirc2.png" alt="" class="w-100">
                 </div>
                 <div class="col-md-5 text-center" data-aos="fade-left">
-                    <img src="../../assets/image_municipal4/ImageCirc1.png" alt="" class="w-100">
+                    <img loading="lazy" src="../../assets/image_municipal4/ImageCirc1.png" alt="" class="w-100">
                 </div>
                 <div class="col-md-2 my-3 my-md-5">
                     <div class="border-2 border-end pe-4 row h-100 d-flex justify-content-end">

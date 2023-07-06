@@ -5,7 +5,7 @@
         <div class="row text-end">
             <div class="col-lg-8" data-aos="fade-right">
                 <div class="position-relative">
-                    <img src="../../assets/image_municipal3/ImageMap.png" alt=""
+                    <img loading="lazy" src="../../assets/image_municipal3/ImageMap.png" alt=""
                         class="w-100 icon_click image_height div_footer" @click="div_click_block">
                     <div class="bg-white div_mia position-absolute translate-middle start-50 top-50" v-show="div_none">
                         <div class="d-flex justify-content-end" @click="icon_exit">
@@ -20,31 +20,31 @@
                             <p class="fw-bold mt-2">أعضاء لجنة الحي</p>
                             <div class="d-flex gap-4 text-center flex-column flex-sm-row pb-3">
                                 <div>
-                                    <img src="../../assets/image_municipal2/Personal1.png" alt=""
+                                    <img loading="lazy" src="../../assets/image_municipal2/Personal1.png" alt=""
                                         class="mb-3 rounded-circle div_respone_width">
                                     <br>
                                     <span class="span_red fw-bold">أ. مروان الغول</span>
                                 </div>
                                 <div>
-                                    <img src="../../assets/image_municipal3/ImagePeroons2.png" alt=""
+                                    <img loading="lazy" src="../../assets/image_municipal3/ImagePeroons2.png" alt=""
                                         class=" mb-3 rounded-circle div_respone_width">
                                     <br>
                                     <span class="span_red fw-bold">أ. مروان الغول</span>
                                 </div>
                                 <div>
-                                    <img src="../../assets/image_municipal3/ImagePerons3.png" alt=""
+                                    <img loading="lazy" src="../../assets/image_municipal3/ImagePerons3.png" alt=""
                                         class="mb-3 rounded-circle div_respone_width">
                                     <br>
                                     <span class="span_red fw-bold">د. جميل طرزي</span>
                                 </div>
                                 <div>
-                                    <img src="../../assets/image_municipal3/ImagePerons4.png" alt=""
+                                    <img loading="lazy" src="../../assets/image_municipal3/ImagePerons4.png" alt=""
                                         class="mb-3 rounded-circle div_respone_width1">
                                     <br>
                                     <span class="span_red fw-bold">أ. بدر صبرة</span>
                                 </div>
                                 <div>
-                                    <img src="../../assets/image_municipal3/ImagePerons5.png" alt=""
+                                    <img loading="lazy" src="../../assets/image_municipal3/ImagePerons5.png" alt=""
                                         class="mb-3 rounded-circle div_respone_width">
                                     <br>
                                     <span class="span_red fw-bold">أ. د. يحيى السراج</span>

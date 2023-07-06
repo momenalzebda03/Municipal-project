@@ -57,12 +57,14 @@
                     <div id="outerCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="../../assets/Image_albpums/ImageAlbpums1.png" class="card-img-top" alt="...">
+                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpums1.png" class="card-img-top"
+                                    alt="...">
                                 <i
                                     class="fas fa-image position-absolute start-50 top-50 translate-middle d-none div_hover_block p-4 bg-white rounded-circle fs-2"></i>
                             </div>
                             <div class="carousel-item">
-                                <img src="../../assets/Image_albpums/ImageAlbpums2.png" class="card-img-top" alt="...">
+                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpums2.png" class="card-img-top"
+                                    alt="...">
                                 <i
                                     class="fas fa-image position-absolute start-50 top-50 translate-middle d-none div_hover_block p-4 bg-white rounded-circle fs-2"></i>
                             </div>
@@ -96,12 +98,14 @@
                     <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="../../assets/Image_albpums/ImageAlbpums2.png" class="card-img-top" alt="...">
+                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpums2.png" class="card-img-top"
+                                    alt="...">
                                 <i
                                     class="fas fa-image position-absolute start-50 top-50 translate-middle d-none div_hover_block p-4 bg-white rounded-circle fs-2"></i>
                             </div>
                             <div class="carousel-item">
-                                <img src="../../assets/Image_albpums/ImageAlbpums1.png" class="card-img-top" alt="...">
+                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpums1.png" class="card-img-top"
+                                    alt="...">
                                 <i
                                     class="fas fa-image position-absolute start-50 top-50 translate-middle d-none div_hover_block p-4 bg-white rounded-circle fs-2"></i>
                             </div>
@@ -135,12 +139,14 @@
                     <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="../../assets/Image_albpums/ImageAlbpums3.png" class="card-img-top" alt="...">
+                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpums3.png" class="card-img-top"
+                                    alt="...">
                                 <i
                                     class="fas fa-image position-absolute start-50 top-50 translate-middle d-none div_hover_block p-4 bg-white rounded-circle fs-2"></i>
                             </div>
                             <div class="carousel-item">
-                                <img src="../../assets/Image_albpums/ImageAlbpums1.png" class="card-img-top" alt="...">
+                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpums1.png" class="card-img-top"
+                                    alt="...">
                                 <i
                                     class="fas fa-image position-absolute start-50 top-50 translate-middle d-none div_hover_block p-4 bg-white rounded-circle fs-2"></i>
                             </div>

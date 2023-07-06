@@ -3,7 +3,7 @@
     <section class="container-fluid text-center text-lg-end px-lg-5 mt-lg-5 pt-5 font_text overflow-hidden">
         <div class="row">
             <div class="col-lg-7 div_translate_170">
-                <img src="../../assets/image_civiil3/ImageBackground.png" alt="" class="w-100">
+                <img loading="lazy" src="../../assets/image_civiil3/ImageBackground.png" alt="" class="w-100">
             </div>
             <div class="col-lg-5">
                 <h5 class="fw-bold span_red">المتحف الإلكتروني</h5>
@@ -17,7 +17,8 @@
                 <router-link to="/Archaeology1">
                     <div class="card card_hover icon_click rounded-3">
                         <div class="position-relative">
-                            <img src="../../assets/image_civiil3/ImageMuseum.png" class="card-img-top w-100 p-3" alt="...">
+                            <img loading="lazy" src="../../assets/image_civiil3/ImageMuseum.png"
+                                class="card-img-top w-100 p-3" alt="...">
                             <div class="image_text w-100 translate-middle text-white position-absolute">الفلكلور الفلسطيني
                             </div>
                         </div>
@@ -28,7 +29,8 @@
                 <router-link to="/Archaeology1">
                     <div class="card card_hover icon_click rounded-3">
                         <div class="position-relative">
-                            <img src="../../assets/image_civiil3/ImageDabkeh.png" class="card-img-top w-100 p-3" alt="...">
+                            <img loading="lazy" src="../../assets/image_civiil3/ImageDabkeh.png"
+                                class="card-img-top w-100 p-3" alt="...">
                             <div class="image_text w-100 translate-middle text-white position-absolute">الحرف اليدوية</div>
                         </div>
                     </div>
@@ -38,7 +40,8 @@
                 <router-link to="/Archaeology1">
                     <div class="card card_hover icon_click rounded-3">
                         <div class="position-relative">
-                            <img src="../../assets/image_civiil3/ImageDate.png" class="card-img-top w-100 p-3" alt="...">
+                            <img loading="lazy" src="../../assets/image_civiil3/ImageDate.png"
+                                class="card-img-top w-100 p-3" alt="...">
                             <div class="image_text w-100 translate-middle text-white position-absolute">الأثار في غزة</div>
                         </div>
                     </div>

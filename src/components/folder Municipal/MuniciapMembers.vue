@@ -8,7 +8,7 @@
                     <div
                         class="div_left px-0 p-md-5 mt-4 d-flex justify-content-center align-items-center rounded-3 border border-2">
                         <div class="text-center">
-                            <img src="../../assets/image_municipal2/PersonalBorder.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/PersonalBorder.png" alt=""
                                 class="mb-3 image_border_left rounded-circle">
                             <p class="span_red fw-bold" id="text_left">م. هاشم سكيك</p>
                             <div class="d-flex justify-content-center">
@@ -32,7 +32,7 @@
                         الإجتماعات الدورية مع كوادر البلدية</p>
                     <div class="row text-center">
                         <div class="col my-4">
-                            <img src="../../assets/image_municipal2/Personal1.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/Personal1.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red text_poson text_poson fw-bold">م. هاشم سكيك</span>
@@ -40,7 +40,7 @@
                             <span>عضو مجلس بلدي</span>
                         </div>
                         <div class="col my-4">
-                            <img src="../../assets/image_municipal2/Personal2.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/Personal2.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red text_poson fw-bold">أ. مروان الغول</span>
@@ -48,7 +48,7 @@
                             <span>عضو مجلس بلدي</span>
                         </div>
                         <div class="col my-4">
-                            <img src="../../assets/image_municipal2/Personal3.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/Personal3.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red text_poson fw-bold">د. جميل طرزي</span>
@@ -56,7 +56,7 @@
                             <span>عضو مجلس بلدي</span>
                         </div>
                         <div class="col my-4">
-                            <img src="../../assets/image_municipal2/Personal4.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/Personal4.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red text_poson fw-bold">أ. بدر صبرة</span>
@@ -64,7 +64,7 @@
                             <span>عضو مجلس بلدي</span>
                         </div>
                         <div class="col my-4">
-                            <img src="../../assets/image_municipal2/Personal5.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/Personal5.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red text_poson fw-bold">أ. د. يحيى السراج</span>
@@ -72,7 +72,7 @@
                             <span>رئيس بلدية غزة</span>
                         </div>
                         <div class="col my-4">
-                            <img src="../../assets/image_municipal2/Personal6.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/Personal6.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red text_poson fw-bold">أ. فداء المدهون</span>
@@ -80,7 +80,7 @@
                             <span>عضو مجلس بلدي</span>
                         </div>
                         <div class="col my-4">
-                            <img src="../../assets/image_municipal2/Personal7.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/Personal7.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red text_poson fw-bold">أ. لؤي عياد</span>
@@ -88,7 +88,7 @@
                             <span>عضو مجلس بلدي</span>
                         </div>
                         <div class="col my-4">
-                            <img src="../../assets/image_municipal2/Personal8.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/Personal8.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red text_poson fw-bold">أ. تامر الريس</span>
@@ -96,7 +96,7 @@
                             <span>عضو مجلس بلدي</span>
                         </div>
                         <div class="col my-4">
-                            <img src="../../assets/image_municipal2/Personal9.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/Personal9.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red text_poson fw-bold">م. إسماعيل حمادة</span>
@@ -104,7 +104,7 @@
                             <span>عضو مجلس بلدي</span>
                         </div>
                         <div class="col my-4">
-                            <img src="../../assets/image_municipal2/Personal10.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/Personal10.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red text_poson fw-bold">أ. مصطفى قزعاط</span>

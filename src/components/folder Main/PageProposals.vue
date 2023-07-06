@@ -144,7 +144,8 @@
                         </div>
                     </div>
                     <a href="#">
-                        <img src="../../assets/image_page_home/ImageMap1.png" alt="" class="mt-4 row_width div_mia">
+                        <img loading="lazy" src="../../assets/image_page_home/ImageMap1.png" alt=""
+                            class="mt-4 row_width div_mia">
                     </a>
                 </div>
             </div>

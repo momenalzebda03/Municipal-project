@@ -10,7 +10,8 @@
             <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-right">
                 <router-link to="/photo" class="card card_hover icon_click rounded-3 text-decoration-none shadow">
                     <div class="overflow-hidden">
-                        <img src="../../assets/image_civiil4/ImageArchaeology.png" class="card-img-top w-100 p-3" alt="...">
+                        <img loading="lazy" src="../../assets/image_civiil4/ImageArchaeology.png"
+                            class="card-img-top w-100 p-3" alt="...">
                     </div>
                     <div class="card-body text-center text-lg-end">
                         <h5 class="card_title_hover fw-bold">تل الرقيش</h5>
@@ -27,8 +28,8 @@
             <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-down">
                 <router-link to="/photo" class="card card_hover icon_click rounded-3 text-decoration-none shadow">
                     <div class="overflow-hidden">
-                        <img src="../../assets/image_civiil4/ImageArchaeology1.png" class="card-img-top w-100 p-3"
-                            alt="...">
+                        <img loading="lazy" src="../../assets/image_civiil4/ImageArchaeology1.png"
+                            class="card-img-top w-100 p-3" alt="...">
                     </div>
                     <div class="card-body text-center text-lg-end">
                         <h5 class="card_title_hover fw-bold">مقام الخضر</h5>
@@ -45,8 +46,8 @@
             <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-left">
                 <router-link to="/photo" class="card card_hover icon_click rounded-3 text-decoration-none shadow">
                     <div class="overflow-hidden">
-                        <img src="../../assets/image_civiil4/ImageArchaeology2.png" class="card-img-top w-100 p-3"
-                            alt="...">
+                        <img loading="lazy" src="../../assets/image_civiil4/ImageArchaeology2.png"
+                            class="card-img-top w-100 p-3" alt="...">
                     </div>
                     <div class="card-body text-center text-lg-end">
                         <h5 class="card_title_hover fw-bold">مقبرة دير البلح</h5>
@@ -63,8 +64,8 @@
             <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-right">
                 <router-link to="/photo" class="card card_hover icon_click rounded-3 text-decoration-none shadow">
                     <div class="overflow-hidden">
-                        <img src="../../assets/image_civiil4/ImageArchaeology3.png" class="card-img-top w-100 p-3"
-                            alt="...">
+                        <img loading="lazy" src="../../assets/image_civiil4/ImageArchaeology3.png"
+                            class="card-img-top w-100 p-3" alt="...">
                     </div>
                     <div class="card-body text-center text-lg-end">
                         <h5 class="card_title_hover fw-bold">مقام إبراهيم الخليل</h5>
@@ -81,8 +82,8 @@
             <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-down">
                 <router-link to="/photo" class="card card_hover icon_click rounded-3 text-decoration-none shadow">
                     <div class="overflow-hidden">
-                        <img src="../../assets/image_civiil4/ImageArchaeology4.png" class="card-img-top w-100 p-3"
-                            alt="...">
+                        <img loading="lazy" src="../../assets/image_civiil4/ImageArchaeology4.png"
+                            class="card-img-top w-100 p-3" alt="...">
                     </div>
                     <div class="card-body text-center text-lg-end">
                         <h5 class="card_title_hover fw-bold">قلعة برقوق</h5>
@@ -99,8 +100,8 @@
             <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-left">
                 <router-link to="/photo" class="card card_hover icon_click rounded-3 text-decoration-none shadow">
                     <div class="overflow-hidden">
-                        <img src="../../assets/image_civiil4/ImageArchaeology5.png" class="card-img-top w-100 p-3"
-                            alt="...">
+                        <img loading="lazy" src="../../assets/image_civiil4/ImageArchaeology5.png"
+                            class="card-img-top w-100 p-3" alt="...">
                     </div>
                     <div class="card-body text-center text-lg-end">
                         <h5 class="card_title_hover fw-bold">المقبرة الرومانية البيزنطية</h5>

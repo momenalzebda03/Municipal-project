@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-6 col-lg-4 mt-5" data-aos="fade-up">
                     <a href="#">
-                        <img src="../../assets/image_page_home/ImageMap.png" alt="" class="w-100">
+                        <img src="../../assets/image_page_home/ImageMap.png" alt="" loading="lazy" class="w-100">
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4 my-3 my-lg-0" data-aos="fade-down">
@@ -25,7 +25,8 @@
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner shadow rounded-4">
                             <div class="carousel-item active">
-                                <div class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
+                                <div
+                                    class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
                                         <p>طرح مزاودة بالظرف المختـوم لبيع عدد 5 آليات بأنواع مختلف من دائرة النقل والإمداد
                                             التابعة لبلدية غزة</p>
@@ -60,7 +61,8 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
+                                <div
+                                    class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
                                         <p>طرح مزاودة بالظرف المختـوم لبيع عدد 5 آليات بأنواع مختلف من دائرة النقل والإمداد
                                             التابعة لبلدية غزة</p>
@@ -95,7 +97,8 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
+                                <div
+                                    class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
                                         <p>طرح مزاودة بالظرف المختـوم لبيع عدد 5 آليات بأنواع مختلف من دائرة النقل والإمداد
                                             التابعة لبلدية غزة</p>
@@ -130,7 +133,8 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
+                                <div
+                                    class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
                                         <p>طرح مزاودة بالظرف المختـوم لبيع عدد 5 آليات بأنواع مختلف من دائرة النقل والإمداد
                                             التابعة لبلدية غزة</p>
@@ -200,16 +204,20 @@
                         data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <router-link to="image" class="carousel-item active">
-                                <img src="../../assets/image_page_home/ImageNews.png" class="w-100 link_hover" alt="">
+                                <img loading="lazy" src="../../assets/image_page_home/ImageNews.png"
+                                    class="w-100 link_hover" alt="">
                             </router-link>
                             <router-link to="image" class="carousel-item">
-                                <img src="../../assets/image_page_home/ImageNews.png" class="w-100 link_hover" alt="">
+                                <img loading="lazy" src="../../assets/image_page_home/ImageNews.png"
+                                    class="w-100 link_hover" alt="">
                             </router-link>
                             <router-link to="image" class="carousel-item">
-                                <img src="../../assets/image_page_home/ImageNews.png" class="w-100 link_hover" alt="">
+                                <img loading="lazy" src="../../assets/image_page_home/ImageNews.png"
+                                    class="w-100 link_hover" alt="">
                             </router-link>
                             <router-link to="image" class="carousel-item">
-                                <img src="../../assets/image_page_home/ImageNews.png" class="w-100 link_hover" alt="">
+                                <img loading="lazy" src="../../assets/image_page_home/ImageNews.png"
+                                    class="w-100 link_hover" alt="">
                             </router-link>
                         </div>
                         <div class="carousel-indicators d-flex justify-content-center gap-1">
@@ -246,8 +254,8 @@
             </div>
         </div> -->
         <div class="d-none d-lg-flex image_index justify-content-between position-absolute">
-            <img src="../../assets/image_page_home/ImageBackground.png" alt="">
-            <img src="../../assets/image_page_home/ImageBackground.png" alt="">
+            <img loading="lazy" src="../../assets/image_page_home/ImageBackground.png" alt="">
+            <img loading="lazy" src="../../assets/image_page_home/ImageBackground.png" alt="">
         </div>
         <div class="container mt-lg-5 pt-2">
             <div class="row">

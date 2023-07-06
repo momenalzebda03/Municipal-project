@@ -4,7 +4,8 @@
         <div class="container-fluid px-3 px-md-5 font_text overflow-hidden">
             <div class="row">
                 <div class="col-lg-6 text-center" data-aos="fade-right">
-                    <img src="../../assets/image_page_home_1/ImageApplicachan.png" alt="" class="image_respons">
+                    <img loading="lazy" src="../../assets/image_page_home_1/ImageApplicachan.png" alt=""
+                        class="image_respons">
                 </div>
                 <div class="col-lg-6 mt-4 fw-bold" data-aos="fade-left">
                     <h4 class="span_red fw-bold text-center text-lg-end">تطبيق مصمم خصيصأ لك</h4>
@@ -88,7 +89,7 @@
                             <div
                                 class="d-flex align-items-center gap-3 px-3 py-2 rounded-3 bg-black text-white border div_button">
                                 <div>
-                                    <img src="../../assets/image_page_home_1/GooglePlay.png" alt="">
+                                    <img loading="lazy" src="../../assets/image_page_home_1/GooglePlay.png" alt="">
                                 </div>
                                 <div class="text-start">
                                     <span class="span_size">GET IT ON</span>

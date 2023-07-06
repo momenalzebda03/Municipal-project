@@ -7,9 +7,10 @@
                 class="col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
                 <div class="card shadow h-100">
                     <div class="div_bottom_30">
-                        <img src="../../assets/image_municipal7/positions1.png" class="card-img-top p-2" alt="...">
+                        <img loading="lazy" src="../../assets/image_municipal7/positions1.png" class="card-img-top p-2"
+                            alt="...">
                         <div class="text-center div_translate">
-                            <img src="../../assets/image_municipal8/Logo1.png" alt="" class="image_repons">
+                            <img loading="lazy" src="../../assets/image_municipal8/Logo1.png" alt="" class="image_repons">
                         </div>
                         <div class="card-body pb-0 div_translate text-center text-lg-end">
                             <h5 class="card-title fw-bold">مركز حديقة إسعاد الطفولة</h5>
@@ -31,9 +32,10 @@
             <router-link to="/centers2" data-aos="fade-down" class="col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
                 <div class="card shadow h-100">
                     <div class="div_bottom_30">
-                        <img src="../../assets/image_municipal7/positions2.png" class="card-img-top p-2" alt="...">
+                        <img loading="lazy" src="../../assets/image_municipal7/positions2.png" class="card-img-top p-2"
+                            alt="...">
                         <div class="text-center div_translate">
-                            <img src="../../assets/image_municipal8/Logo2.png" alt="" class="image_repons">
+                            <img loading="lazy" src="../../assets/image_municipal8/Logo2.png" alt="" class="image_repons">
                         </div>
                         <div class="card-body pb-0 div_translate text-center text-lg-end">
                             <h5 class="card-title fw-bold">ملعب اليرموك غزة</h5>
@@ -55,9 +57,10 @@
             <router-link to="/centers3" data-aos="fade-left" class="col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
                 <div class="card shadow h-100">
                     <div class="div_bottom_30">
-                        <img src="../../assets/image_municipal7/positions3.png" class="card-img-top p-2" alt="...">
+                        <img loading="lazy" src="../../assets/image_municipal7/positions3.png" class="card-img-top p-2"
+                            alt="...">
                         <div class="text-center div_translate">
-                            <img src="../../assets/image_municipal8/Logo3.png" alt="" class="image_repons">
+                            <img loading="lazy" src="../../assets/image_municipal8/Logo3.png" alt="" class="image_repons">
                         </div>
                         <div class="card-body pb-0 div_translate text-center text-lg-end">
                             <h5 class="card-title fw-bold">مركز الأطراف الصناعية</h5>
@@ -80,9 +83,10 @@
                 class="col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
                 <div class="card shadow h-100">
                     <div class="div_bottom_30">
-                        <img src="../../assets/image_municipal7/positions4.png" class="card-img-top p-2" alt="...">
+                        <img loading="lazy" src="../../assets/image_municipal7/positions4.png" class="card-img-top p-2"
+                            alt="...">
                         <div class="text-center div_translate">
-                            <img src="../../assets/image_municipal8/Logo4.png" alt="" class="image_repons">
+                            <img loading="lazy" src="../../assets/image_municipal8/Logo4.png" alt="" class="image_repons">
                         </div>
                         <div class="card-body pb-0 div_translate text-center text-lg-end">
                             <h5 class="card-title fw-bold">مركز رشاد الشوا الثقافي</h5>
@@ -104,9 +108,10 @@
             <router-link to="/centers5" data-aos="fade-down" class="col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
                 <div class="card shadow h-100">
                     <div class="div_bottom_30">
-                        <img src="../../assets/image_municipal7/positions5.png" class="card-img-top p-2" alt="...">
+                        <img loading="lazy" src="../../assets/image_municipal7/positions5.png" class="card-img-top p-2"
+                            alt="...">
                         <div class="text-center div_translate">
-                            <img src="../../assets/image_municipal8/Logo5.png" alt="" class="image_repons">
+                            <img loading="lazy" src="../../assets/image_municipal8/Logo5.png" alt="" class="image_repons">
                         </div>
                         <div class="card-body pb-0 div_translate text-center text-lg-end">
                             <h5 class="card-title fw-bold">قرية الفنون والحرف</h5>
@@ -128,9 +133,10 @@
             <router-link to="/centers6" data-aos="fade-left" class="col-md-6 col-lg-4 icon_click text-decoration-none mt-5">
                 <div class="card shadow h-100">
                     <div class="div_bottom_30">
-                        <img src="../../assets/image_municipal7/positions6.png" class="card-img-top p-2" alt="...">
+                        <img loading="lazy" src="../../assets/image_municipal7/positions6.png" class="card-img-top p-2"
+                            alt="...">
                         <div class="text-center div_translate">
-                            <img src="../../assets/image_municipal8/Logo6.png" alt="" class="image_repons">
+                            <img loading="lazy" src="../../assets/image_municipal8/Logo6.png" alt="" class="image_repons">
                         </div>
                         <div class="card-body pb-0 div_translate text-center text-lg-end">
                             <h5 class="card-title fw-bold">مكتبة بلدية غزة العامة</h5>
@@ -155,9 +161,10 @@
                 class="col-md-12 col-lg-4 icon_click text-decoration-none mt-5">
                 <div class="card shadow h-100">
                     <div class="div_bottom_30">
-                        <img src="../../assets/image_municipal7/positions7.png" class="card-img-top p-2" alt="...">
+                        <img loading="lazy" src="../../assets/image_municipal7/positions7.png" class="card-img-top p-2"
+                            alt="...">
                         <div class="text-center div_translate">
-                            <img src="../../assets/image_municipal8/Logo7.png" alt="" class="image_repons">
+                            <img loading="lazy" src="../../assets/image_municipal8/Logo7.png" alt="" class="image_repons">
                         </div>
                         <div class="card-body pb-0 div_translate text-center text-lg-end">
                             <h5 class="card-title fw-bold">مركز هولست الثقافي</h5>

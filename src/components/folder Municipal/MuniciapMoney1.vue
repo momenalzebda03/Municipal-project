@@ -15,7 +15,7 @@
             </div>
             <div class="row">
                 <div class="col-md-5" data-aos="fade-right">
-                    <img src="../../assets/image_municipal5/ImageFacilities.png" alt="" class="w-100 h-100">
+                    <img loading="lazy" src="../../assets/image_municipal5/ImageFacilities.png" alt="" class="w-100 h-100">
                 </div>
                 <div class="col-md-5" data-aos="fade-left">
                     <div class="d-flex justify-content-center">

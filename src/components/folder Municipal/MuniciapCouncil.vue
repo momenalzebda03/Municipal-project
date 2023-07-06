@@ -19,10 +19,12 @@
                         <div>
                             <h5 class="text_line"><span class="fw-bold">د.يحيى رشدي السراج</span><br>
                                 رئيس بلدية غزة</h5>
-                            <img src="../../assets/image_municipal1/NoPath.png" class="mt-2 image_respons" alt="">
+                            <img loading="lazy" src="../../assets/image_municipal1/NoPath.png" class="mt-2 image_respons"
+                                alt="">
                         </div>
                         <div>
-                            <img src="../../assets/image_municipal1/ImageYahya.png" alt="" class="image_respons">
+                            <img loading="lazy" src="../../assets/image_municipal1/ImageYahya.png" alt=""
+                                class="image_respons">
                         </div>
                     </div>
                 </div>

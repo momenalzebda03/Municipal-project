@@ -117,31 +117,31 @@
                     <p class="fw-bold span_red my-2">الأعضاء الحاضرين</p>
                     <div class="row text-center">
                         <div class="col my-4">
-                            <img src="../../assets/image_municipal2/Personal1.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/Personal1.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red fw-bold">م. هاشم سكيك</span>
                         </div>
                         <div class="col my-4">
-                            <img src="../../assets/image_municipal2/Personal2.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/Personal2.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red fw-bold">أ. مروان الغول</span>
                         </div>
                         <div class="col my-4">
-                            <img src="../../assets/image_municipal2/Personal3.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/Personal3.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red fw-bold">د. جميل طرزي</span>
                         </div>
                         <div class="col my-4">
-                            <img src="../../assets/image_municipal2/Personal4.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/Personal4.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red fw-bold">أ. بدر صبرة</span>
                         </div>
                         <div class="col my-4">
-                            <img src="../../assets/image_municipal2/Personal5.png" alt=""
+                            <img loading="lazy" src="../../assets/image_municipal2/Personal5.png" alt=""
                                 class="mb-3 rounded-circle image_pisel">
                             <br>
                             <span class="span_red fw-bold">أ. د. يحيى السراج</span>

@@ -105,10 +105,12 @@
                         </div>
                         <router-link to="/more">
                             <div class="carousel-item active height_100">
-                                <img src="../../assets/image_civil2/ImageMosque.png" alt="" class="w-100 height_100">
+                                <img loading="lazy" src="../../assets/image_civil2/ImageMosque.png" alt=""
+                                    class="w-100 height_100">
                             </div>
                             <div class="carousel-item height_100">
-                                <img src="../../assets/image_civil2/ImageViedo.png" alt="" class="w-100 height_100">
+                                <img loading="lazy" src="../../assets/image_civil2/ImageViedo.png" alt=""
+                                    class="w-100 height_100">
                             </div>
                         </router-link>
                         <div class="d-flex align-items-center justify-content-center position-absolute end-0 top-50">
@@ -120,7 +122,8 @@
             </div>
         </div>
     </section>
-    <img src="../../assets/image_page_home_1/ImageBackground.png" alt="" class="image_background_biology position-absolute">
+    <img loading="lazy" src="../../assets/image_page_home_1/ImageBackground.png" alt=""
+        class="image_background_biology position-absolute">
     <!-- end main bilogy -->
 </template>
 

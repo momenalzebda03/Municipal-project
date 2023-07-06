@@ -3,7 +3,7 @@
     <section class="font_text section_bottom position-relative overflow-hidden container-fluid p-0">
         <div class="row">
             <div class="col-lg-8 px-0">
-                <img src="../../assets/image_municipal5/ImageMap.png" alt="" class="w-100 h-100 icon_click"
+                <img loading="lazy" src="../../assets/image_municipal5/ImageMap.png" alt="" class="w-100 h-100 icon_click"
                     data-aos="fade-right" @click="div_click_block">
                 <div class="container-fluid px-5 image_none ms-4 container_image_center position-absolute bottom-0"
                     v-show="div_none">
@@ -14,7 +14,8 @@
                             </div>
                             <div class="pt-2 px-5 row">
                                 <div class="col-lg-6 mb-4">
-                                    <img src="../../assets/image_municipal6/ImageEngineering.png" alt="" class="w-100">
+                                    <img loading="lazy" src="../../assets/image_municipal6/ImageEngineering.png" alt=""
+                                        class="w-100">
                                 </div>
                                 <div class="col-lg-6 text-center text-lg-end">
                                     <p class="fw-bold">مركز رشاد الشوا الثقافي</p>

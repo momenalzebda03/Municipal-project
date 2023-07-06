@@ -3,7 +3,8 @@
     <section v-if="section_garden" class="header_width">
         <div class="text-center">
             <router-link to="/" class="position-fixed image_none router_position">
-                <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
+                <img loading="lazy" src="../../assets/image_logo/ImageLogo.png" alt=""
+                    class="position-absolute image_center">
             </router-link>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-lg-1 nav_top border border-1">
@@ -60,20 +61,21 @@
                 <div
                     class="d-flex text-end flex-column flex-sm-row align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
                     <p class="fw-bold">مركز حديقةإسعاد الطفولة</p>
-                    <img src="../../assets/image_municipal8/MyLogo1.png" alt="" class="border border-2 rounded-circle">
+                    <img loading="lazy" src="../../assets/image_municipal8/MyLogo1.png" alt=""
+                        class="border border-2 rounded-circle">
                 </div>
             </div>
         </nav>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="../../assets/image_municipal8/positions3.png" class="d-block w-100 " alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions3.png" class="d-block w-100 " alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions2.png" class="d-block w-100 " alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions2.png" class="d-block w-100 " alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions5.png" class="d-block w-100 " alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions5.png" class="d-block w-100 " alt="...">
                 </div>
             </div>
             <div class="carousel-control-prev" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -179,7 +181,8 @@
     <section v-if="section_stadium">
         <div class="text-center">
             <router-link to="/" class="position-fixed image_none router_position">
-                <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
+                <img loading="lazy" src="../../assets/image_logo/ImageLogo.png" alt=""
+                    class="position-absolute image_center">
             </router-link>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-lg-1 nav_top border border-1">
@@ -235,20 +238,24 @@
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
                     <p class="fw-bold">ملعب اليرموك غزة</p>
-                    <img src="../../assets/image_municipal8/MyLogo8.png" alt="" class="w-25 border border-2 rounded-circle">
+                    <img loading="lazy" src="../../assets/image_municipal8/MyLogo8.png" alt=""
+                        class="w-25 border border-2 rounded-circle">
                 </div>
             </div>
         </nav>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner carousel_height">
                 <div class="carousel-item active">
-                    <img src="../../assets/image_municipal8/positions2.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions2.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions1.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions1.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions3.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions3.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
             </div>
             <div class="carousel-control-prev" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -357,7 +364,8 @@
     <section v-if="section_parties">
         <div class="text-center">
             <router-link to="/" class="position-fixed image_none router_position">
-                <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
+                <img loading="lazy" src="../../assets/image_logo/ImageLogo.png" alt=""
+                    class="position-absolute image_center">
             </router-link>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-lg-1 nav_top border border-1">
@@ -412,20 +420,24 @@
                     </div>
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
-                    <img src="../../assets/image_municipal8/MyLogo7.png" alt="" class="w-75 border border-2 rounded-circle">
+                    <img loading="lazy" src="../../assets/image_municipal8/MyLogo7.png" alt=""
+                        class="w-75 border border-2 rounded-circle">
                 </div>
             </div>
         </nav>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner carousel_height">
                 <div class="carousel-item active">
-                    <img src="../../assets/image_municipal8/positions1.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions1.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions2.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions2.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions3.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions3.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
             </div>
             <div class="carousel-control-prev" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -534,7 +546,8 @@
     <section v-if="section_rashad">
         <div class="text-center">
             <router-link to="/" class="position-fixed image_none router_position">
-                <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
+                <img loading="lazy" src="../../assets/image_logo/ImageLogo.png" alt=""
+                    class="position-absolute image_center">
             </router-link>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-lg-1 nav_top border border-1">
@@ -590,20 +603,24 @@
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
                     <p class="fw-bold">مكتبة بلدية غزة العامة</p>
-                    <img src="../../assets/image_municipal8/MyLogo2.png" alt="" class="w-25 border border-2 rounded-circle">
+                    <img loading="lazy" src="../../assets/image_municipal8/MyLogo2.png" alt=""
+                        class="w-25 border border-2 rounded-circle">
                 </div>
             </div>
         </nav>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner carousel_height">
                 <div class="carousel-item active">
-                    <img src="../../assets/image_municipal8/positions6.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions6.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions2.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions2.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions3.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions3.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
             </div>
             <div class="carousel-control-prev" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -712,7 +729,8 @@
     <section v-if="section_arts">
         <div class="text-center">
             <router-link to="/" class="position-fixed image_none router_position">
-                <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
+                <img loading="lazy" src="../../assets/image_logo/ImageLogo.png" alt=""
+                    class="position-absolute image_center">
             </router-link>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-lg-1 nav_top border border-1">
@@ -768,20 +786,24 @@
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
                     <p class="fw-bold">قرية الفنون والحرف</p>
-                    <img src="../../assets/image_municipal8/MyLogo3.png" alt="" class="w-25 border border-2 rounded-circle">
+                    <img loading="lazy" src="../../assets/image_municipal8/MyLogo3.png" alt=""
+                        class="w-25 border border-2 rounded-circle">
                 </div>
             </div>
         </nav>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner carousel_height">
                 <div class="carousel-item active">
-                    <img src="../../assets/image_municipal8/positions5.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions5.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions2.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions2.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions3.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions3.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
             </div>
             <div class="carousel-control-prev" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -890,7 +912,8 @@
     <section v-if="section_library">
         <div class="text-center">
             <router-link to="/" class="position-fixed image_none router_position">
-                <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
+                <img loading="lazy" src="../../assets/image_logo/ImageLogo.png" alt=""
+                    class="position-absolute image_center">
             </router-link>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-lg-1 nav_top border border-1">
@@ -946,20 +969,24 @@
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
                     <p class="fw-bold">مكتبة بلدية غزة العامة</p>
-                    <img src="../../assets/image_municipal8/MyLogo2.png" alt="" class="w-25 border border-2 rounded-circle">
+                    <img loading="lazy" src="../../assets/image_municipal8/MyLogo2.png" alt=""
+                        class="w-25 border border-2 rounded-circle">
                 </div>
             </div>
         </nav>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner carousel_height">
                 <div class="carousel-item active">
-                    <img src="../../assets/image_municipal8/positions4.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions4.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions2.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions2.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions3.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions3.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
             </div>
             <div class="carousel-control-prev" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -1068,7 +1095,8 @@
     <section v-if="section_culture">
         <div class="text-center">
             <router-link to="/" class="position-fixed image_none router_position">
-                <img src="../../assets/image_logo/ImageLogo.png" alt="" class="position-absolute image_center">
+                <img loading="lazy" src="../../assets/image_logo/ImageLogo.png" alt=""
+                    class="position-absolute image_center">
             </router-link>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-lg-1 nav_top border border-1">
@@ -1124,20 +1152,24 @@
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
                     <p class="fw-bold">مركز هولست الثقافي</p>
-                    <img src="../../assets/image_municipal8/MyLogo5.png" alt="" class="w-25 border border-2 rounded-circle">
+                    <img loading="lazy" src="../../assets/image_municipal8/MyLogo5.png" alt=""
+                        class="w-25 border border-2 rounded-circle">
                 </div>
             </div>
         </nav>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner carousel_height">
                 <div class="carousel-item active">
-                    <img src="../../assets/image_municipal8/positions7.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions7.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions2.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions2.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../assets/image_municipal8/positions3.png" class="d-block w-100 carousel_height" alt="...">
+                    <img loading="lazy" src="../../assets/image_municipal8/positions3.png"
+                        class="d-block w-100 carousel_height" alt="...">
                 </div>
             </div>
             <div class="carousel-control-prev" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

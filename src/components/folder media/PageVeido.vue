@@ -55,7 +55,8 @@
                     <div class="row mt-2">
                         <div class="col mt-3" data-aos="fade-right">
                             <router-link to="/viedo" class="card icon_click">
-                                <img src="../../assets/Image_albpums/ImageAlbpmusVedo1.png" class="card-img-top" alt="...">
+                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpmusVedo1.png"
+                                    class="card-img-top" alt="...">
                             </router-link>
                             <div class="card-body div_card_bottom pb-1 p-4">
                                 <p>بلدية غزة تفتتح بئر مياه في منطقة<br>الشعف شرق حي التفاح</p>
@@ -63,7 +64,8 @@
                         </div>
                         <div class="col mt-3" data-aos="fade-down">
                             <router-link to="/viedo" class="card icon_click">
-                                <img src="../../assets/Image_albpums/ImageAlbpmusVedo2.png" class="card-img-top" alt="...">
+                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpmusVedo2.png"
+                                    class="card-img-top" alt="...">
                             </router-link>
                             <div class="card-body div_card_bottom pb-1 p-4">
                                 <p>بلدية غزة تفتتح بئر مياه في منطقة<br>الشعف شرق حي التفاح</p>
@@ -71,7 +73,8 @@
                         </div>
                         <div class="col mt-3" data-aos="fade-left">
                             <router-link to="/viedo" class="card icon_click">
-                                <img src="../../assets/Image_albpums/ImageAlbpmusVedo3.png" class="card-img-top" alt="...">
+                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpmusVedo3.png"
+                                    class="card-img-top" alt="...">
                             </router-link>
                             <div class="card-body div_card_bottom pb-1 p-4">
                                 <p>بلدية غزة تفتتح بئر مياه في منطقة<br>الشعف شرق حي التفاح</p>
@@ -83,7 +86,8 @@
                     <div class="row mt-2">
                         <div class="col mt-3" data-aos="fade-right">
                             <router-link to="/viedo" class="card icon_click">
-                                <img src="../../assets/Image_albpums/ImageAlbpmusVedo1.png" class="card-img-top" alt="...">
+                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpmusVedo1.png"
+                                    class="card-img-top" alt="...">
                             </router-link>
                             <div class="card-body div_card_bottom pb-1 p-4">
                                 <p>بلدية غزة تفتتح بئر مياه في منطقة<br>الشعف شرق حي التفاح</p>
@@ -91,7 +95,8 @@
                         </div>
                         <div class="col mt-3" data-aos="fade-down">
                             <router-link to="/viedo" class="card icon_click">
-                                <img src="../../assets/Image_albpums/ImageAlbpmusVedo2.png" class="card-img-top" alt="...">
+                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpmusVedo2.png"
+                                    class="card-img-top" alt="...">
                             </router-link>
                             <div class="card-body div_card_bottom pb-1 p-4">
                                 <p>بلدية غزة تفتتح بئر مياه في منطقة<br>الشعف شرق حي التفاح</p>
@@ -99,7 +104,8 @@
                         </div>
                         <div class="col mt-3" data-aos="fade-left">
                             <router-link to="/viedo" class="card icon_click">
-                                <img src="../../assets/Image_albpums/ImageAlbpmusVedo3.png" class="card-img-top" alt="...">
+                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpmusVedo3.png"
+                                    class="card-img-top" alt="...">
                             </router-link>
                             <div class="card-body div_card_bottom pb-1 p-4">
                                 <p>بلدية غزة تفتتح بئر مياه في منطقة<br>الشعف شرق حي التفاح</p>
