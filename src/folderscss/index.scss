@@ -1428,6 +1428,17 @@ body section .row div .div_hegith_sections {
 }
 
 // end main three section
+// start main center tow
+body section .row .col div .button_border {
+    color: $color_green;
+    border: 2px solid $color_green;
+}
+
+body section .row .col div .button_border:hover {
+    background-color: $color_green !important;
+    color: $color_white;
+}
+// end main center tow
 // start footer
 body .div_footer,
 body .div_footer .row_width .p_border,

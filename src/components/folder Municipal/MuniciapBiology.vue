@@ -159,7 +159,6 @@ export default {
     components: {
         KpapHeaderThreeTow,
     },
-
     methods: {
         div_click_block() {
             this.div_none = !this.div_none
@@ -168,7 +167,6 @@ export default {
             this.div_none = false
         }
     },
-
     mounted() {
         var tag_header = document.querySelectorAll(".div_hover_color");
         var p_backgrpund = document.querySelectorAll(".p_backgrpund");
@@ -185,7 +183,6 @@ export default {
                 }
             }
         }
-
         for (let i = 0; i < tag_header.length; i++) {
             var chekd = tag_header[i];
             chekd.addEventListener("click", function () {

@@ -41,6 +41,7 @@ import KpapAlbumsVedio from "../components/folder media/PageVeido.vue";
 import KpapReports from "../components/folder media/PageReports.vue";
 import KpapNumbers from "../components/folder media/PageNumbers.vue";
 import KpapSection from "../components/folder Municipal/MuniciapMergeThreeSections.vue";
+import KpapCenter from "../components/folder Municipal/MuniciapCenter.vue";
 
 const routes = [
   {
@@ -234,6 +235,10 @@ const routes = [
   {
     path: "/section",
     component: KpapSection,
+  },
+  {
+    path: "/center",
+    component: KpapCenter,
   },
 ];
 
