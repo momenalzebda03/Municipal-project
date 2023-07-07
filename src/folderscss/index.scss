@@ -699,11 +699,16 @@ body section .row div div div .button_padding {
     transition: 0.3s;
 }
 
+.div_width_number_left {
+    transition: 0.3s;
+}
+
 body section .row div div div div .div_width_number {
     width: 320px;
     transition: 0.3s;
 }
 
+.div_width_number_left:hover,
 body section div div div div .div_width_number:hover {
     transform: translate(-20px, 0px);
 }
@@ -1417,6 +1422,12 @@ body div .router_close {
 }
 
 // end main Archaeology1
+// start main three section
+body section .row div .div_hegith_sections {
+    height: 69vh;
+}
+
+// end main three section
 // start footer
 body .div_footer,
 body .div_footer .row_width .p_border,
@@ -1682,7 +1693,7 @@ body section div .div_top_respons {
         margin-left: -0%;
     }
 
-    body div .router_close {        
+    body div .router_close {
         transform: translate(0%, -150%);
     }
 }

@@ -51,9 +51,9 @@
           <div class="wrapper top-0 h-100 position-fixed div_active w-100 container-fluid d-flex justify-content-center">
             <ul class="position-absolute w-75 top-0 mt-5">
               <li><router-link
-                  :class="{ 'active_router_link': isActive('/muiciapl') || isActive('/objectives') || isActive('/policy') }"
+                  :class="{ 'active_router_link': isActive('/muiciapl') || isActive('/objectives') || isActive('/policy') || isActive('/section') }"
                   to="/muiciapl" class="router_link text-center py-3 position-absolute bg-white"><i title="الأهداف"
-                    :class="{ 'active_icon_hover_white': isActive('/muiciapl') || isActive('/objectives') || isActive('/policy') }"
+                    :class="{ 'active_icon_hover_white': isActive('/muiciapl') || isActive('/objectives') || isActive('/policy') || isActive('/section') }"
                     class="fas fa-bullseye fs-2 icon_hover_white text-black"></i></router-link>
               </li>
               <li><router-link :class="{ 'active_router_link': isActive('/date') }" to="/date"
@@ -283,7 +283,7 @@ export default {
       return this.$route.path !== "/accompanying" && this.$route.path !== "/citymap" && this.$route.path !== "/archaeology" && this.$route.path !== "/biology1" && this.$route.path !== "/photo" && this.$route.path !== "/image";
     },
     isMuiciaplRoute() {
-      return this.$route.path === "/muiciapl" || this.$route.path == "/objectives" || this.$route.path == "/muiciapl" || this.$route.path == "/policy" || this.$route.path == "/date" || this.$route.path == "/council" || this.$route.path == "/members" || this.$route.path == "/sessions" || this.$route.path == "/committee" || this.$route.path == "/biology" || this.$route.path == "/plan" || this.$route.path == "/structure" || this.$route.path == "/money" || this.$route.path == "/money1" || this.$route.path == "/accompanying" || this.$route.path == "/centers" || this.$route.path == "/centers1" || this.$route.path == "/centers2" || this.$route.path == "/centers3" || this.$route.path == "/centers4" || this.$route.path == "/centers5" || this.$route.path == "/centers6" || this.$route.path == "/centers7";
+      return this.$route.path === "/section" || this.$route.path === "/muiciapl" || this.$route.path == "/objectives" || this.$route.path == "/muiciapl" || this.$route.path == "/policy" || this.$route.path == "/date" || this.$route.path == "/council" || this.$route.path == "/members" || this.$route.path == "/sessions" || this.$route.path == "/committee" || this.$route.path == "/biology" || this.$route.path == "/plan" || this.$route.path == "/structure" || this.$route.path == "/money" || this.$route.path == "/money1" || this.$route.path == "/accompanying" || this.$route.path == "/centers" || this.$route.path == "/centers1" || this.$route.path == "/centers2" || this.$route.path == "/centers3" || this.$route.path == "/centers4" || this.$route.path == "/centers5" || this.$route.path == "/centers6" || this.$route.path == "/centers7";
     },
     isMuiciaplRoute1() {
       return this.$route.path === "/place" || this.$route.path === "/civilization" || this.$route.path === "/biology1" || this.$route.path === "/archaeology" || this.$route.path === "/citymap" || this.$route.path === "/museum" || this.$route.path === "/Archaeology1" || this.$route.path === "/photo";

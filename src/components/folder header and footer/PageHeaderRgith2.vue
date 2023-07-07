@@ -1,7 +1,7 @@
 <template>
     <div class="div_width flex-column">
         <router-link to="/muiciapl" title="الأهداف"
-            :class="{ 'active': isActive('/muiciapl') || isActive('/objectives') || isActive('/policy') }"
+            :class="{ 'active': isActive('/muiciapl') || isActive('/section') || isActive('/objectives') || isActive('/policy') }"
             class="d-flex justify-content-center div_border text-decoration-none">
             <i class="fas fa-bullseye fs-5"></i>
         </router-link>

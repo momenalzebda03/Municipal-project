@@ -97,13 +97,13 @@
                             </div>
                         </div>
                         <div class="col-12 col-md mt-3">
-                            <img loading="lazy" src="../../assets/image_news/ImageNews1.png" alt="" class="image_respons">
+                            <img src="../../assets/image_news/ImageNews1.png" alt="" class="image_respons">
                         </div>
                         <div class="col-12 col-md mt-3">
-                            <img loading="lazy" src="../../assets/image_news/ImageNews2.png" alt="" class="image_respons">
+                            <img src="../../assets/image_news/ImageNews2.png" alt="" class="image_respons">
                         </div>
                         <div class="col-12 col-md mt-3">
-                            <img loading="lazy" src="../../assets/image_news/ImageNews3.png" alt="" class="image_respons">
+                            <img src="../../assets/image_news/ImageNews3.png" alt="" class="image_respons">
                         </div>
                     </section>
                 </div>
