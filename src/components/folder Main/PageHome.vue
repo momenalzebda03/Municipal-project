@@ -1,11 +1,12 @@
 <template>
     <!-- start main home -->
     <section class="mt-md-5">
-        <div class="container-fluid px-md-5 font_text">
+        <div class="container-fluid px-md-5 font_text overflow-hidden">
             <div class="row">
                 <div class="col-md-6 col-lg-4 mt-5" data-aos="fade-up">
                     <a href="#">
-                        <img src="../../assets/image_page_home/ImageMap.png" alt="" loading="lazy" class="w-100">
+                        <img src="../../assets/image_page_home/ImageMap.png" alt="" loading="lazy"
+                            class="w-100 h-100 image_object">
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4 my-3 my-lg-0" data-aos="fade-down">
@@ -200,24 +201,24 @@
                         </div>
                         <h4 class="fw-bold span_red text-center">أخبار اليوم</h4>
                     </div>
-                    <div id="carouselExampleIndicators1" class="carousel slide mt-5 pt-3 pt-lg-0 mt-lg-0"
+                    <div id="carouselExampleIndicators1" class="h-100 carousel slide mt-5 pt-3 pt-lg-0 mt-lg-0"
                         data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <router-link to="image" class="carousel-item active">
+                        <div class="carousel-inner h-100">
+                            <router-link to="image" class="carousel-item active h-100">
                                 <img loading="lazy" src="../../assets/image_page_home/ImageNews.png"
-                                    class="w-100 link_hover" alt="">
+                                    class="w-100 h-100 link_hover image_object" alt="">
                             </router-link>
-                            <router-link to="image" class="carousel-item">
+                            <router-link to="image" class="carousel-item h-100">
                                 <img loading="lazy" src="../../assets/image_page_home/ImageNews.png"
-                                    class="w-100 link_hover" alt="">
+                                    class="w-100 h-100 link_hover image_object" alt="">
                             </router-link>
-                            <router-link to="image" class="carousel-item">
+                            <router-link to="image" class="carousel-item h-100">
                                 <img loading="lazy" src="../../assets/image_page_home/ImageNews.png"
-                                    class="w-100 link_hover" alt="">
+                                    class="w-100 h-100 link_hover image_object" alt="">
                             </router-link>
-                            <router-link to="image" class="carousel-item">
+                            <router-link to="image" class="carousel-item h-100">
                                 <img loading="lazy" src="../../assets/image_page_home/ImageNews.png"
-                                    class="w-100 link_hover" alt="">
+                                    class="w-100 h-100 link_hover image_object" alt="">
                             </router-link>
                         </div>
                         <div class="carousel-indicators d-flex justify-content-center gap-1">

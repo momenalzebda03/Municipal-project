@@ -1,6 +1,10 @@
 @import "color";
 
 // start afretang
+.image_object {
+    object-fit: cover;
+}
+
 .font_text {
     font-family: 'Almarai', sans-serif;
 }
@@ -1438,6 +1442,7 @@ body section .row .col div .button_border:hover {
     background-color: $color_green !important;
     color: $color_white;
 }
+
 // end main center tow
 // start footer
 body .div_footer,
