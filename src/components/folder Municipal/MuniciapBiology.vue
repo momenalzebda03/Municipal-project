@@ -4,58 +4,56 @@
     <section class="container-fluid px-2 px-md-5 font_text overflow-hidden">
         <div class="row text-end">
             <div class="col-lg-8" data-aos="fade-right">
-                <div class="position-relative">
-                    <img loading="lazy" src="../../assets/image_municipal3/ImageMap.png" alt=""
-                        class="w-100 icon_click image_height div_footer" @click="div_click_block">
-                    <div class="bg-white div_mia position-absolute translate-middle start-50 top-50" v-show="div_none">
-                        <div class="d-flex justify-content-end" @click="icon_exit">
-                            <i class="fas fa-times fs-4 border-start border-bottom text-secondary p-3 back_hover"></i>
+                <img loading="lazy" src="../../assets/image_municipal3/ImageMap.png" alt=""
+                    class="w-100 h-100 image_object icon_click" @click="div_click_block">
+                <div class="bg-white div_mia position-absolute translate-middle start-50 top-50" v-show="div_none">
+                    <div class="d-flex justify-content-end" @click="icon_exit">
+                        <i class="fas fa-times fs-4 border-start border-bottom text-secondary p-3 back_hover"></i>
+                    </div>
+                    <div class="pt-2 px-5 text-center text-md-end">
+                        <p class="fw-bold">لجنة حي منطقة الزيتون</p>
+                        <div class="d-flex justify-content-end gap-md-5 flex-column flex-md-row gap-0">
+                            <p>حي منطقة الزيتون <i class="fas fa-map-marker-alt"></i></p>
+                            <p>0599486227 <i class="fas fa-tty"></i></p>
                         </div>
-                        <div class="pt-2 px-5 text-center text-md-end">
-                            <p class="fw-bold">لجنة حي منطقة الزيتون</p>
-                            <div class="d-flex justify-content-end gap-md-5 flex-column flex-md-row gap-0">
-                                <p>حي منطقة الزيتون <i class="fas fa-map-marker-alt"></i></p>
-                                <p>0599486227 <i class="fas fa-tty"></i></p>
+                        <p class="fw-bold mt-2">أعضاء لجنة الحي</p>
+                        <div class="d-flex gap-4 text-center flex-column flex-sm-row pb-3">
+                            <div>
+                                <img loading="lazy" src="../../assets/image_municipal2/Personal1.png" alt=""
+                                    class="mb-3 rounded-circle div_respone_width">
+                                <br>
+                                <span class="span_red fw-bold">أ. مروان الغول</span>
                             </div>
-                            <p class="fw-bold mt-2">أعضاء لجنة الحي</p>
-                            <div class="d-flex gap-4 text-center flex-column flex-sm-row pb-3">
-                                <div>
-                                    <img loading="lazy" src="../../assets/image_municipal2/Personal1.png" alt=""
-                                        class="mb-3 rounded-circle div_respone_width">
-                                    <br>
-                                    <span class="span_red fw-bold">أ. مروان الغول</span>
-                                </div>
-                                <div>
-                                    <img loading="lazy" src="../../assets/image_municipal3/ImagePeroons2.png" alt=""
-                                        class=" mb-3 rounded-circle div_respone_width">
-                                    <br>
-                                    <span class="span_red fw-bold">أ. مروان الغول</span>
-                                </div>
-                                <div>
-                                    <img loading="lazy" src="../../assets/image_municipal3/ImagePerons3.png" alt=""
-                                        class="mb-3 rounded-circle div_respone_width">
-                                    <br>
-                                    <span class="span_red fw-bold">د. جميل طرزي</span>
-                                </div>
-                                <div>
-                                    <img loading="lazy" src="../../assets/image_municipal3/ImagePerons4.png" alt=""
-                                        class="mb-3 rounded-circle div_respone_width1">
-                                    <br>
-                                    <span class="span_red fw-bold">أ. بدر صبرة</span>
-                                </div>
-                                <div>
-                                    <img loading="lazy" src="../../assets/image_municipal3/ImagePerons5.png" alt=""
-                                        class="mb-3 rounded-circle div_respone_width">
-                                    <br>
-                                    <span class="span_red fw-bold">أ. د. يحيى السراج</span>
-                                </div>
+                            <div>
+                                <img loading="lazy" src="../../assets/image_municipal3/ImagePeroons2.png" alt=""
+                                    class=" mb-3 rounded-circle div_respone_width">
+                                <br>
+                                <span class="span_red fw-bold">أ. مروان الغول</span>
+                            </div>
+                            <div>
+                                <img loading="lazy" src="../../assets/image_municipal3/ImagePerons3.png" alt=""
+                                    class="mb-3 rounded-circle div_respone_width">
+                                <br>
+                                <span class="span_red fw-bold">د. جميل طرزي</span>
+                            </div>
+                            <div>
+                                <img loading="lazy" src="../../assets/image_municipal3/ImagePerons4.png" alt=""
+                                    class="mb-3 rounded-circle div_respone_width1">
+                                <br>
+                                <span class="span_red fw-bold">أ. بدر صبرة</span>
+                            </div>
+                            <div>
+                                <img loading="lazy" src="../../assets/image_municipal3/ImagePerons5.png" alt=""
+                                    class="mb-3 rounded-circle div_respone_width">
+                                <br>
+                                <span class="span_red fw-bold">أ. د. يحيى السراج</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mt-3 mt-lg-0" data-aos="fade-left">
-                <div class="background_row overflow-auto">
+                <div class="background_row overflow-auto h-100">
                     <div class="direction">
                         <h5 class="px-3 pt-3 span_red fw-bold">لجان الأحياء</h5>
                         <div @click="div_click_block"
