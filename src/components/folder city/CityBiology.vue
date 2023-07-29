@@ -4,7 +4,7 @@
         <div class="row overflow-hidden">
             <div class="col-md-6 text-center text-md-end mt-5" data-aos="fade-right">
                 <h5 class="span_red fw-bold me-4">الأحياء</h5>
-                <div class="overflow-hidden position-relative div_vh" @click="click_scroll" ref="scrollContainer"
+                <div class="overflow-hidden position-relative pb-5 mb-5 div_vh" @click="click_scroll" ref="scrollContainer"
                     @mousedown="mouseDownHandler" @mousemove="mouseMoveHandler">
                     <div class="mt-4 ps-md-5 ms-md-5 pe-md-3">
                         <div class="d-flex flex-column flex-md-row justify-content-end gap-4 align-items-center">
@@ -100,11 +100,11 @@
                         <router-link to="/viedo">
                             <div class="carousel-item active height_100">
                                 <img loading="lazy" src="../../assets/image_civil2/ImageViedo.png" alt=""
-                                    class="w-100 height_100">
+                                    class="w-100 image_object height_100">
                             </div>
                             <div class="carousel-item height_100">
                                 <img loading="lazy" src="../../assets/image_civil2/ImageMosque.png" alt=""
-                                    class="w-100 height_100">
+                                    class="w-100 image_object height_100">
                             </div>
                         </router-link>
                         <div class="d-flex align-items-center justify-content-center position-absolute end-0 top-50">

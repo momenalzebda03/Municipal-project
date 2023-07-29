@@ -15,7 +15,8 @@
             </div>
             <div class="row">
                 <div class="col-md-5" data-aos="fade-right">
-                    <img loading="lazy" src="../../assets/image_municipal5/ImageFacilities.png" alt="" class="w-100 h-100">
+                    <img loading="lazy" src="../../assets/image_municipal5/ImageFacilities.png" alt=""
+                        class="w-100 h-100 image_object">
                 </div>
                 <div class="col-md-5" data-aos="fade-left">
                     <div class="d-flex justify-content-center">
@@ -123,21 +124,38 @@
                 </div>
                 <div class="col-md-2 my-3 my-md-5">
                     <div class="border-2 border-end pe-4 row h-100 d-flex justify-content-end">
-                        <div class="col col-md-12">
-                            <p>1917 - 1906</p>
+                        <div class="col col-md-12 div_forloop">
+                            <div class="div_click icon_click">
+                                <div class="div_loop"></div>
+                                <p class="p_loop">1917 - 1906</p>
+                            </div>
                         </div>
-                        <div class="col col-md-12 col_hover1">
-                            <div class="div_line1"></div>
-                            <p class="me-0 me-lg-3 mt-0 mt-sm-4">1921 - 1918</p>
+                        <div class="col col-md-12 div_forloop">
+                            <div class="col_hover1 div_click icon_click">
+                                <div class="div_loop div_line1"></div>
+                                <p class="p_loop p_margin_minus">1921 - 1918</p>
+                            </div>
                         </div>
-                        <div class="col col-md-12 d-flex align-items-center justify-content-center justify-content-md-end">
-                            <p>1917 - 1906</p>
+                        <div
+                            class="col col-md-12 div_forloop d-flex align-items-center justify-content-center justify-content-md-end">
+                            <div class="div_click icon_click">
+                                <div class="div_loop"></div>
+                                <p class="p_loop">1917 - 1906</p>
+                            </div>
                         </div>
-                        <div class="col col-md-12 d-flex align-items-center justify-content-center justify-content-md-end">
-                            <p>1917 - 1906</p>
+                        <div
+                            class="col col-md-12 div_forloop d-flex align-items-center justify-content-center justify-content-md-end">
+                            <div class="div_click icon_click">
+                                <div class="div_loop"></div>
+                                <p class="p_loop">1917 - 1906</p>
+                            </div>
                         </div>
-                        <div class="col col-md-12 d-flex align-items-end justify-content-center justify-content-md-end">
-                            <p>1917 - 1906</p>
+                        <div
+                            class="col col-md-12 div_forloop d-flex align-items-end justify-content-center justify-content-md-end">
+                            <div class="div_click icon_click">
+                                <div class="div_loop"></div>
+                                <p class="p_loop">1917 - 1906</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -158,5 +176,32 @@ export default {
             document.title = newTitle;
         },
     },
+    mounted() {
+        const containers = document.querySelectorAll('.div_forloop');
+        containers.forEach(container => {
+            container.addEventListener("click", function () {
+                const col_hover1 = document.querySelector('.col_hover1');
+                if (col_hover1) {
+                    col_hover1.classList.remove('col_hover1');
+                }
+                const div_click = container.querySelector('.div_click');
+                div_click.classList.add('col_hover1');
+
+                const div_line1 = document.querySelector('.div_line1');
+                if (div_line1) {
+                    col_hover1.classList.remove('div_line1');
+                }
+                const div_loop = container.querySelector('.div_loop');
+                div_loop.classList.add('div_line1');
+
+                const p_margin_minus = document.querySelector('.p_margin_minus');
+                if (p_margin_minus) {
+                    col_hover1.classList.remove('p_margin_minus');
+                }
+                const p_loop = container.querySelector('.p_loop');
+                p_loop.classList.add('p_margin_minus');
+            });
+        });
+    }
 }
 </script>

@@ -3,8 +3,8 @@
     <section class="font_text section_bottom position-relative container-fluid p-0 overflow-hidden">
         <div class="row">
             <div class="col-lg-8 px-0">
-                <img loading="lazy" src="../../assets/image_municipal5/ImageMap.png" alt="" class="w-100 h-100 icon_click"
-                    data-aos="fade-right" @click="div_click_block">
+                <img loading="lazy" src="../../assets/image_municipal5/ImageMap.png" alt=""
+                    class="w-100 h-100 icon_click image_object" data-aos="fade-right" @click="div_click_block">
                 <div class="container-fluid px-5 image_none ms-4 container_image_center position-absolute bottom-0"
                     v-show="div_none">
                     <div class="overflow-y-auto overflow_height overflow-x-hidden">

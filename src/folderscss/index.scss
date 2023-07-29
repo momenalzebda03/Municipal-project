@@ -870,18 +870,41 @@ body section .row div div div .circle_color_red {
 }
 
 // end main sessions
-// start main map 1
-body section .row div .background_row {
-    background-color: $color_background;
-    direction: rtl;
+// start main money 1
+body section div .row div div .div_forloop .col_hover1 .p_margin_minus {
+    margin-right: 10px;
 }
 
-body section .row div div div div .div_respone_width {
-    width: 100%;
+body section div .row div div .div_forloop .col_hover1::before,
+body section div .row div div .div_forloop .col_hover1::after,
+.div_line1::before {
+    content: "";
+    position: absolute;
 }
 
-body section .row div div div div .div_respone_width1 {
-    width: 120%;
+body section div .row div div .div_forloop .col_hover1::before {
+    transform: translate(29px, 5px);
+    background-color: $color_red;
+    padding: 8px;
+    border-radius: 50%;
+    outline: 3px solid $color_white;
+}
+
+body section div .row div div .div_forloop .col_hover1::after {
+    transform: translate(34px, -30px);
+    width: 5px;
+    height: 5px;
+    background-color: $color_white;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+body section div .row div div .div_forloop .col_hover1 .div_line1::before {
+    margin-top: 13px;
+    background-color: $color_green;
+    width: 70px;
+    z-index: -1;
+    height: 2.5px;
 }
 
 :root {
@@ -896,6 +919,54 @@ body section .row div div div div .div_respone_width1 {
     --color9: #cf2a461d;
     --color10: #cf2a460f;
     --color_mywhite: white;
+}
+
+body section div .row div div .div_statistic_1 {
+    width: 280px;
+    height: 280px;
+    background: conic-gradient(from 0deg,
+            #3EC4B5 10%,
+            #3EC4B5 25%,
+            var(--color_mywhite) 25%,
+            var(--color_mywhite) 25.2%,
+            #3ec4b42a 25.2%,
+            #3ec4b42a 27%,
+            var(--color_mywhite) 27%,
+            var(--color_mywhite) 27.2%,
+            #3ec4b450 27.2%,
+            #3ec4b450 30%,
+            var(--color_mywhite) 30%,
+            var(--color_mywhite) 30.2%,
+            #3ec4b46e 30.2%,
+            #3ec4b46e 34%,
+            var(--color_mywhite) 34%,
+            var(--color_mywhite) 34.2%,
+            #3ec4b488 34.2%,
+            #3ec4b488 39%,
+            var(--color_mywhite) 39%,
+            var(--color_mywhite) 39.2%,
+            #3ec4b49b 39.2%,
+            #3ec4b49b 45%,
+            var(--color_mywhite) 45%,
+            var(--color_mywhite) 45.2%,
+            #3ec4b4b8 45.2%,
+            #3ec4b4b8 55%,
+            var(--color_mywhite) 55%,
+            var(--color_mywhite) 55.2%,
+            #3ec4b4ce 55.2%,
+            #3ec4b4ce 65%,
+            var(--color_mywhite) 65%,
+            var(--color_mywhite) 65.2%,
+            #3ec4b4df 65.2%,
+            #3ec4b4df 70%,
+            var(--color_mywhite) 70%,
+            var(--color_mywhite) 70.2%,
+            #3ec4b4ee 70.2%,
+            #3ec4b4ee 85%,
+            var(--color_mywhite) 85%,
+            var(--color_mywhite) 85.2%,
+            #3EC4B5 85%,
+            #3EC4B5 100%, );
 }
 
 body section div .row div div .div_statistic {
@@ -938,9 +1009,77 @@ body section div .row div div .div_statistic {
             var(--color1) 100%);
 }
 
+body section div .row div div .div_statistic_1 .div_center_white,
 body section div .row div div .div_statistic .div_center_white {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
+}
+
+body section div .row div div div .div_line_point_green {
+    background-color: #707070;
+    width: 40px;
+    height: 2px;
+    margin-top: 120px;
+    margin-left: -33px;
+    transform: rotate(50deg);
+}
+
+body section div .row div div div .div_line_point_green_1 {
+    background-color: #707070;
+    width: 40px;
+    height: 2px;
+    margin-top: 110px;
+    margin-left: 4px;
+    transform: rotate(-20deg);
+}
+
+body section div .row div div div .div_line_point_green_3 {
+    background-color: #707070;
+    width: 30px;
+    height: 2px;
+    margin-top: 165px;
+    margin-left: 64px;
+    transform: rotate(70deg);
+}
+
+body section div .row div div div .div_line_point_green_2 {
+    background-color: #707070;
+    width: 40px;
+    height: 2px;
+    margin-top: 160px;
+    margin-left: 45px;
+    transform: rotate(-20deg);
+}
+
+body section div .row div div .div_line_point_green_2::before {
+    content: "";
+    position: absolute;
+    background-color: #707070;
+    width: 30px;
+    height: 2px;
+    margin-left: -100%;
+    margin-top: 33%;
+    transform: rotate(-60deg);
+}
+
+body section div .row div div div .div_line_point_green_4 {
+    background-color: #707070;
+    width: 40px;
+    height: 2px;
+    margin-top: 170px;
+    margin-left: 75px;
+    transform: rotate(50deg);
+}
+
+body section div .row div div .div_line_point_green_4::before {
+    content: "";
+    position: absolute;
+    background-color: #707070;
+    width: 30px;
+    height: 2px;
+    margin-left: 33%;
+    margin-top: -29%;
+    transform: rotate(-50deg);
 }
 
 body section div .row div div .div_line_point::before {
@@ -989,6 +1128,38 @@ body section div .row div div .div_line_point_2::before {
     transform: rotate(50deg);
 }
 
+body section div .row div div .div_text_position_green {
+    transform: translate(-120px, 90px);
+}
+
+body section div .row div div .div_text_position_green_1 {
+    transform: translate(-100px, 110px);
+}
+
+body section div .row div div .div_text_position_green_2 {
+    transform: translate(-80px, 110px);
+}
+
+body section div .row div div .div_text_position_green_3 {
+    transform: translate(-85px, 100px) rotate(70deg);
+}
+
+body section div .row div div .div_text_position_green_4 {
+    transform: translate(-25px, 290px) rotate(70deg);
+}
+
+body section div .row div div .div_text_position_green_6 {
+    transform: translate(90px, 250px) rotate(70deg);
+}
+
+body section div .row div div .div_text_position_green_7 {
+    transform: translate(90px, 230px) rotate(70deg);
+}
+
+body section div .row div div .div_text_position_green_5 {
+    transform: translate(20px, 250px) rotate(70deg);
+}
+
 body section div .row div div .div_text_position {
     transform: translate(-110px, 25px);
 }
@@ -1005,6 +1176,10 @@ body section div .row div div .div_text_position_3 {
     transform: translate(-175px, 82px);
 }
 
+body section div .row div div .div_text_position_4 {
+    transform: translate(-223px, 83px);
+}
+
 body section div .row div div .div_translate_line {
     transform: translate(-34px, 110px);
 }
@@ -1013,8 +1188,87 @@ body section div .row div div .div_translate_line_1 {
     transform: translate(-34px, 120px);
 }
 
+body section div .row div div .div_translate_line_green_1 {
+    transform: translate(34px, 180px);
+}
+
+body section div .row div div .div_translate_line_green_2 {
+    transform: translate(-55px, 170px) rotate(-70deg);
+}
+
+body section div .row div div .div_translate_line_green_3 {
+    transform: translate(-18px, 140px) rotate(-70deg);
+}
+
+body section div .row div div .div_translate_line_green_4 {
+    transform: translate(5px, 100px) rotate(-70deg);
+}
+
+body section div .row div div .div_translate_line_green_6 {
+    transform: translate(15px, 50px) rotate(-70deg);
+}
+
+body section div .row div div .div_translate_line_green_7 {
+    transform: translate(-12px, -50px) rotate(-70deg);
+}
+
+body section div .row div div .div_translate_line_green_5 {
+    transform: translate(15px, 75px) rotate(-70deg);
+}
+
 body section div .row div div .div_translate_line_2 {
     transform: translate(-34px, 130px);
+}
+
+body section div .row div div .div_translate_line_3 {
+    transform: translate(-20px, 170px);
+}
+
+body section div .row div div .div_translate_line_4 {
+    transform: translate(5px, 210px);
+}
+
+body section div .row div div .div_translate_line_5 {
+    transform: translate(78px, 238px);
+}
+
+body section div .row div div .div_translate_line_6 {
+    transform: translate(-10px, 188px) rotate(-90deg);
+}
+
+body section div .row div div .div_translate_line_7 {
+    transform: translate(14px, 200px) rotate(-140deg);
+}
+
+body section div .row div div .div_translate_line_8 {
+    transform: translate(83px, 220px) rotate(140deg);
+}
+
+body section div .row div div .div_text_position_5 {
+    transform: translate(-110px, 26px) rotate(90deg);
+}
+
+body section div .row div div .div_text_position_6 {
+    transform: translate(-110px, 30px) rotate(140deg);
+}
+
+body section div .row div div .div_text_position_7 {
+    transform: translate(-100px, 50px) rotate(-140deg);
+}
+
+// end main money 1
+// start main map 1
+body section .row div .background_row {
+    background-color: $color_background;
+    direction: rtl;
+}
+
+body section .row div div div div .div_respone_width {
+    width: 100%;
+}
+
+body section .row div div div div .div_respone_width1 {
+    width: 120%;
 }
 
 // end main map 1
@@ -1641,38 +1895,6 @@ body section div .div_top_respons {
     body section div .row div div div div .link_hover {
         height: 19.6vh;
     }
-
-    body section div .row div div .col_hover1::before,
-    body section div .row div div .col_hover1::after,
-    body section div .row div .div_line1::before {
-        content: "";
-        position: absolute;
-    }
-
-    body section div .row div div .col_hover1::before {
-        transform: translate(29px, 27px);
-        background-color: $color_red;
-        padding: 8px;
-        border-radius: 50%;
-        outline: 3px solid $color_white;
-    }
-
-    body section div .row div div .col_hover1::after {
-        transform: translate(34px, -32px);
-        width: 5px;
-        height: 5px;
-        background-color: $color_white;
-        padding: 3px;
-        border-radius: 50%;
-    }
-
-    body section div .row div div div .div_line1::before {
-        margin-top: 35px;
-        background-color: $color_green;
-        width: 70px;
-        z-index: -1;
-        height: 2.5px;
-    }
 }
 
 @media (max-width: 1490px) {
@@ -1712,6 +1934,13 @@ body section div .div_top_respons {
         display: block !important;
     }
 
+    body section div .row div div .div_forloop .col_hover1 .p_margin_minus {
+        margin-right: 0px;
+    }
+
+    body section div .row div div .col_hover1::before,
+    body section div .row div div .col_hover1::after,
+    body section div .row div div div .div_line1::before,
     body section div div .row .col_hover::before,
     body section .row div .row div .div_before_after3::before,
     body section .row div .row div .div_before_after2::before,
