@@ -65,10 +65,10 @@
                             <div
                                 class="w-100 bg-white mt-2 border border-1 shadow-sm rounded-4 p-5 d-flex justify-content-center align-items-center">
                                 <div class="text-center">
-                                    <label for="fileInput">
+                                    <label for="fileInput" id="selectedFileName">
                                         <input type="file" id="fileInput" class="d-none">
-                                        <span class="span_red fw-bold icon_click">ارفاق ملف</span> أو السحب والأفلات هنا<br>
-                                        يجب ألا يزيد حجم الملف عن 5 ميجا
+                                        <span class="span_red fw-bold icon_click">ارفاق ملف</span> أو السحب والأفلات
+                                        هنا<br>يجب ألا يزيد حجم الملف عن 5 ميجا
                                     </label>
                                 </div>
                             </div>
@@ -159,6 +159,18 @@ export default {
     name: "KpapPropsals",
     created() {
         this.changePageTitle('البلدية - المقترحات');
+    },
+    mounted() {
+        const fileInput = document.getElementById('fileInput');
+        const selectedFileName = document.getElementById('selectedFileName');
+
+        fileInput.addEventListener('change', () => {
+            if (fileInput.files.length > 0) {
+                selectedFileName.textContent = fileInput.files[0].name;
+            } else {
+                selectedFileName.textContent = 'ارفاق ملف';
+            }
+        });
     },
     methods: {
         changePageTitle(newTitle) {

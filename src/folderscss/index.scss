@@ -535,16 +535,8 @@ body section div .row div div div .active_icon_background {
     color: $color_white !important;
 }
 
-body section .container .row div div .div_flex_width {
-    width: 200px;
-}
-
 body section .container .row div div a div .span_size {
     font-size: 13px;
-}
-
-body section .container-fluid .row div div a .div_button:hover {
-    background-color: $color_red !important;
 }
 
 // end main application
@@ -630,6 +622,38 @@ body section div .row div div .p_border_bottom {
 body section div div .div_hr {
     padding: 2px;
     background-color: $color_exit;
+}
+
+body section div div .row .col_hover .div_line {
+    background-color: $color_green;
+    width: 2.5px;
+    transform: translate(42px, 10px);
+    z-index: -1;
+    height: 78px;
+}
+
+body section div div .row .col_hover::before {
+    content: "";
+    position: absolute;
+    transform: translate(35px, 34px);
+    background-color: $color_red;
+    padding: 8px;
+    border-radius: 50%;
+    outline: 3px solid $color_white;
+}
+
+body section div div .row .col_hover .div_point {
+    width: 2.5px;
+    transform: translate(40px, 40px);
+    width: 5px;
+    height: 5px;
+    background-color: $color_white;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+body section div div .row .col_hover .p_top {
+    margin-top: -15%;
 }
 
 // end main date
@@ -1491,40 +1515,11 @@ body section div .div_top_respons {
         height: 19.6vh;
     }
 
-    body section div div .row .col_hover::before {
-        content: "";
-        position: absolute;
-        transform: translate(35px, 58px);
-        background-color: $color_red;
-        padding: 8px;
-        border-radius: 50%;
-        outline: 3px solid $color_white;
-    }
-
-    body section div div .row .col_hover::after {
-        content: "";
-        position: absolute;
-        transform: translate(39.8px, 22.5px);
-        width: 5px;
-        height: 5px;
-        background-color: $color_white;
-        padding: 3px;
-        border-radius: 50%;
-    }
-
     body section div .row div div .col_hover1::before,
     body section div .row div div .col_hover1::after,
     body section div .row div .div_line1::before {
         content: "";
         position: absolute;
-    }
-
-    body section div div .row .col_hover .div_line {
-        background-color: $color_green;
-        width: 2.5px;
-        transform: translate(42px, 25px);
-        z-index: -1;
-        height: 78px;
     }
 
     body section div .row div div .col_hover1::before {
@@ -1580,7 +1575,6 @@ body section div .div_top_respons {
     }
 
     .div_from,
-    body section .container .row div div .div_flex_width,
     body div .div_show nav div .div_respons,
     .div_mia {
         width: 100% !important;
@@ -1591,6 +1585,7 @@ body section div .div_top_respons {
         display: block !important;
     }
 
+    body section div div .row .col_hover::before,
     body section .row div .row div .div_before_after3::before,
     body section .row div .row div .div_before_after2::before,
     body section .row div .row div .div_before_after1::before,
@@ -1675,6 +1670,7 @@ body section div .div_top_respons {
         margin-bottom: 20px;
     }
 
+    body section div div .row .col_hover .p_top,
     body .section_bottom {
         margin-top: 0px;
     }

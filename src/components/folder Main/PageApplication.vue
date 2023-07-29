@@ -71,32 +71,14 @@
                             </div>
                         </div>
                     </router-link>
-                    <div class="d-flex flex-column flex-md-row gap-0 gap-md-4 justify-content-end">
-                        <a href="#" class="text-cetner text-md-end mt-5 div_flex_width text-decoration-none">
-                            <div
-                                class="d-flex align-items-center gap-3 px-3 py-2 rounded-3 bg-black text-white border div_button">
-                                <div>
-                                    <i class="fab fa-apple fs-1"></i>
-                                </div>
-                                <div class="text-start">
-                                    <span class="span_size">available on the</span>
-                                    <br>
-                                    <h5 class="fw-bold">app store</h5>
-                                </div>
-                            </div>
+                    <div class="d-flex flex-column flex-md-row gap-4 mt-5 text-center justify-content-end">
+                        <a href="#">
+                            <img loading="lazy" src="../../assets/image_page_home_1/ImageButtonApple.png" alt=""
+                                class="image_respons">
                         </a>
-                        <a href="#" class="text-cetner text-md-end mt-2 mt-md-5 div_flex_width text-decoration-none">
-                            <div
-                                class="d-flex align-items-center gap-3 px-3 py-2 rounded-3 bg-black text-white border div_button">
-                                <div>
-                                    <img loading="lazy" src="../../assets/image_page_home_1/GooglePlay.png" alt="">
-                                </div>
-                                <div class="text-start">
-                                    <span class="span_size">GET IT ON</span>
-                                    <br>
-                                    <h5 class="fw-bold">google play</h5>
-                                </div>
-                            </div>
+                        <a href="#">
+                            <img loading="lazy" src="../../assets/image_page_home_1/ImageButtonGoogle.png" alt=""
+                                class="image_respons">
                         </a>
                     </div>
                 </div>

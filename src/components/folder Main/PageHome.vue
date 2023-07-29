@@ -1,7 +1,7 @@
 <template>
     <!-- start main home -->
-    <section class="mt-md-5">
-        <div class="container-fluid px-md-5 font_text overflow-hidden">
+    <section class="mt-md-5 mx-3 mx-md-0">
+        <div class="container-fluid px-md-5 font_text">
             <div class="row">
                 <div class="col-md-6 col-lg-4 mt-5" data-aos="fade-up">
                     <a href="#">
