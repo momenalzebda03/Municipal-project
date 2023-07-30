@@ -16,32 +16,65 @@
                         فيها
                     </p>
                 </div>
-                <div class="col-12 col-lg-6 text-center mt-3" data-aos="fade-down">
-                    <img src="../../assets/image_numbers/PageNumber.png" alt="" class="w-100 h-100">
+                <div class="col-12 col-lg-6 mt-3 d-flex justify-content-center" data-aos="fade-down">
+                    <img src="../../assets/Image_Number/ImageTable.png" alt="" class="w-100 h-100">
+                    <div>
+                        <div class="div_text_number justify-content-between ms-3 position-absolute d-flex flex-column">
+                            <p>600,000</p>
+                            <p>500,000</p>
+                            <p>400,000</p>
+                            <p>300,000</p>
+                            <p>200,000</p>
+                            <p>100,000</p>
+                        </div>
+                    </div>
+                    <div class="d-flex div_box align-items-end position-absolute">
+                        <div class="box_2020 d-flex align-items-end justify-content-center">
+                            <p class="text_end">2020</p>
+                        </div>
+                        <div class="box_2010 d-flex align-items-end justify-content-center">
+                            <p class="text_end">2010</p>
+                        </div>
+                        <div class="box_2000 d-flex align-items-end justify-content-center">
+                            <p class="text_end">2000</p>
+                        </div>
+                        <div class="box_1990 d-flex align-items-end justify-content-center">
+                            <p class="text_end">1990</p>
+                        </div>
+                        <div class="box_1980 d-flex align-items-end justify-content-center">
+                            <p class="text_end">1980</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-lg-2" data-aos="fade-right">
                     <div class="row">
-                        <div class="col icon_click d-flex align-items-center gap-2 flex_hover justify-content-end mt-5">
+                        <div
+                            class="col icon_click d-flex align-items-center gap-2 flex_hover justify-content-center justify-content-md-end mt-5">
                             <span class="span_black text-nowrap">تطور العمران</span>
                             <div class="div_width_hover"></div>
                         </div>
-                        <div class="col icon_click d-flex align-items-center gap-2 flex_hover mt-5 justify-content-end">
+                        <div
+                            class="col icon_click d-flex align-items-center gap-2 flex_hover mt-5 justify-content-center justify-content-md-end">
                             <span class="active_span_black span_black text-nowrap">تطور السكان</span>
                             <div class="div_width_hover active_div_width_hover"></div>
                         </div>
-                        <div class="col icon_click d-flex align-items-center gap-2 flex_hover mt-5 justify-content-end">
+                        <div
+                            class="col icon_click d-flex align-items-center gap-2 flex_hover mt-5 justify-content-center justify-content-md-end">
                             <span class="span_black text-nowrap">تطور البنية التحتية</span>
                             <div class="div_width_hover"></div>
                         </div>
-                        <div class="col icon_click d-flex align-items-center gap-2 flex_hover mt-5 justify-content-end">
+                        <div
+                            class="col icon_click d-flex align-items-center gap-2 flex_hover mt-5 justify-content-center justify-content-md-end">
                             <span class="span_black text-nowrap">تطور الانتاج</span>
                             <div class="div_width_hover"></div>
                         </div>
-                        <div class="col icon_click d-flex align-items-center gap-2 flex_hover mt-5 justify-content-end">
+                        <div
+                            class="col icon_click d-flex align-items-center gap-2 flex_hover mt-5 justify-content-center justify-content-md-end">
                             <span class="span_black text-nowrap">تطور الزراعة</span>
                             <div class="div_width_hover"></div>
                         </div>
-                        <div class="col icon_click d-flex align-items-center gap-2 flex_hover mt-5 justify-content-end">
+                        <div
+                            class="col icon_click d-flex align-items-center gap-2 flex_hover mt-5 justify-content-center justify-content-md-end">
                             <span class="span_black text-nowrap">تطور الصناعة</span>
                             <div class="div_width_hover"></div>
                         </div>

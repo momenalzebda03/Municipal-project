@@ -41,7 +41,7 @@
                     <section class="row mt-2">
                         <div class="col mt-3" data-aos="fade-right">
                             <div
-                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click">
+                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-shower p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
                                 <p class="text_hover">صيانة شبكات صرف صحي ومرافق في مناطق متفرقة بمدينة غزة</p>
                                 <p>فلسطين - غزة - الشجاعية<i class="fas fa-map-marker-alt ps-2"></i></p>
@@ -66,7 +66,7 @@
                         </div>
                         <div class="col mt-3" data-aos="fade-down">
                             <div
-                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click">
+                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-road p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
                                 <p class="text_hover">مشروع صيانة شارع السدرة وشارع الصحابة بالمدينة</p>
                                 <p>فلسطين - غزة - الشجاعية<i class="fas fa-map-marker-alt ps-2"></i></p>
@@ -91,7 +91,7 @@
                         </div>
                         <div class="col mt-3" data-aos="flip-left">
                             <div
-                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click">
+                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-faucet p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
                                 <p class="text_hover">تأهيل شبكة المياه في منطقة الصبرة ومناطق متفرقة في مدينة غزة</p>
                                 <p>فلسطين - غزة - الرمال<i class="fas fa-map-marker-alt ps-2"></i></p>
@@ -116,7 +116,7 @@
                         </div>
                         <div class="col mt-3" data-aos="fade-up">
                             <div
-                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click">
+                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-road p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
                                 <p class="text_hover">توريد وتركيب حجر جبهة وبلاط انتر لوك في مناطق متفرقة من مدينة غزة</p>
                                 <p>فلسطين - غزة - الشجاعية<i class="fas fa-map-marker-alt ps-2"></i></p>
@@ -141,7 +141,7 @@
                         </div>
                         <div class="col mt-3" data-aos="fade-left">
                             <div
-                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click">
+                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-faucet p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
                                 <p class="text_hover">تأهيل شبكة المياه في منطقة الصبرة ومناطق متفرقة في مدينة غزة</p>
                                 <p>فلسطين - غزة - الرمال<i class="fas fa-map-marker-alt ps-2"></i></p>
@@ -170,7 +170,7 @@
                     <section class="row mt-2">
                         <div class="col mt-3" data-aos="fade-right">
                             <div
-                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click">
+                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-shower p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
                                 <p class="text_hover">صيانة شبكات صرف صحي ومرافق في مناطق متفرقة بمدينة غزة</p>
                                 <p>فلسطين - غزة - الشجاعية<i class="fas fa-map-marker-alt ps-2"></i></p>
@@ -195,7 +195,7 @@
                         </div>
                         <div class="col mt-3" data-aos="fade-down">
                             <div
-                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click">
+                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-road p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
                                 <p class="text_hover">مشروع صيانة شارع السدرة وشارع الصحابة بالمدينة</p>
                                 <p>فلسطين - غزة - الشجاعية<i class="fas fa-map-marker-alt ps-2"></i></p>
@@ -220,7 +220,7 @@
                         </div>
                         <div class="col mt-3" data-aos="flip-left">
                             <div
-                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click">
+                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-faucet p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
                                 <p class="text_hover">تأهيل شبكة المياه في منطقة الصبرة ومناطق متفرقة في مدينة غزة</p>
                                 <p>فلسطين - غزة - الرمال<i class="fas fa-map-marker-alt ps-2"></i></p>
@@ -245,7 +245,7 @@
                         </div>
                         <div class="col mt-3" data-aos="fade-up">
                             <div
-                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click">
+                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-road p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
                                 <p class="text_hover">توريد وتركيب حجر جبهة وبلاط انتر لوك في مناطق متفرقة من مدينة غزة</p>
                                 <p>فلسطين - غزة - الشجاعية<i class="fas fa-map-marker-alt ps-2"></i></p>
@@ -270,7 +270,7 @@
                         </div>
                         <div class="col mt-3" data-aos="fade-left">
                             <div
-                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click">
+                                class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-faucet p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
                                 <p class="text_hover">تأهيل شبكة المياه في منطقة الصبرة ومناطق متفرقة في مدينة غزة</p>
                                 <p>فلسطين - غزة - الرمال<i class="fas fa-map-marker-alt ps-2"></i></p>
