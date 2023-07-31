@@ -6,15 +6,8 @@
           <router-link to="/" class="div_bottom text-center w-100">
             <img src="../../assets/image_logo/ImageLogo.png" alt="">
           </router-link>
-          <div class="text-center div_mia">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
         </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse">
           <div class="d-flex justify-content-between w-100 flex-column flex-lg-row">
             <div class="d-flex gap-0 gap-lg-4 text-center justify-content-center flex-column flex-md-row my-3 my-lg-0">
               <div class="fw-bold d-flex gap-2 align-items-center justify-content-center icon_hover">

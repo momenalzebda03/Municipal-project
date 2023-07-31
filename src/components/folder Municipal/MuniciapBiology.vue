@@ -3,9 +3,42 @@
     <!-- start main map 1-->
     <section class="container-fluid px-2 px-md-5 font_text overflow-hidden">
         <div class="row text-end">
-            <div class="col-lg-8" data-aos="fade-right">
-                <img loading="lazy" src="../../assets/image_municipal3/ImageMap.png" alt=""
-                    class="w-100 h-100 image_object icon_click" @click="div_click_block">
+            <div class="col-lg-8 position-relative d-inline-block" data-aos="fade-right">
+                <img src="../../assets/image_municipal3/Image1.png" alt=""
+                    class="image_position_one position-absolute image_none icon_click" @click="div_click_block"
+                    loading="lazy">
+                <img src="../../assets/image_municipal3/Image2.png" alt=""
+                    class="image_position_tow position-absolute image_none icon_click" @click="div_click_block"
+                    loading="lazy">
+                <img src="../../assets/image_municipal3/Image3.png" alt=""
+                    class="image_position_three position-absolute image_none icon_click" @click="div_click_block"
+                    loading="lazy">
+                <img src="../../assets/image_municipal3/Image4.png" alt=""
+                    class="image_position_four position-absolute image_none icon_click" @click="div_click_block"
+                    loading="lazy">
+                <img src="../../assets/image_municipal3/Image5.png" alt=""
+                    class="image_position_five position-absolute image_none icon_click" @click="div_click_block"
+                    loading="lazy">
+                <img src="../../assets/image_municipal3/Image6.png" alt=""
+                    class="image_position_six position-absolute image_none icon_click" @click="div_click_block"
+                    loading="lazy">
+                <img src="../../assets/image_municipal3/Image7.png" alt=""
+                    class="image_position_seven position-absolute image_none icon_click" @click="div_click_block"
+                    loading="lazy">
+                <img src="../../assets/image_municipal3/Image8.png" alt=""
+                    class="image_position_eat position-absolute image_none icon_click" @click="div_click_block"
+                    loading="lazy">
+                <img src="../../assets/image_municipal3/Image9.png" alt=""
+                    class="image_position_nine position-absolute image_none icon_click" @click="div_click_block"
+                    loading="lazy">
+                <img src="../../assets/image_municipal3/Image10.png" alt=""
+                    class="image_position_ten position-absolute image_none icon_click" @click="div_click_block"
+                    loading="lazy">
+                <img src="../../assets/image_municipal3/Image11.png" alt=""
+                    class="image_position_eleven position-absolute image_none icon_click" @click="div_click_block"
+                    loading="lazy">
+                <img loading="lazy" src="../../assets/image_municipal3/ImageMap.png" alt="" class="w-100 h-100 icon_click"
+                    @click="div_click_block">
                 <div class="bg-white div_mia position-absolute translate-middle start-50 top-50" v-show="div_none">
                     <div class="d-flex justify-content-end" @click="icon_exit">
                         <i class="fas fa-times fs-4 border-start border-bottom text-secondary p-3 back_hover"></i>
@@ -56,7 +89,7 @@
                 <div class="background_row overflow-auto h-100">
                     <div class="direction">
                         <h5 class="px-3 pt-3 span_red fw-bold">لجان الأحياء</h5>
-                        <div @click="div_click_block"
+                        <div @click="div_click_block_one" @dblclick="div_click_block"
                             class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
                             <div class="text-center text-md-end">
                                 <span class="div_color_hover mt-1">لجنة حي منطقة الشيخ رضوان</span>
@@ -66,7 +99,7 @@
                                 <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">1</p>
                             </div>
                         </div>
-                        <div @click="div_click_block"
+                        <div @click="div_click_block_tow" @dblclick="div_click_block"
                             class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
                             <div class="text-center text-md-end">
                                 <span class="div_color_hover mt-1">لجنة حي منطقة الزيتون</span>
@@ -76,7 +109,7 @@
                                 <p class="p_center p_backgrpund text-white mt-1 text-center rounded-circle">2</p>
                             </div>
                         </div>
-                        <div @click="div_click_block"
+                        <div @click="div_click_block_three" @dblclick="div_click_block"
                             class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
                             <div class="text-center text-md-end">
                                 <span class="div_color_hover mt-1">لجنة حي منطقة الشاطي الجنوبي</span>
@@ -86,7 +119,7 @@
                                 <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">3</p>
                             </div>
                         </div>
-                        <div @click="div_click_block"
+                        <div @click="div_click_block_four" @dblclick="div_click_block"
                             class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
                             <div class="text-center text-md-end">
                                 <span class="div_color_hover mt-1">لجنة حي منطقة الشاطي الشمالي وحي النصر</span>
@@ -96,7 +129,7 @@
                                 <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">4</p>
                             </div>
                         </div>
-                        <div @click="div_click_block"
+                        <div @click="div_click_block_five" @dblclick="div_click_block"
                             class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
                             <div class="text-center text-md-end">
                                 <span class="div_color_hover mt-1">لجنة حي منطقة المحطة - التفاح الغربي</span>
@@ -106,7 +139,7 @@
                                 <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">5</p>
                             </div>
                         </div>
-                        <div @click="div_click_block"
+                        <div @click="div_click_block_six" @dblclick="div_click_block"
                             class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
                             <div class="text-center text-md-end">
                                 <span class="div_color_hover mt-1">لجنة حي منطقة الدرج</span>
@@ -116,7 +149,7 @@
                                 <p class="p_center p_backgrpund text-white mt-1 text-center rounded-circle">6</p>
                             </div>
                         </div>
-                        <div @click="div_click_block"
+                        <div @click="div_click_block_seven" @dblclick="div_click_block"
                             class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
                             <div class="text-center text-md-end">
                                 <span class="div_color_hover mt-1">لجنة حي منطقة المحطة - التفاح الغربي</span>
@@ -126,7 +159,7 @@
                                 <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">7</p>
                             </div>
                         </div>
-                        <div @click="div_click_block"
+                        <div @click="div_click_block_nine" @dblclick="div_click_block"
                             class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
                             <div class="text-center text-md-end">
                                 <span class="div_color_hover mt-1">لجنة حي منطقة الدرج</span>
@@ -134,6 +167,36 @@
                             </div>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center p_backgrpund text-white mt-1 text-center rounded-circle">8</p>
+                            </div>
+                        </div>
+                        <div @click="div_click_block_eat" @dblclick="div_click_block"
+                            class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
+                            <div class="text-center text-md-end">
+                                <span class="div_color_hover mt-1">لجنة حي منطقة المحطة - التفاح الغربي</span>
+                                <p class="div_color_hover1 text-secondary mt-2">0598881878 <i class="fas fa-tty"></i></p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">9</p>
+                            </div>
+                        </div>
+                        <div @click="div_click_block_ten" @dblclick="div_click_block"
+                            class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
+                            <div class="text-center text-md-end">
+                                <span class="div_color_hover mt-1">لجنة حي منطقة الدرج</span>
+                                <p class="div_color_hover1 text-secondary mt-2">0598881878 <i class="fas fa-tty"></i></p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <p class="p_center p_backgrpund text-white mt-1 text-center rounded-circle">10</p>
+                            </div>
+                        </div>
+                        <div @click="div_click_block_eleven" @dblclick="div_click_block"
+                            class="py-2 px-3 div_hover_color icon_click fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end">
+                            <div class="text-center text-md-end">
+                                <span class="div_color_hover mt-1">لجنة حي منطقة الدرج</span>
+                                <p class="div_color_hover1 text-secondary mt-2">0598881878 <i class="fas fa-tty"></i></p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <p class="p_center p_backgrpund text-white mt-1 text-center rounded-circle">11</p>
                             </div>
                         </div>
                     </div>
@@ -159,10 +222,54 @@ export default {
     },
     methods: {
         div_click_block() {
-            this.div_none = !this.div_none
+            this.div_none = !this.div_none;
         },
         icon_exit() {
-            this.div_none = false
+            this.div_none = false;
+        },
+        div_click_block_one() {
+            var image_position_one = document.querySelector(".image_position_one");
+            image_position_one.style.width = "50px";
+        },
+        div_click_block_tow() {
+            var image_position_tow = document.querySelector(".image_position_tow");
+            image_position_tow.style.width = "50px";
+        },
+        div_click_block_three() {
+            var image_position_three = document.querySelector(".image_position_three");
+            image_position_three.style.width = "50px";
+        },
+        div_click_block_four() {
+            var image_position_four = document.querySelector(".image_position_four");
+            image_position_four.style.width = "50px";
+        },
+        div_click_block_five() {
+            var image_position_five = document.querySelector(".image_position_five");
+            image_position_five.style.width = "50px";
+        },
+        div_click_block_six() {
+            var image_position_six = document.querySelector(".image_position_six");
+            image_position_six.style.width = "50px";
+        },
+        div_click_block_seven() {
+            var image_position_seven = document.querySelector(".image_position_seven");
+            image_position_seven.style.width = "50px";
+        },
+        div_click_block_eat() {
+            var image_position_eat = document.querySelector(".image_position_eat");
+            image_position_eat.style.width = "50px";
+        },
+        div_click_block_nine() {
+            var image_position_nine = document.querySelector(".image_position_nine");
+            image_position_nine.style.width = "50px";
+        },
+        div_click_block_ten() {
+            var image_position_ten = document.querySelector(".image_position_ten");
+            image_position_ten.style.width = "50px";
+        },
+        div_click_block_eleven() {
+            var image_position_eleven = document.querySelector(".image_position_eleven");
+            image_position_eleven.style.width = "50px";
         }
     },
     mounted() {

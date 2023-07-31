@@ -1,10 +1,6 @@
 @import "color";
 
 // start afretang
-.image_object {
-    object-fit: cover;
-}
-
 .font_text {
     font-family: 'Almarai', sans-serif;
 }
@@ -467,17 +463,17 @@ body div .row div div div .div_more {
     background-color: $color_more;
 }
 
-body section div .row div div div div .link_hover a div div .icon_margin1,
-body section div .row div div div div .link_hover a div div .icon_margin {
+body section div .row .link_hover a div div .icon_margin1,
+body section div .row .link_hover a div div .icon_margin {
     margin-top: 5px;
     transition: 0.3s;
 }
 
-body section div .row div div div div .link_hover:hover .link {
+body section div .row .link_hover:hover .link {
     color: $color_red !important;
 }
 
-body section div .row div div div div .link_hover:hover .icon_margin1 {
+body section div .row .link_hover:hover .icon_margin1 {
     transform: translate(-5px, 0px);
 }
 
@@ -498,6 +494,17 @@ body section div .row div div div .div_more_carous {
 
 body section div .row div .div_top {
     top: -45px;
+}
+
+body section div .row div a .overlay_text {
+    bottom: 15%;
+    right: 30px;
+    font-size: 18px;
+}
+
+body section div .row div a .overlay_text .div_hr_vertical {
+    width: 2.5px;
+    height: 80px;
 }
 
 // end main home
@@ -1271,6 +1278,76 @@ body section .row div div div div .div_respone_width1 {
     width: 120%;
 }
 
+body section .row div .image_position_one,
+body section .row div .image_position_tow,
+body section .row div .image_position_three,
+body section .row div .image_position_four,
+body section .row div .image_position_five,
+body section .row div .image_position_six,
+body section .row div .image_position_seven,
+body section .row div .image_position_eat,
+body section .row div .image_position_nine,
+body section .row div .image_position_ten,
+body section .row div .image_position_eleven {
+    width: 40px;
+    transition: 0.5s;
+}
+
+body section .row div .image_position_one {
+    left: 50%;
+    top: 47%;
+}
+
+body section .row div .image_position_tow {
+    left: 58%;
+    top: 59%;
+}
+
+body section .row div .image_position_three {
+    left: 58%;
+    top: 74%;
+}
+
+body section .row div .image_position_four {
+    left: 46%;
+    top: 74%;
+}
+
+body section .row div .image_position_five {
+    left: 28%;
+    top: 85%;
+}
+
+body section .row div .image_position_six {
+    left: 33%;
+    top: 54%;
+}
+
+body section .row div .image_position_seven {
+    left: 28%;
+    top: 18%;
+}
+
+body section .row div .image_position_eat {
+    left: 76%;
+    top: 64%;
+}
+
+body section .row div .image_position_nine {
+    left: 86%;
+    top: 52%;
+}
+
+body section .row div .image_position_ten {
+    left: 75%;
+    top: 40%;
+}
+
+body section .row div .image_position_eleven {
+    left: 77%;
+    top: 18%;
+}
+
 // end main map 1
 // start main plan
 body section .row div div li .dropdown-toggle::after {
@@ -1878,7 +1955,7 @@ body section div .row div .div_box .box_1980 {
 }
 
 body section div .row div .div_box .box_2000 {
-    animation-name: animations_top_2000;    
+    animation-name: animations_top_2000;
     height: 35.5%;
 }
 
@@ -2175,6 +2252,10 @@ body section div .div_top_respons {
 }
 
 @media (max-width: 475px) {
+    body section div .row div a .overlay_text {
+        display: none !important;
+    }
+
     .div_statistic {
         width: 100%;
         height: 150px;

@@ -3,8 +3,43 @@
     <section class="font_text section_bottom position-relative container-fluid p-0 overflow-hidden">
         <div class="row">
             <div class="col-lg-8 px-0">
-                <img loading="lazy" src="../../assets/image_municipal5/ImageMap.png" alt=""
-                    class="w-100 h-100 icon_click image_object" data-aos="fade-right" @click="div_click_block">
+                <div class="position-relative h-100">
+                    <img src="../../assets/image_municipal3/Image1.png" alt=""
+                        class="image_position_one position-absolute image_none icon_click" @click="div_click_block"
+                        loading="lazy">
+                    <img src="../../assets/image_municipal3/Image2.png" alt=""
+                        class="image_position_tow position-absolute image_none icon_click" @click="div_click_block"
+                        loading="lazy">
+                    <img src="../../assets/image_municipal3/Image3.png" alt=""
+                        class="image_position_three position-absolute image_none icon_click" @click="div_click_block"
+                        loading="lazy">
+                    <img src="../../assets/image_municipal3/Image4.png" alt=""
+                        class="image_position_four position-absolute image_none icon_click" @click="div_click_block"
+                        loading="lazy">
+                    <img src="../../assets/image_municipal3/Image5.png" alt=""
+                        class="image_position_five position-absolute image_none icon_click" @click="div_click_block"
+                        loading="lazy">
+                    <img src="../../assets/image_municipal3/Image6.png" alt=""
+                        class="image_position_six position-absolute image_none icon_click" @click="div_click_block"
+                        loading="lazy">
+                    <img src="../../assets/image_municipal3/Image7.png" alt=""
+                        class="image_position_seven position-absolute image_none icon_click" @click="div_click_block"
+                        loading="lazy">
+                    <img src="../../assets/image_municipal3/Image8.png" alt=""
+                        class="image_position_eat position-absolute image_none icon_click" @click="div_click_block"
+                        loading="lazy">
+                    <img src="../../assets/image_municipal3/Image9.png" alt=""
+                        class="image_position_nine position-absolute image_none icon_click" @click="div_click_block"
+                        loading="lazy">
+                    <img src="../../assets/image_municipal3/Image10.png" alt=""
+                        class="image_position_ten position-absolute image_none icon_click" @click="div_click_block"
+                        loading="lazy">
+                    <img src="../../assets/image_municipal3/Image11.png" alt=""
+                        class="image_position_eleven position-absolute image_none icon_click" @click="div_click_block"
+                        loading="lazy">
+                    <img loading="lazy" src="../../assets/image_municipal5/ImageMap.png" alt=""
+                        class="w-100 h-100 icon_click" @click="div_click_block">
+                </div>
                 <div class="container-fluid px-5 image_none ms-4 container_image_center position-absolute bottom-0"
                     v-show="div_none">
                     <div class="overflow-y-auto overflow_height overflow-x-hidden">
@@ -78,7 +113,7 @@
                         </div>
                     </div>
                 </div>
-                <div @click="div_click_block"
+                <div @click="div_click_block_one" @dblclick="div_click_block"
                     class="pe-lg-5 pt-5 div_hover_color div_mia active_div_color icon_click fw-bold d-flex gap-lg-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
                     <div class="me-lg-5 text-secondary">
                         <p class="div_color_hover active_color_hover"><i class="fa-solid fa-circle-info me-2"
@@ -93,7 +128,7 @@
                         <p class="p_center p_backgrpund active_background text-center text-white mt-1 rounded-circle">1</p>
                     </div>
                 </div>
-                <div @click="div_click_block"
+                <div @click="div_click_block_tow" @dblclick="div_click_block"
                     class="pe-lg-5 pt-4 div_hover_color icon_click fw-bold d-flex gap-lg-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
                     <div class="me-lg-5 text-secondary">
                         <p class="div_color_hover"><i class="fa-solid fa-circle-info me-2" title="التفاصيل"></i> معلومات</p>
@@ -106,7 +141,7 @@
                         <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">2</p>
                     </div>
                 </div>
-                <div @click="div_click_block"
+                <div @click="div_click_block_three" @dblclick="div_click_block"
                     class="pe-lg-5 pt-4 div_hover_color icon_click fw-bold d-flex gap-lg-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
                     <div class="me-lg-5 text-secondary">
                         <p class="div_color_hover"><i class="fa-solid fa-circle-info me-2" title="التفاصيل"></i> معلومات</p>
@@ -119,7 +154,7 @@
                         <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">3</p>
                     </div>
                 </div>
-                <div @click="div_click_block"
+                <div @click="div_click_block_four" @dblclick="div_click_block"
                     class="pe-lg-5 pt-4 div_hover_color icon_click fw-bold d-flex gap-lg-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
                     <div class="me-lg-5 text-secondary">
                         <p class="div_color_hover"><i class="fa-solid fa-circle-info me-2" title="التفاصيل"></i> معلومات</p>
@@ -132,7 +167,7 @@
                         <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">4</p>
                     </div>
                 </div>
-                <div @click="div_click_block"
+                <div @click="div_click_block_five" @dblclick="div_click_block"
                     class="pe-lg-5 pt-4 div_hover_color icon_click fw-bold d-flex gap-lg-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
                     <div class="me-lg-5 text-secondary">
                         <p class="div_color_hover"><i class="fa-solid fa-circle-info me-2" title="التفاصيل"></i> معلومات</p>
@@ -145,7 +180,7 @@
                         <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">5</p>
                     </div>
                 </div>
-                <div @click="div_click_block"
+                <div @click="div_click_block_six" @dblclick="div_click_block"
                     class="pe-lg-5 pt-4 div_hover_color icon_click fw-bold d-flex gap-lg-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
                     <div class="me-lg-5 text-secondary">
                         <p class="div_color_hover"><i class="fa-solid fa-circle-info me-2" title="التفاصيل"></i> معلومات</p>
@@ -156,6 +191,71 @@
                     </div>
                     <div class="d-flex justify-content-center">
                         <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">6</p>
+                    </div>
+                </div>
+                <div @click="div_click_block_seven" @dblclick="div_click_block"
+                    class="pe-lg-5 pt-4 div_hover_color icon_click fw-bold d-flex gap-lg-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
+                    <div class="me-lg-5 text-secondary">
+                        <p class="div_color_hover"><i class="fa-solid fa-circle-info me-2" title="التفاصيل"></i> معلومات</p>
+                    </div>
+                    <div class="text-center text-lg-end">
+                        <span class="div_color_hover1 mt-1">المسلخ</span>
+                        <p class="div_color_hover2 mt-2">082555271 <i class="fas fa-tty"></i></p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">7</p>
+                    </div>
+                </div>
+                <div @click="div_click_block_nine" @dblclick="div_click_block"
+                    class="pe-lg-5 pt-4 div_hover_color icon_click fw-bold d-flex gap-lg-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
+                    <div class="me-lg-5 text-secondary">
+                        <p class="div_color_hover"><i class="fa-solid fa-circle-info me-2" title="التفاصيل"></i> معلومات</p>
+                    </div>
+                    <div class="text-center text-lg-end">
+                        <span class="div_color_hover1 mt-1">المسلخ</span>
+                        <p class="div_color_hover2 mt-2">082555271 <i class="fas fa-tty"></i></p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">8</p>
+                    </div>
+                </div>
+                <div @click="div_click_block_eat" @dblclick="div_click_block"
+                    class="pe-lg-5 pt-4 div_hover_color icon_click fw-bold d-flex gap-lg-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
+                    <div class="me-lg-5 text-secondary">
+                        <p class="div_color_hover"><i class="fa-solid fa-circle-info me-2" title="التفاصيل"></i> معلومات</p>
+                    </div>
+                    <div class="text-center text-lg-end">
+                        <span class="div_color_hover1 mt-1">المسلخ</span>
+                        <p class="div_color_hover2 mt-2">082555271 <i class="fas fa-tty"></i></p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">9</p>
+                    </div>
+                </div>
+                <div @click="div_click_block_ten" @dblclick="div_click_block"
+                    class="pe-lg-5 pt-4 div_hover_color icon_click fw-bold d-flex gap-lg-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
+                    <div class="me-lg-5 text-secondary">
+                        <p class="div_color_hover"><i class="fa-solid fa-circle-info me-2" title="التفاصيل"></i> معلومات</p>
+                    </div>
+                    <div class="text-center text-lg-end">
+                        <span class="div_color_hover1 mt-1">المسلخ</span>
+                        <p class="div_color_hover2 mt-2">082555271 <i class="fas fa-tty"></i></p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">10</p>
+                    </div>
+                </div>
+                <div @click="div_click_block_eleven" @dblclick="div_click_block"
+                    class="pe-lg-5 pt-4 div_hover_color icon_click fw-bold d-flex gap-lg-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
+                    <div class="me-lg-5 text-secondary">
+                        <p class="div_color_hover"><i class="fa-solid fa-circle-info me-2" title="التفاصيل"></i> معلومات</p>
+                    </div>
+                    <div class="text-center text-lg-end">
+                        <span class="div_color_hover1 mt-1">المسلخ</span>
+                        <p class="div_color_hover2 mt-2">082555271 <i class="fas fa-tty"></i></p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <p class="p_center p_backgrpund text-center text-white mt-1 rounded-circle">11</p>
                     </div>
                 </div>
             </div>
@@ -175,6 +275,50 @@ export default {
         }
     },
     methods: {
+        div_click_block_one() {
+            var image_position_one = document.querySelector(".image_position_one");
+            image_position_one.style.width = "50px";
+        },
+        div_click_block_tow() {
+            var image_position_tow = document.querySelector(".image_position_tow");
+            image_position_tow.style.width = "50px";
+        },
+        div_click_block_three() {
+            var image_position_three = document.querySelector(".image_position_three");
+            image_position_three.style.width = "50px";
+        },
+        div_click_block_four() {
+            var image_position_four = document.querySelector(".image_position_four");
+            image_position_four.style.width = "50px";
+        },
+        div_click_block_five() {
+            var image_position_five = document.querySelector(".image_position_five");
+            image_position_five.style.width = "50px";
+        },
+        div_click_block_six() {
+            var image_position_six = document.querySelector(".image_position_six");
+            image_position_six.style.width = "50px";
+        },
+        div_click_block_seven() {
+            var image_position_seven = document.querySelector(".image_position_seven");
+            image_position_seven.style.width = "50px";
+        },
+        div_click_block_eat() {
+            var image_position_eat = document.querySelector(".image_position_eat");
+            image_position_eat.style.width = "50px";
+        },
+        div_click_block_nine() {
+            var image_position_nine = document.querySelector(".image_position_nine");
+            image_position_nine.style.width = "50px";
+        },
+        div_click_block_ten() {
+            var image_position_ten = document.querySelector(".image_position_ten");
+            image_position_ten.style.width = "50px";
+        },
+        div_click_block_eleven() {
+            var image_position_eleven = document.querySelector(".image_position_eleven");
+            image_position_eleven.style.width = "50px";
+        },
         changePageTitle(newTitle) {
             document.title = newTitle;
         },

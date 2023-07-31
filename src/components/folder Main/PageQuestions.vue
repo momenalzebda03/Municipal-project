@@ -16,16 +16,11 @@
                                 <div class="div_margin rounded-3 p-3 shadow text-end">
                                     <p class="fw-bold">الإجابة</p>
                                     <div class="d-flex justify-content-end gap-2">
-                                        <p> تحتاج لتجهيز الاوراق والمستندات المطلوبة حسب نوع المعاملة ثم التوجه الى دائرة
-                                            خدمات الجمهور
-                                            او<br>.عن طريق نظام الخدمات الالكتروني لتدقيم المطلب
-                                        </p>
+                                        <p v-for="item in id_header" :key="item.id"> {{ item.answre1 }}</p>
                                         <p class="p_center mt-1 text-center fw-bold border border-1 rounded-circle">1</p>
                                     </div>
                                     <div class="d-flex justify-content-end gap-2">
-                                        <p> يتم المطالبة بالمستحقات المتراكمة على الوالد في حال وفاته وان تكون المستحقات تخص
-                                            المكان المراد الحصول على<br>الخدمة فيه
-                                        </p>
+                                        <p v-for="item in id_header" :key="item.id"> {{ item.answre2 }}</p>
                                         <p class="p_center mt-1 text-center fw-bold border border-1 rounded-circle">2</p>
                                     </div>
                                 </div>
@@ -34,15 +29,11 @@
                                 <div class="div_margin rounded-3 p-3 shadow text-end">
                                     <p class="fw-bold">الإجابة</p>
                                     <div class="d-flex justify-content-end gap-2">
-                                        <p> تحتاج لتجهيز الاوراق والمستندات المطلوبة حسب نوع المعاملة ثم التوجه الى دائرة
-                                            خدمات الجمهور او<br>.عن طريق نظام الخدمات الالكتروني لتدقيم المطلب
-                                        </p>
+                                        <p v-for="item in id_header" :key="item.id"> {{ item.answre1 }}</p>
                                         <p class="p_center mt-1 text-center fw-bold border border-1 rounded-circle">1</p>
                                     </div>
                                     <div class="d-flex justify-content-end gap-2">
-                                        <p> يتم المطالبة بالمستحقات المتراكمة على الوالد في حال وفاته وان تكون المستحقات تخص
-                                            المكان المراد الحصول على<br>الخدمة فيه
-                                        </p>
+                                        <p v-for="item in id_header" :key="item.id"> {{ item.answre2 }}</p>
                                         <p class="p_center mt-1 text-center fw-bold border border-1 rounded-circle">2</p>
                                     </div>
                                 </div>
@@ -51,15 +42,11 @@
                                 <div class="div_margin rounded-3 p-3 shadow text-end">
                                     <p class="fw-bold">الإجابة</p>
                                     <div class="d-flex justify-content-end gap-2">
-                                        <p> تحتاج لتجهيز الاوراق والمستندات المطلوبة حسب نوع المعاملة ثم التوجه الى دائرة
-                                            خدمات الجمهور او<br>.عن طريق نظام الخدمات الالكتروني لتدقيم المطلب
-                                        </p>
+                                        <p v-for="item in id_header" :key="item.id"> {{ item.answre1 }}</p>
                                         <p class="p_center mt-1 text-center fw-bold border border-1 rounded-circle">1</p>
                                     </div>
                                     <div class="d-flex justify-content-end gap-2">
-                                        <p> يتم المطالبة بالمستحقات المتراكمة على الوالد في حال وفاته وان تكون المستحقات تخص
-                                            المكان المراد الحصول على<br>الخدمة فيه
-                                        </p>
+                                        <p v-for="item in id_header" :key="item.id"> {{ item.answre2 }}</p>
                                         <p class="p_center mt-1 text-center fw-bold border border-1 rounded-circle">2</p>
                                     </div>
                                 </div>
@@ -68,15 +55,11 @@
                                 <div class="div_margin rounded-3 p-3 shadow text-end">
                                     <p class="fw-bold">الإجابة</p>
                                     <div class="d-flex justify-content-end gap-2">
-                                        <p> تحتاج لتجهيز الاوراق والمستندات المطلوبة حسب نوع المعاملة ثم التوجه الى دائرة
-                                            خدمات الجمهور او<br>.عن طريق نظام الخدمات الالكتروني لتدقيم المطلب
-                                        </p>
+                                        <p v-for="item in id_header" :key="item.id"> {{ item.answre1 }}</p>
                                         <p class="p_center mt-1 text-center fw-bold border border-1 rounded-circle">1</p>
                                     </div>
                                     <div class="d-flex justify-content-end gap-2">
-                                        <p> يتم المطالبة بالمستحقات المتراكمة على الوالد في حال وفاته وان تكون المستحقات تخص
-                                            المكان المراد الحصول على<br>الخدمة فيه
-                                        </p>
+                                        <p v-for="item in id_header" :key="item.id"> {{ item.answre2 }}</p>
                                         <p class="p_center mt-1 text-center fw-bold border border-1 rounded-circle">2</p>
                                     </div>
                                 </div>
@@ -85,15 +68,11 @@
                                 <div class="div_margin rounded-3 p-3 shadow text-end">
                                     <p class="fw-bold">الإجابة</p>
                                     <div class="d-flex justify-content-end gap-2">
-                                        <p> تحتاج لتجهيز الاوراق والمستندات المطلوبة حسب نوع المعاملة ثم التوجه الى دائرة
-                                            خدمات الجمهور او<br>.عن طريق نظام الخدمات الالكتروني لتدقيم المطلب
-                                        </p>
+                                        <p v-for="item in id_header" :key="item.id"> {{ item.answre1 }}</p>
                                         <p class="p_center mt-1 text-center fw-bold border border-1 rounded-circle">1</p>
                                     </div>
                                     <div class="d-flex justify-content-end gap-2">
-                                        <p> يتم المطالبة بالمستحقات المتراكمة على الوالد في حال وفاته وان تكون المستحقات تخص
-                                            المكان المراد الحصول على<br>الخدمة فيه
-                                        </p>
+                                        <p v-for="item in id_header" :key="item.id"> {{ item.answre2 }}</p>
                                         <p class="p_center mt-1 text-center fw-bold border border-1 rounded-circle">2</p>
                                     </div>
                                 </div>
@@ -120,23 +99,23 @@
                     </div>
                     <div class="fw-bold mt-5 bg-white px-4 py-3 shadow border border-1 rounded-3 my_active back_hover"
                         data-bs-slide-to="0" data-bs-target="#carouselExampleControls">
-                        <span>هل يتم مطالبتي بالمبالغ المستحقة على والدي؟</span>
+                        <span v-for="item in id_header" :key="item.id">{{ item.text_questions1 }}</span>
                     </div>
                     <div class="fw-bold mt-3 bg-white px-4 py-3 shadow border border-1 rounded-3 back_hover"
                         data-bs-slide-to="1" data-bs-target="#carouselExampleControls">
-                        <span>كيف يمكنني البدء باجراءات تقديم المعاملة؟</span>
+                        <span v-for="item in id_header" :key="item.id">{{ item.text_questions2 }}</span>
                     </div>
                     <div class="fw-bold mt-3 bg-white px-4 py-3 shadow border border-1 rounded-3 back_hover"
                         data-bs-slide-to="2" data-bs-target="#carouselExampleControls">
-                        <span>كيف يمكنني البدء باجراءات تقديم المعاملة؟</span>
+                        <span v-for="item in id_header" :key="item.id">{{ item.text_questions2 }}</span>
                     </div>
                     <div class="fw-bold mt-3 bg-white px-4 py-3 shadow border border-1 rounded-3 back_hover"
                         data-bs-slide-to="3" data-bs-target="#carouselExampleControls">
-                        <span>هل يمكنني تقديم معاملة نيابة عن والدي او شخص اخر؟ </span>
+                        <span v-for="item in id_header" :key="item.id">{{ item.text_questions3 }}</span>
                     </div>
                     <div class="fw-bold mt-3 bg-white px-4 py-3 shadow border border-1 rounded-3 back_hover"
                         data-bs-slide-to="4" data-bs-target="#carouselExampleControls">
-                        <span>ما هي المدة الزمنية للحصول على الخدمة؟</span>
+                        <span v-for="item in id_header" :key="item.id">{{ item.text_questions4 }}</span>
                     </div>
                 </div>
             </div>
@@ -171,6 +150,31 @@
         </div>
     </div>
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+const id_header = ref([]);
+
+onMounted(async () => {
+    const querySnapshot = await getDocs(collection(db, "PageQuestions"));
+    let firearray = [];
+    querySnapshot.forEach((doc) => {
+        const methods = {
+            id: doc.id,
+            text_questions1: doc.data().text_one,
+            text_questions2: doc.data().text_tow,
+            text_questions3: doc.data().text_three,
+            text_questions4: doc.data().text_four,
+            answre1: doc.data().answre_one,
+            answre2: doc.data().answre_tow,
+        };
+        firearray.push(methods);
+    });
+    id_header.value = firearray;
+});
+</script>
 
 <script>
 export default {

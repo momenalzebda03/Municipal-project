@@ -16,6 +16,25 @@
           <label for="active" class="h-100 w-100"></label>
           <div class="wrapper top-0 h-100 position-fixed div_active w-100 container-fluid d-flex justify-content-center">
             <ul class="position-absolute w-75">
+              <div class="d-flex justify-content-between flex-column flex-md-row">
+                <div class="fw-bold d-flex gap-2 align-items-center justify-content-center icon_hover">
+                  <span id="my_icon" class="fas fa-sun icon_click" @click="click_icon_1"></span>
+                  <span>+42°C</span>
+                </div>
+                <div class="text-center icon_hover">
+                  <i class="fas fa-clock me-2"></i>
+                  <span class="text_date">الإثنين 1 محرم 1443 - 09 أغسطس 2021 | 11:46 صباحا</span>
+                </div>
+              </div>
+              <div class="d-flex text-center justify-content-between align-items-center flex-column flex-md-row mt-5">
+                <router-link to="/">
+                  <img src="../src/assets/image_logo/ImageLogo.png" alt="">
+                </router-link>
+                <li class="nav-item dropdown nav-link text-center">
+                  <i class="fas fa-search icon_hover mx-3"></i>
+                  <i class="fas fa-user icon_hover"></i>
+                </li>
+              </div>
               <li><router-link :class="{ 'active_router_link': isActive('/') }" to="/"
                   class="router_link text-center py-3 position-absolute bg-white"><i title="الرئيسية"
                     :class="{ 'active_icon_hover_white': isActive('/') }"
@@ -50,6 +69,25 @@
           <label for="active" class="h-100 w-100"></label>
           <div class="wrapper top-0 h-100 position-fixed div_active w-100 container-fluid d-flex justify-content-center">
             <ul class="position-absolute w-75 top-0 mt-5">
+              <div class="d-flex justify-content-between flex-column flex-md-row">
+                <div class="fw-bold d-flex gap-2 align-items-center justify-content-center icon_hover">
+                  <span id="my_icon" class="fas fa-sun icon_click" @click="click_icon_1"></span>
+                  <span>+42°C</span>
+                </div>
+                <div class="text-center icon_hover">
+                  <i class="fas fa-clock me-2"></i>
+                  <span class="text_date">الإثنين 1 محرم 1443 - 09 أغسطس 2021 | 11:46 صباحا</span>
+                </div>
+              </div>
+              <div class="d-flex text-center justify-content-between align-items-center flex-column flex-md-row mt-5">
+                <router-link to="/">
+                  <img src="../src/assets/image_logo/ImageLogo.png" alt="">
+                </router-link>
+                <li class="nav-item dropdown nav-link text-center">
+                  <i class="fas fa-search icon_hover mx-3"></i>
+                  <i class="fas fa-user icon_hover"></i>
+                </li>
+              </div>
               <li><router-link
                   :class="{ 'active_router_link': isActive('/muiciapl') || isActive('/objectives') || isActive('/policy') || isActive('/section') }"
                   to="/muiciapl" class="router_link text-center py-3 position-absolute bg-white"><i title="الأهداف"
@@ -87,11 +125,9 @@
                     :class="{ 'active_icon_hover_white': isActive('/accompanying') }"
                     class="far fa-building fs-2 icon_hover_white text-black"></i></router-link>
               </li>
-              <li><router-link
-                  :class="{
-                    'active_router_link': isActive('/centers') || isActive('/centers1') || isActive('/centers2') || isActive('/centers3') || isActive('/centers4') || isActive('/centers5') || isActive('/centers6') || isActive('/centers7') || isActive('/center')
-                  }"
-                  to="/centers" class="router_link text-center py-3 position-absolute bg-white"><i title="المراكز"
+              <li><router-link :class="{
+                'active_router_link': isActive('/centers') || isActive('/centers1') || isActive('/centers2') || isActive('/centers3') || isActive('/centers4') || isActive('/centers5') || isActive('/centers6') || isActive('/centers7') || isActive('/center')
+              }" to="/centers" class="router_link text-center py-3 position-absolute bg-white"><i title="المراكز"
                     :class="{ 'active_icon_hover_white': isActive('/centers') || isActive('/centers1') || isActive('/centers2') || isActive('/centers3') || isActive('/centers4') || isActive('/centers5') || isActive('/centers6') || isActive('/centers7') || isActive('/center') }"
                     class="fa-solid fa-building-lock fs-2 icon_hover_white text-black"></i></router-link>
               </li>
@@ -109,6 +145,25 @@
           <label for="active" class="h-100 w-100"></label>
           <div class="wrapper top-0 h-100 position-fixed div_active w-100 container-fluid d-flex justify-content-center">
             <ul class="position-absolute w-75 top-0 mt-5">
+              <div class="d-flex justify-content-between flex-column flex-md-row">
+                <div class="fw-bold d-flex gap-2 align-items-center justify-content-center icon_hover">
+                  <span id="my_icon" class="fas fa-sun icon_click" @click="click_icon_1"></span>
+                  <span>+42°C</span>
+                </div>
+                <div class="text-center icon_hover">
+                  <i class="fas fa-clock me-2"></i>
+                  <span class="text_date">الإثنين 1 محرم 1443 - 09 أغسطس 2021 | 11:46 صباحا</span>
+                </div>
+              </div>
+              <div class="d-flex text-center justify-content-between align-items-center flex-column flex-md-row mt-5">
+                <router-link to="/">
+                  <img src="../src/assets/image_logo/ImageLogo.png" alt="">
+                </router-link>
+                <li class="nav-item dropdown nav-link text-center">
+                  <i class="fas fa-search icon_hover mx-3"></i>
+                  <i class="fas fa-user icon_hover"></i>
+                </li>
+              </div>
               <li><router-link :class="{ 'active_router_link': isActive('/place') }" to="/place"
                   class="router_link text-center py-3 position-absolute bg-white"><i title="الموقع"
                     :class="{ 'active_icon_hover_white': isActive('/place') }"
@@ -154,6 +209,25 @@
           <label for="active" class="h-100 w-100"></label>
           <div class="wrapper top-0 h-100 position-fixed div_active w-100 container-fluid d-flex justify-content-center">
             <ul class="position-absolute w-75">
+              <div class="d-flex justify-content-between flex-column flex-md-row">
+                <div class="fw-bold d-flex gap-2 align-items-center justify-content-center icon_hover">
+                  <span id="my_icon" class="fas fa-sun icon_click" @click="click_icon_1"></span>
+                  <span>+42°C</span>
+                </div>
+                <div class="text-center icon_hover">
+                  <i class="fas fa-clock me-2"></i>
+                  <span class="text_date">الإثنين 1 محرم 1443 - 09 أغسطس 2021 | 11:46 صباحا</span>
+                </div>
+              </div>
+              <div class="d-flex text-center justify-content-between align-items-center flex-column flex-md-row mt-5">
+                <router-link to="/">
+                  <img src="../src/assets/image_logo/ImageLogo.png" alt="">
+                </router-link>
+                <li class="nav-item dropdown nav-link text-center">
+                  <i class="fas fa-search icon_hover mx-3"></i>
+                  <i class="fas fa-user icon_hover"></i>
+                </li>
+              </div>
               <li><router-link :class="{ 'active_router_link': isActive('/public') || isActive('/water') }" to="/public"
                   class="router_link text-center py-3 position-absolute bg-white"><i title="الخدمات العامة"
                     :class="{ 'active_icon_hover_white': isActive('/public') || isActive('/water') }"
@@ -178,6 +252,25 @@
           <label for="active" class="h-100 w-100"></label>
           <div class="wrapper top-0 h-100 position-fixed div_active w-100 container-fluid d-flex justify-content-center">
             <ul class="position-absolute w-75">
+              <div class="d-flex justify-content-between flex-column flex-md-row">
+                <div class="fw-bold d-flex gap-2 align-items-center justify-content-center icon_hover">
+                  <span id="my_icon" class="fas fa-sun icon_click" @click="click_icon_1"></span>
+                  <span>+42°C</span>
+                </div>
+                <div class="text-center icon_hover">
+                  <i class="fas fa-clock me-2"></i>
+                  <span class="text_date">الإثنين 1 محرم 1443 - 09 أغسطس 2021 | 11:46 صباحا</span>
+                </div>
+              </div>
+              <div class="d-flex text-center justify-content-between align-items-center flex-column flex-md-row mt-5">
+                <router-link to="/">
+                  <img src="../src/assets/image_logo/ImageLogo.png" alt="">
+                </router-link>
+                <li class="nav-item dropdown nav-link text-center">
+                  <i class="fas fa-search icon_hover mx-3"></i>
+                  <i class="fas fa-user icon_hover"></i>
+                </li>
+              </div>
               <li><router-link :class="{ 'active_router_link': isActive('/list') }" to="/list"
                   class="router_link text-center py-3 position-absolute bg-white"><i title="المشاريع القائمة"
                     :class="{ 'active_icon_hover_white': isActive('/list') }"
@@ -202,6 +295,25 @@
           <label for="active" class="h-100 w-100"></label>
           <div class="wrapper top-0 h-100 position-fixed div_active w-100 container-fluid d-flex justify-content-center">
             <ul class="position-absolute w-75">
+              <div class="d-flex justify-content-between flex-column flex-md-row">
+                <div class="fw-bold d-flex gap-2 align-items-center justify-content-center icon_hover">
+                  <span id="my_icon" class="fas fa-sun icon_click" @click="click_icon_1"></span>
+                  <span>+42°C</span>
+                </div>
+                <div class="text-center icon_hover">
+                  <i class="fas fa-clock me-2"></i>
+                  <span class="text_date">الإثنين 1 محرم 1443 - 09 أغسطس 2021 | 11:46 صباحا</span>
+                </div>
+              </div>
+              <div class="d-flex text-center justify-content-between align-items-center flex-column flex-md-row mt-5">
+                <router-link to="/">
+                  <img src="../src/assets/image_logo/ImageLogo.png" alt="">
+                </router-link>
+                <li class="nav-item dropdown nav-link text-center">
+                  <i class="fas fa-search icon_hover mx-3"></i>
+                  <i class="fas fa-user icon_hover"></i>
+                </li>
+              </div>
               <li><router-link :class="{ 'active_router_link': isActive('/news') }" to="/news"
                   class="router_link text-center py-3 position-absolute bg-white"><i title="الأخبار"
                     :class="{ 'active_icon_hover_white': isActive('/news') }"
@@ -270,6 +382,11 @@ import HeaderRightCpap4 from "./components/folder header and footer/PageHeaderRi
 import HeaderRightCpap5 from "./components/folder header and footer/PageHeaderRight6.vue";
 
 export default {
+  data() {
+    return {
+      boolen: true
+    }
+  },
   components: {
     HeaderCpap,
     HeaderRightCpap,
@@ -324,6 +441,16 @@ export default {
     window.addEventListener("scroll", AOS.refresh);
   },
   methods: {
+    click_icon_1() {
+      var my_icon = document.getElementById("my_icon");
+      if (this.boolen == true) {
+        my_icon.classList = "fas fa-moon icon_click";
+        this.boolen = false;
+      } else {
+        my_icon.classList = "fas fa-sun icon_click";
+        this.boolen = true;
+      }
+    },
     isActive(path) {
       return this.$route.path === path;
     }

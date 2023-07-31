@@ -1,17 +1,17 @@
 <template>
     <!-- start main prposals-->
-    <section class="mt-md-5">
+    <section class="my-md-5">
         <div class="container-fluid px-4 font_text overflow-hidden">
             <div class="row">
                 <div class="col-lg-6 text-center text-lg-end mt-5 mb-2 mb-lg-0 my-lg-0" data-aos="fade-right">
                     <h5 class="span_red fw-bold">مقترحات</h5>
                     <p>.أهلا بك .. نحن على استعداد لخدمتك واستقبال كافة اقتراحاتك واستفساراتك</p>
-                    <form method="" enctype="multipart/form-data" action="">
+                    <form @submit.prevent="click_submit">
                         <div class="d-flex flex-column flex-lg-row gap-3 gap-lg-5 text-center text-md-end">
                             <div class="w-100">
                                 <label class="fw-bold me-2 font_text">الأسم كاملا</label>
                                 <br>
-                                <input type="text"
+                                <input type="text" v-model="proposal_name"
                                     class="mt-2 w-100 p-3 text-end select_backgound_input border border-1 shadow-sm rounded-4"
                                     placeholder="أدخل أسمك رباعيا">
                             </div>
@@ -31,14 +31,14 @@
                             <div class="w-100">
                                 <label class="fw-bold me-2 font_text">البريد الالكتروني</label>
                                 <br>
-                                <input type="text"
+                                <input type="email" v-model="phone_email"
                                     class="mt-2 w-100 p-3 text-end select_backgound_input border border-1 shadow-sm rounded-4"
                                     placeholder="أدخل بريدك الالكتروني">
                             </div>
                             <div class="w-100">
                                 <label class="fw-bold me-2 font_text">رقم الجوال</label>
                                 <br>
-                                <input type="text"
+                                <input type="number" v-model="phone_number"
                                     class="mt-2 w-100 p-3 text-end select_backgound_input border border-1 shadow-sm rounded-4"
                                     placeholder="أدخل رقم جوالك">
                             </div>
@@ -55,7 +55,7 @@
                             <div class="w-100">
                                 <label class="fw-bold me-2 font_text">عنوان السكن</label>
                                 <br>
-                                <input type="text"
+                                <input type="text" v-model="living"
                                     class="mt-2 w-100 p-3 text-end select_backgound_input border border-1 shadow-sm rounded-4"
                                     placeholder="أدخل عنوان سكنك">
                             </div>
@@ -77,10 +77,11 @@
                             <label for="">بيانات المقترح</label>
                             <br>
                             <div class="position-relative">
-                                <textarea class="w-100 mt-2 rounded-4 border border-1 shadow-sm text-end pt-2 pe-2"
+                                <textarea v-model="my_string"
+                                    class="w-100 mt-2 rounded-4 border border-1 shadow-sm text-end pt-2 pe-2"
                                     placeholder="... اكتب نص مقترحك هنا" rows="5"></textarea>
-                                <i
-                                    class="fab fa-telegram-plane position-absolute icon_absoute text-white fs-4 icon_width p-2"></i>
+                                <button type="submit"
+                                    class="fab fa-telegram-plane position-absolute border border-0 icon_absoute text-white fs-4 icon_width p-2"></button>
                             </div>
                         </div>
                     </form>
@@ -144,7 +145,7 @@
                         </div>
                     </div>
                     <a href="#">
-                        <img loading="lazy" src="../../assets/image_page_home/ImageMap1.png" alt=""
+                        <img loading="lazy" src="../../assets/image_page_home/ImageMap.png" alt=""
                             class="mt-4 row_width div_mia">
                     </a>
                 </div>
@@ -153,6 +154,33 @@
     </section>
     <!-- end main prposals-->
 </template>
+
+<script setup>
+import { ref } from "vue";
+import { db } from "@/firebase";
+import { addDoc, collection } from "firebase/firestore";
+const proposal_name = ref("");
+const phone_email = ref("");
+const phone_number = ref("");
+const my_string = ref("");
+const living = ref("");
+
+const click_submit = () => {
+    addDoc(collection(db, "Page_inert"), {
+        proposal_name: proposal_name.value,
+        phone_email: phone_email.value,
+        phone_number: phone_number.value,
+        my_string: my_string.value,
+        living: living.value,
+    });
+    proposal_name.value = "";
+    phone_email.value = "";
+    phone_number.value = "";
+    my_string.value = "";
+    living.value = "";
+}
+
+</script>
 
 <script>
 export default {
