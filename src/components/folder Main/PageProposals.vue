@@ -18,12 +18,12 @@
                             <div class="w-100">
                                 <label class="fw-bold me-2 font_text">نوع المقترح</label>
                                 <br>
-                                <select
+                                <select v-model="selected_option"
                                     class="mt-2 w-100 border border-1 shadow-sm p-3 text-end select_backgound rounded-4">
                                     <option value="">أختر نوع المقترح</option>
-                                    <option value="">غزة</option>
-                                    <option value="">رفح</option>
-                                    <option value="">رام الله</option>
+                                    <option value="غزة">غزة</option>
+                                    <option value="رفح">رفح</option>
+                                    <option value="رام الله">رام الله</option>
                                 </select>
                             </div>
                         </div>
@@ -66,7 +66,7 @@
                                 class="w-100 bg-white mt-2 border border-1 shadow-sm rounded-4 p-5 d-flex justify-content-center align-items-center">
                                 <div class="text-center">
                                     <label for="fileInput" id="selectedFileName">
-                                        <input type="file" id="fileInput" class="d-none">
+                                        <input type="file" id="fileInput" @change="text_image" class="d-none">
                                         <span class="span_red fw-bold icon_click">ارفاق ملف</span> أو السحب والأفلات
                                         هنا<br>يجب ألا يزيد حجم الملف عن 5 ميجا
                                     </label>
@@ -80,8 +80,8 @@
                                 <textarea v-model="my_string"
                                     class="w-100 mt-2 rounded-4 border border-1 shadow-sm text-end pt-2 pe-2"
                                     placeholder="... اكتب نص مقترحك هنا" rows="5"></textarea>
-                                <button type="submit"
-                                    class="fab fa-telegram-plane position-absolute border border-0 icon_absoute text-white fs-4 icon_width p-2"></button>
+                                <button type="submit" class=" fab fa-telegram-plane position-absolute border border-0 icon_absoute
+                                    text-white fs-4 icon_width p-2"></button>
                             </div>
                         </div>
                     </form>
@@ -164,22 +164,40 @@ const phone_email = ref("");
 const phone_number = ref("");
 const my_string = ref("");
 const living = ref("");
+const selected_option = ref("");
+const selectedImageName = ref("");
+const imageFile = ref(null);
+const text_image = (event) => {
+    const file = event.target.files[0];
+    if (file) {
+        imageFile.value = file;
+        selectedImageName.value = file.name;
+    } else {
+        imageFile.value = null;
+        selectedImageName.value = "";
+    }
+}
 
-const click_submit = () => {
+const click_submit = async () => {
+    const name_image = selectedImageName.value;
     addDoc(collection(db, "Page_inert"), {
         proposal_name: proposal_name.value,
         phone_email: phone_email.value,
         phone_number: phone_number.value,
         my_string: my_string.value,
         living: living.value,
+        selected_option: selected_option.value,
+        name_image: name_image
     });
     proposal_name.value = "";
     phone_email.value = "";
     phone_number.value = "";
     my_string.value = "";
     living.value = "";
+    selected_option.value = "";
+    selectedImageName.value = "";
+    imageFile.value = null;
 }
-
 </script>
 
 <script>
@@ -191,7 +209,6 @@ export default {
     mounted() {
         const fileInput = document.getElementById('fileInput');
         const selectedFileName = document.getElementById('selectedFileName');
-
         fileInput.addEventListener('change', () => {
             if (fileInput.files.length > 0) {
                 selectedFileName.textContent = fileInput.files[0].name;

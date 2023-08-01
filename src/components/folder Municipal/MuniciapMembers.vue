@@ -24,92 +24,77 @@
                 </div>
                 <div class="col-md-6 text-center text-md-end mt-4 mt-md-0" data-aos="fade-left">
                     <p class="fw-bold">أعضاء المجلس البلدي الحاليين</p>
-                    <p>تسلم المجلس البلدي إدارة بلدية غزة مطلع آب/أغسطس 2016، في وقت تعاني فيه البلدية أزمة
-                        مالية كبيرة وترهلا إداريا وقلة في الموارد والإمكانات. ويضم المجلس البلدي 11 عضوا نشيطا يحملون
-                        شهادات ودرجات علمية عالية في تخصصات متنوعة، يمثلون أحياء ومناطق المدينة، ولديهم الرغبة والدافعية
-                        للنهوض بواقع مدينة غزة وبلديتها لتصبح البيت الحاضن للجميع. ويعمل المجلس البلدي على تحديد
-                        السياسات التي تحكم عمل البلدية، ويوفر الإشراف والمساءلة من خلال لجان متخصصة للمجلس إلى جانب
-                        الإجتماعات الدورية مع كوادر البلدية</p>
+                    <p v-for="item in id_header" :key="item.id">{{ item.text }}</p>
                     <div class="row text-center">
                         <div class="col my-4">
-                            <img loading="lazy" src="../../assets/image_municipal2/Personal1.png" alt=""
-                                class="mb-3 rounded-circle image_pisel">
+                            <img loading="lazy" :src="id_header[3]?.image1" alt="" class="mb-3 rounded-circle image_pisel">
                             <br>
-                            <span class="span_red text_poson text_poson fw-bold">م. هاشم سكيك</span>
+                            <span class="span_red text_poson fw-bold">{{ id_header[5]?.member1 }}</span>
                             <br>
-                            <span>عضو مجلس بلدي</span>
+                            <span>{{ id_header[4]?.job1 }}</span>
                         </div>
                         <div class="col my-4">
-                            <img loading="lazy" src="../../assets/image_municipal2/Personal2.png" alt=""
-                                class="mb-3 rounded-circle image_pisel">
+                            <img loading="lazy" :src="id_header[3]?.image2" alt="" class="mb-3 rounded-circle image_pisel">
                             <br>
-                            <span class="span_red text_poson fw-bold">أ. مروان الغول</span>
+                            <span class="span_red text_poson fw-bold">{{ id_header[5]?.member2 }}</span>
                             <br>
-                            <span>عضو مجلس بلدي</span>
+                            <span>{{ id_header[4]?.job1 }}</span>
                         </div>
                         <div class="col my-4">
-                            <img loading="lazy" src="../../assets/image_municipal2/Personal3.png" alt=""
-                                class="mb-3 rounded-circle image_pisel">
+                            <img loading="lazy" :src="id_header[3]?.image3" alt="" class="mb-3 rounded-circle image_pisel">
                             <br>
-                            <span class="span_red text_poson fw-bold">د. جميل طرزي</span>
+                            <span class="span_red text_poson fw-bold">{{ id_header[5]?.member3 }}</span>
                             <br>
-                            <span>عضو مجلس بلدي</span>
+                            <span>{{ id_header[4]?.job1 }}</span>
                         </div>
                         <div class="col my-4">
-                            <img loading="lazy" src="../../assets/image_municipal2/Personal4.png" alt=""
-                                class="mb-3 rounded-circle image_pisel">
+                            <img loading="lazy" :src="id_header[3]?.image4" alt="" class="mb-3 rounded-circle image_pisel">
                             <br>
-                            <span class="span_red text_poson fw-bold">أ. بدر صبرة</span>
+                            <span class="span_red text_poson fw-bold">{{ id_header[5]?.member4 }}</span>
                             <br>
-                            <span>عضو مجلس بلدي</span>
+                            <span>{{ id_header[4]?.job1 }}</span>
                         </div>
                         <div class="col my-4">
-                            <img loading="lazy" src="../../assets/image_municipal2/Personal5.png" alt=""
-                                class="mb-3 rounded-circle image_pisel">
+                            <img loading="lazy" :src="id_header[3]?.image5" alt="" class="mb-3 rounded-circle image_pisel">
                             <br>
-                            <span class="span_red text_poson fw-bold">أ. د. يحيى السراج</span>
+                            <span class="span_red text_poson fw-bold">{{ id_header[5]?.member5 }}</span>
                             <br>
-                            <span>رئيس بلدية غزة</span>
+                            <span>{{ id_header[4]?.job2 }}</span>
                         </div>
                         <div class="col my-4">
-                            <img loading="lazy" src="../../assets/image_municipal2/Personal6.png" alt=""
-                                class="mb-3 rounded-circle image_pisel">
+                            <img loading="lazy" :src="id_header[3]?.image6" alt="" class="mb-3 rounded-circle image_pisel">
                             <br>
-                            <span class="span_red text_poson fw-bold">أ. فداء المدهون</span>
+                            <span class="span_red text_poson fw-bold">{{ id_header[5]?.member6 }}</span>
                             <br>
-                            <span>عضو مجلس بلدي</span>
+                            <span>{{ id_header[4]?.job1 }}</span>
                         </div>
                         <div class="col my-4">
-                            <img loading="lazy" src="../../assets/image_municipal2/Personal7.png" alt=""
-                                class="mb-3 rounded-circle image_pisel">
+                            <img loading="lazy" :src="id_header[3]?.image7" alt="" class="mb-3 rounded-circle image_pisel">
                             <br>
-                            <span class="span_red text_poson fw-bold">أ. لؤي عياد</span>
+                            <span class="span_red text_poson fw-bold">{{ id_header[5]?.member7 }}</span>
                             <br>
-                            <span>عضو مجلس بلدي</span>
+                            <span>{{ id_header[4]?.job1 }}</span>
                         </div>
                         <div class="col my-4">
-                            <img loading="lazy" src="../../assets/image_municipal2/Personal8.png" alt=""
-                                class="mb-3 rounded-circle image_pisel">
+                            <img loading="lazy" :src="id_header[3]?.image8" alt="" class="mb-3 rounded-circle image_pisel">
                             <br>
-                            <span class="span_red text_poson fw-bold">أ. تامر الريس</span>
+                            <span class="span_red text_poson fw-bold">{{ id_header[5]?.member8 }}</span>
                             <br>
-                            <span>عضو مجلس بلدي</span>
+                            <span>{{ id_header[4]?.job1 }}</span>
                         </div>
                         <div class="col my-4">
-                            <img loading="lazy" src="../../assets/image_municipal2/Personal9.png" alt=""
-                                class="mb-3 rounded-circle image_pisel">
+                            <img loading="lazy" :src="id_header[3]?.image9" alt="" class="mb-3 rounded-circle image_pisel">
                             <br>
-                            <span class="span_red text_poson fw-bold">م. إسماعيل حمادة</span>
+                            <span class="span_red text_poson fw-bold">{{ id_header[5]?.member9 }}</span>
                             <br>
-                            <span>عضو مجلس بلدي</span>
+                            <span>{{ id_header[4]?.job1 }}</span>
                         </div>
                         <div class="col my-4">
-                            <img loading="lazy" src="../../assets/image_municipal2/Personal10.png" alt=""
-                                class="mb-3 rounded-circle image_pisel">
+                            <img loading="lazy" :src="id_header[3]?.image10" alt="" class="mb-3 rounded-circle image_pisel">
                             <br>
-                            <span class="span_red text_poson fw-bold">أ. مصطفى قزعاط</span>
+                            <span class="span_red text_poson fw-bold">{{ id_header[5]?.member10 }}</span>
                             <br>
-                            <span>عضو مجلس بلدي</span>
+                            <span>{{ id_header[4]?.job1 }}</span>
                         </div>
                     </div>
                 </div>
@@ -118,6 +103,58 @@
     </section>
     <!-- end main members -->
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+const id_header = ref([]);
+
+onMounted(async () => {
+    const querySnapshot = await getDocs(collection(db, "page_members"));
+    let firearray = [];
+    querySnapshot.forEach((doc) => {
+        const image1 = doc.data().image1;
+        const image2 = doc.data().image2;
+        const image3 = doc.data().image3;
+        const image4 = doc.data().image4;
+        const image5 = doc.data().image5;
+        const image6 = doc.data().image6;
+        const image7 = doc.data().image7;
+        const image8 = doc.data().image8;
+        const image9 = doc.data().image9;
+        const image10 = doc.data().image10;
+        const methods = {
+            id: doc.id,
+            member1: doc.data().member1,
+            member2: doc.data().member2,
+            member3: doc.data().member3,
+            member4: doc.data().member4,
+            member5: doc.data().member5,
+            member6: doc.data().member6,
+            member7: doc.data().member7,
+            member8: doc.data().member8,
+            member9: doc.data().member9,
+            member10: doc.data().member10,
+            job1: doc.data().job1,
+            job2: doc.data().job2,
+            text: doc.data().text,
+            image1: image1 ? require("@/assets/image_municipal2/" + image1) : null,
+            image2: image2 ? require("@/assets/image_municipal2/" + image2) : null,
+            image3: image3 ? require("@/assets/image_municipal2/" + image3) : null,
+            image4: image4 ? require("@/assets/image_municipal2/" + image4) : null,
+            image5: image5 ? require("@/assets/image_municipal2/" + image5) : null,
+            image6: image6 ? require("@/assets/image_municipal2/" + image6) : null,
+            image7: image7 ? require("@/assets/image_municipal2/" + image7) : null,
+            image8: image8 ? require("@/assets/image_municipal2/" + image8) : null,
+            image9: image9 ? require("@/assets/image_municipal2/" + image9) : null,
+            image10: image10 ? require("@/assets/image_municipal2/" + image10) : null,
+        };
+        firearray.push(methods);
+    });
+    id_header.value = firearray;
+});
+</script>
 
 <script>
 import KpapHeaderThreeTow from "../folder header and footer/Header3_2.vue";
@@ -133,7 +170,6 @@ export default {
         const image_border = window.localStorage.getItem("image_border");
         const text_poson = document.querySelectorAll(".text_poson");
         const text_left = document.getElementById("text_left");
-
         if (image_src) {
             div_leftImage.setAttribute("src", image_src);
         }
@@ -141,7 +177,6 @@ export default {
         if (storedText) {
             text_left.textContent = storedText;
         }
-
         image_pisel.forEach((image, index) => {
             image.addEventListener("click", () => {
                 const title = text_poson[index].textContent;
@@ -157,7 +192,6 @@ export default {
                 window.localStorage.setItem("image_border", newImageSrc);
             });
         });
-
         if (image_border && image_pisel.length) {
             const borderedImage = Array.from(image_pisel).find((img) => img.getAttribute("src") === image_border);
             if (borderedImage) {

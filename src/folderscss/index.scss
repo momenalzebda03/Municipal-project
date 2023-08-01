@@ -634,7 +634,7 @@ body section div div .div_hr {
 body section div div .row .col_hover .div_line {
     background-color: $color_green;
     width: 2.5px;
-    transform: translate(42px, 10px);
+    transform: translate(32px, 10px);
     z-index: -1;
     height: 78px;
 }
@@ -642,7 +642,7 @@ body section div div .row .col_hover .div_line {
 body section div div .row .col_hover::before {
     content: "";
     position: absolute;
-    transform: translate(35px, 34px);
+    transform: translate(25px, 34px);
     background-color: $color_red;
     padding: 8px;
     border-radius: 50%;
@@ -651,7 +651,7 @@ body section div div .row .col_hover::before {
 
 body section div div .row .col_hover .div_point {
     width: 2.5px;
-    transform: translate(40px, 40px);
+    transform: translate(30px, 40px);
     width: 5px;
     height: 5px;
     background-color: $color_white;
@@ -661,6 +661,7 @@ body section div div .row .col_hover .div_point {
 
 body section div div .row .col_hover .p_top {
     margin-top: -15%;
+    color: $color_green;
 }
 
 // end main date

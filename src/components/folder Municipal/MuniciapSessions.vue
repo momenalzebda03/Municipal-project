@@ -69,15 +69,17 @@
                     <div class="d-flex justify-content-end gap-0 gap-md-5 flex-column flex-md-row">
                         <div>
                             <div
-                                class="div_width_number px-2 px-md-0 fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
-                                <p class="mt-1">.تشجيع المشاركة المجتمعية في إدارة العمل</p>
+                                class="div_width_number px-2 px-md-0 fw-bold d-flex gap-md-1 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
+                                <p v-for="item in id_header" :key="item.id" class="mt-1">{{ item.decisions2
+                                }}</p>
                                 <p class="p_center mt-1 text-center border border-2 rounded-circle">2</p>
                             </div>
                         </div>
                         <div>
                             <div
-                                class="div_width_number px-2 px-md-0 fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
-                                <p class="mt-1">.توفير خدمات حياتية أفضل للمواطنين</p>
+                                class="div_width_number px-2 px-md-0 fw-bold d-flex gap-md-1 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
+                                <p v-for="item in id_header" :key="item.id" class="mt-1">{{ item.decisions1
+                                }}</p>
                                 <p class="p_center mt-1 text-center border border-2 rounded-circle">1</p>
                             </div>
                         </div>
@@ -85,15 +87,17 @@
                     <div class="d-flex justify-content-end gap-md-5 flex-column flex-md-row gap-0 text-center">
                         <div>
                             <div
-                                class="div_width_number px-2 px-md-0 fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
-                                <p class="mt-1">.تشجيع المشروعات التنموية والتطويري</p>
+                                class="div_width_number px-2 px-md-0 fw-bold d-flex gap-md-1 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
+                                <p v-for="item in id_header" :key="item.id" class="mt-1">{{ item.decisions4
+                                }}</p>
                                 <p class="p_center mt-1 text-center border border-2 rounded-circle">4</p>
                             </div>
                         </div>
                         <div>
                             <div
-                                class="div_width_number px-2 px-md-0 fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
-                                <p class="mt-1">.خلق جو صحي للعمل والاستقرار الوظيفي</p>
+                                class="div_width_number px-2 px-md-0 fw-bold d-flex gap-md-1 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
+                                <p v-for="item in id_header" :key="item.id" class="mt-1">{{ item.decisions3
+                                }}</p>
                                 <p class="p_center mt-1 text-center border border-2 rounded-circle">3</p>
                             </div>
                         </div>
@@ -101,15 +105,17 @@
                     <div class="d-flex justify-content-end gap-md-5 flex-column flex-md-row gap-0 text-center">
                         <div>
                             <div
-                                class="div_width_number px-2 px-md-0 fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
-                                <p class="mt-1">.تشجيع المشروعات التنموية والتطويري</p>
+                                class="div_width_number px-2 px-md-0 fw-bold d-flex gap-md-1 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
+                                <p v-for="item in id_header" :key="item.id" class="mt-1">{{ item.decisions4
+                                }}</p>
                                 <p class="p_center mt-1 text-center border border-2 rounded-circle">6</p>
                             </div>
                         </div>
                         <div>
                             <div
-                                class="div_width_number px-2 px-md-0 fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
-                                <p class="mt-1">.المساعدة في خلق فرص عمل</p>
+                                class="div_width_number px-2 px-md-0 fw-bold d-flex gap-md-1 flex-md-row flex-column-reverse justify-content-center justify-content-md-end align-items-center">
+                                <p v-for="item in id_header" :key="item.id" class="mt-1">{{ item.decisions5
+                                }}</p>
                                 <p class="p_center mt-1 text-center border border-2 rounded-circle">5</p>
                             </div>
                         </div>
@@ -117,34 +123,34 @@
                     <p class="fw-bold span_red my-2">الأعضاء الحاضرين</p>
                     <div class="row text-center">
                         <div class="col my-4">
-                            <img loading="lazy" src="../../assets/image_municipal2/Personal1.png" alt=""
-                                class="mb-3 rounded-circle image_pisel">
+                            <img loading="lazy" :src="id_header[3]?.image1" alt="" class="mb-3 rounded-circle image_pisel">
                             <br>
-                            <span class="span_red fw-bold">م. هاشم سكيك</span>
+                            <span class="span_red fw-bold" v-for="item in id_header" :key="item.id">{{ item.member1
+                            }}</span>
                         </div>
                         <div class="col my-4">
-                            <img loading="lazy" src="../../assets/image_municipal2/Personal2.png" alt=""
-                                class="mb-3 rounded-circle image_pisel">
+                            <img loading="lazy" :src="id_header[3]?.image2" alt="" class="mb-3 rounded-circle image_pisel">
                             <br>
-                            <span class="span_red fw-bold">أ. مروان الغول</span>
+                            <span class="span_red fw-bold" v-for="item in id_header" :key="item.id">{{ item.member2
+                            }}</span>
                         </div>
                         <div class="col my-4">
-                            <img loading="lazy" src="../../assets/image_municipal2/Personal3.png" alt=""
-                                class="mb-3 rounded-circle image_pisel">
+                            <img loading="lazy" :src="id_header[3]?.image3" alt="" class="mb-3 rounded-circle image_pisel">
                             <br>
-                            <span class="span_red fw-bold">د. جميل طرزي</span>
+                            <span class="span_red fw-bold" v-for="item in id_header" :key="item.id">{{ item.member3
+                            }}</span>
                         </div>
                         <div class="col my-4">
-                            <img loading="lazy" src="../../assets/image_municipal2/Personal4.png" alt=""
-                                class="mb-3 rounded-circle image_pisel">
+                            <img loading="lazy" :src="id_header[3]?.image4" alt="" class="mb-3 rounded-circle image_pisel">
                             <br>
-                            <span class="span_red fw-bold">أ. بدر صبرة</span>
+                            <span class="span_red fw-bold" v-for="item in id_header" :key="item.id">{{ item.member1
+                            }}</span>
                         </div>
                         <div class="col my-4">
-                            <img loading="lazy" src="../../assets/image_municipal2/Personal5.png" alt=""
-                                class="mb-3 rounded-circle image_pisel">
+                            <img loading="lazy" :src="id_header[3]?.image5" alt="" class="mb-3 rounded-circle image_pisel">
                             <br>
-                            <span class="span_red fw-bold">أ. د. يحيى السراج</span>
+                            <span class="span_red fw-bold" v-for="item in id_header" :key="item.id">{{ item.member5
+                            }}</span>
                         </div>
                     </div>
                 </div>
@@ -153,6 +159,45 @@
     </section>
     <!-- end main sessions -->
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+const id_header = ref([]);
+
+onMounted(async () => {
+    const querySnapshot = await getDocs(collection(db, "page_members"));
+    let firearray = [];
+    querySnapshot.forEach((doc) => {
+        const image1 = doc.data().image1;
+        const image2 = doc.data().image2;
+        const image3 = doc.data().image3;
+        const image4 = doc.data().image4;
+        const image5 = doc.data().image5;
+        const methods = {
+            id: doc.id,
+            member1: doc.data().member1,
+            member2: doc.data().member2,
+            member3: doc.data().member3,
+            member4: doc.data().member4,
+            member5: doc.data().member5,
+            image1: image1 ? require("@/assets/image_municipal2/" + image1) : null,
+            image2: image2 ? require("@/assets/image_municipal2/" + image2) : null,
+            image3: image3 ? require("@/assets/image_municipal2/" + image3) : null,
+            image4: image4 ? require("@/assets/image_municipal2/" + image4) : null,
+            image5: image5 ? require("@/assets/image_municipal2/" + image5) : null,
+            decisions1: doc.data().decisions1,
+            decisions2: doc.data().decisions2,
+            decisions3: doc.data().decisions3,
+            decisions4: doc.data().decisions4,
+            decisions5: doc.data().decisions5,
+        };
+        firearray.push(methods);
+    });
+    id_header.value = firearray;
+});
+</script>
 
 <script>
 import KpapHeaderThreeTow from "../folder header and footer/Header3_2.vue";
