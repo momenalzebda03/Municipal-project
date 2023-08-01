@@ -8,16 +8,13 @@
                 حيث تبلغ مساحة المدينة 56كم2، مما يجعلها من أكثر المدن كثافة سكانية</p>
         </div>
         <div class="row">
-            <router-link to="/water" data-aos="fade-right" class="col-md-6 col-lg-4 icon_click text-decoration-none mt-3">
+            <router-link :to="{ path: '/water/' + id_header[0]?.id }" data-aos="fade-right"
+                class="col-md-6 col-lg-4 icon_click text-decoration-none mt-3">
                 <div class="card p-3 shadow-sm h-100 button_padding">
                     <div class="card-body text-center text-lg-end">
                         <i class="fas fa-recycle p-3 border border-2 rounded-3 mb-4 button_icon_hover icon_color_hover"></i>
-                        <p class="card-title fw-bold">خدمات النظافة</p>
-                        <p class="card-text ms-lg-5"> تقدم خدمة جمع النفايات والفضلات من الشوارع والمنازل والمحلات
-                            العامة وتجميعها في محطة الترحيل المؤقتة بمنطقة اليرموك وسط
-                            المدينة، قبل نقلها وترحيلها إلى المكب الرئيس في منطقة جحر الديك
-                            .شرق مدينة غزة، والتعامل معها
-                        </p>
+                        <p class="card-title fw-bold" v-for="item in id_header" :key="item.id">{{ item.title1 }}</p>
+                        <p class="card-text ms-lg-5" v-for="item in id_header" :key="item.id">{{ item.text1 }}</p>
                         <div
                             class="d-flex justify-content-center justify-content-lg-end gap-3 text-center text-lg-end mt-5">
                             <div class="icon_back rounded-circle p-1 d-flex align-items-center">
@@ -28,17 +25,14 @@
                     </div>
                 </div>
             </router-link>
-            <router-link to="/water" data-aos="fade-down" class="col-md-6 col-lg-4 icon_click text-decoration-none mt-3">
+            <router-link :to="{ path: '/water/' + id_header[2]?.id }" data-aos="fade-down"
+                class="col-md-6 col-lg-4 icon_click text-decoration-none mt-3">
                 <div class="card p-3 shadow-sm h-100 button_padding">
                     <div class="card-body text-center text-lg-end">
                         <i
                             class="fas fa-swimming-pool p-3 border border-2 rounded-3 mb-4 button_icon_hover icon_color_hover"></i>
-                        <p class="card-title fw-bold">الصرف الصحي</p>
-                        <p class="card-text ms-lg-5"> تولي بلدية غزة قطاع الصرف الصحي اهتمامًا كبيرًا وتعمل على زيادة رقعة
-                            المناطق المشمولة بشبكات التصريف والحد من ظاهرة الآبار الامتصاصية
-                            التي تتسبب بتسرب المياه العادمة إلى الخزانات الجوفية وإلحاق أضرار
-                            .بالأراضي الزراعية والتربة
-                        </p>
+                        <p class="card-title fw-bold" v-for="item in id_header" :key="item.id">{{ item.title2 }}</p>
+                        <p class="card-text ms-lg-5" v-for="item in id_header" :key="item.id">{{ item.text2 }}</p>
                         <div
                             class="d-flex justify-content-center justify-content-lg-end gap-3 text-center text-lg-end mt-5">
                             <div class="icon_back rounded-circle p-1 d-flex align-items-center">
@@ -49,17 +43,14 @@
                     </div>
                 </div>
             </router-link>
-            <router-link to="/water" data-aos="fade-left" class="col-md-12 col-lg-4 icon_click text-decoration-none mt-3">
+            <router-link :to="{ path: '/water/' + id_header[1]?.id }" data-aos="fade-left"
+                class="col-md-12 col-lg-4 icon_click text-decoration-none mt-3">
                 <div class="card p-3 shadow-sm h-100 button_padding">
                     <div class="card-body text-center text-lg-end">
                         <i
                             class="fas fa-faucet-drip p-3 border border-2 rounded-3 mb-4 button_icon_hover icon_color_hover"></i>
-                        <p class="card-title fw-bold">توصيل المياه</p>
-                        <p class="card-text ms-lg-5"> خدمة تزويد سكان مدينة غزة بالمياه الصالحة للاستخدام من كافة
-                            المصادر المتاحة، وتعيين مواصفات لوازمها كالعدادات والشبكات وتنظيم
-                            توزيعها وتحديد أسعارها وبدل الاشتراك فيها، والتأكد من سلامتها
-                            .وجودتها ومنع تلوث مصادرها
-                        </p>
+                        <p class="card-title fw-bold" v-for="item in id_header" :key="item.id">{{ item.title3 }}</p>
+                        <p class="card-text ms-lg-5" v-for="item in id_header" :key="item.id">{{ item.text3 }}</p>
                         <div
                             class="d-flex justify-content-center justify-content-lg-end gap-3 text-center text-lg-end mt-5">
                             <div class="icon_back rounded-circle p-1 d-flex align-items-center">
@@ -74,6 +65,31 @@
     </section>
     <!-- start main public -->
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+const id_header = ref([]);
+
+onMounted(async () => {
+    const querySnapshot = await getDocs(collection(db, "page_services"));
+    let firearray = [];
+    querySnapshot.forEach((doc) => {
+        const methods = {
+            id: doc.id,
+            title1: doc.data().title1,
+            title2: doc.data().title2,
+            title3: doc.data().title3,
+            text1: doc.data().text1,
+            text2: doc.data().text2,
+            text3: doc.data().text3
+        };
+        firearray.push(methods);
+    });
+    id_header.value = firearray;
+});
+</script>
 
 <script>
 export default {

@@ -21,7 +21,7 @@
             <i class="fas fa-map fs-5"></i>
         </router-link>
         <router-link to="/museum" title="المتحف"
-            :class="{ 'active': isActive('/museum') || isActive('/Archaeology1') || isActive('/photo') }"
+            :class="{ 'active': isActive('/museum') || isActive('/Archaeology1') || isActive(`/photo/${this.photoId}`) }"
             class="div_border d-flex justify-content-center div_border text-decoration-none">
             <i class="fab fa-fort-awesome fs-5"></i>
         </router-link>
@@ -35,6 +35,11 @@ export default {
         isActive(path) {
             return this.$route.path === path;
         }
+    },
+    computed: {
+        photoId() {
+            return this.$route.params.id;
+        },
     }
 }
 </script>

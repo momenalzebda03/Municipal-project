@@ -190,9 +190,9 @@
                     class="fas fa-map fs-2 icon_hover_white text-black"></i></router-link>
               </li>
               <li><router-link
-                  :class="{ 'active_router_link': isActive('/museum') || isActive('/Archaeology1') || isActive('/photo') }"
+                  :class="{ 'active_router_link': isActive('/museum') || isActive('/Archaeology1') || isActive(`/photo/${photoId}`) }"
                   to="/museum" class="router_link text-center py-3 position-absolute bg-white"><i title="المتحف"
-                    :class="{ 'active_icon_hover_white': isActive('/museum') || isActive('/Archaeology1') || isActive('/photo') }"
+                    :class="{ 'active_icon_hover_white': isActive('/museum') || isActive('/Archaeology1') || isActive(`/photo/${photoId}`) }"
                     class="fab fa-fort-awesome fs-2 icon_hover_white text-black"></i></router-link>
               </li>
             </ul>
@@ -398,14 +398,17 @@ export default {
     HeaderRightCpap5
   },
   computed: {
+    photoId() {
+      return this.$route.params.id;
+    },
     div_margin_none() {
-      return this.$route.path !== "/accompanying" && this.$route.path !== "/citymap" && this.$route.path !== "/archaeology" && this.$route.path !== "/biology1" && this.$route.path !== "/photo" && this.$route.path !== "/image";
+      return this.$route.path !== "/accompanying" && this.$route.path !== "/citymap" && this.$route.path !== "/archaeology" && this.$route.path !== "/biology1" && this.$route.path !== `/photo/${this.photoId}` && this.$route.path !== "/image";
     },
     isMuiciaplRoute() {
       return this.$route.path === "/section" || this.$route.path === "/center" || this.$route.path === "/muiciapl" || this.$route.path == "/objectives" || this.$route.path == "/muiciapl" || this.$route.path == "/policy" || this.$route.path == "/date" || this.$route.path == "/council" || this.$route.path == "/members" || this.$route.path == "/sessions" || this.$route.path == "/committee" || this.$route.path == "/biology" || this.$route.path == "/plan" || this.$route.path == "/structure" || this.$route.path == "/money" || this.$route.path == "/money1" || this.$route.path == "/accompanying" || this.$route.path == "/centers" || this.$route.path == "/centers1" || this.$route.path == "/centers2" || this.$route.path == "/centers3" || this.$route.path == "/centers4" || this.$route.path == "/centers5" || this.$route.path == "/centers6" || this.$route.path == "/centers7";
     },
     isMuiciaplRoute1() {
-      return this.$route.path === "/place" || this.$route.path === "/civilization" || this.$route.path === "/biology1" || this.$route.path === "/archaeology" || this.$route.path === "/citymap" || this.$route.path === "/museum" || this.$route.path === "/Archaeology1" || this.$route.path === "/photo";
+      return this.$route.path === "/place" || this.$route.path === "/civilization" || this.$route.path === "/biology1" || this.$route.path === "/archaeology" || this.$route.path === "/citymap" || this.$route.path === "/museum" || this.$route.path === "/Archaeology1" || this.$route.path === `/photo/${this.photoId}`;
     },
     isMuiciaplRoute2() {
       return this.$route.path === "/public" || this.$route.path === "/water" || this.$route.path === "/system";
@@ -423,14 +426,14 @@ export default {
       return this.$route.path !== "/more" && this.$route.path !== "/viedo";
     },
     header_none1() {
-      return this.$route.path === "/image" || this.$route.path === "/accompanying" || this.$route.path === "/centers7" || this.$route.path === "/centers1" || this.$route.path === "/centers2" || this.$route.path === "/centers3" || this.$route.path === "/centers4" || this.$route.path === "/centers5" || this.$route.path === "/centers6" || this.$route.path === "/biology1" || this.$route.path === "/archaeology" || this.$route.path === "/citymap" || this.$route.path === "/photo";
+      return this.$route.path === "/image" || this.$route.path === "/accompanying" || this.$route.path === "/centers7" || this.$route.path === "/centers1" || this.$route.path === "/centers2" || this.$route.path === "/centers3" || this.$route.path === "/centers4" || this.$route.path === "/centers5" || this.$route.path === "/centers6" || this.$route.path === "/biology1" || this.$route.path === "/archaeology" || this.$route.path === "/citymap" || this.$route.path === `/photo/${this.photoId}`;
     },
     shouldShowBackground() {
-      return this.$route.path !== "/" && this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/viedo" && this.$route.path !== "/accompanying" && this.$route.path !== "/biology1" && this.$route.path !== "/archaeology" && this.$route.path !== "/citymap" && this.$route.path !== "/photo";
+      return this.$route.path !== "/" && this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/viedo" && this.$route.path !== "/accompanying" && this.$route.path !== "/biology1" && this.$route.path !== "/archaeology" && this.$route.path !== "/citymap" && this.$route.path !== `/photo/${this.photoId}`;
     },
 
     shouldShowBackground1() {
-      return this.$route.path !== "/" && this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/viedo" && this.$route.path !== "/date" && this.$route.path !== "/accompanying" && this.$route.path !== "/biology1" && this.$route.path !== "/archaeology" && this.$route.path !== "/citymap" && this.$route.path !== "/photo";
+      return this.$route.path !== "/" && this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/viedo" && this.$route.path !== "/date" && this.$route.path !== "/accompanying" && this.$route.path !== "/biology1" && this.$route.path !== "/archaeology" && this.$route.path !== "/citymap" && this.$route.path !== `/photo/${this.photoId}`;
     },
     footer_none() {
       return this.$route.path !== "/image" && this.$route.path !== "/more" && this.$route.path !== "/viedo";

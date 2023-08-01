@@ -19,7 +19,7 @@
                 <div class="p_border"></div>
             </router-link>
             <router-link to="/place"
-                :class="{ 'div_active': isActive('/place') || isActive('/civilization') || isActive('/biology1') || isActive('/archaeology') || isActive('/citymap') || isActive('/museum') || isActive('/Archaeology1') || isActive('/photo') }"
+                :class="{ 'div_active': isActive('/place') || isActive('/civilization') || isActive('/biology1') || isActive('/archaeology') || isActive('/citymap') || isActive('/museum') || isActive('/Archaeology1') || isActive(`/photo/${this.photoId}`) }"
                 class="col pt-4 text-center back_hover text-black text-decoration-none">
                 <p>المدينة</p>
                 <div class="p_border"></div>
@@ -40,6 +40,11 @@ export default {
         isActive(path) {
             return this.$route.path === path;
         }
+    },
+    computed: {
+        photoId() {
+            return this.$route.params.id;
+        },
     }
 }
 </script>

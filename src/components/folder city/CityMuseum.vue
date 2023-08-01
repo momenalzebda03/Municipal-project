@@ -17,10 +17,9 @@
                 <router-link to="/Archaeology1">
                     <div class="card card_hover icon_click rounded-3">
                         <div class="position-relative">
-                            <img loading="lazy" src="../../assets/image_civiil3/ImageMuseum.png"
-                                class="card-img-top w-100 p-3" alt="...">
-                            <div class="image_text w-100 translate-middle text-white position-absolute">الفلكلور الفلسطيني
-                            </div>
+                            <img :src="id_header[0]?.image1" loading="lazy" class="card-img-top w-100 p-3" alt="...">
+                            <div class="image_text w-100 translate-middle text-white position-absolute"
+                                v-for="item in id_header" :key="item.id">{{ item.title1 }}</div>
                         </div>
                     </div>
                 </router-link>
@@ -29,9 +28,9 @@
                 <router-link to="/Archaeology1">
                     <div class="card card_hover icon_click rounded-3">
                         <div class="position-relative">
-                            <img loading="lazy" src="../../assets/image_civiil3/ImageDabkeh.png"
-                                class="card-img-top w-100 p-3" alt="...">
-                            <div class="image_text w-100 translate-middle text-white position-absolute">الحرف اليدوية</div>
+                            <img :src="id_header[0]?.image2" loading="lazy" class="card-img-top w-100 p-3" alt="...">
+                            <div class="image_text w-100 translate-middle text-white position-absolute"
+                                v-for="item in id_header" :key="item.id">{{ item.title2 }}</div>
                         </div>
                     </div>
                 </router-link>
@@ -40,9 +39,9 @@
                 <router-link to="/Archaeology1">
                     <div class="card card_hover icon_click rounded-3">
                         <div class="position-relative">
-                            <img loading="lazy" src="../../assets/image_civiil3/ImageDate.png"
-                                class="card-img-top w-100 p-3" alt="...">
-                            <div class="image_text w-100 translate-middle text-white position-absolute">الأثار في غزة</div>
+                            <img :src="id_header[0]?.image3" loading="lazy" class="card-img-top w-100 p-3" alt="...">
+                            <div class="image_text w-100 translate-middle text-white position-absolute"
+                                v-for="item in id_header" :key="item.id">{{ item.title3 }}</div>
                         </div>
                     </div>
                 </router-link>
@@ -51,6 +50,34 @@
     </section>
     <!-- start main museum -->
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+const id_header = ref([]);
+
+onMounted(async () => {
+    const querySnapshot = await getDocs(collection(db, "page_museum"));
+    let firearray = [];
+    querySnapshot.forEach((doc) => {
+        const image1 = doc.data().image1;
+        const image2 = doc.data().image2;
+        const image3 = doc.data().image3;
+        const methods = {
+            id: doc.id,
+            title1: doc.data().title1,
+            title2: doc.data().title2,
+            title3: doc.data().title3,
+            image1: image1 ? require("@/assets/image_civiil3/" + image1) : null,
+            image2: image2 ? require("@/assets/image_civiil3/" + image2) : null,
+            image3: image3 ? require("@/assets/image_civiil3/" + image3) : null,
+        };
+        firearray.push(methods);
+    });
+    id_header.value = firearray;
+});
+</script>
 
 <script>
 export default {

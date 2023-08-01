@@ -185,7 +185,7 @@ const routes = [
     component: KpapArchaeology1,
   },
   {
-    path: "/photo",
+    path: "/photo/:id",
     component: KpapPhoto,
   },
   {
