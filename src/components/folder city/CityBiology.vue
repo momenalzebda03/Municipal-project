@@ -13,15 +13,10 @@
                                 <span class="span_background">استكشاف</span>
                                 <i class="fas fa-map-marker-alt"></i>
                             </router-link>
-                            <span class="fw-bold span_background">حي الشجاعية</span>
+                            <span class="fw-bold span_background" v-for="item in id_header" :key="item.id">{{
+                                item.title1 }}</span>
                         </div>
-                        <p class="mt-3 fw-bold span_background"> حي الشجاعية من أكبر أحياء مدينة غزة، ويقع إلى الشرق مباشرة
-                            من مدينة غزة وينقسم إلى قسمين الشجاعية الجنوبية (التركمان) والشجاعية الشمالية (اجديدة)، بُنى
-                            خلال عهد الأيوبيين، وينسب في تسميته إلى "شجاع الدين عثمان الكردي" الذي استشهد في إحدى المعارك
-                            بين الأيوبيين والصليبيين سنة 637 هجري/1239 ميلادي قد أنتصر المسلمون في هذه المعركة وكانت بعد
-                            معركة حطين .يسكنه حوالي 100,000 نسمة. الشجاعية تحتوي على العديد من الهياكل القديمة والمساجد
-                            والمقابر. تبعد مقبرة الحرب .العالمية الاولى 2 كيلومتر (1.2 ميل) إلى الشمال من المركز التجاري في
-                            الحي
+                        <p class="mt-3 fw-bold span_background" v-for="item in id_header" :key="item.id"> {{ item.text1 }}
                         </p>
                     </div>
                     <div class="mt-4 ps-md-5 ms-md-5 pe-md-3">
@@ -31,13 +26,10 @@
                                 <span class="span_background">استكشاف</span>
                                 <i class="fas fa-map-marker-alt"></i>
                             </router-link>
-                            <span class="fw-bold span_background">حي الشيخ رضوان</span>
+                            <span class="fw-bold span_background" v-for="item in id_header" :key="item.id">{{
+                                item.title2 }}</span>
                         </div>
-                        <p class="mt-3 fw-bold span_background"> حي الشيخ رضوان هو أحد أحياء مدينة غزة ويحده من الغرب مخيم
-                            الشاطئ للاجئين ومن الجنوب حي الرمال الشمالي ومن الشمال محافظة شمال قطاع غزة ومن الشرق يحده حي
-                            التفاح ومنطقة اليرموك. يعد حي الشيخ رضوان من أهم أحياء مدينة غزة حيث يمر به شارع الجلاء ويمر به
-                            أيضاً شارع النصر كما ويوجد به "مقبرة .الشيخ رضوان" أحد مقابر مدينة غزة و ممن دفن فيها القياديان
-                            أحمد ياسين وعبد العزيز الرنتيسي
+                        <p class="mt-3 fw-bold span_background" v-for="item in id_header" :key="item.id"> {{ item.text2 }}
                         </p>
                     </div>
                     <div class="mt-4 ps-md-5 ms-md-5 pe-md-3">
@@ -47,14 +39,11 @@
                                 <span class="span_background">استكشاف</span>
                                 <i class="fas fa-map-marker-alt"></i>
                             </router-link>
-                            <span class="fw-bold span_background">حي التفاح</span>
+                            <span class="fw-bold span_background" v-for="item in id_header" :key="item.id">{{
+                                item.title3 }}</span>
                         </div>
-                        <p class="mt-3 fw-bold span_background"> حي التفاح أحد احياء مدينة غزة ، تعود هذه التسمية لكثرة
-                            أشجار التفاح التي كانت تنتشر في هذا الحى وهو من الأحياء القديمة بمدينة غزة, تبلغ مساحته 2898
-                            دونم وبلغ عدد سكانه عام 2011م 41500 نسمة, اما , بالنسبة لللمراكز الصحية الموجودة ففيه مركزان
-                            للرعاية الأولية الحكومية هما عيادة الصوراني وعيادة الحرية ومركز صحي غزة يتبع وكالة الغوث، ومركز
-                            حيفا التابع لجمعية الصلاح الإسلامية, كما يوجد به العديد من .المدارس والمساجد منها مسجد علي ابن
-                            مروان الاثري, القعقاع- الجولاني ، وفيها فرع لجامعة الإسراء</p>
+                        <p class="mt-3 fw-bold span_background" v-for="item in id_header" :key="item.id"> {{ item.text3 }}
+                        </p>
                     </div>
                     <div class="mt-4 ps-md-5 ms-md-5 pe-md-3">
                         <div class="d-flex flex-column flex-md-row justify-content-end gap-4 align-items-center">
@@ -63,16 +52,11 @@
                                 <span class="span_background">استكشاف</span>
                                 <i class="fas fa-map-marker-alt"></i>
                             </router-link>
-                            <span class="fw-bold span_background">حي الدرج</span>
+                            <span class="fw-bold span_background" v-for="item in id_header" :key="item.id">{{
+                                item.title4 }}</span>
                         </div>
-                        <p class="mt-3 fw-bold span_background"> حي الدرج هو أحد أحياء غزة تبلغ مساحته 2820 دونم أي بنسبة
-                            8,8% من جملة مساحة مدينة غزة، وسبب تسميته بهذا الاسم يرجع إلى التدرج في طبوغرافية هذا الحي، ويضم
-                            الحي العديد من الحارات منها السيد هاشم، والسدرة، وقرقش، والفوأخير، وبني عامر، وبلغ عدد سكانه عام
-                            2011 50000 نسمة، ويوجد به مركز للرعاية الأولية الحكومية (مركز شهداء الدرج الصحي)، ومركز رعاية
-                            الأسرة التابع لجمعية اتحاد الكنائس، ومستشفى الخدمة العامة التابع لجمعية الخدمة العامة، ومركز
-                            الأطراف الصناعية التابع لبلدبة غزة، ومجمع الصحابة الطبي التابع لجمعية الصحابة، ومركز سان جون لطب
-                            وجراحة العيون التابع لجمعية ماريوحنا للعيون، ومركز الرضوان التابع لجمعية الأيدي الرحيمة، كما
-                            يتواجد بالحي العديد من المدارس الحكومية والتابعة لوكالة .غوث والخاصة وعلي كافة المراحل</p>
+                        <p class="mt-3 fw-bold span_background" v-for="item in id_header" :key="item.id"> {{ item.text4 }}
+                        </p>
                     </div>
                     <div class="mt-4 ps-md-5 ms-md-5 pe-md-3">
                         <div class="d-flex flex-column flex-md-row justify-content-end gap-4 align-items-center">
@@ -81,12 +65,11 @@
                                 <span class="span_background">استكشاف</span>
                                 <i class="fas fa-map-marker-alt"></i>
                             </router-link>
-                            <span class="fw-bold span_background">حي الرمال</span>
+                            <span class="fw-bold span_background" v-for="item in id_header" :key="item.id">{{
+                                item.title5 }}</span>
                         </div>
-                        <p class="mt-3 fw-bold span_background"> حي الرمال هو حي يقع في مدينة غزة على بعد 3 كيلومتر من مركز
-                            المدينة. يقع بمحاذاة الخط الساحلي، يعتبر أكثر الأحياء ازدهاراً في مدينة غزة. يقطع شارع عمر
-                            المختار، وهو الشارع الرئيسي في غزة، حي الرمال من الشمال إلى الجنوب و يتميز هذا الحي بالكثير من
-                            الوجود السكانى، نظرا لجماله الباهر الطبيعي، ولكونه مركزاً .تجاريا كبيرا</p>
+                        <p class="mt-3 fw-bold span_background" v-for="item in id_header" :key="item.id"> {{ item.text5 }}
+                        </p>
                     </div>
                 </div>
             </div>
@@ -120,6 +103,35 @@
         class="image_background_biology position-absolute">
     <!-- end main bilogy -->
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+const id_header = ref([]);
+
+onMounted(async () => {
+    const querySnapshot = await getDocs(collection(db, "page_hounsing"));
+    let firearray = [];
+    querySnapshot.forEach((doc) => {
+        const methods = {
+            id: doc.id,
+            title1: doc.data().title1,
+            title2: doc.data().title2,
+            title3: doc.data().title3,
+            title4: doc.data().title4,
+            title5: doc.data().title5,
+            text1: doc.data().text1,
+            text2: doc.data().text2,
+            text3: doc.data().text3,
+            text4: doc.data().text4,
+            text5: doc.data().text5
+        };
+        firearray.push(methods);
+    });
+    id_header.value = firearray;
+});
+</script>
 
 <script>
 export default {

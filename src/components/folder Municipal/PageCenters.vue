@@ -60,9 +60,8 @@
                 </div>
                 <div
                     class="d-flex text-end flex-column flex-sm-row align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
-                    <p class="fw-bold">مركز حديقةإسعاد الطفولة</p>
-                    <img loading="lazy" src="../../assets/image_municipal8/MyLogo1.png" alt=""
-                        class="border border-2 rounded-circle">
+                    <p class="fw-bold" v-for="item in id_header" :key="item.id">{{ item.title1 }}</p>
+                    <img loading="lazy" :src="id_header[1]?.logo1" alt="" class="border border-2 rounded-circle">
                 </div>
             </div>
         </nav>
@@ -106,15 +105,13 @@
                                         </div>
                                         <div>
                                             <div class="carousel-item active">
-                                                <p class="px-4">إنشاء الحدائق العامة وتشجير الشوارع والمحافظة على الشاطئ
-                                                    والقيام بأعمال الإنقاذ البحري
-                                                </p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                             <div class="carousel-item">
-                                                <p class="px-4">انشاء اعمال بناء</p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                             <div class="carousel-item">
-                                                <p class="px-4">انشاء اعمال هنا بناء</p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                         </div>
                                         <div data-bs-target="#carouselExampleControls1" data-bs-slide="next"
@@ -136,24 +133,21 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1"> تزويد الأشخاص الذين فقدوا أطراف سفلية أو علوية، فردية أو
-                                .مزدوجة، بالأطراف والأجهزة اللازمة لهم</p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj1 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">1</p>
                             </div>
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1"> تدريب الأشخاص المعاقين على استعمال أجهزتهم والانخراط
-                                .في المجتمع والاعتماد على ذاتهم وقدراتهم الخاصة</p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj2 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">2</p>
                             </div>
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1">تزويد المرضى وخاصة مرضى شلل الأطفال بالأجهزة المساعدة
-                                .الازمة لهم </p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj3 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">3</p>
                             </div>
@@ -167,12 +161,7 @@
                             <h6 class="fw-bold">رؤية المركز</h6>
                             <i class="icon_color fas fa-eye fs-4 p-3 border border-2 rounded-circle"></i>
                         </div>
-                        <p class="mt-2 me-2"> برزت مشكلة المعاقين حركيًا في سنة 1975، وفي وسط هموم قطاع غزة، الكبيرة
-                            والكثيرة، وكذلك الاعاقات الناتجة عن الحروب والتوتر الأمني، أو نتيجة أمراض السكر وحوادث الطرق،
-                            فقامت الهيئة الخيرية لقطاع غزة، وبشخص مؤسسها ورئيسها المرحوم الحاج/ رشاد الشوا بالدعوة إلى عقد
-                            لقاء بين مجموعة من مؤسسة غزية لإنشاء مركز للأطراف الصناعية يقوم على حل مشاكل المعاقين جسديًا
-                            ورعايتهم وتقديم العون الدائم لهم، وفعلا تم ايفاد شخصين للتدريب في .الأردن على صناعة الأطراف
-                            الصناعية لمدة عامين</p>
+                        <p class="mt-2 me-2" v-for="item in id_header" :key="item.id">{{ item.my_string }}</p>
                     </div>
                 </div>
             </div>
@@ -237,9 +226,8 @@
                     </div>
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
-                    <p class="fw-bold">ملعب اليرموك غزة</p>
-                    <img loading="lazy" src="../../assets/image_municipal8/MyLogo8.png" alt=""
-                        class="w-25 border border-2 rounded-circle">
+                    <p class="fw-bold" v-for="item in id_header" :key="item.id">{{ item.title2 }}</p>
+                    <img loading="lazy" :src="id_header[1]?.logo2" alt="" class="border border-2 rounded-circle">
                 </div>
             </div>
         </nav>
@@ -286,15 +274,13 @@
                                         </div>
                                         <div>
                                             <div class="carousel-item active">
-                                                <p class="px-4">إنشاء الحدائق العامة وتشجير الشوارع والمحافظة على الشاطئ
-                                                    والقيام بأعمال الإنقاذ البحري
-                                                </p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                             <div class="carousel-item">
-                                                <p class="px-4">انشاء اعمال بناء</p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                             <div class="carousel-item">
-                                                <p class="px-4">انشاء اعمال هنا بناء</p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                         </div>
                                         <div data-bs-target="#carouselExampleControls1" data-bs-slide="next"
@@ -316,8 +302,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1"> تزويد الأشخاص الذين فقدوا أطراف سفلية أو علوية، فردية أو
-                                .مزدوجة، بالأطراف والأجهزة اللازمة لهم</p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj1 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">1
                                 </p>
@@ -325,8 +310,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1"> تدريب الأشخاص المعاقين على استعمال أجهزتهم والانخراط
-                                .في المجتمع والاعتماد على ذاتهم وقدراتهم الخاصة</p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj2 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">2
                                 </p>
@@ -334,8 +318,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1">تزويد المرضى وخاصة مرضى شلل الأطفال بالأجهزة المساعدة
-                                .الازمة لهم </p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj3 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">3
                                 </p>
@@ -350,12 +333,7 @@
                             <h6 class="fw-bold">رؤية المركز</h6>
                             <i class="fas fa-eye fs-4 p-3 border border-2 rounded-circle icon_color_clirc1"></i>
                         </div>
-                        <p class="mt-2 me-2"> برزت مشكلة المعاقين حركيًا في سنة 1975، وفي وسط هموم قطاع غزة، الكبيرة
-                            والكثيرة، وكذلك الاعاقات الناتجة عن الحروب والتوتر الأمني، أو نتيجة أمراض السكر وحوادث الطرق،
-                            فقامت الهيئة الخيرية لقطاع غزة، وبشخص مؤسسها ورئيسها المرحوم الحاج/ رشاد الشوا بالدعوة إلى عقد
-                            لقاء بين مجموعة من مؤسسة غزية لإنشاء مركز للأطراف الصناعية يقوم على حل مشاكل المعاقين جسديًا
-                            ورعايتهم وتقديم العون الدائم لهم، وفعلا تم ايفاد شخصين للتدريب في .الأردن على صناعةالأطراف
-                            الصناعية لمدة عامين</p>
+                        <p class="mt-2 me-2" v-for="item in id_header" :key="item.id">{{ item.my_string }}</p>
                     </div>
                 </div>
             </div>
@@ -420,8 +398,8 @@
                     </div>
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
-                    <img loading="lazy" src="../../assets/image_municipal8/MyLogo7.png" alt=""
-                        class="w-75 border border-2 rounded-circle">
+                    <p class="fw-bold" v-for="item in id_header" :key="item.id">{{ item.title3 }}</p>
+                    <img loading="lazy" :src="id_header[1]?.logo3" alt="" class="border border-2 rounded-circle">
                 </div>
             </div>
         </nav>
@@ -468,15 +446,13 @@
                                         </div>
                                         <div>
                                             <div class="carousel-item active">
-                                                <p class="px-4">إنشاء الحدائق العامة وتشجير الشوارع والمحافظة على الشاطئ
-                                                    والقيام بأعمال الإنقاذ البحري
-                                                </p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                             <div class="carousel-item">
-                                                <p class="px-4">انشاء اعمال بناء</p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                             <div class="carousel-item">
-                                                <p class="px-4">انشاء اعمال هنا بناء</p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                         </div>
                                         <div data-bs-target="#carouselExampleControls1" data-bs-slide="next"
@@ -498,8 +474,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1"> تزويد الأشخاص الذين فقدوا أطراف سفلية أو علوية، فردية أو
-                                .مزدوجة، بالأطراف والأجهزة اللازمة لهم</p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj1 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">1
                                 </p>
@@ -507,8 +482,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1"> تدريب الأشخاص المعاقين على استعمال أجهزتهم والانخراط
-                                .في المجتمع والاعتماد على ذاتهم وقدراتهم الخاصة</p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj2 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">2
                                 </p>
@@ -516,8 +490,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1">تزويد المرضى وخاصة مرضى شلل الأطفال بالأجهزة المساعدة
-                                .الازمة لهم </p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj3 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">3
                                 </p>
@@ -532,12 +505,7 @@
                             <h6 class="fw-bold">رؤية المركز</h6>
                             <i class="fas fa-eye fs-4 p-3 border border-2 rounded-circle icon_color_clirc2"></i>
                         </div>
-                        <p class="mt-2 me-2"> برزت مشكلة المعاقين حركيًا في سنة 1975، وفي وسط هموم قطاع غزة، الكبيرة
-                            والكثيرة، وكذلك الاعاقات الناتجة عن الحروب والتوتر الأمني، أو نتيجة أمراض السكر وحوادث الطرق،
-                            فقامت الهيئة الخيرية لقطاع غزة، وبشخص مؤسسها ورئيسها المرحوم الحاج/ رشاد الشوا بالدعوة إلى عقد
-                            لقاء بين مجموعة من مؤسسة غزية لإنشاء مركز للأطراف الصناعية يقوم على حل مشاكل المعاقين جسديًا
-                            ورعايتهم وتقديم العون الدائم لهم، وفعلا تم ايفاد شخصين للتدريب في .الأردن على صناعةالأطراف
-                            الصناعية لمدة عامين</p>
+                        <p class="mt-2 me-2" v-for="item in id_header" :key="item.id">{{ item.my_string }}</p>
                     </div>
                 </div>
             </div>
@@ -602,9 +570,8 @@
                     </div>
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
-                    <p class="fw-bold">مكتبة بلدية غزة العامة</p>
-                    <img loading="lazy" src="../../assets/image_municipal8/MyLogo2.png" alt=""
-                        class="w-25 border border-2 rounded-circle">
+                    <p class="fw-bold" v-for="item in id_header" :key="item.id">{{ item.title4 }}</p>
+                    <img loading="lazy" :src="id_header[1]?.logo4" alt="" class="border border-2 rounded-circle">
                 </div>
             </div>
         </nav>
@@ -651,15 +618,13 @@
                                         </div>
                                         <div>
                                             <div class="carousel-item active">
-                                                <p class="px-4">إنشاء الحدائق العامة وتشجير الشوارع والمحافظة على الشاطئ
-                                                    والقيام بأعمال الإنقاذ البحري
-                                                </p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                             <div class="carousel-item">
-                                                <p class="px-4">انشاء اعمال بناء</p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                             <div class="carousel-item">
-                                                <p class="px-4">انشاء اعمال هنا بناء</p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                         </div>
                                         <div data-bs-target="#carouselExampleControls1" data-bs-slide="next"
@@ -681,8 +646,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1"> تزويد الأشخاص الذين فقدوا أطراف سفلية أو علوية، فردية أو
-                                .مزدوجة، بالأطراف والأجهزة اللازمة لهم</p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj1 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">1
                                 </p>
@@ -690,8 +654,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1"> تدريب الأشخاص المعاقين على استعمال أجهزتهم والانخراط
-                                .في المجتمع والاعتماد على ذاتهم وقدراتهم الخاصة</p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj2 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">2
                                 </p>
@@ -699,8 +662,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1">تزويد المرضى وخاصة مرضى شلل الأطفال بالأجهزة المساعدة
-                                .الازمة لهم </p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj3 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">3
                                 </p>
@@ -715,12 +677,7 @@
                             <h6 class="fw-bold">رؤية المركز</h6>
                             <i class="fas fa-eye fs-4 p-3 border border-2 rounded-circle icon_color_clirc2"></i>
                         </div>
-                        <p class="mt-2 me-2"> برزت مشكلة المعاقين حركيًا في سنة 1975، وفي وسط هموم قطاع غزة، الكبيرة
-                            والكثيرة، وكذلك الاعاقات الناتجة عن الحروب والتوتر الأمني، أو نتيجة أمراض السكر وحوادث الطرق،
-                            فقامت الهيئة الخيرية لقطاع غزة، وبشخص مؤسسها ورئيسها المرحوم الحاج/ رشاد الشوا بالدعوة إلى عقد
-                            لقاء بين مجموعة من مؤسسة غزية لإنشاء مركز للأطراف الصناعية يقوم على حل مشاكل المعاقين جسديًا
-                            ورعايتهم وتقديم العون الدائم لهم، وفعلا تم ايفاد شخصين للتدريب في .الأردن على صناعةالأطراف
-                            الصناعية لمدة عامين</p>
+                        <p class="mt-2 me-2" v-for="item in id_header" :key="item.id">{{ item.my_string }}</p>
                     </div>
                 </div>
             </div>
@@ -785,9 +742,8 @@
                     </div>
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
-                    <p class="fw-bold">قرية الفنون والحرف</p>
-                    <img loading="lazy" src="../../assets/image_municipal8/MyLogo3.png" alt=""
-                        class="w-25 border border-2 rounded-circle">
+                    <p class="fw-bold" v-for="item in id_header" :key="item.id">{{ item.title5 }}</p>
+                    <img loading="lazy" :src="id_header[1]?.logo5" alt="" class="border border-2 rounded-circle">
                 </div>
             </div>
         </nav>
@@ -834,15 +790,13 @@
                                         </div>
                                         <div>
                                             <div class="carousel-item active">
-                                                <p class="px-4">إنشاء الحدائق العامة وتشجير الشوارع والمحافظة على الشاطئ
-                                                    والقيام بأعمال الإنقاذ البحري
-                                                </p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                             <div class="carousel-item">
-                                                <p class="px-4">انشاء اعمال بناء</p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                             <div class="carousel-item">
-                                                <p class="px-4">انشاء اعمال هنا بناء</p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                         </div>
                                         <div data-bs-target="#carouselExampleControls1" data-bs-slide="next"
@@ -864,8 +818,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1"> تزويد الأشخاص الذين فقدوا أطراف سفلية أو علوية، فردية أو
-                                .مزدوجة، بالأطراف والأجهزة اللازمة لهم</p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj1 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">1
                                 </p>
@@ -873,8 +826,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1"> تدريب الأشخاص المعاقين على استعمال أجهزتهم والانخراط
-                                .في المجتمع والاعتماد على ذاتهم وقدراتهم الخاصة</p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj2 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">2
                                 </p>
@@ -882,8 +834,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1">تزويد المرضى وخاصة مرضى شلل الأطفال بالأجهزة المساعدة
-                                .الازمة لهم </p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj3 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">3
                                 </p>
@@ -898,12 +849,7 @@
                             <h6 class="fw-bold">رؤية المركز</h6>
                             <i class="fas fa-eye fs-4 p-3 border border-2 rounded-circle icon_color_clirc4"></i>
                         </div>
-                        <p class="mt-2 me-2"> برزت مشكلة المعاقين حركيًا في سنة 1975، وفي وسط هموم قطاع غزة، الكبيرة
-                            والكثيرة، وكذلك الاعاقات الناتجة عن الحروب والتوتر الأمني، أو نتيجة أمراض السكر وحوادث الطرق،
-                            فقامت الهيئة الخيرية لقطاع غزة، وبشخص مؤسسها ورئيسها المرحوم الحاج/ رشاد الشوا بالدعوة إلى عقد
-                            لقاء بين مجموعة من مؤسسة غزية لإنشاء مركز للأطراف الصناعية يقوم على حل مشاكل المعاقين جسديًا
-                            ورعايتهم وتقديم العون الدائم لهم، وفعلا تم ايفاد شخصين للتدريب في .الأردن على صناعةالأطراف
-                            الصناعية لمدة عامين</p>
+                        <p class="mt-2 me-2" v-for="item in id_header" :key="item.id">{{ item.my_string }}</p>
                     </div>
                 </div>
             </div>
@@ -968,9 +914,8 @@
                     </div>
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
-                    <p class="fw-bold">مكتبة بلدية غزة العامة</p>
-                    <img loading="lazy" src="../../assets/image_municipal8/MyLogo2.png" alt=""
-                        class="w-25 border border-2 rounded-circle">
+                    <p class="fw-bold" v-for="item in id_header" :key="item.id">{{ item.title6 }}</p>
+                    <img loading="lazy" :src="id_header[1]?.logo6" alt="" class="border border-2 rounded-circle">
                 </div>
             </div>
         </nav>
@@ -1017,15 +962,13 @@
                                         </div>
                                         <div>
                                             <div class="carousel-item active">
-                                                <p class="px-4">إنشاء الحدائق العامة وتشجير الشوارع والمحافظة على الشاطئ
-                                                    والقيام بأعمال الإنقاذ البحري
-                                                </p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                             <div class="carousel-item">
-                                                <p class="px-4">انشاء اعمال بناء</p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                             <div class="carousel-item">
-                                                <p class="px-4">انشاء اعمال هنا بناء</p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                         </div>
                                         <div data-bs-target="#carouselExampleControls1" data-bs-slide="next"
@@ -1047,8 +990,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1"> تزويد الأشخاص الذين فقدوا أطراف سفلية أو علوية، فردية أو
-                                .مزدوجة، بالأطراف والأجهزة اللازمة لهم</p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj1 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">1
                                 </p>
@@ -1056,8 +998,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1"> تدريب الأشخاص المعاقين على استعمال أجهزتهم والانخراط
-                                .في المجتمع والاعتماد على ذاتهم وقدراتهم الخاصة</p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj2 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">2
                                 </p>
@@ -1065,8 +1006,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1">تزويد المرضى وخاصة مرضى شلل الأطفال بالأجهزة المساعدة
-                                .الازمة لهم </p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj3 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">3
                                 </p>
@@ -1081,12 +1021,7 @@
                             <h6 class="fw-bold">رؤية المركز</h6>
                             <i class="fas fa-eye fs-4 p-3 border border-2 rounded-circle icon_color_clirc3"></i>
                         </div>
-                        <p class="mt-2 me-2"> برزت مشكلة المعاقين حركيًا في سنة 1975، وفي وسط هموم قطاع غزة، الكبيرة
-                            والكثيرة، وكذلك الاعاقات الناتجة عن الحروب والتوتر الأمني، أو نتيجة أمراض السكر وحوادث الطرق،
-                            فقامت الهيئة الخيرية لقطاع غزة، وبشخص مؤسسها ورئيسها المرحوم الحاج/ رشاد الشوا بالدعوة إلى عقد
-                            لقاء بين مجموعة من مؤسسة غزية لإنشاء مركز للأطراف الصناعية يقوم على حل مشاكل المعاقين جسديًا
-                            ورعايتهم وتقديم العون الدائم لهم، وفعلا تم ايفاد شخصين للتدريب في .الأردن على صناعةالأطراف
-                            الصناعية لمدة عامين</p>
+                        <p class="mt-2 me-2" v-for="item in id_header" :key="item.id">{{ item.my_string }}</p>
                     </div>
                 </div>
             </div>
@@ -1151,9 +1086,8 @@
                     </div>
                 </div>
                 <div class="d-flex text-end align-items-center justify-content-center justify-content-lg-end gap-3 pb-2">
-                    <p class="fw-bold">مركز هولست الثقافي</p>
-                    <img loading="lazy" src="../../assets/image_municipal8/MyLogo5.png" alt=""
-                        class="w-25 border border-2 rounded-circle">
+                    <p class="fw-bold" v-for="item in id_header" :key="item.id">{{ item.title7 }}</p>
+                    <img loading="lazy" :src="id_header[1]?.logo7" alt="" class="border border-2 rounded-circle">
                 </div>
             </div>
         </nav>
@@ -1200,15 +1134,13 @@
                                         </div>
                                         <div>
                                             <div class="carousel-item active">
-                                                <p class="px-4">إنشاء الحدائق العامة وتشجير الشوارع والمحافظة على الشاطئ
-                                                    والقيام بأعمال الإنقاذ البحري
-                                                </p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                             <div class="carousel-item">
-                                                <p class="px-4">انشاء اعمال بناء</p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>
                                             </div>
                                             <div class="carousel-item">
-                                                <p class="px-4">انشاء اعمال هنا بناء</p>
+                                                <p class="px-4" v-for="item in id_header" :key="item.id">{{ item.ser }}</p>F
                                             </div>
                                         </div>
                                         <div data-bs-target="#carouselExampleControls1" data-bs-slide="next"
@@ -1230,8 +1162,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1"> تزويد الأشخاص الذين فقدوا أطراف سفلية أو علوية، فردية أو
-                                .مزدوجة، بالأطراف والأجهزة اللازمة لهم</p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj1 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">1
                                 </p>
@@ -1239,8 +1170,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1"> تدريب الأشخاص المعاقين على استعمال أجهزتهم والانخراط
-                                .في المجتمع والاعتماد على ذاتهم وقدراتهم الخاصة</p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj2 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">2
                                 </p>
@@ -1248,8 +1178,7 @@
                         </div>
                         <div
                             class="div_width_number1 mt-3 d-flex gap-md-2 flex-lg-row flex-column-reverse justify-content-center justify-content-lg-end">
-                            <p class="mt-1">تزويد المرضى وخاصة مرضى شلل الأطفال بالأجهزة المساعدة
-                                .الازمة لهم </p>
+                            <p class="mt-1" v-for="item in id_header" :key="item.id">{{ item.obj3 }}</p>
                             <div class="d-flex justify-content-center">
                                 <p class="p_center fw-bold mt-2 text-center pb-4 border border-2 rounded-circle">3
                                 </p>
@@ -1264,12 +1193,7 @@
                             <h6 class="fw-bold">رؤية المركز</h6>
                             <i class="fas fa-eye fs-4 p-3 border border-2 rounded-circle icon_color_clirc4"></i>
                         </div>
-                        <p class="mt-2 me-2"> برزت مشكلة المعاقين حركيًا في سنة 1975، وفي وسط هموم قطاع غزة، الكبيرة
-                            والكثيرة، وكذلك الاعاقات الناتجة عن الحروب والتوتر الأمني، أو نتيجة أمراض السكر وحوادث الطرق،
-                            فقامت الهيئة الخيرية لقطاع غزة، وبشخص مؤسسها ورئيسها المرحوم الحاج/ رشاد الشوا بالدعوة إلى عقد
-                            لقاء بين مجموعة من مؤسسة غزية لإنشاء مركز للأطراف الصناعية يقوم على حل مشاكل المعاقين جسديًا
-                            ورعايتهم وتقديم العون الدائم لهم، وفعلا تم ايفاد شخصين للتدريب في .الأردن على صناعةالأطراف
-                            الصناعية لمدة عامين</p>
+                        <p class="mt-2 me-2" v-for="item in id_header" :key="item.id">{{ item.my_string }}</p>
                     </div>
                 </div>
             </div>
@@ -1277,6 +1201,72 @@
     </section>
     <!-- start page centers -->
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+const id_header = ref([]);
+
+onMounted(async () => {
+    const querySnapshot = await getDocs(collection(db, "page_center"));
+    const querySnapshot_center = await getDocs(collection(db, "special_center"));
+    let firearray = [];
+    querySnapshot.forEach((doc) => {
+        const image1 = doc.data().image1;
+        const image2 = doc.data().image2;
+        const image3 = doc.data().image3;
+        const image4 = doc.data().image4;
+        const image5 = doc.data().image5;
+        const image6 = doc.data().image6;
+        const image7 = doc.data().image7;
+        const logo1 = doc.data().logo1;
+        const logo2 = doc.data().logo2;
+        const logo3 = doc.data().logo3;
+        const logo4 = doc.data().logo4;
+        const logo5 = doc.data().logo5;
+        const logo6 = doc.data().logo6;
+        const logo7 = doc.data().logo7;
+        const methods = {
+            id: doc.id,
+            title1: doc.data().title1,
+            title2: doc.data().title2,
+            title3: doc.data().title3,
+            title4: doc.data().title4,
+            title5: doc.data().title5,
+            title6: doc.data().title6,
+            title7: doc.data().title7,
+            image1: image1 ? require("@/assets/image_municipal7/" + image1) : null,
+            image2: image2 ? require("@/assets/image_municipal7/" + image2) : null,
+            image3: image3 ? require("@/assets/image_municipal7/" + image3) : null,
+            image4: image4 ? require("@/assets/image_municipal7/" + image4) : null,
+            image5: image5 ? require("@/assets/image_municipal7/" + image5) : null,
+            image6: image6 ? require("@/assets/image_municipal7/" + image6) : null,
+            image7: image7 ? require("@/assets/image_municipal7/" + image7) : null,
+            logo1: logo1 ? require("@/assets/image_municipal8/" + logo1) : null,
+            logo2: logo2 ? require("@/assets/image_municipal8/" + logo2) : null,
+            logo3: logo3 ? require("@/assets/image_municipal8/" + logo3) : null,
+            logo4: logo4 ? require("@/assets/image_municipal8/" + logo4) : null,
+            logo5: logo5 ? require("@/assets/image_municipal8/" + logo5) : null,
+            logo6: logo6 ? require("@/assets/image_municipal8/" + logo6) : null,
+            logo7: logo7 ? require("@/assets/image_municipal8/" + logo7) : null,
+        };
+        firearray.push(methods);
+    });
+    querySnapshot_center.forEach((doc) => {
+        const methods = {
+            id: doc.id,
+            my_string: doc.data().my_string,
+            obj1: doc.data().obj1,
+            obj2: doc.data().obj2,
+            obj3: doc.data().obj3,
+            ser: doc.data().ser
+        };
+        firearray.push(methods);
+    });
+    id_header.value = firearray;
+});
+</script>
 
 <script>
 export default {
