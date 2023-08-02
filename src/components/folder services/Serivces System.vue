@@ -1,8 +1,8 @@
 <template>
     <!-- start main system -->
     <section class="container-fluid text-center px-md-5 text-lg-end mt-lg-3 font_text overflow-hidden">
-        <div class="col-md-6 text-start mt-3">
-            <div class="px-4 px-md-0">
+        <div class="col-md-12 mt-3">
+            <div class="px-4 px-md-0 d-flex justify-content-end">
                 <div class="d-flex justify-content-end div_mia position-relative pt-3 div_from">
                     <i class="fa fa-search icon_search position-absolute top-50 start-0 text-muted"></i>
                     <input type="input" class="form__field w-100" name="name" id='name' />
@@ -11,50 +11,50 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 text-md-end mt-4">
+        <div class="col-md-12 text-md-end mt-4">
             <h5 class="fw-bold span_red">أنظمة وأدلة</h5>
         </div>
         <div class="row my-5" data-aos="fade-down">
             <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
                 id="div_forech">
-                <span class=" span_hover">خدمات<br>اخرى</span>
+                <span v-for="item in id_header" :key="item.id" class="span_hover">{{ item.title1 }}</span>
                 <i class="fa-solid fa-taxi icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
             </div>
             <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
                 id="div_forech">
-                <span class="span_hover">خدمات<br>الحرف</span>
+                <span v-for="item in id_header" :key="item.id" class="span_hover">{{ item.title2 }}</span>
                 <i class="fa-solid fa-palette icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
             </div>
             <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
                 id="div_forech">
-                <span class="span_hover">التخطيط<br>الحصري</span>
+                <span v-for="item in id_header" :key="item.id" class="span_hover">{{ item.title3 }}</span>
                 <i
                     class="fa-sharp fa-solid fa-building-user icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
             </div>
             <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
                 id="div_forech">
-                <span class="span_hover">الخدمات<br>الصرف الصحي</span>
+                <span v-for="item in id_header" :key="item.id" class="span_hover">{{ item.title4 }}</span>
                 <i
                     class="fas fa-hand-holding-water icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
             </div>
             <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
                 id="div_forech">
-                <span class=" span_hover">خدمات<br>الكهرباء</span>
+                <span v-for="item in id_header" :key="item.id" class="span_hover">{{ item.title5 }}</span>
                 <i class="fa-solid fa-bolt icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
             </div>
             <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
                 id="div_forech">
-                <span class="span_hover">خدمات<br>المياة</span>
+                <span v-for="item in id_header" :key="item.id" class="span_hover">{{ item.title6 }}</span>
                 <i class="fas fa-tint icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
             </div>
             <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
                 id="div_forech">
-                <span class="span_hover">خدمات<br>البناء</span>
+                <span v-for="item in id_header" :key="item.id" class="span_hover">{{ item.title5 }}</span>
                 <i class="fas fa-building icon_click p-4 rounded-circle icon_back button_padding icon_col_hover"></i>
             </div>
             <div class="col mt-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end gap-3 align-items-center"
                 id="div_forech">
-                <span class="span_hover active_span_hover">جميع<br>الخدمات</span>
+                <span class="span_hover active_span_hover" v-for="item in id_header" :key="item.id">{{ item.title6 }}</span>
                 <i
                     class="fa-sharp fa-solid fa-desktop icon_click p-4 rounded-circle icon_back button_padding div_active_icon icon_col_hover"></i>
             </div>
@@ -65,31 +65,31 @@
             @click="click_scroll" ref="scrollContainer" @mousedown="mouseDownHandler" @mousemove="mouseMoveHandler">
             <div id="div_active_scroll"
                 class="text-center py-3 active_before div_active_icon border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                <span class="span_background text-nowrap">فحص عداد مياه</span>
+                <span class="span_background text-nowrap" v-for="item in id_header" :key="item.id">{{ item.text1 }}</span>
             </div>
             <div id="div_active_scroll"
                 class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                <span class="span_background text-nowrap">زيادة قطر خط مياه</span>
+                <span class="span_background text-nowrap" v-for="item in id_header" :key="item.id">{{ item.text2 }}</span>
             </div>
             <div id="div_active_scroll"
                 class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                <span class="span_background text-nowrap">تغيير خط مياه تالف</span>
+                <span class="span_background text-nowrap" v-for="item in id_header" :key="item.id">{{ item.text3 }}</span>
             </div>
             <div id="div_active_scroll"
                 class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                <span class="span_background text-nowrap">تغيير اسم منتفع</span>
+                <span class="span_background text-nowrap" v-for="item in id_header" :key="item.id">{{ item.text4 }}</span>
             </div>
             <div id="div_active_scroll"
                 class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                <span class="span_background text-nowrap">تنازل عن اشتراك مياه<br>(تغيير اسم مشترك)</span>
+                <span class="span_background text-nowrap" v-for="item in id_header" :key="item.id">{{ item.text5 }}</span>
             </div>
             <div id="div_active_scroll"
                 class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                <span class="span_background text-nowrap">اشتراك مياه فرعي</span>
+                <span class="span_background text-nowrap" v-for="item in id_header" :key="item.id">{{ item.text6 }}</span>
             </div>
             <div id="div_active_scroll"
                 class="text-center py-3 border border-2 rounded-3 position-relative div_padding_scroll span_hover button_padding icon_click d-flex align-items-center">
-                <span class="span_background text-nowrap">اشتراك مياه جديد</span>
+                <span class="span_background text-nowrap" v-for="item in id_header" :key="item.id">{{ item.text7 }}</span>
             </div>
         </div>
     </section>
@@ -98,20 +98,19 @@
             <div class="row text-center text-sm-end">
                 <div class="col col-lg-3 border-2 border-end pe-sm-5 mt-3">
                     <p class="fw-bold text-nowrap">الرسوم المطلوبة بالشيكل</p>
-                    <p>115</p>
+                    <p v-for="item in id_header" :key="item.id">{{ item.money }}</p>
                 </div>
                 <div class="col col-lg-3 border-2 border-end pe-sm-5 mt-3">
                     <p class="fw-bold">جهة التنفيذ</p>
-                    <p>حسابات المشتركين</p>
+                    <p v-for="item in id_header" :key="item.id">{{ item.implomentation }}</p>
                 </div>
                 <div class="col col-lg-3 border-2 border-end pe-sm-5 mt-3">
                     <p class="fw-bold">مدة التنفيذ / يوم</p>
-                    <p>فورا</p>
+                    <p v-for="item in id_header" :key="item.id">{{ item.time }}</p>
                 </div>
                 <div class="col col-lg-3 mt-3">
                     <p class="fw-bold">الوثائق المطلوبة</p>
-                    <p class="text-nowrap div_right_px">صورة الهوية<span class="p_line px-2"></span>سند
-                        ملكية<span class="p_line px-2"></span>الفاتورة</p>
+                    <p class="text-nowrap div_right_px" v-for="item in id_header" :key="item.id">{{ item.documents }}</p>
                 </div>
             </div>
         </div>
@@ -119,14 +118,14 @@
             <p class="fw-bold">تسلسل إجراءات التقديم</p>
             <p>يرجى تتبع التسلسل التالي لتقديم طلب الحصول على الخدمة المطلوبة</p>
             <div class="d-flex gap-4 flex-column flex-md-row justify-content-md-end">
-                <div class="fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse">
-                    <p class="mt-1 span_red">قسم التخطيط الحضري</p>
+                <div class="fw-bold d-flex gap-md-1 flex-md-row flex-column-reverse">
+                    <p class="mt-1 span_red" v-for="item in id_header" :key="item.id">{{ item.pro1 }}</p>
                     <div class="d-flex justify-content-center">
                         <p class="p_center mt-1 text-center border border-2 rounded-circle">2</p>
                     </div>
                 </div>
-                <div class="px-2 px-md-0 fw-bold d-flex gap-md-2 flex-md-row flex-column-reverse justify-content-center">
-                    <p class="mt-1 span_red">دائرة خدمات الجمهور</p>
+                <div class="px-2 px-md-0 fw-bold d-flex gap-md-1 flex-md-row flex-column-reverse justify-content-center">
+                    <p class="mt-1 span_red" v-for="item in id_header" :key="item.id">{{ item.pro2 }}</p>
                     <div class="d-flex justify-content-center">
                         <p class="p_center mt-1 text-center border border-2 rounded-circle">1</p>
                     </div>
@@ -136,6 +135,46 @@
     </section>
     <!-- end main system -->
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+const id_header = ref([]);
+
+onMounted(async () => {
+    const querySnapshot = await getDocs(collection(db, "page_system"));
+    let firearray = [];
+    querySnapshot.forEach((doc) => {
+        const methods = {
+            id: doc.id,
+            title1: doc.data().title1,
+            title2: doc.data().title2,
+            title3: doc.data().title3,
+            title4: doc.data().title1,
+            title5: doc.data().title5,
+            title6: doc.data().title6,
+            title7: doc.data().title7,
+            title8: doc.data().title8,
+            text1: doc.data().text1,
+            text2: doc.data().text2,
+            text3: doc.data().text3,
+            text4: doc.data().text1,
+            text5: doc.data().text5,
+            text6: doc.data().text6,
+            text7: doc.data().text7,
+            documents: doc.data().documents,
+            implomentation: doc.data().implomentation,
+            time: doc.data().time,
+            money: doc.data().money,
+            pro1: doc.data().pro1,
+            pro2: doc.data().pro2,
+        };
+        firearray.push(methods);
+    });
+    id_header.value = firearray;
+});
+</script>
 
 <script>
 export default {

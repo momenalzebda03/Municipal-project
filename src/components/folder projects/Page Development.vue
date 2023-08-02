@@ -43,12 +43,13 @@
                             <div
                                 class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-shower p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
-                                <p class="text_hover">صيانة شبكات صرف صحي ومرافق في مناطق متفرقة بمدينة غزة</p>
-                                <p>فلسطين - غزة - الشجاعية<i class="fas fa-map-marker-alt ps-2"></i></p>
-                                <p class="span_red">مدة التنفيذ: 6 شهور</p>
+                                <p class="text_hover">{{ id_header[0]?.title }}</p>
+                                <p>{{ id_header[0]?.place }}<i class="fas fa-map-marker-alt ps-2"></i></p>
+                                <p class="span_red">مدة التنفيذ: {{ id_header[0]?.time }}</p>
                                 <hr>
                                 <div class="d-flex justify-content-center">
-                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> 55,000.00</span>
+                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> {{
+                                        id_header[0]?.salary }}</span>
                                     </p>
                                 </div>
                                 <p class="span_red mt-3">نسبة الإنجاز</p>
@@ -68,12 +69,13 @@
                             <div
                                 class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-road p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
-                                <p class="text_hover">مشروع صيانة شارع السدرة وشارع الصحابة بالمدينة</p>
-                                <p>فلسطين - غزة - الشجاعية<i class="fas fa-map-marker-alt ps-2"></i></p>
-                                <p class="span_red">مدة التنفيذ: عام ونصف</p>
+                                <p class="text_hover">{{ id_header[1]?.title }}</p>
+                                <p>{{ id_header[4]?.place }}<i class="fas fa-map-marker-alt ps-2"></i></p>
+                                <p class="span_red">مدة التنفيذ: {{ id_header[1]?.time }}</p>
                                 <hr>
                                 <div class="d-flex justify-content-center">
-                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> 115,790.00</span>
+                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> {{
+                                        id_header[1]?.salary }}</span>
                                     </p>
                                 </div>
                                 <p class="span_red mt-3">نسبة الإنجاز</p>
@@ -93,12 +95,13 @@
                             <div
                                 class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-faucet p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
-                                <p class="text_hover">تأهيل شبكة المياه في منطقة الصبرة ومناطق متفرقة في مدينة غزة</p>
-                                <p>فلسطين - غزة - الرمال<i class="fas fa-map-marker-alt ps-2"></i></p>
-                                <p class="span_red">مدة التنفيذ: 3 شهور</p>
+                                <p class="text_hover">{{ id_header[2]?.title }}</p>
+                                <p>{{ id_header[4]?.place }}<i class="fas fa-map-marker-alt ps-2"></i></p>
+                                <p class="span_red">مدة التنفيذ: {{ id_header[2]?.time }}</p>
                                 <hr>
                                 <div class="d-flex justify-content-center">
-                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> 90,900.00</span>
+                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> {{
+                                        id_header[2]?.salary }}</span>
                                     </p>
                                 </div>
                                 <p class="span_red mt-3">نسبة الإنجاز</p>
@@ -118,12 +121,13 @@
                             <div
                                 class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-road p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
-                                <p class="text_hover">توريد وتركيب حجر جبهة وبلاط انتر لوك في مناطق متفرقة من مدينة غزة</p>
-                                <p>فلسطين - غزة - الشجاعية<i class="fas fa-map-marker-alt ps-2"></i></p>
-                                <p class="span_red">مدة التنفيذ: 9 شهور</p>
+                                <p class="text_hover">{{ id_header[3]?.title }}</p>
+                                <p>{{ id_header[0]?.place }}<i class="fas fa-map-marker-alt ps-2"></i></p>
+                                <p class="span_red">مدة التنفيذ: {{ id_header[3]?.time }}</p>
                                 <hr>
                                 <div class="d-flex justify-content-center">
-                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> 320,050.00</span>
+                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> {{
+                                        id_header[3]?.salary }}</span>
                                     </p>
                                 </div>
                                 <p class="span_red mt-3">نسبة الإنجاز</p>
@@ -143,12 +147,13 @@
                             <div
                                 class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-faucet p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
-                                <p class="text_hover">تأهيل شبكة المياه في منطقة الصبرة ومناطق متفرقة في مدينة غزة</p>
-                                <p>فلسطين - غزة - الرمال<i class="fas fa-map-marker-alt ps-2"></i></p>
-                                <p class="span_red">مدة التنفيذ: عام</p>
+                                <p class="text_hover">{{ id_header[4]?.title }}</p>
+                                <p>{{ id_header[4]?.place }}<i class="fas fa-map-marker-alt ps-2"></i></p>
+                                <p class="span_red">مدة التنفيذ: {{ id_header[4]?.time }}</p>
                                 <hr>
                                 <div class="d-flex justify-content-center">
-                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> 105,890.00</span>
+                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> {{
+                                        id_header[4]?.salary }}</span>
                                     </p>
                                 </div>
                                 <p class="span_red mt-3">نسبة الإنجاز</p>
@@ -172,12 +177,13 @@
                             <div
                                 class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-shower p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
-                                <p class="text_hover">صيانة شبكات صرف صحي ومرافق في مناطق متفرقة بمدينة غزة</p>
-                                <p>فلسطين - غزة - الشجاعية<i class="fas fa-map-marker-alt ps-2"></i></p>
-                                <p class="span_red">مدة التنفيذ: 6 شهور</p>
+                                <p class="text_hover">{{ id_header[0]?.title }}</p>
+                                <p>{{ id_header[0]?.place }}<i class="fas fa-map-marker-alt ps-2"></i></p>
+                                <p class="span_red">مدة التنفيذ: {{ id_header[0]?.time }}</p>
                                 <hr>
                                 <div class="d-flex justify-content-center">
-                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> 55,000.00</span>
+                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> {{
+                                        id_header[0]?.salary }}</span>
                                     </p>
                                 </div>
                                 <p class="span_red mt-3">نسبة الإنجاز</p>
@@ -197,12 +203,13 @@
                             <div
                                 class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-road p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
-                                <p class="text_hover">مشروع صيانة شارع السدرة وشارع الصحابة بالمدينة</p>
-                                <p>فلسطين - غزة - الشجاعية<i class="fas fa-map-marker-alt ps-2"></i></p>
-                                <p class="span_red">مدة التنفيذ: عام ونصف</p>
+                                <p class="text_hover">{{ id_header[1]?.title }}</p>
+                                <p>{{ id_header[4]?.place }}<i class="fas fa-map-marker-alt ps-2"></i></p>
+                                <p class="span_red">مدة التنفيذ: {{ id_header[1]?.time }}</p>
                                 <hr>
                                 <div class="d-flex justify-content-center">
-                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> 115,790.00</span>
+                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> {{
+                                        id_header[1]?.salary }}</span>
                                     </p>
                                 </div>
                                 <p class="span_red mt-3">نسبة الإنجاز</p>
@@ -222,12 +229,13 @@
                             <div
                                 class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-faucet p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
-                                <p class="text_hover">تأهيل شبكة المياه في منطقة الصبرة ومناطق متفرقة في مدينة غزة</p>
-                                <p>فلسطين - غزة - الرمال<i class="fas fa-map-marker-alt ps-2"></i></p>
-                                <p class="span_red">مدة التنفيذ: 3 شهور</p>
+                                <p class="text_hover">{{ id_header[2]?.title }}</p>
+                                <p>{{ id_header[4]?.place }}<i class="fas fa-map-marker-alt ps-2"></i></p>
+                                <p class="span_red">مدة التنفيذ: {{ id_header[2]?.time }}</p>
                                 <hr>
                                 <div class="d-flex justify-content-center">
-                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> 90,900.00</span>
+                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> {{
+                                        id_header[2]?.salary }}</span>
                                     </p>
                                 </div>
                                 <p class="span_red mt-3">نسبة الإنجاز</p>
@@ -247,12 +255,13 @@
                             <div
                                 class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-road p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
-                                <p class="text_hover">توريد وتركيب حجر جبهة وبلاط انتر لوك في مناطق متفرقة من مدينة غزة</p>
-                                <p>فلسطين - غزة - الشجاعية<i class="fas fa-map-marker-alt ps-2"></i></p>
-                                <p class="span_red">مدة التنفيذ: 9 شهور</p>
+                                <p class="text_hover">{{ id_header[3]?.title }}</p>
+                                <p>{{ id_header[0]?.place }}<i class="fas fa-map-marker-alt ps-2"></i></p>
+                                <p class="span_red">مدة التنفيذ: {{ id_header[3]?.time }}</p>
                                 <hr>
                                 <div class="d-flex justify-content-center">
-                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> 320,050.00</span>
+                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> {{
+                                        id_header[3]?.salary }}</span>
                                     </p>
                                 </div>
                                 <p class="span_red mt-3">نسبة الإنجاز</p>
@@ -272,12 +281,13 @@
                             <div
                                 class="border border-2 rounded-3 shadow py-5 px-3 text-center bg-white fw-bold div_project_hover icon_click h-100">
                                 <i class="fas fa-faucet p-3 fs-1 border border-2 rounded-3 mb-4 icon_color_hover"></i>
-                                <p class="text_hover">تأهيل شبكة المياه في منطقة الصبرة ومناطق متفرقة في مدينة غزة</p>
-                                <p>فلسطين - غزة - الرمال<i class="fas fa-map-marker-alt ps-2"></i></p>
-                                <p class="span_red">مدة التنفيذ: عام</p>
+                                <p class="text_hover">{{ id_header[4]?.title }}</p>
+                                <p>{{ id_header[4]?.place }}<i class="fas fa-map-marker-alt ps-2"></i></p>
+                                <p class="span_red">مدة التنفيذ: {{ id_header[4]?.time }}</p>
                                 <hr>
                                 <div class="d-flex justify-content-center">
-                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> 105,890.00</span>
+                                    <p class="hr_overlay position-absolute bg-white px-2">€التكلفة:<span> {{
+                                        id_header[4]?.salary }}</span>
                                     </p>
                                 </div>
                                 <p class="span_red mt-3">نسبة الإنجاز</p>
@@ -301,6 +311,29 @@
     <!-- end main development -->
 </template>
   
+<script setup>
+import { ref, onMounted } from "vue";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+const id_header = ref([]);
+
+onMounted(async () => {
+    const querySnapshot = await getDocs(collection(db, "page_development"));
+    let firearray = [];
+    querySnapshot.forEach((doc) => {
+        const methods = {
+            id: doc.id,
+            title: doc.data().title,
+            place: doc.data().place,
+            time: doc.data().time,
+            salary: doc.data().salary,
+        };
+        firearray.push(methods);
+    });
+    id_header.value = firearray;
+});
+</script>
+
 <script>
 import $ from 'jquery';
 import 'jquery-ui-dist/jquery-ui';

@@ -55,29 +55,26 @@
                     <div class="row mt-2">
                         <div class="col mt-3" data-aos="fade-right">
                             <router-link to="/viedo" class="card icon_click">
-                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpmusVedo1.png"
-                                    class="card-img-top" alt="...">
+                                <img loading="lazy" :src="id_header[2]?.image" class="card-img-top" alt="...">
                             </router-link>
                             <div class="card-body div_card_bottom pb-1 p-4">
-                                <p>بلدية غزة تفتتح بئر مياه في منطقة<br>الشعف شرق حي التفاح</p>
+                                <p>{{ id_header[2]?.text }}</p>
                             </div>
                         </div>
                         <div class="col mt-3" data-aos="fade-down">
                             <router-link to="/viedo" class="card icon_click">
-                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpmusVedo2.png"
-                                    class="card-img-top" alt="...">
+                                <img loading="lazy" :src="id_header[1]?.image" class="card-img-top" alt="...">
                             </router-link>
                             <div class="card-body div_card_bottom pb-1 p-4">
-                                <p>بلدية غزة تفتتح بئر مياه في منطقة<br>الشعف شرق حي التفاح</p>
+                                <p>{{ id_header[1]?.text }}</p>
                             </div>
                         </div>
                         <div class="col mt-3" data-aos="fade-left">
                             <router-link to="/viedo" class="card icon_click">
-                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpmusVedo3.png"
-                                    class="card-img-top" alt="...">
+                                <img loading="lazy" :src="id_header[0]?.image" class="card-img-top" alt="...">
                             </router-link>
                             <div class="card-body div_card_bottom pb-1 p-4">
-                                <p>بلدية غزة تفتتح بئر مياه في منطقة<br>الشعف شرق حي التفاح</p>
+                                <p>{{ id_header[0]?.text }}</p>
                             </div>
                         </div>
                     </div>
@@ -86,29 +83,26 @@
                     <div class="row mt-2">
                         <div class="col mt-3" data-aos="fade-right">
                             <router-link to="/viedo" class="card icon_click">
-                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpmusVedo1.png"
-                                    class="card-img-top" alt="...">
+                                <img loading="lazy" :src="id_header[2]?.image" class="card-img-top" alt="...">
                             </router-link>
                             <div class="card-body div_card_bottom pb-1 p-4">
-                                <p>بلدية غزة تفتتح بئر مياه في منطقة<br>الشعف شرق حي التفاح</p>
+                                <p>{{ id_header[2]?.text }}</p>
                             </div>
                         </div>
                         <div class="col mt-3" data-aos="fade-down">
                             <router-link to="/viedo" class="card icon_click">
-                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpmusVedo2.png"
-                                    class="card-img-top" alt="...">
+                                <img loading="lazy" :src="id_header[1]?.image" class="card-img-top" alt="...">
                             </router-link>
                             <div class="card-body div_card_bottom pb-1 p-4">
-                                <p>بلدية غزة تفتتح بئر مياه في منطقة<br>الشعف شرق حي التفاح</p>
+                                <p>{{ id_header[1]?.text }}</p>
                             </div>
                         </div>
                         <div class="col mt-3" data-aos="fade-left">
                             <router-link to="/viedo" class="card icon_click">
-                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpmusVedo3.png"
-                                    class="card-img-top" alt="...">
+                                <img loading="lazy" :src="id_header[0]?.image" class="card-img-top" alt="...">
                             </router-link>
                             <div class="card-body div_card_bottom pb-1 p-4">
-                                <p>بلدية غزة تفتتح بئر مياه في منطقة<br>الشعف شرق حي التفاح</p>
+                                <p>{{ id_header[0]?.text }}</p>
                             </div>
                         </div>
                     </div>
@@ -118,6 +112,28 @@
     </section>
     <!-- end main albmus -->
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+const id_header = ref([]);
+
+onMounted(async () => {
+    const querySnapshot = await getDocs(collection(db, "page_news_viedo"));
+    let firearray = [];
+    querySnapshot.forEach((doc) => {
+        const image = doc.data().image;
+        const methods = {
+            id: doc.id,
+            text: doc.data().text,
+            image: image ? require("@/assets/Image_albpums/" + image) : null
+        };
+        firearray.push(methods);
+    });
+    id_header.value = firearray;
+});
+</script>
 
 <script>
 import $ from 'jquery';

@@ -3,7 +3,7 @@
     <section class="container-fluid text-center text-lg-end px-4 px-lg-5 mt-lg-3 font_text overflow-hidden">
         <router-link to="/public"
             class="fas fa-times fs-3 icon_click text-black text-decoration-none icon_hover mt-5 mt-lg-0"></router-link>
-        <h5 class="fw-bold span_red mt-4">خدمة توصيل المياه</h5>
+        <h5 class="fw-bold span_red mt-4">خدمات {{ getTitleById($route.params.id) }}</h5>
         <div class="row mt-2">
             <div class="col-md-6 mt-3" data-aos="fade-right">
                 <p class="fw-bold">إحصائيات عن الخدمة</p>
@@ -121,6 +121,32 @@
     </section>
     <!-- end main water -->
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+const id_header = ref([]);
+
+onMounted(async () => {
+    const querySnapshot = await getDocs(collection(db, "page_services"));
+    let firearray = [];
+    querySnapshot.forEach((doc) => {
+        const methods = {
+            id: doc.id,
+            title1: doc.data().title1,
+            title2: doc.data().title2,
+            title3: doc.data().title3
+        };
+        firearray.push(methods);
+    });
+    id_header.value = firearray;
+});
+function getTitleById(id) {
+    const item = id_header.value.find((item) => item.id === id);
+    return item ? item.title1 || item.title2 || item.title3 : '';
+}
+</script>
 
 <script>
 export default {

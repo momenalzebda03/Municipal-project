@@ -193,7 +193,7 @@ const routes = [
     component: KpapPublic,
   },
   {
-    path: "/water",
+    path: "/water/:id",
     component: KpapWater,
   },
   {

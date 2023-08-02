@@ -228,9 +228,9 @@
                   <i class="fas fa-user icon_hover"></i>
                 </li>
               </div>
-              <li><router-link :class="{ 'active_router_link': isActive('/public') || isActive('/water') }" to="/public"
-                  class="router_link text-center py-3 position-absolute bg-white"><i title="الخدمات العامة"
-                    :class="{ 'active_icon_hover_white': isActive('/public') || isActive('/water') }"
+              <li><router-link :class="{ 'active_router_link': isActive('/public') || isActive(`/water/${photoId}`) }"
+                  to="/public" class="router_link text-center py-3 position-absolute bg-white"><i title="الخدمات العامة"
+                    :class="{ 'active_icon_hover_white': isActive('/public') || isActive(`/water/${photoId}`) }"
                     class="fas fa-taxi fs-2 icon_hover_white text-black"></i></router-link>
               </li>
               <li><router-link :class="{ 'active_router_link': isActive('/system') }" to="/system"
@@ -411,7 +411,7 @@ export default {
       return this.$route.path === "/place" || this.$route.path === "/civilization" || this.$route.path === "/biology1" || this.$route.path === "/archaeology" || this.$route.path === "/citymap" || this.$route.path === "/museum" || this.$route.path === "/Archaeology1" || this.$route.path === `/photo/${this.photoId}`;
     },
     isMuiciaplRoute2() {
-      return this.$route.path === "/public" || this.$route.path === "/water" || this.$route.path === "/system";
+      return this.$route.path === "/public" || this.$route.path === `/water/${this.photoId}` || this.$route.path === "/system";
     },
     isMuiciaplRoute3() {
       return this.$route.path === "/list" || this.$route.path === "/development";

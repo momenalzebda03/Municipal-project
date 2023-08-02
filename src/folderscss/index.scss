@@ -1,6 +1,17 @@
 @import "color";
 
 // start afretang
+.overlay_text {
+    bottom: 15%;
+    right: 30px;
+    font-size: 18px;
+}
+
+.div_hr_vertical {
+    width: 2.5px;
+    height: 80px;
+}
+
 .font_text {
     font-family: 'Almarai', sans-serif;
 }
@@ -215,7 +226,7 @@ body section .number_width:hover,
 }
 
 .div_from {
-    width: 40%;
+    width: 30%;
 }
 
 .span_hover {
@@ -494,17 +505,6 @@ body section div .row div div div .div_more_carous {
 
 body section div .row div .div_top {
     top: -45px;
-}
-
-body section div .row div a .overlay_text {
-    bottom: 15%;
-    right: 30px;
-    font-size: 18px;
-}
-
-body section div .row div a .overlay_text .div_hr_vertical {
-    width: 2.5px;
-    height: 80px;
 }
 
 // end main home
@@ -1702,7 +1702,7 @@ body section .row div .row div .button_padding:hover .red_hover_white {
 
 // end main water
 // start main system
-body section .row .row div .active_span_hover {
+.active_span_hover {
     font-weight: bold;
     color: $color_green !important;
 }
@@ -2024,7 +2024,7 @@ body section .row div .div_hegith_sections {
 
 // end main three section
 // start main center tow
-body section .row .col div .button_border {
+.button_border {
     color: $color_green;
     border: 2px solid $color_green;
 }
@@ -2253,7 +2253,7 @@ body section div .div_top_respons {
 }
 
 @media (max-width: 475px) {
-    body section div .row div a .overlay_text {
+    .overlay_text {
         display: none !important;
     }
 

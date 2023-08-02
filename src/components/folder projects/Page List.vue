@@ -41,20 +41,17 @@
                     <div class="row mt-5">
                         <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-right">
                             <div class="image-container position-relative">
-                                <img loading="lazy" src="../../assets/image_projects/ImageProject1.png" alt=""
-                                    class="w-100 icon_click">
+                                <img loading="lazy" :src="id_header[0]?.image1" alt="" class="w-100 icon_click">
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-down">
                             <div class="image-container position-relative">
-                                <img loading="lazy" src="../../assets/image_projects/ImageProject2.png" alt=""
-                                    class="w-100 icon_click">
+                                <img loading="lazy" :src="id_header[0]?.image2" alt="" class="w-100 icon_click">
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-4 mt-3" data-aos="fade-left">
                             <div class="image-container position-relative">
-                                <img loading="lazy" src="../../assets/image_projects/ImageProject3.png" alt=""
-                                    class="w-100 icon_click">
+                                <img loading="lazy" :src="id_header[0]?.image3" alt="" class="w-100 icon_click">
                             </div>
                         </div>
                     </div>
@@ -63,20 +60,17 @@
                     <div class="row mt-5">
                         <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-right">
                             <div class="image-container position-relative">
-                                <img loading="lazy" src="../../assets/image_projects/ImageProject1.png" alt=""
-                                    class="w-100 icon_click">
+                                <img loading="lazy" :src="id_header[0]?.image1" alt="" class="w-100 icon_click">
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-down">
                             <div class="image-container position-relative">
-                                <img loading="lazy" src="../../assets/image_projects/ImageProject2.png" alt=""
-                                    class="w-100 icon_click">
+                                <img loading="lazy" :src="id_header[0]?.image2" alt="" class="w-100 icon_click">
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-4 mt-3" data-aos="fade-left">
                             <div class="image-container position-relative">
-                                <img loading="lazy" src="../../assets/image_projects/ImageProject3.png" alt=""
-                                    class="w-100 icon_click">
+                                <img loading="lazy" :src="id_header[0]?.image3" alt="" class="w-100 icon_click">
                             </div>
                         </div>
                     </div>
@@ -87,6 +81,31 @@
     <!-- end main list -->
 </template>
   
+<script setup>
+import { ref, onMounted } from "vue";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+const id_header = ref([]);
+
+onMounted(async () => {
+    const querySnapshot = await getDocs(collection(db, "page_project"));
+    let firearray = [];
+    querySnapshot.forEach((doc) => {
+        const image1 = doc.data().image1;
+        const image2 = doc.data().image2;
+        const image3 = doc.data().image3;
+        const methods = {
+            id: doc.id,
+            image1: image1 ? require("@/assets/image_projects/" + image1) : null,
+            image2: image2 ? require("@/assets/image_projects/" + image2) : null,
+            image3: image3 ? require("@/assets/image_projects/" + image3) : null,
+        };
+        firearray.push(methods);
+    });
+    id_header.value = firearray;
+});
+</script>
+
 <script>
 import $ from 'jquery';
 import 'jquery-ui-dist/jquery-ui';

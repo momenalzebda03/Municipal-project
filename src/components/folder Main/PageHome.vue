@@ -389,6 +389,7 @@ onMounted(async () => {
     id_header.value = firearray;
 });
 </script>
+
 <script>
 export default {
     name: "HomeKpap",

@@ -30,10 +30,8 @@
         <div class="d-flex flex-sm-row flex-column mt-3 justify-content-between">
             <div class="image_respons" data-aos="fade-right">
                 <div class="d-flex gap-2 justify-content-center justify-content-lg-start text-secondary">
-                    <i @click="carouselClick"
-                        class="fas fa-arrow-left p-3 border border-2 rounded-circle icon_arraw icon_click"></i>
-                    <i @click="carouselClick"
-                        class="fas fa-arrow-right p-3 border border-2 rounded-circle icon_arraw icon_click"></i>
+                    <i class="fas fa-arrow-left p-3 border border-2 rounded-circle icon_arraw icon_click"></i>
+                    <i class="fas fa-arrow-right p-3 border border-2 rounded-circle icon_arraw icon_click"></i>
                 </div>
             </div>
             <div class="div_mia div_width_92" data-aos="fade-left">
@@ -51,20 +49,18 @@
                 </div>
             </div>
         </div>
-        <section class="row mt-2" v-show="carousel_true">
+        <section class="row mt-2">
             <div class="col mt-3" data-aos="fade-right">
                 <div class="card icon_click">
                     <div id="outerCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpums1.png" class="card-img-top"
-                                    alt="...">
+                                <img loading="lazy" :src="id_header[2]?.image" class="card-img-top" alt="...">
                                 <i
                                     class="fas fa-image position-absolute start-50 top-50 translate-middle d-none div_hover_block p-4 bg-white rounded-circle fs-2"></i>
                             </div>
                             <div class="carousel-item">
-                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpums2.png" class="card-img-top"
-                                    alt="...">
+                                <img loading="lazy" :src="id_header[1]?.image" class="card-img-top" alt="...">
                                 <i
                                     class="fas fa-image position-absolute start-50 top-50 translate-middle d-none div_hover_block p-4 bg-white rounded-circle fs-2"></i>
                             </div>
@@ -85,92 +81,88 @@
                     <div class="card-body div_card_bottom pb-1 p-4">
                         <div class="d-flex flex-column flex-sm-row justify-content-between">
                             <div class="d-flex flex-sm-column flex-row justify-content-center text-center gap-2">
-                                <span>9</span>
+                                <span>{{ id_header[2]?.number }}</span>
                                 <i class="fas fa-file-image fs-5"></i>
                             </div>
-                            <p>مركز هولست يكرم 100 طالب وطالبة متفوق<br>من الثانوية العامة</p>
+                            <p>{{ id_header[2]?.text }}</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col mt-3" data-aos="fade-down">
                 <div class="card icon_click">
-                    <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                    <div id="outerCarousel1" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpums2.png" class="card-img-top"
-                                    alt="...">
+                                <img loading="lazy" :src="id_header[0]?.image" class="card-img-top" alt="...">
                                 <i
                                     class="fas fa-image position-absolute start-50 top-50 translate-middle d-none div_hover_block p-4 bg-white rounded-circle fs-2"></i>
                             </div>
                             <div class="carousel-item">
-                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpums1.png" class="card-img-top"
-                                    alt="...">
+                                <img loading="lazy" :src="id_header[1]?.image" class="card-img-top" alt="...">
                                 <i
                                     class="fas fa-image position-absolute start-50 top-50 translate-middle d-none div_hover_block p-4 bg-white rounded-circle fs-2"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-control-prev" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                    <div class="carousel-control-prev" data-bs-target="#outerCarousel1" data-bs-slide="prev">
                         <div class="position-absolute start-0 bottom-50">
-                            <i data-bs-target="#carouselExampleControls2" data-bs-slide="prev"
+                            <i data-bs-target="#outerCarousel1" data-bs-slide="prev"
                                 class="fas fa-chevron-left fs-4 arraw_image image_none back_hover text-white px-4"></i>
                         </div>
                     </div>
-                    <div class="carousel-control-next" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                    <div class="carousel-control-next" data-bs-target="#outerCarousel1" data-bs-slide="next">
                         <div class="position-absolute end-0 bottom-50">
-                            <i data-bs-target="#carouselExampleControls2" data-bs-slide="next"
+                            <i data-bs-target="#outerCarousel1" data-bs-slide="next"
                                 class="fas fa-chevron-right fs-4 arraw_image image_none back_hover text-white px-4"></i>
                         </div>
                     </div>
                     <div class="card-body div_card_bottom pb-1 p-4">
                         <div class="d-flex flex-column flex-sm-row justify-content-between">
                             <div class="d-flex flex-sm-column flex-row justify-content-center text-center gap-2">
-                                <span>17</span>
+                                <span>{{ id_header[0]?.number }}</span>
                                 <i class="fas fa-file-image fs-5"></i>
                             </div>
-                            <p>بلدية غزة تشارك في افتتاح مهرجان<br>البحر إلنا" للفنون والتراث"</p>
+                            <p>{{ id_header[0]?.text }}</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col mt-3" data-aos="fade-left">
                 <div class="card icon_click">
-                    <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+                    <div id="outerCarousel2" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpums3.png" class="card-img-top"
-                                    alt="...">
+                                <img loading="lazy" :src="id_header[1]?.image" class="card-img-top" alt="...">
                                 <i
                                     class="fas fa-image position-absolute start-50 top-50 translate-middle d-none div_hover_block p-4 bg-white rounded-circle fs-2"></i>
                             </div>
                             <div class="carousel-item">
-                                <img loading="lazy" src="../../assets/Image_albpums/ImageAlbpums1.png" class="card-img-top"
-                                    alt="...">
+                                <img loading="lazy" :src="id_header[2]?.image" class="card-img-top" alt="...">
                                 <i
                                     class="fas fa-image position-absolute start-50 top-50 translate-middle d-none div_hover_block p-4 bg-white rounded-circle fs-2"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-control-prev" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                    <div class="carousel-control-prev" data-bs-target="#outerCarousel2" data-bs-slide="prev">
                         <div class="position-absolute start-0 bottom-50">
-                            <i data-bs-target="#carouselExampleControls3" data-bs-slide="prev"
+                            <i data-bs-target="#outerCarousel2" data-bs-slide="prev"
                                 class="fas fa-chevron-left fs-4 arraw_image image_none back_hover text-white px-4"></i>
                         </div>
                     </div>
-                    <div class="carousel-control-next" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                    <div class="carousel-control-next" data-bs-target="#outerCarousel2" data-bs-slide="next">
                         <div class="position-absolute end-0 bottom-50">
-                            <i data-bs-target="#carouselExampleControls3" data-bs-slide="next"
+                            <i data-bs-target="#outerCarousel2" data-bs-slide="next"
                                 class="fas fa-chevron-right fs-4 arraw_image image_none back_hover text-white px-4"></i>
                         </div>
                     </div>
                     <div class="card-body div_card_bottom pb-1 p-4">
                         <div class="d-flex flex-column flex-sm-row justify-content-between">
                             <div class="d-flex flex-sm-column flex-row justify-content-center text-center gap-2">
-                                <span>13</span>
+                                <span>{{ id_header[1]?.number }}</span>
                                 <i class="fas fa-file-image fs-5"></i>
                             </div>
-                            <p>بلدية غزة تفتتح بئر مياه في منطقة<br>الشعف شرق حي التفاح</p>
+                            <p>{{ id_header[1]?.text }}</p>
                         </div>
                     </div>
                 </div>
@@ -180,6 +172,29 @@
     <!-- end main albmus -->
 </template>
 
+<script setup>
+import { ref, onMounted } from "vue";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+const id_header = ref([]);
+
+onMounted(async () => {
+    const querySnapshot = await getDocs(collection(db, "page_news_image"));
+    let firearray = [];
+    querySnapshot.forEach((doc) => {
+        const image = doc.data().image;
+        const methods = {
+            id: doc.id,
+            text: doc.data().text,
+            number: doc.data().number,
+            image: image ? require("@/assets/Image_albpums/" + image) : null,
+        };
+        firearray.push(methods);
+    });
+    id_header.value = firearray;
+});
+</script>
+
 <script>
 import $ from 'jquery';
 import 'jquery-ui-dist/jquery-ui';
@@ -187,7 +202,6 @@ export default {
     name: "KpapAlbums",
     data() {
         return {
-            carousel_true: true,
             rotateClass: '',
             rotateClass1: ''
         };
@@ -198,12 +212,6 @@ export default {
         },
         click_rotate1() {
             this.rotateClass1 = this.rotateClass1 === 'rotate_100' ? '' : 'rotate_100';
-        },
-        carouselClick() {
-            this.carousel_true = false;
-            setTimeout(() => {
-                return this.carousel_true = true;
-            }, 200);
         },
         initializeDatepicker() {
             $(".datepicker").datepicker({

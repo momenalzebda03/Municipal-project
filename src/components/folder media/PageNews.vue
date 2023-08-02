@@ -41,69 +41,135 @@
                     <section class="row mt-2">
                         <div class="col-12 col-md mt-3" data-aos="fade-right">
                             <div class="p-4 icon_click div_border_green mt-3 rounded-2 icon_back text-end">
-                                <span class="span_red fw-bold">بيع مضخة قضبان (لبئر زراعي قديم)</span>
+                                <span class="span_red fw-bold" v-for="item in id_header" :key="item.id">{{
+                                    item.text1 }}</span>
                             </div>
                             <div class="p-4 icon_click div_border_green mt-3 rounded-2 icon_back text-end">
-                                <span class="span_red fw-bold">عطـاء توريد أليات ضاغطة لجمع وترحيل النفايات الصلبة</span>
+                                <span class="span_red fw-bold" v-for="item in id_header" :key="item.id">{{
+                                    item.text2 }}</span>
                             </div>
                             <div class="p-4 icon_click div_border_green mt-3 rounded-2 icon_back text-end">
-                                <span class="span_red fw-bold">شغل وظيفة "رئيس قسم المنشآت والمباني" بدائرة نظم المعلومات
-                                    الجغرافية</span>
+                                <span class="span_red fw-bold" v-for="item in id_header" :key="item.id">{{
+                                    item.text3 }}</span>
                             </div>
                             <div class="p-4 icon_click div_border_green mt-3 rounded-2 icon_back text-end">
-                                <span class="span_red fw-bold">إيداع طلب رخصة حرفة (مولدات كهربائية تجارية) للمواطن/ محمد
-                                    ايهاب
-                                    محمد رمضان العشي</span>
+                                <span class="span_red fw-bold" v-for="item in id_header" :key="item.id">{{
+                                    item.text4 }}</span>
                             </div>
                             <div class="p-4 icon_click div_border_green mt-3 rounded-2 icon_back text-end">
-                                <span class="span_red fw-bold">إيداع طلب رخصة حرفة (مولدات كهربائية تجارية) للمواطن/ محمد
-                                    ايهاب
-                                    محمد رمضان العشي</span>
+                                <span class="span_red fw-bold" v-for="item in id_header" :key="item.id">{{
+                                    item.text5 }}</span>
                             </div>
                         </div>
-                        <div class="col-12 col-md mt-3" data-aos="fade-up">
-                            <img loading="lazy" src="../../assets/image_news/ImageNews1.png" alt="" class="image_respons">
+                        <div class="col-12 col-md mt-3 position-relative d-inline-block" data-aos="fade-up">
+                            <img loading="lazy" :src="id_header[1]?.news_image" alt="" class="image_respons">
+                            <div
+                                class="overlay_text fw-bold position-absolute text-center text-md-end d-flex flex-column text-white">
+                                <span>{{ id_header[1]?.news_time1 }}</span>
+                                <span>{{ id_header[1]?.news_time2 }}</span>
+                                <div class="d-flex flex-column align-items-end">
+                                    <span class="fas fa-clock"></span>
+                                    <div class="bg-white div_hr_vertical me-2"></div>
+                                </div>
+                                <span>{{ id_header[1]?.news_title }}</span>
+                                <span>{{ id_header[1]?.news_text }}</span>
+                            </div>
                         </div>
-                        <div class="col-12 col-md mt-3" data-aos="fade-down">
-                            <img loading="lazy" src="../../assets/image_news/ImageNews2.png" alt="" class="image_respons">
+                        <div class="col-12 col-md mt-3 position-relative d-inline-block" data-aos="fade-up">
+                            <img loading="lazy" :src="id_header[0]?.news_image" alt="" class="image_respons">
+                            <div
+                                class="overlay_text fw-bold position-absolute text-center text-md-end d-flex flex-column text-white">
+                                <span>{{ id_header[0]?.news_time1 }}</span>
+                                <span>{{ id_header[0]?.news_time2 }}</span>
+                                <div class="d-flex flex-column align-items-end">
+                                    <span class="fas fa-clock"></span>
+                                    <div class="bg-white div_hr_vertical me-2"></div>
+                                </div>
+                                <span>{{ id_header[0]?.news_title }}</span>
+                                <span>{{ id_header[0]?.news_text }}</span>
+                            </div>
                         </div>
-                        <div class="col-12 col-md mt-3" data-aos="fade-left">
-                            <img loading="lazy" src="../../assets/image_news/ImageNews3.png" alt="" class="image_respons">
+                        <div class="col-12 col-md mt-3 position-relative d-inline-block" data-aos="fade-up">
+                            <img loading="lazy" :src="id_header[2]?.news_image" alt="" class="image_respons">
+                            <div
+                                class="overlay_text fw-bold position-absolute text-center text-md-end d-flex flex-column text-white">
+                                <span>{{ id_header[2]?.news_time1 }}</span>
+                                <span>{{ id_header[2]?.news_time2 }}</span>
+                                <div class="d-flex flex-column align-items-end">
+                                    <span class="fas fa-clock"></span>
+                                    <div class="bg-white div_hr_vertical me-2"></div>
+                                </div>
+                                <span>{{ id_header[2]?.news_title }}</span>
+                                <span>{{ id_header[2]?.news_text }}</span>
+                            </div>
                         </div>
                     </section>
                 </div>
                 <div class="carousel-item">
                     <section class="row mt-2">
-                        <div class="col-12 col-md mt-3">
+                        <div class="col-12 col-md mt-3" data-aos="fade-right">
                             <div class="p-4 icon_click div_border_green mt-3 rounded-2 icon_back text-end">
-                                <span class="span_red fw-bold">بيع مضخة قضبان (لبئر زراعي قديم)</span>
+                                <span class="span_red fw-bold" v-for="item in id_header" :key="item.id">{{
+                                    item.text1 }}</span>
                             </div>
                             <div class="p-4 icon_click div_border_green mt-3 rounded-2 icon_back text-end">
-                                <span class="span_red fw-bold">عطـاء توريد أليات ضاغطة لجمع وترحيل النفايات الصلبة</span>
+                                <span class="span_red fw-bold" v-for="item in id_header" :key="item.id">{{
+                                    item.text2 }}</span>
                             </div>
                             <div class="p-4 icon_click div_border_green mt-3 rounded-2 icon_back text-end">
-                                <span class="span_red fw-bold">شغل وظيفة "رئيس قسم المنشآت والمباني" بدائرة نظم المعلومات
-                                    الجغرافية</span>
+                                <span class="span_red fw-bold" v-for="item in id_header" :key="item.id">{{
+                                    item.text3 }}</span>
                             </div>
                             <div class="p-4 icon_click div_border_green mt-3 rounded-2 icon_back text-end">
-                                <span class="span_red fw-bold">إيداع طلب رخصة حرفة (مولدات كهربائية تجارية) للمواطن/ محمد
-                                    ايهاب
-                                    محمد رمضان العشي</span>
+                                <span class="span_red fw-bold" v-for="item in id_header" :key="item.id">{{
+                                    item.text4 }}</span>
                             </div>
                             <div class="p-4 icon_click div_border_green mt-3 rounded-2 icon_back text-end">
-                                <span class="span_red fw-bold">إيداع طلب رخصة حرفة (مولدات كهربائية تجارية) للمواطن/ محمد
-                                    ايهاب
-                                    محمد رمضان العشي</span>
+                                <span class="span_red fw-bold" v-for="item in id_header" :key="item.id">{{
+                                    item.text5 }}</span>
                             </div>
                         </div>
-                        <div class="col-12 col-md mt-3">
-                            <img src="../../assets/image_news/ImageNews1.png" alt="" class="image_respons">
+                        <div class="col-12 col-md mt-3 position-relative d-inline-block" data-aos="fade-up">
+                            <img loading="lazy" :src="id_header[1]?.news_image" alt="" class="image_respons">
+                            <div
+                                class="overlay_text fw-bold position-absolute text-center text-md-end d-flex flex-column text-white">
+                                <span>{{ id_header[1]?.news_time1 }}</span>
+                                <span>{{ id_header[1]?.news_time2 }}</span>
+                                <div class="d-flex flex-column align-items-end">
+                                    <span class="fas fa-clock"></span>
+                                    <div class="bg-white div_hr_vertical me-2"></div>
+                                </div>
+                                <span>{{ id_header[1]?.news_title }}</span>
+                                <span>{{ id_header[1]?.news_text }}</span>
+                            </div>
                         </div>
-                        <div class="col-12 col-md mt-3">
-                            <img src="../../assets/image_news/ImageNews2.png" alt="" class="image_respons">
+                        <div class="col-12 col-md mt-3 position-relative d-inline-block" data-aos="fade-up">
+                            <img loading="lazy" :src="id_header[0]?.news_image" alt="" class="image_respons">
+                            <div
+                                class="overlay_text fw-bold position-absolute text-center text-md-end d-flex flex-column text-white">
+                                <span>{{ id_header[0]?.news_time1 }}</span>
+                                <span>{{ id_header[0]?.news_time2 }}</span>
+                                <div class="d-flex flex-column align-items-end">
+                                    <span class="fas fa-clock"></span>
+                                    <div class="bg-white div_hr_vertical me-2"></div>
+                                </div>
+                                <span>{{ id_header[0]?.news_title }}</span>
+                                <span>{{ id_header[0]?.news_text }}</span>
+                            </div>
                         </div>
-                        <div class="col-12 col-md mt-3">
-                            <img src="../../assets/image_news/ImageNews3.png" alt="" class="image_respons">
+                        <div class="col-12 col-md mt-3 position-relative d-inline-block" data-aos="fade-up">
+                            <img loading="lazy" :src="id_header[2]?.news_image" alt="" class="image_respons">
+                            <div
+                                class="overlay_text fw-bold position-absolute text-center text-md-end d-flex flex-column text-white">
+                                <span>{{ id_header[2]?.news_time1 }}</span>
+                                <span>{{ id_header[2]?.news_time2 }}</span>
+                                <div class="d-flex flex-column align-items-end">
+                                    <span class="fas fa-clock"></span>
+                                    <div class="bg-white div_hr_vertical me-2"></div>
+                                </div>
+                                <span>{{ id_header[2]?.news_title }}</span>
+                                <span>{{ id_header[2]?.news_text }}</span>
+                            </div>
                         </div>
                     </section>
                 </div>
@@ -112,6 +178,36 @@
     </section>
     <!-- end main news -->
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+const id_header = ref([]);
+
+onMounted(async () => {
+    const querySnapshot = await getDocs(collection(db, "page_news"));
+    let firearray = [];
+    querySnapshot.forEach((doc) => {
+        const news_image = doc.data().news_image;
+        const methods = {
+            id: doc.id,
+            text1: doc.data().text1,
+            text2: doc.data().text2,
+            text3: doc.data().text3,
+            text4: doc.data().text4,
+            text5: doc.data().text5,
+            news_title: doc.data().news_title,
+            news_time1: doc.data().news_time1,
+            news_time2: doc.data().news_time2,
+            news_text: doc.data().news_text,
+            news_image: news_image ? require("@/assets/image_news/" + news_image) : null,
+        };
+        firearray.push(methods);
+    });
+    id_header.value = firearray;
+});
+</script>
 
 <script>
 import $ from 'jquery';
