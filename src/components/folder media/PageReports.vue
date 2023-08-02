@@ -20,23 +20,43 @@
                 <div class="carousel-item active">
                     <section class="row">
                         <div class="col-12 col-lg-3 mt-3" data-aos="fade-right">
-                            <img loading="lazy" src="../../assets/image_reports/ImageReporst3.png" alt=""
-                                class="w-100 h-100">
+                            <img loading="lazy" :src="id_header[1]?.image" alt="" class="w-100 h-100">
                         </div>
                         <div class="col-12 col-lg-6 mt-3 position-relative" data-aos="fade-down">
-                            <img loading="lazy" src="../../assets/image_reports/ImageReporst2.png" alt=""
-                                class="w-100 h-100">
+                            <img loading="lazy" :src="id_header[2]?.image" alt="" class="w-100 h-100">
                             <div class="image_text_right position-absolute transform-middle">
-                                <h4 class="text_size">أضرار العدوان الإسرائيلي على البنية التحتية في مدينة غزة</h4>
+                                <h4 class="text_size">{{ id_header[2]?.text }}</h4>
                                 <button class="text-white border border-0 bg-transparent button_hover_border"><i
                                         class="fas fa-download pe-2"></i>تنزيل</button>
                             </div>
                         </div>
                         <div class="col-12 col-lg-3 mt-3 position-relative" data-aos="fade-left">
-                            <img loading="lazy" src="../../assets/image_reports/ImageReports1.png" alt=""
-                                class="w-100 h-100">
+                            <img loading="lazy" :src="id_header[0]?.image" alt="" class="w-100 h-100">
                             <div class="image_text_right position-absolute transform-middle ms-3">
-                                <h4 class="text_size">صحيفة هنا غزة العدد 37</h4>
+                                <h4 class="text_size">{{ id_header[0]?.text }}</h4>
+                                <button class="text-white border border-0 bg-transparent button_hover_border"><i
+                                        class="fas fa-download pe-2"></i>تنزيل</button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="carousel-item">
+                    <section class="row">
+                        <div class="col-12 col-lg-3 mt-3" data-aos="fade-right">
+                            <img loading="lazy" :src="id_header[1]?.image" alt="" class="w-100 h-100">
+                        </div>
+                        <div class="col-12 col-lg-6 mt-3 position-relative" data-aos="fade-down">
+                            <img loading="lazy" :src="id_header[2]?.image" alt="" class="w-100 h-100">
+                            <div class="image_text_right position-absolute transform-middle">
+                                <h4 class="text_size">{{ id_header[2]?.text }}</h4>
+                                <button class="text-white border border-0 bg-transparent button_hover_border"><i
+                                        class="fas fa-download pe-2"></i>تنزيل</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 mt-3 position-relative" data-aos="fade-left">
+                            <img loading="lazy" :src="id_header[0]?.image" alt="" class="w-100 h-100">
+                            <div class="image_text_right position-absolute transform-middle ms-3">
+                                <h4 class="text_size">{{ id_header[0]?.text }}</h4>
                                 <button class="text-white border border-0 bg-transparent button_hover_border"><i
                                         class="fas fa-download pe-2"></i>تنزيل</button>
                             </div>
@@ -48,6 +68,28 @@
     </section>
     <!-- start main reporst -->
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+const id_header = ref([]);
+
+onMounted(async () => {
+    const querySnapshot = await getDocs(collection(db, "page_reports"));
+    let firearray = [];
+    querySnapshot.forEach((doc) => {
+        const image = doc.data().image;
+        const methods = {
+            id: doc.id,
+            text: doc.data().text,
+            image: image ? require("@/assets/image_reports/" + image) : null
+        };
+        firearray.push(methods);
+    });
+    id_header.value = firearray;
+});
+</script>
 
 <script>
 export default {
