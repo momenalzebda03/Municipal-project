@@ -309,7 +309,7 @@ body section div div .div_menu_block .menu-btn {
     height: 50px;
     z-index: 3;
     width: 50px;
-    top: 180px;
+    top: 50px;
     right: 5%;
     transition: all 0.3s ease-in-out;
 }
@@ -2316,6 +2316,11 @@ body section div .div_top_respons {
 
     body section div .row div .div_left {
         height: 350px;
+    }
+
+    body section div div .div_menu_block .menu-btn {
+        top: 125px;
+        left: 45%;
     }
 }
 

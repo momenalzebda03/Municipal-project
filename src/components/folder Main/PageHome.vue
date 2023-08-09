@@ -39,7 +39,7 @@
                                 <div
                                     class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
-                                        <p v-for="item in id_header" :key="item.id">{{ item.text }}</p>
+                                        <p v-for="item in id_header" :key="item.id">{{ item.main_title }}</p>
                                         <div class="d-flex flex_row justify-content-between pt-lg-4">
                                             <div class="d-flex gap-2 link justify-content-center">
                                                 <i class="fas fa-angle-double-left icon_margin1"></i>
@@ -47,7 +47,7 @@
                                             </div>
                                             <div
                                                 class="d-flex gap-2 gap-lg-1 span_red justify-content-center flex-column-reverse flex-md-row">
-                                                <p v-for="item in id_header" :key="item.id">{{ item.date }}</p>
+                                                <p v-for="item in id_header" :key="item.id">{{ item.main_date }}</p>
                                                 <i class="fas fa-clock icon_margin"></i>
                                             </div>
                                         </div>
@@ -56,7 +56,7 @@
                                 <div
                                     class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
-                                        <p v-for="item in id_header" :key="item.id">{{ item.text }}</p>
+                                        <p v-for="item in id_header" :key="item.id">{{ item.main_title }}</p>
                                         <div class="d-flex flex_row justify-content-between pt-lg-4">
                                             <div class="d-flex gap-2 link justify-content-center">
                                                 <i class="fas fa-angle-double-left icon_margin1"></i>
@@ -64,43 +64,7 @@
                                             </div>
                                             <div
                                                 class="d-flex gap-2 gap-lg-1 span_red justify-content-center flex-column-reverse flex-md-row">
-                                                <p v-for="item in id_header" :key="item.id">{{ item.date }}</p>
-                                                <i class="fas fa-clock icon_margin"></i>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div
-                                    class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
-                                    <a href="#" class="text-decoration-none text-black fw-bold">
-                                        <p v-for="item in id_header" :key="item.id">{{ item.text }}</p>
-                                        <div class="d-flex flex_row justify-content-between pt-lg-4">
-                                            <div class="d-flex gap-2 link justify-content-center">
-                                                <i class="fas fa-angle-double-left icon_margin1"></i>
-                                                <p>قراءة المزيد</p>
-                                            </div>
-                                            <div
-                                                class="d-flex gap-2 gap-lg-1 span_red justify-content-center flex-column-reverse flex-md-row">
-                                                <p v-for="item in id_header" :key="item.id">{{ item.date }}</p>
-                                                <i class="fas fa-clock icon_margin"></i>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div
-                                    class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
-                                    <a href="#" class="text-decoration-none text-black fw-bold">
-                                        <p v-for="item in id_header" :key="item.id">{{ item.text }}</p>
-                                        <div class="d-flex flex_row justify-content-between pt-lg-4">
-                                            <div class="d-flex gap-2 link justify-content-center">
-                                                <i class="fas fa-angle-double-left icon_margin1"></i>
-                                                <p>قراءة المزيد</p>
-                                            </div>
-                                            <div
-                                                class="d-flex gap-2 gap-lg-1 span_red justify-content-center flex-column-reverse flex-md-row">
-                                                <p v-for="item in id_header" :key="item.id">{{ item.date }}</p>
+                                                <p v-for="item in id_header" :key="item.id">{{ item.main_date }}</p>
                                                 <i class="fas fa-clock icon_margin"></i>
                                             </div>
                                         </div>
@@ -111,7 +75,7 @@
                                 <div
                                     class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
-                                        <p v-for="item in id_header" :key="item.id">{{ item.text }}</p>
+                                        <p v-for="item in id_header" :key="item.id">{{ item.main_title }}</p>
                                         <div class="d-flex flex_row justify-content-between pt-lg-4">
                                             <div class="d-flex gap-2 link justify-content-center">
                                                 <i class="fas fa-angle-double-left icon_margin1"></i>
@@ -119,7 +83,7 @@
                                             </div>
                                             <div
                                                 class="d-flex gap-2 gap-lg-1 span_red justify-content-center flex-column-reverse flex-md-row">
-                                                <p v-for="item in id_header" :key="item.id">{{ item.date }}</p>
+                                                <p v-for="item in id_header" :key="item.id">{{ item.main_date }}</p>
                                                 <i class="fas fa-clock icon_margin"></i>
                                             </div>
                                         </div>
@@ -128,7 +92,7 @@
                                 <div
                                     class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
-                                        <p v-for="item in id_header" :key="item.id">{{ item.text }}</p>
+                                        <p v-for="item in id_header" :key="item.id">{{ item.main_title }}</p>
                                         <div class="d-flex flex_row justify-content-between pt-lg-4">
                                             <div class="d-flex gap-2 link justify-content-center">
                                                 <i class="fas fa-angle-double-left icon_margin1"></i>
@@ -136,7 +100,7 @@
                                             </div>
                                             <div
                                                 class="d-flex gap-2 gap-lg-1 span_red justify-content-center flex-column-reverse flex-md-row">
-                                                <p v-for="item in id_header" :key="item.id">{{ item.date }}</p>
+                                                <p v-for="item in id_header" :key="item.id">{{ item.main_date }}</p>
                                                 <i class="fas fa-clock icon_margin"></i>
                                             </div>
                                         </div>
@@ -147,7 +111,7 @@
                                 <div
                                     class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
-                                        <p v-for="item in id_header" :key="item.id">{{ item.text }}</p>
+                                        <p v-for="item in id_header" :key="item.id">{{ item.main_title }}</p>
                                         <div class="d-flex flex_row justify-content-between pt-lg-4">
                                             <div class="d-flex gap-2 link justify-content-center">
                                                 <i class="fas fa-angle-double-left icon_margin1"></i>
@@ -155,7 +119,7 @@
                                             </div>
                                             <div
                                                 class="d-flex gap-2 gap-lg-1 span_red justify-content-center flex-column-reverse flex-md-row">
-                                                <p v-for="item in id_header" :key="item.id">{{ item.date }}</p>
+                                                <p v-for="item in id_header" :key="item.id">{{ item.main_date }}</p>
                                                 <i class="fas fa-clock icon_margin"></i>
                                             </div>
                                         </div>
@@ -164,7 +128,7 @@
                                 <div
                                     class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
                                     <a href="#" class="text-decoration-none text-black fw-bold">
-                                        <p v-for="item in id_header" :key="item.id">{{ item.text }}</p>
+                                        <p v-for="item in id_header" :key="item.id">{{ item.main_title }}</p>
                                         <div class="d-flex flex_row justify-content-between pt-lg-4">
                                             <div class="d-flex gap-2 link justify-content-center">
                                                 <i class="fas fa-angle-double-left icon_margin1"></i>
@@ -172,7 +136,43 @@
                                             </div>
                                             <div
                                                 class="d-flex gap-2 gap-lg-1 span_red justify-content-center flex-column-reverse flex-md-row">
-                                                <p v-for="item in id_header" :key="item.id">{{ item.date }}</p>
+                                                <p v-for="item in id_header" :key="item.id">{{ item.main_date }}</p>
+                                                <i class="fas fa-clock icon_margin"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div
+                                    class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
+                                    <a href="#" class="text-decoration-none text-black fw-bold">
+                                        <p v-for="item in id_header" :key="item.id">{{ item.main_title }}</p>
+                                        <div class="d-flex flex_row justify-content-between pt-lg-4">
+                                            <div class="d-flex gap-2 link justify-content-center">
+                                                <i class="fas fa-angle-double-left icon_margin1"></i>
+                                                <p>قراءة المزيد</p>
+                                            </div>
+                                            <div
+                                                class="d-flex gap-2 gap-lg-1 span_red justify-content-center flex-column-reverse flex-md-row">
+                                                <p v-for="item in id_header" :key="item.id">{{ item.main_date }}</p>
+                                                <i class="fas fa-clock icon_margin"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div
+                                    class="shadow bg-white px-4 pt-4 pb-0 rounded-4 text-center text-lg-end link_hover mt-1">
+                                    <a href="#" class="text-decoration-none text-black fw-bold">
+                                        <p v-for="item in id_header" :key="item.id">{{ item.main_title }}</p>
+                                        <div class="d-flex flex_row justify-content-between pt-lg-4">
+                                            <div class="d-flex gap-2 link justify-content-center">
+                                                <i class="fas fa-angle-double-left icon_margin1"></i>
+                                                <p>قراءة المزيد</p>
+                                            </div>
+                                            <div
+                                                class="d-flex gap-2 gap-lg-1 span_red justify-content-center flex-column-reverse flex-md-row">
+                                                <p v-for="item in id_header" :key="item.id">{{ item.main_date }}</p>
                                                 <i class="fas fa-clock icon_margin"></i>
                                             </div>
                                         </div>
@@ -215,7 +215,7 @@
                         data-bs-ride="carousel">
                         <div class="carousel-inner h-100">
                             <router-link to="image" class="h-100 carousel-item active">
-                                <img :src="id_header[1]?.image" alt="" loading="lazy" class="w-100 h-100">
+                                <img :src="id_header[0]?.image" alt="" loading="lazy" class="w-100 h-100">
                                 <div
                                     class="overlay_text fw-bold position-absolute text-center text-md-end d-flex flex-column text-white">
                                     <span v-for="item in id_header" :key="item.id">{{ item.date1 }}</span>
@@ -229,7 +229,7 @@
                                 </div>
                             </router-link>
                             <router-link to="image" class="h-100 carousel-item">
-                                <img :src="id_header[1]?.image" alt="" loading="lazy" class="w-100 h-100">
+                                <img :src="id_header[0]?.image" alt="" loading="lazy" class="w-100 h-100">
                                 <div
                                     class="overlay_text fw-bold position-absolute text-center text-md-end d-flex flex-column text-white">
                                     <span>09</span>
@@ -243,7 +243,7 @@
                                 </div>
                             </router-link>
                             <router-link to="image" class="h-100 carousel-item">
-                                <img :src="id_header[1]?.image" alt="" loading="lazy" class="w-100 h-100">
+                                <img :src="id_header[0]?.image" alt="" loading="lazy" class="w-100 h-100">
                                 <div
                                     class="overlay_text fw-bold position-absolute text-center text-md-end d-flex flex-column text-white">
                                     <span>09</span>
@@ -257,7 +257,7 @@
                                 </div>
                             </router-link>
                             <router-link to="image" class="h-100 carousel-item">
-                                <img :src="id_header[1]?.image" alt="" loading="lazy" class="w-100 h-100">
+                                <img :src="id_header[0]?.image" alt="" loading="lazy" class="w-100 h-100">
                                 <div
                                     class="overlay_text fw-bold position-absolute text-center text-md-end d-flex flex-column text-white">
                                     <span>09</span>
@@ -376,11 +376,11 @@ onMounted(async () => {
         const image = doc.data().image;
         const methods = {
             id: doc.id,
-            text: doc.data().bextadvertisentsdate,
-            date: doc.data().date,
+            main_title: doc.data().main_title,
+            main_date: doc.data().main_date,
             date1: doc.data().date1,
             date2: doc.data().date2,
-            my_text: doc.data().text,
+            my_text: doc.data().my_text,
             time: doc.data().time,
             image: image ? require("@/assets/image_page_home/" + image) : null,
         };
